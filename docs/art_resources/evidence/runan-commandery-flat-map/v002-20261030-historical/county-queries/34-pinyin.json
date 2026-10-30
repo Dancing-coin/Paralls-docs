@@ -1,0 +1,47 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key 'Dingying%'",
+    "count of displayed results" : "3",
+    "count of total results" : "3",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_99018",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_99018",
+        "name" : "顶营长官司",
+        "transcription" : "Dingying Zhangguansi",
+        "years" : "1386 ~ 1911",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "长官司 (chang guan si)",
+        "object type" : "POINT",
+        "xy coordinates" : "105.56972, 25.94566",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_17853",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_17853",
+        "name" : "顶营司",
+        "transcription" : "Dingyingsi",
+        "years" : "1820 ~ 1820",
+        "parent sys_id" : "hvd_9578",
+        "parent name" : "安顺府 (Anshun Fu)",
+        "feature type" : "村镇 (cun zhen)",
+        "object type" : "POINT",
+        "xy coordinates" : "105.46880, 25.98557",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_161848",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_161848",
+        "name" : "顶营司",
+        "transcription" : "Dingyingsi",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_122693",
+        "parent name" : "永宁州 (Yongning Zhou)",
+        "feature type" : "村镇 (cun zhen)",
+        "object type" : "POINT",
+        "xy coordinates" : "105.55574, 25.94778",
+        "data source" : "CHGIS"
+      }
+    ]
+}

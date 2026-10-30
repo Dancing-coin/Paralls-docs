@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>烽火王座 · 视角与情报界面原型</title>
+  <style>
+    :root {
+      --ink: #171a19;
+      --muted: #6f7773;
+      --paper: #e9e5d9;
+      --line: rgba(34, 39, 36, .16);
+      --red: #8f332d;
+      --green: #5c7965;
+      --amber: #b98a43;
+      --fog: rgba(206, 210, 200, .86);
+      --shadow: 0 18px 48px rgba(24, 29, 27, .16);
+      font-family: "Noto Serif SC", "Songti SC", serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #d4d0c4;
+      min-height: 100vh;
+    }
+    .shell { width: min(1480px, 100%); margin: 0 auto; padding: 30px 28px 52px; }
+    header { display: flex; justify-content: space-between; gap: 28px; align-items: end; margin-bottom: 22px; }
+    h1 { margin: 0; font-size: clamp(26px, 3vw, 44px); letter-spacing: .03em; font-weight: 700; }
+    .subtitle { max-width: 620px; color: #555d58; font-size: 15px; line-height: 1.8; }
+    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+    button {
+      border: 1px solid var(--line); background: rgba(245, 242, 233, .72); color: var(--ink);
+      padding: 10px 14px; border-radius: 3px; font: inherit; cursor: pointer;
+      transition: background .2s, color .2s, transform .2s;
+    }
+    button:hover { transform: translateY(-1px); background: #f5f1e8; }
+    button.active { background: var(--ink); color: #f7f1e3; border-color: var(--ink); }
+    .workspace { display: grid; grid-template-columns: minmax(0, 1fr) 310px; gap: 16px; align-items: start; }
+    .stage { position: relative; min-height: 660px; overflow: hidden; background: #9ca19b; box-shadow: var(--shadow); }
+    .stage::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgba(17, 21, 19, .48), transparent 37%, transparent 70%, rgba(17, 21, 19, .22)); }
+    .stage-bg { position: absolute; inset: 0; background-position: center; background-size: cover; filter: saturate(.76) contrast(.95); }
+    .stage-bg.first { background-image: url("prompt reference/9.jpeg"); }
+    .stage-bg.third { background-image: url("prompt reference/14.jpeg"); }
+    .stage-bg.top { background-image: url("prompt reference/a2026161-a35b-434b-a84c-7e16a7a8bac3.jpeg"); }
+    .stage-bg.sand { background: linear-gradient(135deg, #bca878, #756a52 56%, #3f4b42); }
+    .stage-bg.sand::before { content: ""; position: absolute; inset: 11% 8% 13%; background: #b9a57b; border: 12px solid #5a4935; box-shadow: inset 0 0 50px rgba(71, 45, 25, .34); transform: perspective(560px) rotateX(9deg); }
+    .stage-bg.sand::after { content: ""; position: absolute; width: 66%; height: 48%; left: 17%; top: 25%; background: repeating-linear-gradient(32deg, transparent 0 32px, rgba(100, 77, 43, .33) 33px 36px), repeating-linear-gradient(122deg, transparent 0 54px, rgba(90, 69, 41, .3) 55px 58px); transform: perspective(560px) rotateX(9deg); opacity: .95; }
+    .hud { position: absolute; z-index: 2; inset: 0; padding: 20px; color: #f7f1e3; display: flex; flex-direction: column; justify-content: space-between; }
+    .topline, .bottomline { display: flex; justify-content: space-between; gap: 14px; align-items: start; }
+    .eyebrow { font: 12px/1.4 "Microsoft YaHei", sans-serif; letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
+    .scene-title { margin-top: 6px; font-size: 28px; text-shadow: 0 2px 12px #1118; }
+    .location { text-align: right; font: 13px/1.7 "Microsoft YaHei", sans-serif; opacity: .9; }
+    .signal { display: inline-flex; align-items: center; gap: 7px; border: 1px solid #f8efda66; padding: 8px 10px; background: #1a201c66; font: 12px "Microsoft YaHei", sans-serif; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 10px var(--green); }
+    .reticle { position: absolute; z-index: 2; width: 70px; height: 70px; left: 50%; top: 49%; transform: translate(-50%, -50%); border: 1px solid #fff9; border-radius: 50%; }
+    .reticle::before, .reticle::after { content: ""; position: absolute; background: #fff9; }
+    .reticle::before { width: 1px; height: 92px; left: 34px; top: -12px; }
+    .reticle::after { height: 1px; width: 92px; left: -12px; top: 34px; }
+    .left-stack { display: grid; gap: 10px; max-width: 360px; }
+    .info-strip { background: #171b19b8; border-left: 3px solid var(--amber); padding: 12px 14px; backdrop-filter: blur(5px); }
+    .info-strip.red { border-left-color: var(--red); }
+    .info-strip.green { border-left-color: var(--green); }
+    .info-strip strong { display: block; font-size: 16px; margin-bottom: 4px; }
+    .info-strip span { color: #e7ddca; font: 12px/1.6 "Microsoft YaHei", sans-serif; }
+    .bottomline { align-items: end; }
+    .prompt { padding: 12px 16px; background: #f4eedfdf; color: var(--ink); border-left: 3px solid var(--red); font: 13px/1.6 "Microsoft YaHei", sans-serif; min-width: 250px; }
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; justify-content: end; }
+    .key { border: 1px solid #f2ead8aa; color: #f4ead7; background: #171b1977; padding: 7px 9px; font: 11px "Microsoft YaHei", sans-serif; }
+    .side { background: rgba(244, 240, 231, .72); border-top: 3px solid var(--ink); padding: 18px; box-shadow: var(--shadow); }
+    .side h2 { margin: 0 0 10px; font-size: 20px; }
+    .side p { color: #5f6761; margin: 0 0 16px; font: 13px/1.7 "Microsoft YaHei", sans-serif; }
+    .fact { border-top: 1px solid var(--line); padding: 11px 0; }
+    .fact label { display: block; color: var(--muted); font: 11px "Microsoft YaHei", sans-serif; margin-bottom: 3px; }
+    .fact strong { font-size: 15px; font-weight: 600; }
+    .legend { display: grid; gap: 7px; margin-top: 16px; font: 12px "Microsoft YaHei", sans-serif; }
+    .legend span { display: flex; align-items: center; gap: 8px; }
+    .swatch { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+    .swatch.direct { background: var(--green); }
+    .swatch.report { background: var(--amber); opacity: .72; }
+    .swatch.plan { background: var(--red); }
+    .swatch.fog { background: #b6bab1; }
+    .sand-actions { display: none; position: absolute; z-index: 4; inset: auto 22px 24px; justify-content: center; gap: 8px; }
+    .sand-actions button { background: #f0e5c8e8; border-color: #5a4935; color: #31281d; }
+    .marker { position: absolute; z-index: 3; width: 18px; height: 18px; border-radius: 50%; border: 2px solid #f5edda; box-shadow: 0 0 0 5px #1b1f1c55; }
+    .marker.one { left: 48%; top: 46%; background: var(--red); }
+    .marker.two { left: 65%; top: 37%; background: var(--amber); opacity: .65; }
+    .marker.three { left: 30%; top: 54%; background: var(--green); }
+    .routeline { position: absolute; z-index: 2; left: 31%; top: 50%; width: 37%; height: 1px; background: var(--red); transform: rotate(-18deg); transform-origin: left; box-shadow: 0 0 9px var(--red); }
+    .fog-zone { position: absolute; z-index: 2; right: 0; top: 0; bottom: 0; width: 35%; background: linear-gradient(90deg, transparent, var(--fog)); mix-blend-mode: screen; opacity: .65; }
+    .view-note { position: absolute; z-index: 4; left: 20px; bottom: 20px; color: #f7f1e3; font: 12px "Microsoft YaHei", sans-serif; opacity: .8; }
+    .mode { display: none; height: 100%; }
+    .mode.active { display: block; }
+    .mode.sand .sand-actions { display: flex; }
+    .mode.sand .stage-bg.sand { display: block; }
+    .mode.sand .hud { color: #f3e7cc; }
+    .mode.sand .scene-title { color: #f2e6c9; }
+    @media (max-width: 980px) { .workspace { grid-template-columns: 1fr; } .stage { min-height: 570px; } .side { order: -1; } header { display: block; } .subtitle { margin-top: 10px; } }
+    @media (max-width: 620px) { .shell { padding: 20px 14px 32px; } .stage { min-height: 540px; } .scene-title { font-size: 22px; } .topline, .bottomline { display: block; } .location { text-align: left; margin-top: 10px; } .controls { justify-content: start; margin-top: 10px; } }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div>
+        <div class="eyebrow">烽火王座 · 视角与情报原型</div>
+        <h1>同一世界，四种关注方式</h1>
+      </div>
+      <div class="subtitle">第一人称、第三人称和俯视不是三个副本。它们共享同一场战斗、同一条命令链和同一套情报边界；沙盘是多人讨论与形成命令的现实媒介。</div>
+    </header>
+    <nav class="toolbar" aria-label="界面原型切换">
+      <button class="tab active" data-mode="first">第一人称 · 具身 HUD</button>
+      <button class="tab" data-mode="third">第三人称 · 旁观 HUD</button>
+      <button class="tab" data-mode="top">俯视 · 情报与通信</button>
+      <button class="tab" data-mode="sand">多人沙盘 · 讨论与确认</button>
+    </nav>
+    <section class="workspace">
+      <div class="stage" aria-live="polite">
+        <div class="mode active" data-panel="first">
+          <div class="stage-bg first"></div><div class="reticle"></div>
+          <div class="hud"><div class="topline"><div><div class="eyebrow">PERSONAL / DIRECT SIGHT</div><div class="scene-title">河滩 · 亲卫传令</div></div><div class="location">当前位置：南侧浅滩<br>时间：午后 · 雨后</div></div><div class="bottomline"><div class="left-stack"><div class="info-strip red"><strong>敌意正在形成</strong><span>芦苇后方 · 约 48 步 · 视线不完整</span></div><div class="info-strip green"><strong>亲卫待命</strong><span>命令 10：保护传令 · 已理解 · 距离 12 步</span></div></div><div><div class="prompt">E　接过书信　　F　拔刀<br>当前信息：直接观察</div><div class="controls"><span class="key">V 视角</span><span class="key">Tab 关注</span></div></div></div></div>
+          <div class="view-note">不显示远方真相 · 身体、武器和近距离人物优先</div>
+        </div>
+        <div class="mode" data-panel="third">
+          <div class="stage-bg third"></div>
+          <div class="hud"><div class="topline"><div><div class="eyebrow">PERSONAL / BODY VIEW</div><div class="scene-title">亲卫形成保护队形</div></div><div class="location">第三人称跟随<br>镜头距离：近</div></div><div class="bottomline"><div class="left-stack"><div class="info-strip red"><strong>玩家暴露度：中</strong><span>敌骑正在侧前方接近 · 可见攻击方向</span></div><div class="info-strip"><strong>队形变化</strong><span>亲卫由行进队形转为保护三角</span></div></div><div><div class="prompt">锁定目标：敌方骑手<br>可执行：冲锋 / 保护 / 撤退</div><div class="controls"><span class="key">V 第一人称</span><span class="key">长按 Tab 局部俯视</span></div></div></div></div>
+          <div class="view-note">显示玩家动作、坐骑、队形和空间障碍 · 不增加未知情报</div>
+        </div>
+        <div class="mode" data-panel="top">
+          <div class="stage-bg top"></div><div class="fog-zone"></div><div class="marker one"></div><div class="marker two"></div><div class="marker three"></div><div class="routeline"></div>
+          <div class="hud"><div class="topline"><div><div class="eyebrow">TACTICAL / REPORT-LIMITED OVERVIEW</div><div class="scene-title">河滩战术关注</div></div><div class="location">俯视高度：受限<br>通信覆盖：南营—烽火台</div></div><div class="bottomline"><div class="left-stack"><div class="info-strip green"><strong>直接视野 · 可靠</strong><span>玩家、亲卫、河滩道路、已确认敌骑</span></div><div class="info-strip"><strong>情报虚影 · 43 秒前</strong><span>山口方向有移动队列 · 来源：斥候乙</span></div><div class="info-strip red"><strong>雾区 · 未覆盖</strong><span>通信节点之外不显示实时单位</span></div></div><div><div class="prompt">选中：保护三角<br>计划路线：亲卫 → 南侧高地</div><div class="controls"><span class="key">滚轮 高度</span><span class="key">右键 旋转</span><span class="key">Esc 返回身体视角</span></div></div></div></div>
+          <div class="view-note">红线：已提交命令 · 琥珀标记：情报虚影 · 灰白区域：通信雾区</div>
+        </div>
+        <div class="mode sand" data-panel="sand">
+          <div class="stage-bg sand"></div><div class="marker one"></div><div class="marker two"></div><div class="marker three"></div><div class="routeline"></div>
+          <div class="hud"><div class="topline"><div><div class="eyebrow">COMMAND TABLE / SHARED ATTENTION</div><div class="scene-title">南营沙盘 · 三人讨论</div></div><div class="location">参与者：玩家、军师、传令官<br>当前状态：提案阶段</div></div><div class="bottomline"><div class="left-stack"><div class="info-strip green"><strong>已确认事实</strong><span>南营、河滩道路、亲卫位置 · 来源：玩家观察</span></div><div class="info-strip"><strong>军师提案</strong><span>将暗红旗移至高地 · 等待玩家确认</span></div><div class="info-strip red"><strong>争议</strong><span>斥候乙战报尚未被第二来源确认</span></div></div><div><div class="prompt">当前权限：提出 / 质疑 / 确认<br>传令官：可执行已确认命令</div></div></div></div>
+          <div class="sand-actions"><button>采纳军师提案</button><button>要求复述战报</button><button>提交为正式命令</button></div>
+          <div class="view-note">实体旗标 = 事实 / 提案 / 命令 · 讨论不暂停战场</div>
+        </div>
+      </div>
+      <aside class="side">
+        <h2 id="side-title">第一人称 · 具身 HUD</h2>
+        <p id="side-copy">玩家仍站在河滩现场，界面只补充无法直接看见的命令状态和危险来源。</p>
+        <div class="fact"><label>视角</label><strong id="fact-view">第一人称</strong></div>
+        <div class="fact"><label>激活媒介</label><strong id="fact-medium">眼睛、双手、近距离人物</strong></div>
+        <div class="fact"><label>情报权限</label><strong id="fact-info">直接视野</strong></div>
+        <div class="fact"><label>可执行操作</label><strong id="fact-action">移动、交互、战斗、传达</strong></div>
+        <div class="legend"><span><i class="swatch direct"></i>直接观察 / 已确认</span><span><i class="swatch report"></i>情报虚影 / 有时效</span><span><i class="swatch plan"></i>计划或已提交命令</span><span><i class="swatch fog"></i>通信未覆盖 / 未知</span></div>
+      </aside>
+    </section>
+  </main>
+  <script>
+    const data = {
+      first: {title:'第一人称 · 具身 HUD', copy:'玩家仍站在河滩现场，界面只补充无法直接看见的命令状态和危险来源。', view:'第一人称', medium:'眼睛、双手、近距离人物', info:'直接视野', action:'移动、交互、战斗、传达'},
+      third: {title:'第三人称 · 旁观 HUD', copy:'镜头展示玩家动作、坐骑和亲卫队形，但不增加玩家当前无法获得的情报。', view:'第三人称', medium:'身体位置、坐骑、队形', info:'直接视野 + 当前关注目标', action:'移动、骑战、保护、撤退'},
+      top: {title:'俯视 · 情报与通信', copy:'摄像头可以升高，但可见事实仍受观察范围、战报时效和通信覆盖限制。', view:'受限俯视', medium:'指挥关注键 + 已建立通信节点', info:'直接视野 + 情报虚影 + 雾区', action:'选中队伍、查看路径、提交命令'},
+      sand: {title:'多人沙盘 · 讨论与确认', copy:'玩家、将领和传令官共同操作现实沙盘；提案、事实和正式命令保持不同状态。', view:'沙盘关注层', medium:'沙盘 / 舆图 / 参与者权限', info:'已确认事实 + 带来源战报', action:'提出、质疑、复述、确认、传令'}
+    };
+    const tabs = document.querySelectorAll('.tab');
+    const panels = document.querySelectorAll('.mode');
+    function setMode(name) {
+      tabs.forEach(t => t.classList.toggle('active', t.dataset.mode === name));
+      panels.forEach(p => p.classList.toggle('active', p.dataset.panel === name));
+      const d = data[name];
+      document.querySelector('#side-title').textContent = d.title;
+      document.querySelector('#side-copy').textContent = d.copy;
+      document.querySelector('#fact-view').textContent = d.view;
+      document.querySelector('#fact-medium').textContent = d.medium;
+      document.querySelector('#fact-info').textContent = d.info;
+      document.querySelector('#fact-action').textContent = d.action;
+    }
+    tabs.forEach(tab => tab.addEventListener('click', () => setMode(tab.dataset.mode)));
+    const order = ['first', 'third', 'top', 'sand'];
+    document.addEventListener('keydown', event => {
+      if (event.key >= '1' && event.key <= '4') setMode(order[Number(event.key) - 1]);
+      if (event.key.toLowerCase() === 'v') {
+        const current = [...panels].findIndex(panel => panel.classList.contains('active'));
+        setMode(order[(current + 1) % 3]);
+      }
+    });
+  </script>
+</body>
+</html>

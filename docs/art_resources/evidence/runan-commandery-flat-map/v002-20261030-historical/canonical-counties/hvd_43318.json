@@ -1,0 +1,114 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43318",
+  "sys_id" : "hvd_43318",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "汝陰縣",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "汝阴县",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Ruyin Xian",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "县",
+    "alternate name" : "縣",
+    "transcription" : "xian",
+    "English" : "county"
+  },
+  "temporal" : {
+    "begin" : "-115",
+    "begin rule" : "4",
+    "end" : "972",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "32.90306",
+    "longitude" : "115.80901",
+    "source" : "FROM_AC",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "安徽阜阳市治",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "583",
+        "end year" : "606",
+        "parent id" : "hvd_33451",
+        "name" : "颍州",
+        "transcribed" : "Ying Zhou"
+      },
+      {
+        "begin year" : "607",
+        "end year" : "620",
+        "parent id" : "hvd_33452",
+        "name" : "汝阴郡",
+        "transcribed" : "Ruyin Jun"
+      },
+      {
+        "begin year" : "621",
+        "end year" : "622",
+        "parent id" : "hvd_33453",
+        "name" : "信州",
+        "transcribed" : "Xin Zhou"
+      },
+      {
+        "begin year" : "623",
+        "end year" : "741",
+        "parent id" : "hvd_33455",
+        "name" : "颍州",
+        "transcribed" : "Ying Zhou"
+      },
+      {
+        "begin year" : "742",
+        "end year" : "757",
+        "parent id" : "hvd_33456",
+        "name" : "汝阴郡",
+        "transcribed" : "Ruyin Jun"
+      },
+      {
+        "begin year" : "758",
+        "end year" : "972",
+        "parent id" : "hvd_33457",
+        "name" : "颍州",
+        "transcribed" : "Ying Zhou"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+      {
+        "preceded by id" : "hvd_43317",
+        "name" : "汝阴侯国",
+        "transcribed" : "Ruyin Houguo"
+      }
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "<html><body>待补</body></html>",
+  "source uri" : ""
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "han-changan-01",
+    "image_url": "https://file.dahe.cn/image/png/20220909/166269194485379.png",
+    "source_url": "https://theory.dahe.cn/2022/09-09/1093924.html",
+    "source_title": "徐龙国：汉长安城考古的收获、进展与思考-大河网",
+    "license": "Not stated; research reference only; no production reuse authorized",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/han-changan-01.png",
+    "size": [
+      621,
+      403
+    ],
+    "bytes": 686817,
+    "figure_type": "Site photograph",
+    "period_scope": "Han Changan site; not a plan",
+    "use": "excluded_as_plan",
+    "sha256": "d4bfb42b9bd4c9955e2320ab6c8efb850bf7f521f41e3e0d876875751730534b",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  },
+  {
+    "id": "han-changan-02",
+    "image_url": "https://file.dahe.cn/image/png/20220909/1662691966285545.png",
+    "source_url": "https://theory.dahe.cn/2022/09-09/1093924.html",
+    "source_title": "徐龙国：汉长安城考古的收获、进展与思考-大河网",
+    "license": "Not stated; research reference only; no production reuse authorized",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/han-changan-02.png",
+    "size": [
+      640,
+      723
+    ],
+    "bytes": 490050,
+    "figure_type": "Archaeological work coverage plan, figure 1",
+    "period_scope": "Multiple periods; primarily Western Han capital",
+    "use": "supporting_methodology",
+    "sha256": "583ec5ed0e75848dc9b3fabc3e85714fe34f480e1f0de4269ee6ea270c0a67b3",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  },
+  {
+    "id": "han-changan-03",
+    "image_url": "https://file.dahe.cn/image/png/20220909/1662692002820243.png",
+    "source_url": "https://theory.dahe.cn/2022/09-09/1093924.html",
+    "source_title": "徐龙国：汉长安城考古的收获、进展与思考-大河网",
+    "license": "Not stated; research reference only; no production reuse authorized",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/han-changan-03.png",
+    "size": [
+      623,
+      312
+    ],
+    "bytes": 165375,
+    "figure_type": "Bacheng Gate plan reconstruction, figure 2",
+    "period_scope": "Han Changan gate; later changes discussed in article",
+    "use": "capital_gate_comparison",
+    "sha256": "e20424f8d843d9ab08f48d1e4104e4d7f13ccc5df017131fa23d9410abc9873a",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  },
+  {
+    "id": "zou-county-01",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180919/fc479fd4dc104022a4a0329ec48ee5cf.jpeg",
+    "source_url": "https://www.sohu.com/a/254808416_199807",
+    "source_title": "山东邹城市邾国故城遗址2017年J3发掘简报_遗物",
+    "license": "Not stated; research reference only; no production reuse authorized",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/zou-county-01.jpg",
+    "size": [
+      686,
+      578
+    ],
+    "bytes": 62218,
+    "figure_type": "Modern site location map, figure 1",
+    "period_scope": "Modern location; not ancient street plan",
+    "use": "excluded_as_plan",
+    "original_publication": "Kaogu 2018 issue 8; Lang Jianfeng, Chen Zhanglong, Wang Qing; excavation by Shandong University and Zoucheng Cultural Relics Bureau",
+    "corroborating_source": "https://www.media.sdu.edu.cn/info/1002/32972.htm",
+    "sha256": "22d15135cd444ee792b0da5fab29f56b22294aed5dd3808828cb216c79f01f19",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  },
+  {
+    "id": "zou-county-02",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180919/e5f2768c13714b5abffeb043e742af3b.jpeg",
+    "source_url": "https://www.sohu.com/a/254808416_199807",
+    "source_title": "山东邹城市邾国故城遗址2017年J3发掘简报_遗物",
+    "license": "Not stated; research reference only; no production reuse authorized",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/zou-county-02.jpg",
+    "size": [
+      556,
+      827
+    ],
+    "bytes": 129043,
+    "figure_type": "Site plan and 2017 excavation location, figure 2",
+    "period_scope": "Eastern Zhou to Qin/Han site; J3 used late Western Han, abandoned late Western Han/Xin",
+    "use": "earlier_county_comparison",
+    "original_publication": "Kaogu 2018 issue 8; Lang Jianfeng, Chen Zhanglong, Wang Qing; excavation by Shandong University and Zoucheng Cultural Relics Bureau",
+    "corroborating_source": "https://www.media.sdu.edu.cn/info/1002/32972.htm",
+    "sha256": "fe7f80f3ae78e9af8c8ee1f03b9c9d182bfdc69629cd1724a49d8324d355b861",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  },
+  {
+    "id": "ye-north-reconstruction",
+    "image_url": "https://att.rongmei.hebnews.cn//Upload/image/20231214/657ad2aad6a06.jpg",
+    "source_url": "http://www.hbswwkg.com/2023-12/12/content_9113769.html",
+    "source_title": "曹操营建的邺城，埋藏了中国都城的千年秘密",
+    "credit": "邺城考古队供图",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/ye-north-reconstruction.jpg",
+    "figure_type": "Reconstruction schematic of Cao Wei Ye",
+    "period_scope": "Late Han construction and Cao Wei; individual features not all securely pre-220",
+    "use": "primary_near_period_capital_comparison",
+    "license": "Not stated; research reference only; no production reuse authorized",
+    "size": [
+      800,
+      605
+    ],
+    "bytes": 96382,
+    "sha256": "9e2534558d02334b98ca94b9be5017042865b9d52ea19bd8d2e5d268b2f09064",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  },
+  {
+    "id": "ye-site-layout",
+    "image_url": "https://i2.chinanews.com.cn/simg/ypt/2023/231208/5c70efe7-a6e7-47b3-b406-66e40f4b80d0_zsite.jpg",
+    "source_url": "https://www.chinanews.com/cul/2023/12-08/10124656.shtml",
+    "source_title": "邺城考古40年：在这里，寻找中国最早的都城中轴线",
+    "credit": "邺城考古队供图",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/ye-site-layout.jpg",
+    "figure_type": "Archaeological site overall layout",
+    "period_scope": "Ye north and later Eastern Wei/Northern Qi south city and outer city combined",
+    "use": "period_separation",
+    "license": "Not stated; research reference only; no production reuse authorized",
+    "size": [
+      528,
+      540
+    ],
+    "bytes": 57742,
+    "sha256": "b45566b8e215fa97ca295eab3ad724a71acb6cb25d475e5899b2e9f0bef127fc",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  },
+  {
+    "id": "ye-axis-layout",
+    "image_url": "https://i2.chinanews.com.cn/simg/ypt/2023/231208/88a10709-8cc2-4093-99e5-32fe9ae7333d_zsite.jpg",
+    "source_url": "https://www.chinanews.com/cul/2023/12-08/10124656.shtml",
+    "source_title": "邺城考古40年：在这里，寻找中国最早的都城中轴线",
+    "credit": "邺城考古队供图",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/ye-axis-layout.jpg",
+    "figure_type": "Composite axis/layout schematic",
+    "period_scope": "Ye north and later south city combined",
+    "use": "period_separation",
+    "license": "Not stated; research reference only; no production reuse authorized",
+    "size": [
+      700,
+      687
+    ],
+    "bytes": 35042,
+    "sha256": "e9de951cedee5a13dd223f8eb2349f2c0dbb5ff13a6f211c4e10fc22f3f152b9",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  },
+  {
+    "id": "eastern-han-luoyang-commons",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/%E4%B8%9C%E6%B1%89%E6%B4%9B%E9%98%B3%E5%9F%8E.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E6%B1%89%E6%B4%9B%E9%98%B3%E5%9F%8E.png",
+    "source_title": "东汉洛阳城",
+    "credit": "Original scholarly source and creator unverified",
+    "local_path": "docs/art_resources/source/zhaoling-city/references-20261030/eastern-han-luoyang-commons.png",
+    "figure_type": "Uploaded historical layout schematic",
+    "period_scope": "Labelled Eastern Han; original scholarly source unverified",
+    "use": "low_confidence_search_lead_only",
+    "license": "CC BY-SA 4.0 claimed on Commons; original source and rights unverified; research only",
+    "size": [
+      531,
+      921
+    ],
+    "bytes": 188424,
+    "sha256": "2f4307e206af9cd25bb8d48b6423b39e19bf9505eacd7a1966915361a5cd182f",
+    "download_date": "2026-10-30",
+    "ue_imported": false
+  }
+]

@@ -1,0 +1,21 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key 'Fubei%'",
+    "count of displayed results" : "1",
+    "count of total results" : "1",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_153530",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_153530",
+        "name" : "福碑",
+        "transcription" : "Fubei",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_122300",
+        "parent name" : "永福县 (Yongfu Xian)",
+        "feature type" : "村镇 (cun zhen)",
+        "object type" : "POINT",
+        "xy coordinates" : "110.13025, 24.88926",
+        "data source" : "CHGIS"
+      }
+    ]
+}

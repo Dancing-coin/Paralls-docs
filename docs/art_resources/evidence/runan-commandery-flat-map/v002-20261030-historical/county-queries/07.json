@@ -1,0 +1,112 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '汝阳县%'",
+    "count of displayed results" : "8",
+    "count of total results" : "8",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_82015",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82015",
+        "name" : "汝阳县",
+        "transcription" : "Ruyang Xian",
+        "years" : "25 ~ 605",
+        "parent sys_id" : "hvd_112591",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.46083, 33.59460",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83137",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83137",
+        "name" : "汝阳县",
+        "transcription" : "Ruyang Xian",
+        "years" : "592 ~ 1368",
+        "parent sys_id" : "hvd_112987",
+        "parent name" : "豫州 (Yu Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.34600, 33.00754",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83139",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83139",
+        "name" : "汝阳县",
+        "transcription" : "Ruyang Xian",
+        "years" : "592 ~ 1368",
+        "parent sys_id" : "hvd_112987",
+        "parent name" : "豫州 (Yu Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.34600, 33.00754",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83085",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83085",
+        "name" : "汝阳县",
+        "transcription" : "Ruyang Xian",
+        "years" : "1270 ~ 1368",
+        "parent sys_id" : "hvd_84007",
+        "parent name" : "汝宁府 (Runing Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.34600, 33.00754",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83090",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83090",
+        "name" : "汝阳县",
+        "transcription" : "Ruyang Xian",
+        "years" : "1371 ~ 1911",
+        "parent sys_id" : "hvd_84007",
+        "parent name" : "汝宁府 (Runing Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.34600, 33.00754",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_600",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_600",
+        "name" : "汝阳县",
+        "transcription" : "Ruyang Xian",
+        "years" : "1820 ~ 1820",
+        "parent sys_id" : "hvd_9601",
+        "parent name" : "汝宁府 (Runing Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.34600, 33.00754",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_121942",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_121942",
+        "name" : "汝阳县",
+        "transcription" : "Ruyang Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_120245",
+        "parent name" : "汝宁府 (Runing Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.34600, 33.00754",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_196943",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_196943",
+        "name" : "汝阳县",
+        "transcription" : "Ruyang Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_195262",
+        "parent name" : "汝宁府 (Runing Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POLYGON",
+        "xy coordinates" : "0.00000, 33.007540",
+        "data source" : "CHGIS"
+      }
+    ]
+}

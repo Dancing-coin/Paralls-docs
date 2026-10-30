@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "households": 2000,
+  "roofs": 4286,
+  "parcel_overlap_pairs": 0,
+  "roof_overlap_pairs": 0,
+  "roof_road_conflicts": 0,
+  "roof_water_conflicts": 0,
+  "all_dwelling_roofs_within_parcels": true,
+  "exceptions": "Four gatehouses intentionally span gate passages; excluded from road-conflict check.",
+  "limitations": "Plan geometry only; no archaeology, live population, navigation simulation or UE validation. The AI illustration is from the pre-adjustment plan and is not validated for the reduced county-office footprint.",
+  "images": [
+    {
+      "path": "staging\\zhaoling-city\\v002-20261030-population\\zhaoling-illustrated-plan-preview.jpg",
+      "dimensions": [
+        1024,
+        1037
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "staging\\zhaoling-city\\v002-20261030-population\\zhaoling-illustrated-plan.png",
+      "dimensions": [
+        1024,
+        1037
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "staging\\zhaoling-city\\v002-20261030-population\\zhaoling-inner-city-detail.png",
+      "dimensions": [
+        870,
+        750
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "staging\\zhaoling-city\\v002-20261030-population\\zhaoling-population-plan-preview.jpg",
+      "dimensions": [
+        2200,
+        1898
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "staging\\zhaoling-city\\v002-20261030-population\\zhaoling-population-plan.png",
+      "dimensions": [
+        5100,
+        4400
+      ],
+      "format": "PNG"
+    },
+    {
+      "path": "staging\\zhaoling-city\\v002-20261030-population\\zhaoling-street-detail.png",
+      "dimensions": [
+        1560,
+        1320
+      ],
+      "format": "PNG"
+    }
+  ],
+  "ue_changes": 0
+}

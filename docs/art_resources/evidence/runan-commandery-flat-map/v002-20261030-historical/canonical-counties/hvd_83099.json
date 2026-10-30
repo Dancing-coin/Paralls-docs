@@ -1,0 +1,118 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83099",
+  "sys_id" : "hvd_83099",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "安城縣",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "安城县",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Ancheng Xian",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "县",
+    "alternate name" : "縣",
+    "transcription" : "xian",
+    "English" : "county"
+  },
+  "temporal" : {
+    "begin" : "25",
+    "begin rule" : "2",
+    "end" : "265",
+    "end rule" : "2"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "32.80570",
+    "longitude" : "114.56767",
+    "source" : "FROM_FD",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南汝南县东南",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "25",
+        "end year" : "72",
+        "parent id" : "hvd_112591",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      },
+      {
+        "begin year" : "73",
+        "end year" : "219",
+        "parent id" : "hvd_40934",
+        "name" : "安城县",
+        "transcribed" : "Ancheng Xian"
+      },
+      {
+        "begin year" : "220",
+        "end year" : "229",
+        "parent id" : "hvd_113249",
+        "name" : "豫州",
+        "transcribed" : "Yu Zhou"
+      },
+      {
+        "begin year" : "220",
+        "end year" : "248",
+        "parent id" : "hvd_40934",
+        "name" : "安城县",
+        "transcribed" : "Ancheng Xian"
+      },
+      {
+        "begin year" : "230",
+        "end year" : "264",
+        "parent id" : "hvd_40934",
+        "name" : "安城县",
+        "transcribed" : "Ancheng Xian"
+      },
+      {
+        "begin year" : "249",
+        "end year" : "264",
+        "parent id" : "hvd_113251",
+        "name" : "豫州",
+        "transcribed" : "Yu Zhou"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "安城县（25—265年）
+
+东汉25年，安成县改名安城县，属汝南郡，治所在今河南省汝南县东南。①
+三国时期为豫州州治。②
+西晋265年，安城县改名安成县。③
+
+注：
+	① 《后汉书》志第二十?郡国二：“汝南郡，高帝置，洛阳东南六百五十里。三十七城，户四十万四千四百四十八，口二百一十万七百八十七。……安城，侯国，有武城亭。”（北京：中华书局，1965年，第12 册，第3424页。）又，《大清一统志》卷二百十六：“安成故城，在汝阳县东南。汉置县，建始元年，封王崇为安城侯国，属汝南郡。后汉曰安城。建武初，又封铫期为侯。三国魏为豫州治。晋仍属汝南郡。后魏因之。北齐废。括地志，安成故城，在汝阳东南七十里。”（《续修四部丛刊》，上海：商务印书馆，1934年。）
+	② 《大清一统志》卷二百十六：“安成故城，在汝阳县东南。汉置县，建始元年，封王崇为安城侯国，属汝南郡。后汉曰安城。建武初，又封铫期为侯。三国魏为豫州治。晋仍属汝南郡。后魏因之。北齐废。括地志，安成故城，在汝阳东南七十里。”（《续修四部丛刊》，上海：商务印书馆，1934年。）
+	③ 《晋书》卷十四：“汝南郡，汉置。统县十五，户二万一千五百。新息。南安阳。安成，侯相。慎阳。北宜春。朗陵。阳安，故江国，有江亭。上蔡。平舆，故沈子国，有沈亭。定颍。灈阳。南顿。汝阳。吴房，故房子国。西平，故柏国，有龙泉，水可用淬刀剑。”（北京：中华书局，1974年，第421页。）",
+  "source uri" : ""
+}

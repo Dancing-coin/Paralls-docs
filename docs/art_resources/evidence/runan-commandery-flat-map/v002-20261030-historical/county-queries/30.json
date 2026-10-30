@@ -1,0 +1,21 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '思善县%'",
+    "count of displayed results" : "1",
+    "count of total results" : "1",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_43347",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43347",
+        "name" : "思善县",
+        "transcription" : "Sishan Xian",
+        "years" : "14 ~ 22",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.99254, 33.63886",
+        "data source" : "CHGIS"
+      }
+    ]
+}

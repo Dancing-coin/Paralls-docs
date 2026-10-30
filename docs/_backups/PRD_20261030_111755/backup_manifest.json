@@ -1,0 +1,127 @@
+{
+  "local_timestamp": "20261030_111755",
+  "timezone": "Asia/Shanghai",
+  "original_file_count": 20,
+  "files": [
+    {
+      "original_path": "docs/PRD/README.md",
+      "backup_path": "original_PRD/README.md",
+      "bytes": 6774,
+      "sha256": "9a0d64c47381cafc1b14c5cb47e86fbb95b25ada3e4412a388a79decb37c6c96"
+    },
+    {
+      "original_path": "docs/PRD/国殇：汉末_五阶段战争世界设计大纲_v0.1.md",
+      "backup_path": "original_PRD/国殇：汉末_五阶段战争世界设计大纲_v0.1.md",
+      "bytes": 15504,
+      "sha256": "e0fb69cc09734f059e083e495cb844ed4f4d0ec38d71c41c5644723a2c4a1ae5"
+    },
+    {
+      "original_path": "docs/PRD/游戏策划案模板.md",
+      "backup_path": "original_PRD/游戏策划案模板.md",
+      "bytes": 15478,
+      "sha256": "3593d9d5cc5cd0a325916f12cedcb7b1b45ac31c881ef935d05a7f7a4c001fa7"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "backup_path": "original_PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "bytes": 74479,
+      "sha256": "da03325a29fd90a35cdfeeb638c36434d04b8f81548502986e66ca5c32164c6d"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "backup_path": "original_PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "bytes": 102922,
+      "sha256": "1e9d5266f8f98a9a56fc25e04f66d70da1289107a7251fa3fc8e4f334712a255"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_骑将冲阵垂直切片策划案_v0.1.md",
+      "backup_path": "original_PRD/烽火王座：汉末群雄_骑将冲阵垂直切片策划案_v0.1.md",
+      "bytes": 18981,
+      "sha256": "d8ad7de2cc9db7a47704821ddf5203bb47ac5b243d4f319b68e24e0921b3aa25"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "backup_path": "original_PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "bytes": 15675,
+      "sha256": "a98b3a2677950044fcab7edd78fc45a19a754635b26a51234f9eef05f16f51fb"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "backup_path": "original_PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "bytes": 29210,
+      "sha256": "4b94977a99c7cc833f05509afb106a939fc5dd560981786680a59d69acd9fb11"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "backup_path": "original_PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "bytes": 19455,
+      "sha256": "b2425ee9207aa92a986ce69ed3f00eea4c48ebf26fb33d049ae045a9b0e75009"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/04-衣带诏刘备玩家完整时序案例.md",
+      "backup_path": "original_PRD/玩法系统/04-衣带诏刘备玩家完整时序案例.md",
+      "bytes": 33855,
+      "sha256": "5071d4f4c3f0f161ba733ba84fab4420da69a259d5f0ff949181b5b0a86a790b"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "backup_path": "original_PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "bytes": 69625,
+      "sha256": "ef008eb7dcc5ef8a2c6864d876263787c88ab19469a07c40095cac3f4e8d80ed"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "backup_path": "original_PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "bytes": 36167,
+      "sha256": "2b205fbe15f8f2270f63a4c4fc3fa197e7926b88b6d26a300b32144ae061fd05"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "backup_path": "original_PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "bytes": 20197,
+      "sha256": "db5af0111d7b6854326a98bced00689e23a388b3a75f2ebb832e666163cc86d4"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "backup_path": "original_PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "bytes": 41002,
+      "sha256": "25bbc3eb79f9cfc067694f1c1cb8fde7a944670f2a58a6645c5654c7cee25bb5"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "backup_path": "original_PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "bytes": 12532,
+      "sha256": "89d602035e031247cf5cacf79692bacd4471e29386b2aa53ce2c1025d2df69ee"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "backup_path": "original_PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "bytes": 13412,
+      "sha256": "ca47e085054a11156cc02212a7ba34660bf5595c76a43dbe341bf7749b864aea"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "backup_path": "original_PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "bytes": 26820,
+      "sha256": "2b4e491d0f1ccd5de2d49b8f94cd1bf9e093e307ee5d63c80b3a56ac6171551f"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "backup_path": "original_PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "bytes": 13080,
+      "sha256": "beef4995cf5e8f71542c827a9e0dafca7fed1b428ee31d21e99cc92ce998b5a3"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/Owner体系/README.md",
+      "backup_path": "original_PRD/玩法系统/Owner体系/README.md",
+      "bytes": 5051,
+      "sha256": "e8dbfb1c0e25668b9b6cc34b00dfe0139e470de8ffcce95d15a657b806805529"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "backup_path": "original_PRD/玩法系统/建筑资产构建方案.md",
+      "bytes": 27454,
+      "sha256": "5997e8bf025db3c0961abf8321ef72ecea2c5405373308b82fa6d5f24c6195cb"
+    }
+  ]
+}

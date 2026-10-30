@@ -1,0 +1,34 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '项县%'",
+    "count of displayed results" : "2",
+    "count of total results" : "2",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_82047",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82047",
+        "name" : "项县",
+        "transcription" : "Xiang Xian",
+        "years" : "-202 ~ 555",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.06371, 33.39749",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82004",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82004",
+        "name" : "项县",
+        "transcription" : "Xiang Xian",
+        "years" : "556 ~ 580",
+        "parent sys_id" : "hvd_115098",
+        "parent name" : "陈郡 (Chen Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.88245, 33.73398",
+        "data source" : "CHGIS"
+      }
+    ]
+}

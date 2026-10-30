@@ -1,0 +1,34 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key 'Qinyang%'",
+    "count of displayed results" : "2",
+    "count of total results" : "2",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_138199",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_138199",
+        "name" : "芹洋",
+        "transcription" : "Qinyang",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_40318",
+        "parent name" : "尤溪县 (Youxi Xian)",
+        "feature type" : "村镇 (cun zhen)",
+        "object type" : "POINT",
+        "xy coordinates" : "118.42609, 26.35468",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_136826",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_136826",
+        "name" : "芹洋铺",
+        "transcription" : "Qinyangpu",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_40224",
+        "parent name" : "寿宁县 (Shouning Xian)",
+        "feature type" : "村镇 (cun zhen)",
+        "object type" : "POINT",
+        "xy coordinates" : "119.38585, 27.40443",
+        "data source" : "CHGIS"
+      }
+    ]
+}

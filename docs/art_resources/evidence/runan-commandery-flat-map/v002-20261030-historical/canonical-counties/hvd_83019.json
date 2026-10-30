@@ -1,0 +1,93 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83019",
+  "sys_id" : "hvd_83019",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "[氵隱]強侯国",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "[氵隐]强侯国",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Yinqiang Hougu",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "国",
+    "alternate name" : "國",
+    "transcription" : "guo",
+    "English" : "country"
+  },
+  "temporal" : {
+    "begin" : "25",
+    "begin rule" : "4",
+    "end" : "29",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "33.75076",
+    "longitude" : "114.07458",
+    "source" : "FROM_FD",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南临颍东南二十五里",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "25",
+        "end year" : "29",
+        "parent id" : "hvd_112591",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+      {
+        "preceded by id" : "hvd_83018",
+        "name" : "[氵隐]强县",
+        "transcribed" : "[sanyin]qiang"
+      }
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "[氵隐]强侯国      25—29年        今河南临颍东南二十五里
+东汉建武元年（25年）为侯国，属汝南郡，六年（30年）徙封（1）。今河南临颍东南二十五里（2）。治今河南临颍东南二十五里（3）。
+
+注：
+（1）《后汉书志》20《郡国志二》汝南郡，[氵隐]强，侯国。（北京，中华书局，1965年，12册，3424页）卷22《坚镡传》：世祖即位，封[氵隐]强侯，六年定封合肥侯。（3册，783页）
+    （2）民国重修《临颍县志》卷14《杂稽?古迹》：古城，或曰氵隐]强古城，旧志在县东南二十五里。
+
+
+[氵隐]强县          30--265年       今河南临颍东南二十五里
+  东汉建武属六年（30年）以侯国为县，属汝南郡（1）。晋泰始二年（266年）省（2）。今河南临颍东南二十五里（3）。
+
+注：
+（1）《后汉书志》20《郡国志二》汝南郡，[氵隐]强，侯国。（北京，中华书局，1965年，12册，3424页）卷22《坚镡传》：世祖即位，封[氵隐]强侯，六年定封合肥侯。（3册，783页）
+（2）《晋志》不载。《清嘉庆一统志》卷218《许州一?古迹》：颍阳故城，晋省。（《四部丛刊续编》77册，商务印书馆，1934年））三国魏咸熙二年十二月为西晋泰始元年，今作二年省。
+    （3）民国重修《临颍县志》卷14《杂稽?古迹》：古城，或曰氵隐]强古城，旧志在县东南二十五里。",
+  "source uri" : ""
+}

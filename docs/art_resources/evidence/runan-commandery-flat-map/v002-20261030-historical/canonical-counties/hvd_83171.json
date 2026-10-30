@@ -1,0 +1,86 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83171",
+  "sys_id" : "hvd_83171",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "吳房縣",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "吴房县",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Wufang Xian",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "县",
+    "alternate name" : "縣",
+    "transcription" : "xian",
+    "English" : "county"
+  },
+  "temporal" : {
+    "begin" : "-206",
+    "begin rule" : "2",
+    "end" : "460",
+    "end rule" : "2"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "33.14784",
+    "longitude" : "113.98911",
+    "source" : "FROM_AC",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南遂平县",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "-206",
+        "end year" : "459",
+        "parent id" : "hvd_115751",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "吴房县（公元前206—460年）
+
+西汉高帝公元前206年，置吴房县，属汝南郡。①治所在今河南省遂平县。②
+东汉因之。③
+西晋因之。④
+北魏460年，吴房县改名遂宁县，属襄城郡。⑤
+
+注：
+	①《汉书》卷二十八上?地理志第八：“汝南郡，高帝置。莽曰汝汾。分为赏都尉。属豫州。……县三十七：……吴房，孟康曰：‘本房子国。楚灵王迁房于楚。吴王阖闾弟夫槩奔楚，楚封于此，为堂溪氏。以封吴，故曰吴房，今吴房城堂溪亭是。’”（北京：中华书局，1962年，第6 册，第1561页。）
+	② 《大清一统志》二百十六：“吴房故城，今遂平县治。故房子国。《左传》，楚灵王迁房于荆，昭公十三年，平王复之。《汉书》，高帝八年，封功臣杨武为吴房侯，注，孟康曰吴房，本房子国，以吴夫概封此，故曰吴房。《元和志》，县东南至蔡州九十里。后魏置遂宁县，隋改灈阳，大业初，又改吴房。《唐书》，元和十二年，李愬讨吴元济，攻吴房，克其外城而还，既而元济平，因改县曰遂平。按县志，高宗南渡后，废县为吴房镇，设尉司，属西平县，后没入金，仍为遂平县。元初省入汝阳，大德八年，复置。明仍元旧。本朝因之。”（《续修四部丛刊》，上海：商务印书馆，1934年。）
+	③ 《后汉书》志第二十：“汝南郡，高帝置。……三十七城，……吴房有棠溪亭。《左传》曰房国，楚灵王所灭。又楚封吴王夫概于棠溪。《地道记》有吴城。”（北京：中华书局，1965年，第12 册，第3424页。）
+	④ 《晋书》卷十四：“汝南郡，汉置。统县十五，户二万一千五百。新息。南安阳。安成，侯相。慎阳。北宜春。朗陵。阳安，故江国，有江亭。上蔡。平舆，故沈子国，有沈亭。定颍。灈阳。南顿。汝阳。吴房，故房子国。西平，故柏国，有龙泉，水可用淬刀剑。”（北京：中华书局，1974年，第421页。）
+	⑤ 《魏书》卷一〇六中：“襄城郡，晋武帝置，治襄城。领县三，户一千四百四十六口四千六十三。义绥，遂宁，武阳。”（北京：中华书局，1974年，第2535页。）",
+  "source uri" : ""
+}

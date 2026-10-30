@@ -1,0 +1,99 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '弋阳县%'",
+    "count of displayed results" : "7",
+    "count of total results" : "7",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_82549",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82549",
+        "name" : "弋阳县",
+        "transcription" : "Yiyang Xian",
+        "years" : "-202 ~ 81",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.99725, 32.16932",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82551",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82551",
+        "name" : "弋阳县",
+        "transcription" : "Yiyang Xian",
+        "years" : "23 ~ 25",
+        "parent sys_id" : "hvd_112591",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.99725, 32.16932",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82553",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82553",
+        "name" : "弋阳县",
+        "transcription" : "Yiyang Xian",
+        "years" : "220 ~ 548",
+        "parent sys_id" : "hvd_116084",
+        "parent name" : "弋阳郡 (Yiyang Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.99725, 32.16932",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_41203",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_41203",
+        "name" : "弋阳县",
+        "transcription" : "Yiyang Xian",
+        "years" : "592 ~ 1911",
+        "parent sys_id" : "hvd_32614",
+        "parent name" : "饶州 (Rao Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "117.42131, 28.40188",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_807",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_807",
+        "name" : "弋阳县",
+        "transcription" : "Yiyang Xian",
+        "years" : "1820 ~ 1820",
+        "parent sys_id" : "hvd_9644",
+        "parent name" : "广信府 (Guangxin Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "117.42131, 28.40188",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_121704",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_121704",
+        "name" : "弋阳县",
+        "transcription" : "Yiyang Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_120201",
+        "parent name" : "广信府 (Guangxin Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "117.42131, 28.40188",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_196814",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_196814",
+        "name" : "弋阳县",
+        "transcription" : "Yiyang Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_195232",
+        "parent name" : "广信府 (Guangxin Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POLYGON",
+        "xy coordinates" : "0.00000, 28.401880",
+        "data source" : "CHGIS"
+      }
+    ]
+}

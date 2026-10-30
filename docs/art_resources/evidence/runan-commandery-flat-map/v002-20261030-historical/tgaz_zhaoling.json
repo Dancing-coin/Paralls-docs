@@ -1,0 +1,34 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '召陵%'",
+    "count of displayed results" : "2",
+    "count of total results" : "2",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_148810",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_148810",
+        "name" : "召陵",
+        "transcription" : "Zhaoling",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_121995",
+        "parent name" : "郾城县 (Yancheng Xian)",
+        "feature type" : "村镇 (cun zhen)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.14843, 33.60156",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83032",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83032",
+        "name" : "召陵县",
+        "transcription" : "Zhaoling Xian",
+        "years" : "-224 ~ 219",
+        "parent sys_id" : "hvd_112568",
+        "parent name" : "陈郡 (Chen Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.14843, 33.60156",
+        "data source" : "CHGIS"
+      }
+    ]
+}

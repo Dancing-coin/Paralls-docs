@@ -1,0 +1,73 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '南顿县%'",
+    "count of displayed results" : "5",
+    "count of total results" : "5",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_82040",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82040",
+        "name" : "南顿县",
+        "transcription" : "Nandun Xian",
+        "years" : "-202 ~ 555",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.83670, 33.44423",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82042",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82042",
+        "name" : "南顿县",
+        "transcription" : "Nandun Xian",
+        "years" : "606 ~ 622",
+        "parent sys_id" : "hvd_115792",
+        "parent name" : "沈州 (Shen Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.83670, 33.44423",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82044",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82044",
+        "name" : "南顿县",
+        "transcription" : "Nandun Xian",
+        "years" : "710 ~ 1072",
+        "parent sys_id" : "hvd_110960",
+        "parent name" : "陈州 (Chen Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.83670, 33.44423",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82045",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82045",
+        "name" : "南顿县",
+        "transcription" : "Nandun Xian",
+        "years" : "1086 ~ 1264",
+        "parent sys_id" : "hvd_115383",
+        "parent name" : "淮宁府 (Huainingfu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.83670, 33.44423",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82046",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82046",
+        "name" : "南顿县",
+        "transcription" : "Nandun Xian",
+        "years" : "1308 ~ 1367",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.83670, 33.44423",
+        "data source" : "CHGIS"
+      }
+    ]
+}

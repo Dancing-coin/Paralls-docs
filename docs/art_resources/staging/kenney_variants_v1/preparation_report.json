@@ -1,0 +1,57 @@
+{
+  "source": "Kenney Mini Arena 1.1 / CC0",
+  "variants": [
+    {
+      "name": "Soldier",
+      "triangles": 513,
+      "source_bones": 6,
+      "materials": [
+        "GS_CommandGold",
+        "GS_Iron",
+        "GS_Leather",
+        "GS_Skin",
+        "GS_TeamBlue"
+      ]
+    },
+    {
+      "name": "General",
+      "triangles": 517,
+      "source_bones": 6,
+      "materials": [
+        "GS_CommandGold",
+        "GS_Iron",
+        "GS_Leather",
+        "GS_Skin",
+        "GS_TeamRed"
+      ]
+    }
+  ],
+  "source_actions": [
+    "attack-kick-left",
+    "attack-kick-right",
+    "attack-melee-left",
+    "attack-melee-right",
+    "crouch",
+    "die",
+    "drive",
+    "emote-no",
+    "emote-yes",
+    "fall",
+    "holding-both-shoot",
+    "holding-both",
+    "holding-left-shoot",
+    "holding-left",
+    "holding-right-shoot",
+    "holding-right",
+    "idle",
+    "interact-left",
+    "interact-right",
+    "jump",
+    "pick-up",
+    "sit",
+    "sprint",
+    "static",
+    "walk"
+  ],
+  "blender_file": "D:\\Users\\User\\Documents\\Unreal Projects\\Guoshang\\docs\\art_resources\\staging\\kenney_variants_v1\\GS_CharacterVariants.blend"
+}

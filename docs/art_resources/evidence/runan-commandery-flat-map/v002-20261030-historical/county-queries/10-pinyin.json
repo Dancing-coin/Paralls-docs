@@ -1,0 +1,21 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key 'Yinqiang%'",
+    "count of displayed results" : "1",
+    "count of total results" : "1",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_83019",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83019",
+        "name" : "[氵隐]强侯国",
+        "transcription" : "Yinqiang Hougu",
+        "years" : "25 ~ 29",
+        "parent sys_id" : "hvd_112591",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "国 (guo)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.07458, 33.75076",
+        "data source" : "CHGIS"
+      }
+    ]
+}

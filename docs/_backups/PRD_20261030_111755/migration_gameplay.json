@@ -1,0 +1,4743 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "original_backup": "docs/_backups/PRD_20261030_111755/original_PRD",
+  "scope": "Complete gameplay original 890-line migration; 10 gameplay modules, 3 cross-module flows and explicitly authorized source-stage append; technical/product/art ownership remains with their formal destinations.",
+  "source_line_counts": {
+    "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md": 890
+  },
+  "source_sha256": {
+    "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md": "1E9D5266F8F98A9A56FC25E04F66D70DA1289107A7251FA3FC8E4F334712A255"
+  },
+  "notes": [
+    "The sections form a contiguous partition of source lines 1-890, including headings, table headers, separators, blank placeholders, metadata, historical editorial checklist and original version history. Additional_targets route mixed concerns without duplicating their formal maintenance source.",
+    "Every nonempty original line has an explicit destination. Unresolved source fields and questions remain unresolved; no numeric value, owner, release schedule, device binding or runtime evidence is invented.",
+    "The immutable original backup retains exact historical text, original filename/body version mismatch, v1.1-before-v1.0 history order, empty author fields and superseded mounted-slice references. Historical provenance and superseded requirements are distinguished from active formal rules.",
+    "The county defense Demo is the sole current development and acceptance goal. Mounted charge has no independent development or acceptance goal; old 10/22/34, one-battalion/three-squad and 3-8-minute slice constraints are not imposed. Independently sourced county three-squad configuration remains pending.",
+    "Long-term succession/inheritance cannot bypass the current county Demo death, surrender or escape failure. Full-game endings and inheritance details remain pending.",
+    "Full-world active pause, continuous role/location/identity, communication/knowledge limits, trained versioned plans, military hierarchy, autonomy/succession and Siming/Agent/Population authority boundaries are preserved.",
+    "Gameplay art lines 659-697 route to the art-resource standards that preserve their full original requirements. Product reference comparisons are preserved design research and were not revalidated as current market claims.",
+    "Source phase and milestone tables are preserved as complete-game design directions and unresolved scheduling placeholders. Their blank acceptance/owner/time fields do not add county Demo scope or a delivery commitment.",
+    "All migrated text is design/planning documentation. This task performed no UE/PIE execution, import, build, runtime asset verification or implementation acceptance.",
+    "Other original PRD sources are supplemental context only; their complete migration declarations belong to the responsible agents manifests, not this gameplay-source claim."
+  ],
+  "sections": [
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 1,
+        "end": 9
+      },
+      "original_section": "# 《烽火王座：汉末群雄》玩法策划案",
+      "original_first_line": "# 《烽火王座：汉末群雄》玩法策划案",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "provenance-status",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#provenance-status",
+      "disposition": "historical-metadata; original v1.1 body, v0.1 filename, empty planner field and original dates retained in immutable backup; not a current approval or runtime statement",
+      "preserved_original_path": "docs/_backups/PRD_20261030_111755/original_PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 10,
+        "end": 11
+      },
+      "original_section": "## 使用说明",
+      "original_first_line": "## 使用说明",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "product-positioning",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#product-positioning",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 12,
+        "end": 13
+      },
+      "original_section": "## 使用说明",
+      "original_first_line": "本文件定义《烽火王座：汉末群雄》的完整游戏玩法范围，说明玩家在连续世界中如何行动、指挥组织、管理资源、处理关系并承担长期后果。当前第一阶段交付为召陵县守城 Demo，《骑将冲阵》是其中的骑战/传令子切片，已拆为独立文档：[《骑将冲阵垂直切片策划案》](烽火王座：汉末群雄_骑将冲阵垂直切片策划案_v0.1.md)，其中的短时长、特定场景、有限单位、演示步骤和切片验收门槛不构成本文件的全游戏范围。",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "d02",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d02",
+      "disposition": "superseded-scope; historical mounted sub-slice statement retained in backup, independent development and acceptance canceled",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/05-阶段与可玩切片/县城守城Demo/体验目标与范围.md",
+          "target_anchor": "source-demo-goals",
+          "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/体验目标与范围.md#source-demo-goals"
+        }
+      ],
+      "preserved_original_path": "docs/_backups/PRD_20261030_111755/original_PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 14,
+        "end": 15
+      },
+      "original_section": "## 使用说明",
+      "original_first_line": "当前 Demo 的目标与完成条件见[05 执行路线](玩法系统/05-第一阶段县城守城Demo设计与执行路线.md)，完整五阶段基础设施、23 Owner 与并行 A—F/V0—V5 路线见[08 建设总计划](玩法系统/08-基础设施与Owner建设总计划.md)。后续章节的产品方向不构成另一份实施排期。",
+      "target_path": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md",
+      "target_anchor": "source-demo-capability-map",
+      "target": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md#source-demo-capability-map",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/production/基础设施与Owner建设总计划.md",
+          "target_anchor": "source-plan-goals-packages",
+          "target": "docs/production/基础设施与Owner建设总计划.md#source-plan-goals-packages"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 16,
+        "end": 19
+      },
+      "original_section": "## 使用说明",
+      "original_first_line": "总策划案提供世界、叙事和系统方向；本文件聚焦玩家玩法和规则。现有资料尚未决定的设计字段保持空白，需统一确认的问题列于文末。",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "d17",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d17",
+      "disposition": "pending-fields-preserved; original unknown fields remain undecided"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 20,
+        "end": 21
+      },
+      "original_section": "## 1. 游戏概述",
+      "original_first_line": "## 1. 游戏概述",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "product-positioning",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#product-positioning",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 22,
+        "end": 25
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "### 1.1 基本信息",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "product-positioning",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#product-positioning",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 26,
+        "end": 26
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 游戏名称 | 《烽火王座：汉末群雄》 |",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "d01",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d01",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 27,
+        "end": 27
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 游戏类型 | PC 单机为主的实时持续世界 ARPG；以具身个人行动为底座，叠加经营统治与战争/战役指挥 |",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "product-positioning",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#product-positioning",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 28,
+        "end": 28
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 游戏题材 | 汉末乱世、群雄割据、战争与政治；允许历史分岔 |",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 29,
+        "end": 29
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 目标平台 | Windows PC；Unreal Engine 5.8 |",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "product-positioning",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#product-positioning",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 30,
+        "end": 30
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 目标玩家 | 偏好历史战争、策略模拟、角色扮演与组织经营的 PC 玩家 |",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 31,
+        "end": 31
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 游戏模式 | 个人 ARPG 体验为常态底座；可激活经营统治；可激活策略指挥战争（战役层、战争层）；三者可共存，委派代理；工作层切换不暂停，单人主动暂停为全世界时停 |",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 32,
+        "end": 32
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 商业模式 |  |",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q01",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q01",
+      "disposition": "pending commercial model; source table blank retained as undecided"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 33,
+        "end": 33
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 目标时长 | 完整游戏的单次会话、主线时长和长期游玩目标  |",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q03",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q03",
+      "disposition": "pending full-game session, main-story and long-play scope"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 34,
+        "end": 34
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 开发团队 |  |",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q02",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q02",
+      "disposition": "pending team; source table blank retained as undecided"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 35,
+        "end": 36
+      },
+      "original_section": "### 1.1 基本信息",
+      "original_first_line": "| 预计周期 |  |",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q02",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q02",
+      "disposition": "pending duration; source table blank retained as undecided"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 37,
+        "end": 40
+      },
+      "original_section": "### 1.2 一句话介绍",
+      "original_first_line": "### 1.2 一句话介绍",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "product-positioning",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#product-positioning",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 41,
+        "end": 44
+      },
+      "original_section": "### 1.3 游戏简介",
+      "original_first_line": "### 1.3 游戏简介",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "core-experience",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#core-experience",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+          "target_anchor": "embodied-movement",
+          "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+          "target_anchor": "combat-contact",
+          "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 45,
+        "end": 46
+      },
+      "original_section": "### 1.3 游戏简介",
+      "original_first_line": "经营统治与策略指挥战争不是取代个人体验的平行游戏，而是玩家在具身世界中有条件激活的工作层。玩家可以通过 UI 打开策略经营统治面板、战役面板或战争面板，也可以在世界里通过语音、书信、手势、口令、传令人员、会议、沙盘、舆图和其他现实存在的交互方式提出目标、传递信息和组织执行。UI 只是提高整理、查看和下达意图的效率，不会绕过势力范围、通信覆盖、权限、传达、接受和执行。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "operation-entrypoints",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#operation-entrypoints"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "media-interface",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#media-interface"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 47,
+        "end": 48
+      },
+      "original_section": "### 1.3 游戏简介",
+      "original_first_line": "个人体验与经营、战役、战争工作层可以同时存在。例如玩家站在自己的营地沙盘前，与将领共同推演战术，接收已经抵达的斥候战报，修改战役方案，再让传令人员把命令带到队伍；此时玩家仍在 ARPG 世界中，周围人物、时间、身体和其他战线不会因为打开面板而停止。玩家也可以不激活任何工作层，只在势力范围内生活、社交和处理个人事务，或离开势力范围去冒险、游历、调查和战斗。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 49,
+        "end": 50
+      },
+      "original_section": "### 1.3 游戏简介",
+      "original_first_line": "玩家对自身势力的实质管理需要满足两个条件：拥有相应身份/权限，并处在势力范围或有效通信覆盖内。超出范围后，玩家不能把 UI 操作直接写入远方世界，只能通过可用的信使、书信、口信、旗语、约定或代理关系传达；命令可能延迟、失真、拒绝、过期或无法抵达。没有有效通信时，组织依据已知预案、职责和本地判断继续行动。",
+      "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+      "target_anchor": "command-reachability",
+      "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#command-reachability",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 51,
+        "end": 56
+      },
+      "original_section": "### 1.4 核心体验陈述",
+      "original_first_line": "### 1.4 核心体验陈述",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "core-experience",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#core-experience",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 57,
+        "end": 57
+      },
+      "original_section": "### 1.4 核心体验陈述",
+      "original_first_line": "1. 玩家以 ARPG 形式持续生活在世界里；移动、观察、社交、亲密关系、履职、冒险和战斗共享同一角色、身体、时间和位置，敌意可在任何个人场景中自然升级为战斗。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "core-experience",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#core-experience",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+          "target_anchor": "embodied-movement",
+          "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+          "target_anchor": "combat-contact",
+          "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 58,
+        "end": 58
+      },
+      "original_section": "### 1.4 核心体验陈述",
+      "original_first_line": "2. 经营、战役和战争指挥可以通过 UI 或世界内的语音、书信、动作、人物会议、沙盘与舆图等道具激活；激活工作层不会离开世界，也不会停止个人行动和其他世界事务。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 59,
+        "end": 59
+      },
+      "original_section": "### 1.4 核心体验陈述",
+      "original_first_line": "3. 所有命令都必须经过势力范围、通信覆盖、权限、传达、接受和执行；系统明确反馈“意图提出—信息传达—对象理解—命令接受—实际执行—结果获知”的差异。",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-lifecycle",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 60,
+        "end": 60
+      },
+      "original_section": "### 1.4 核心体验陈述",
+      "original_first_line": "4. 玩家可以在沙盘、舆图和将领会议中共同推演，并用已经抵达的斥候战报更新判断；推演结果先是计划或命令意图，只有经现实传达和组织执行才成为世界事实。",
+      "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+      "target_anchor": "media-interface",
+      "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#media-interface",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+          "target_anchor": "campaign-flow",
+          "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow"
+        },
+        {
+          "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+          "target_anchor": "legitimate-knowledge",
+          "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#legitimate-knowledge"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 61,
+        "end": 62
+      },
+      "original_section": "### 1.4 核心体验陈述",
+      "original_first_line": "5. 预案、代理人、训练、补给、关系、授权和继任让玩家离场后世界继续运行；失败留下可追溯的损失和后续约束。",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "autonomy",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#autonomy",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "succession-flow",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#succession-flow"
+        },
+        {
+          "target_path": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md",
+          "target_anchor": "supply-flow",
+          "target": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md#supply-flow"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 63,
+        "end": 72
+      },
+      "original_section": "### 1.5 目标玩家",
+      "original_first_line": "### 1.5 目标玩家",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 73,
+        "end": 74
+      },
+      "original_section": "### 1.6 设计目标与范围",
+      "original_first_line": "### 1.6 设计目标与范围",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "product-positioning",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#product-positioning",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 75,
+        "end": 75
+      },
+      "original_section": "### 1.6 设计目标与范围",
+      "original_first_line": "- 完整游戏目标：让玩家在连续运行的汉末世界中，以具身角色生活、行动和战斗；在有条件时激活经营统治、战役与战争工作层，通过真实可达的传达与执行建立组织、统筹战争、配置资源和经营关系，并面对承认、继承和历史变化带来的长期后果。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "core-experience",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#core-experience",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 76,
+        "end": 76
+      },
+      "original_section": "### 1.6 设计目标与范围",
+      "original_first_line": "- 玩法结构：个人 ARPG 是持续存在的体验底座；经营统治和策略指挥战争（战役层、战争层）是可激活、可叠加的工作层。三者共享角色、组织、资源、权限、情报、通信和世界事实，不是三个需要依次进入的独立模式。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 77,
+        "end": 77
+      },
+      "original_section": "### 1.6 设计目标与范围",
+      "original_first_line": "- 玩法范围：以 ARPG 形式进行的个人生活、社交、关系、移动、骑战和战斗；可激活的领地治理、经营统治、战役推演、战争指挥；军队编制和自治、命令与通信、阵型和士气、补给与资源网络、人物关系与政治、代理委派、继任及历史分岔。",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "capability-catalog",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#capability-catalog",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 78,
+        "end": 78
+      },
+      "original_section": "### 1.6 设计目标与范围",
+      "original_first_line": "- 设计边界：各系统共享可追溯的世界事实和权责边界；不以全知即时控制、无成本委派或隐藏全局数值替代玩家决策。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "design-pillars",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#design-pillars",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 79,
+        "end": 80
+      },
+      "original_section": "### 1.6 设计目标与范围",
+      "original_first_line": "- 当前资料尚未确定完整游戏的内容规模、章节数量、最终胜负目标、运营方式和发行范围，留待确认。",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q03",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q03",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q04",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q06",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q06"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q24",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q24"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 81,
+        "end": 94
+      },
+      "original_section": "### 1.7 参考游戏",
+      "original_first_line": "### 1.7 参考游戏",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "reference-games",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#reference-games",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 95,
+        "end": 112
+      },
+      "original_section": "### 1.8 市场竞品分析",
+      "original_first_line": "### 1.8 市场竞品分析",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "reference-games",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#reference-games",
+      "disposition": "moved-preserved; comparison is original design research, not refreshed market verification"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 113,
+        "end": 114
+      },
+      "original_section": "## 2. 核心玩法设计",
+      "original_first_line": "## 2. 核心玩法设计",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "three-loops",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#three-loops",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 115,
+        "end": 126
+      },
+      "original_section": "### 2.1 三大玩法模式",
+      "original_first_line": "### 2.1 三大玩法模式",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 127,
+        "end": 136
+      },
+      "original_section": "#### 2.1.1 经营统治模式",
+      "original_first_line": "#### 2.1.1 经营统治模式",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+          "target_anchor": "three-loops",
+          "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#three-loops"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 137,
+        "end": 138
+      },
+      "original_section": "#### 2.1.1 经营统治模式",
+      "original_first_line": "模式内具体治理操作、玩家直接控制边界、代理汇报频率及时间推进规则：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q18",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q18",
+      "disposition": "pending governance operation granularity, direct control, reporting cadence and time rules",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q07",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q07"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q20",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q20"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q21",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q21"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 139,
+        "end": 149
+      },
+      "original_section": "#### 2.1.2 策略指挥战争模式",
+      "original_first_line": "#### 2.1.2 策略指挥战争模式",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+          "target_anchor": "war-results",
+          "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+          "target_anchor": "three-loops",
+          "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#three-loops"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 150,
+        "end": 151
+      },
+      "original_section": "#### 2.1.2 策略指挥战争模式",
+      "original_first_line": "战争与战役的准确边界、状态机、地图尺度、玩家可直接下达的命令、AI/代理权限和结束条件：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q07",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q07",
+      "disposition": "pending war/campaign boundaries, state machines, map scale and end conditions",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q04",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q08",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q08"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q18",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q18"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 152,
+        "end": 155
+      },
+      "original_section": "#### 2.1.2 策略指挥战争模式",
+      "original_first_line": "- 战争层核心循环：观察持续冲突态势 → 确定战争目标与投入方向 → 委托或组织战役 → 跟踪战区变化、资源和政治代价 → 调整目标、投入或谈判方向。",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+          "target_anchor": "three-loops",
+          "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#three-loops"
+        },
+        {
+          "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+          "target_anchor": "war-results",
+          "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 156,
+        "end": 159
+      },
+      "original_section": "#### 2.1.3 个人模式（包括战斗）",
+      "original_first_line": "#### 2.1.3 个人模式（包括战斗）",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "derived-identity",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#derived-identity"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 160,
+        "end": 161
+      },
+      "original_section": "#### 2.1.3 个人模式（包括战斗）",
+      "original_first_line": "| 设计维度 | 已明确的方向 | 具体规则 |",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 162,
+        "end": 162
+      },
+      "original_section": "#### 2.1.3 个人模式（包括战斗）",
+      "original_first_line": "| 玩法表达 | 全部个人行动以 ARPG 式即时具身操作为基础；战斗可主动或被敌意被动触发 |  |",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "combat-contact",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 163,
+        "end": 163
+      },
+      "original_section": "#### 2.1.3 个人模式（包括战斗）",
+      "original_first_line": "| 角色创建 | 可由玩家自建角色，也可存在预设角色方案 | 角色背景、初始身份与主线关系待定 |",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q17",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q17",
+      "disposition": "pending created/preset-character combinations and world-bound identity rules",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "growth",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#growth"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 164,
+        "end": 165
+      },
+      "original_section": "#### 2.1.3 个人模式（包括战斗）",
+      "original_first_line": "| 与工作层关系 | 个人体验始终存在；经营、战役、战争可在世界中激活并与个人行动并行 | 激活媒介、权限和并行交互范围见 2.1.4 |",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 166,
+        "end": 167
+      },
+      "original_section": "#### 2.1.3 个人模式（包括战斗）",
+      "original_first_line": "个人模式以玩家角色在当前地点的可感知信息和可执行行动为中心，覆盖移动、骑乘、交互、交涉、调查、履职、休整、社交、亲密关系及其他日常行动。玩家可以主动寻找冲突，也可能因为感知到敌意、伏击、追捕或攻击而被动激活战斗；战斗在同一地点和同一时间中发生，不能通过切换界面取消已经发生的危险。玩家可移动、选择目标、攻击、防守、撤退或保护他人，并承担伤势、暴露、时间和位置风险。个人行动改变角色及其接触到的局部事实；部队整体胜负、战役目标和战争结果仍由相应组织/战争层规则结算。",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+          "target_anchor": "combat-contact",
+          "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "survival-body",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#survival-body"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 168,
+        "end": 169
+      },
+      "original_section": "#### 2.1.3 个人模式（包括战斗）",
+      "original_first_line": "个人模式与战斗的视角、暂停/慢速、操控方式、可介入边界及战斗结束后的返回层级：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q18",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q18",
+      "disposition": "pending view, slow time, controls, intervention and return layer; active full-world pause is settled",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q13",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q13"
+        },
+        {
+          "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+          "target_anchor": "active-pause",
+          "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#active-pause"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 170,
+        "end": 173
+      },
+      "original_section": "#### 2.1.3 个人模式（包括战斗）",
+      "original_first_line": "- 核心循环：观察当前场景、身体与人际条件 → 决定个人目标与行动 → 即时操控或交互执行 → 承担身体、位置、关系与时间后果 → 调整行动或关注层级。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "three-loops",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#three-loops",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+          "target_anchor": "encounter-actions",
+          "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#encounter-actions"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+          "target_anchor": "embodied-movement",
+          "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 174,
+        "end": 198
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "#### 2.1.4 模式激活、共存与状态承接",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 199,
+        "end": 200
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "个人 ARPG 体验共享世界时钟、角色身份、权限、资源、组织关系、情报与事实记录；经营统治、战役和战争工作层是挂接在这个底座上的不同工具与注意力层。打开或关闭工作层不会把玩家传送到另一张地图，也不会让个人行动、战斗、市场、运输、代理、战役和战争结算停止。不同层级通过关注尺度、信息精度、直接操控程度、可用媒介和决策周期形成差异。",
+      "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+      "target_anchor": "continuous-world",
+      "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#continuous-world",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+          "target_anchor": "shared-work-layers",
+          "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers"
+        },
+        {
+          "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+          "target_anchor": "layer-switching",
+          "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#layer-switching"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 201,
+        "end": 207
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "| 体验层/工作层 | 激活与共存条件 | 玩家关注 | 主要反馈节奏 |",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 208,
+        "end": 209
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "**统一体验约束：**",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "design-pillars",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#design-pillars",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 210,
+        "end": 210
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "1. 同一角色、组织和资源跨层保持一致。例如已拨出的军粮不能同时留作另一项支出；具体资源占用与冲突规则待定。",
+      "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+      "target_anchor": "resource-network",
+      "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#resource-network",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 211,
+        "end": 211
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "2. UI 面板是现实行动的组织工具，不是上帝视角。面板操作必须生成可追踪的意图、文书、口令、传令任务或会议决定，不能直接写入远方最终事实。",
+      "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+      "target_anchor": "operation-entrypoints",
+      "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#operation-entrypoints",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "command-lifecycle",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 212,
+        "end": 212
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "3. 反馈区分“意图提出”“信息/命令传达中”“对象已理解”“对象已接受”“执行中”“结果已发生”和“玩家已获知”。即时响应不代表远方事务即时完成，也不代表玩家即时获知所有结果。",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "command-feedback",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#command-feedback",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "command-states",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-states"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 213,
+        "end": 213
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "4. 势力范围决定可直接组织的对象和资源；通信覆盖决定意图能否在合理时效内抵达。超出二者时，玩家只能依赖信使、书信、口信、旗语、代理或预案，且可能延迟、失真、拒绝、过期或无法抵达。",
+      "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+      "target_anchor": "command-reachability",
+      "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#command-reachability",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 214,
+        "end": 214
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "5. 沙盘、舆图、战报和将领会议提供共同推演空间，但推演结果先是计划；只有形成命令并经现实传达、接受和执行，才改变部队或战役事实。斥候战报只有抵达后才能被更新到地图或推演中。",
+      "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+      "target_anchor": "media-interface",
+      "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#media-interface",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+          "target_anchor": "campaign-flow",
+          "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow"
+        },
+        {
+          "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+          "target_anchor": "legitimate-knowledge",
+          "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#legitimate-knowledge"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 215,
+        "end": 215
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "6. 个人 ARPG 行动始终可继续；工作层可在适合的地点、人物和道具条件下与个人行动共存。敌意、伏击、追捕或攻击可在任何工作层交互中打断玩家并被动激活战斗。",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "combat-contact",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+          "target_anchor": "shared-work-layers",
+          "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 216,
+        "end": 217
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "7. 已授权的代理、预案与其他角色持续行动。已发生结果不会因玩家进入另一个工作层而撤销；控制权变化依授权和继任规则处理。",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "autonomy",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#autonomy",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "succession-flow",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#succession-flow"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 218,
+        "end": 219
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "具体时间倍率、信息摘要频率、界面切换条件与成本、失能/离场后的控制权：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q18",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q18",
+      "disposition": "pending time multipliers, summary cadence, switching conditions/cost and incapacitation/absence control",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q07",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q07"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q20",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q20"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q21",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q21"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q23",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q23"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 220,
+        "end": 221
+      },
+      "original_section": "#### 2.1.4 模式激活、共存与状态承接",
+      "original_first_line": "工作层、镜头或地图切换不暂停世界；单人主动暂停是全世界时停，冻结 `world_tick`、命令传递、Agent、群体模拟、运输、生产、动画、物理和 Owner 提交。恢复后重新校验 epoch、revision、lease 和异步证据，暂停不能刷新未知信息或跳过执行成本。",
+      "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+      "target_anchor": "active-pause",
+      "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#active-pause",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 222,
+        "end": 227
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "### 2.2 玩家目标与胜负规则",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "war-results",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "failure-inheritance",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#failure-inheritance"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 228,
+        "end": 228
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 经营统治工作层 | 在势力范围或通信覆盖内维持辖域、资源和组织运作，争取政治承认 | 资源缺口、执行失效、关系或统治承认受损 | 限制战争投入、补给、个人职责与行动条件 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 229,
+        "end": 229
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 战役工作层 | 推演并组织具体地域、时间窗口和阶段目标的行动 | 损失、补给中断、阵地/目标变化、命令失效或战役受挫 | 改变战争态势、辖域资源、组织控制和角色风险 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 230,
+        "end": 230
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 战争工作层 | 争取持续冲突目标，调整投入、同盟、谈判和战争收束 | 战区恶化、持续代价、政治承认受损或战争目标失败 | 改变治理压力、战役方向、资源配置和个人行动机会 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "war-results",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 231,
+        "end": 232
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 个人 ARPG 底座 | 在真实地点生活、行动、社交、履职、冒险和战斗并承担风险 | 伤势、失能、位置/时间损失、关系变化、敌意升级 | 改变局部战场、信息、治理执行、命令传达与继任条件 |",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "body-social-consequences",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#body-social-consequences",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 233,
+        "end": 234
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "以上为目标方向，具体任务成功/失败阈值与终局规则：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q04",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04",
+      "disposition": "pending task thresholds and full-game end conditions"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 235,
+        "end": 236
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 项目 | 规则说明 | 玩家如何获知 |",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "failure-inheritance",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#failure-inheritance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q04",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 237,
+        "end": 237
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 游戏目标 | 在持续世界中建立并维持个人、组织和事实统治；具体主线目标与通关定义待确认 | 目标/任务记录、组织与领地状态、历史与关系反馈 |",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q04",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 238,
+        "end": 238
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 成功条件 | 由玩家选择的长期目标、关键战役、政治承认和世界状态共同判定；正式结局条件待确认 | 目标进展、事实记录、结局触发说明 |",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q04",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 239,
+        "end": 239
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 失败条件 | 角色死亡、组织瓦解、失去关键承认或其他条件是否导致终局，待确认；失败应保留可理解的世界后果 | 失败来源、继任/继续选项和因果摘要 |",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "failure-inheritance",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#failure-inheritance",
+      "disposition": "full-game failure remains pending; current county Demo death/surrender/escape failure is not overridden",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d07",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d07"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d08",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d08"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 240,
+        "end": 240
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 平局或特殊结局 | 撤退、僵持、割据、拥立或历史分岔等结果由具体战役和主线规则定义，待确认 | 战报、政治承认和世界状态 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "war-results",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q04",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 241,
+        "end": 242
+      },
+      "original_section": "### 2.2 玩家目标与胜负规则",
+      "original_first_line": "| 继续与继任 | 角色失能或死亡后的继续方式依继承、指挥权和存档规则处理；不默认无后果重置 | 继任者、承接权限、损失和可恢复项 |",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "failure-inheritance",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#failure-inheritance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "succession-flow",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#succession-flow"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 243,
+        "end": 246
+      },
+      "original_section": "### 2.3 核心操作",
+      "original_first_line": "### 2.3 核心操作",
+      "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+      "target_anchor": "operation-entrypoints",
+      "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#operation-entrypoints",
+      "disposition": "input descriptions are intent/result requirements, not final key bindings",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "operation-matrix",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#operation-matrix"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 247,
+        "end": 250
+      },
+      "original_section": "#### 经营统治",
+      "original_first_line": "#### 经营统治",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 251,
+        "end": 251
+      },
+      "original_section": "#### 经营统治",
+      "original_first_line": "| 激活经营统治工作层 | 治理 UI，或在府署/营地/会议中使用语音、书信、手势和人物交互；具体绑定待定 | 当前势力范围/通信覆盖内的辖域、组织和资源 | 打开可用治理信息与操作入口，不自动改变世界事实 | 当前权限、覆盖范围、可用媒介和可操作对象 | 超出势力范围、通信中断或无有效身份时，只能使用可达的传达方式 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "command-reachability",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#command-reachability"
+        },
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "operation-entrypoints",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#operation-entrypoints"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 252,
+        "end": 252
+      },
+      "original_section": "#### 经营统治",
+      "original_first_line": "| 查看辖域与态势 | 统治/世界界面或现实观察/汇报；具体交互方式待定 | 辖域、组织、资源网络、市场、政治关系 | 查看玩家已观察或已收到的状态、来源、时效与可信度 | 资源流、责任人、异常和历史事实摘要 | 不提供未获得的全知信息 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+          "target_anchor": "legitimate-knowledge",
+          "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#legitimate-knowledge"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 253,
+        "end": 253
+      },
+      "original_section": "#### 经营统治",
+      "original_first_line": "| 设定政策、预算与目标 | 界面提交，或口头/书信/手势向责任人表达；具体输入待定 | 有权限的辖域、机构、资源或组织 | 创建治理/配置请求，交由相应责任人和领域规则处理 | 意图记录、传达状态、接受、待执行、拒绝、部分完成及原因 | 权限、距离、通信、预算/库存、目标冲突或信息过期 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 254,
+        "end": 254
+      },
+      "original_section": "#### 经营统治",
+      "original_first_line": "| 任命、授权或委派 | 组织/角色操作、文书、口令或会议决定；具体输入待定 | 代理人、官员、指挥节点和部属组织 | 建立责任范围、权限和执行条件 | 授权范围、传达/接受状态、期限、代理状态与汇报 | 代理能力、意图、关系、通信或权限不匹配时可能拒绝/失效 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "permission-sources",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#permission-sources"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 255,
+        "end": 255
+      },
+      "original_section": "#### 经营统治",
+      "original_first_line": "| 处理异常或进行交涉 | 个人行动、治理操作或人物会议；具体输入待定 | 事件、人物、市场或组织冲突 | 介入并产生跨周期的资源、关系或承认变化 | 对方响应、事实记录及后续影响 | 时间、位置、身份、谈判条件和已发生事实构成限制 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+          "target_anchor": "market-actions",
+          "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#market-actions"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 256,
+        "end": 257
+      },
+      "original_section": "#### 经营统治",
+      "original_first_line": "| 核查与调整安排 | 世界/组织界面；具体输入待定 | 政策、代理执行、库存、运输和辖域事实 | 复核结果并调整目标或责任安排 | 计划与实际差异、来源、延误和下一决策点 | 只可基于已抵达情报判断 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 258,
+        "end": 261
+      },
+      "original_section": "#### 策略指挥战争（战争层与战役层）",
+      "original_first_line": "#### 策略指挥战争（战争层与战役层）",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 262,
+        "end": 262
+      },
+      "original_section": "#### 策略指挥战争（战争层与战役层）",
+      "original_first_line": "| 激活战争/战役工作层 | 战争/战役 UI，或在沙盘、舆图、将领会议、战报会中激活；具体输入待定 | 可用权限、地图、将领、斥候战报和通信媒介 | 打开相应层级的推演、计划、命令和战况信息 | 当前层级、参与者、已抵达情报、可用媒介和权限 | 无权、无可用信息/媒介、超出势力或通信覆盖时不能进行实质指挥 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "operation-entrypoints",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#operation-entrypoints"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "media-interface",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#media-interface"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 263,
+        "end": 263
+      },
+      "original_section": "#### 策略指挥战争（战争层与战役层）",
+      "original_first_line": "| 设定战争目标与投入方向 | 战争态势/外交指挥界面，或战争会议、文书、使者传达；具体输入待定 | 敌对关系、战区、盟友、战争资源 | 更新持续冲突的目标、优先方向和资源承诺 | 提案、传达/接受状态、战争目标、投入、态势变化和持续代价 | 权力、关系、资源、通信与情报约束；战争层具体规则待定 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "war-results",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+          "target_anchor": "diplomacy",
+          "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#diplomacy"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 264,
+        "end": 264
+      },
+      "original_section": "#### 策略指挥战争（战争层与战役层）",
+      "original_first_line": "| 规划战役行动 | 战役/地图界面，或沙盘/舆图/将领会议；具体输入待定 | 地域、时间窗口、军队、补给和阶段目标 | 形成行动计划、任务分工、预案及授权 | 推演方案、斥候战报、行动目标、参与组织、补给与命令状态 | 地理、时机、补给、权限、通信和情报时效 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 265,
+        "end": 265
+      },
+      "original_section": "#### 策略指挥战争（战争层与战役层）",
+      "original_first_line": "| 调动、分工与传令 | 地图/组织/命令链操作，或口令、书信、旗语、传令人员；具体输入待定 | 军队、指挥节点和目标组织 | 生成经过权限、通信和组织规则校验的命令 | 路径、传达、抵达、理解、接受/拒绝、执行及战场状态 | 距离、通信、命令有效期、目标变化或下级自主判断 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-lifecycle",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 266,
+        "end": 266
+      },
+      "original_section": "#### 策略指挥战争（战争层与战役层）",
+      "original_first_line": "| 亲自介入或委派执行 | 进入个人行动/战斗，或授权代理与预案 | 当前战场、战役行动和自治部队 | 个人局部行动或组织级执行持续推进 | 战斗接触、战役目标、损失、补给和政治结果 | 亲战风险、组织控制范围、授权及部队自治规则 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+          "target_anchor": "embodied-movement",
+          "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+          "target_anchor": "autonomy",
+          "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#autonomy"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 267,
+        "end": 268
+      },
+      "original_section": "#### 策略指挥战争（战争层与战役层）",
+      "original_first_line": "| 调整或收束战争/战役 | 战争/战役态势操作；具体输入待定 | 战争目标、行动阶段和交战组织 | 改令、谈判、撤退、改变优先级或结束条件 | 已承认的控制、损失、关系和后续状态 | 已提交命令、通信延迟及不可逆世界事实 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "war-results",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "command-exceptions",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-exceptions"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 269,
+        "end": 272
+      },
+      "original_section": "#### 个人（含战斗）",
+      "original_first_line": "#### 个人（含战斗）",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 273,
+        "end": 273
+      },
+      "original_section": "#### 个人（含战斗）",
+      "original_first_line": "| 移动、骑乘与观察 | WASD 移动、鼠标控制朝向；其他键位待定 | 玩家角色、坐骑与当前地点 | 改变位置、速度、观察范围、暴露与通信可达性 | 角色/坐骑动作、方向、速度、可见目标、敌意和危险提示 | 地形、碰撞、身体状态及所在场景约束 |",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 274,
+        "end": 274
+      },
+      "original_section": "#### 个人（含战斗）",
+      "original_first_line": "| 切换观察视角 | 第一人称、第三人称、俯视关注；按键待定 | 玩家角色的观察呈现 | 改变观察范围和信息组织，不改变玩家实体或世界时间 | 镜头过渡、视角标识与可见信息边界 | 视角可用条件和具体控制方式待定 |",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 275,
+        "end": 275
+      },
+      "original_section": "#### 个人（含战斗）",
+      "original_first_line": "| 交互、交涉、调查与履职 | 近场交互/对话/行动界面；具体输入待定 | 人物、场景、职责、事件和可用物件 | 发起个人行动，由身份、能力、关系和事实条件校验 | 对方响应、行动进展、结果与持久后果 | 位置、时间、身份、权限和情报限制 |",
+      "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+      "target_anchor": "social-relations",
+      "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 276,
+        "end": 276
+      },
+      "original_section": "#### 个人（含战斗）",
+      "original_first_line": "| 攻击、防守、保护或撤退 | ARPG 式即时操作；具体键位与动作集待定 | 对手、目标、同伴及玩家自身 | 主动攻击或在感知到敌意后被动进入战斗接触，改变危险、目标压力和角色状态 | 动作、敌意识别、命中/受击、预警、伤势及战场状态变化 | 暴露、敌方响应、地形、身体/装备状态及组织脱节风险 |",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "combat-contact",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 277,
+        "end": 277
+      },
+      "original_section": "#### 个人（含战斗）",
+      "original_first_line": "| 以现实媒介传达意图 | 语音、书信、动作、口令、旗语、传令人员；具体识别和输入待定 | 附近人物、代理、军队和组织节点 | 创建需要理解、接受和执行的意图/命令 | 传达路径、抵达、理解、接受/拒绝、执行和回报 | 语言、距离、视线、信使、时间、权限和通信覆盖 |",
+      "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+      "target_anchor": "media-interface",
+      "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#media-interface",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "command-lifecycle",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 278,
+        "end": 279
+      },
+      "original_section": "#### 个人（含战斗）",
+      "original_first_line": "| 休整、恢复或处理伤势 | 个人行动/场景交互；具体输入待定 | 玩家身体、坐骑和随身资源 | 消耗世界时间与资源以恢复或改变身体状态 | 疲劳/伤势、时间消耗和风险变化 | 安全地点、资源、照护条件及周边世界持续运行 |",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "survival-body",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#survival-body",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md",
+          "target_anchor": "medical-flow",
+          "target": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md#medical-flow"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 280,
+        "end": 296
+      },
+      "original_section": "### 2.4 玩法选择与策略",
+      "original_first_line": "### 2.4 玩法选择与策略",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "meaningful-decisions",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#meaningful-decisions",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 297,
+        "end": 306
+      },
+      "original_section": "### 2.5 教学与难度",
+      "original_first_line": "### 2.5 教学与难度",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "teaching-accessibility",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#teaching-accessibility",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 307,
+        "end": 310
+      },
+      "original_section": "## 3. 系统详细设计",
+      "original_first_line": "## 3. 系统详细设计",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+          "target_anchor": "cross-module-dependencies",
+          "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#cross-module-dependencies"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 311,
+        "end": 314
+      },
+      "original_section": "### 3.1 经营统治模式系统",
+      "original_first_line": "### 3.1 经营统治模式系统",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 315,
+        "end": 315
+      },
+      "original_section": "### 3.1 经营统治模式系统",
+      "original_first_line": "| 辖域治理与政策 | 设定辖域目标、政策、预算、检查条件 | 按辖域权力、责任人、资源和时间周期执行 | 显示政策状态、执行差异、承认与后果；具体政策颗粒度待定 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 316,
+        "end": 316
+      },
+      "original_section": "### 3.1 经营统治模式系统",
+      "original_first_line": "| 生产、库存与资源网络 | 调整生产、储存、运输、市场、税赋和军需安排 | 生产、运输、库存、成交和消费按各自周期持续结算 | 显示资源源头、路径、损耗、库存和时效；玩家不获知未观测库存 |",
+      "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+      "target_anchor": "resource-network",
+      "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#resource-network",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+          "target_anchor": "production",
+          "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#production"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+          "target_anchor": "market-actions",
+          "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#market-actions"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 317,
+        "end": 317
+      },
+      "original_section": "### 3.1 经营统治模式系统",
+      "original_first_line": "| 组织、任命与授权 | 任命责任人，设定权限、职责、预算与汇报条件 | 代理人按权限、能力、关系和自身意图持续执行或拒绝 | 显示授权范围、执行状态、原因、部分成果和汇报；委派不保证成功 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "permission-sources",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#permission-sources"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 318,
+        "end": 318
+      },
+      "original_section": "### 3.1 经营统治模式系统",
+      "original_first_line": "| 人物关系、政治与承认 | 交涉、谈判、制衡、分权和处理异常 | 互动与政治事实跨时间累积，影响合作、权力和后续授权 | 反馈关系变化来源、承认状态和长期代价；详细规则待定 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 319,
+        "end": 320
+      },
+      "original_section": "### 3.1 经营统治模式系统",
+      "original_first_line": "| 治理核查与介入 | 查阅合法可知情报、对异常直接介入或调整安排 | 已授权事务继续推进，玩家的核查不暂停其他系统 | 对照计划和实际事实，保留调查与汇报的时效差 |",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 321,
+        "end": 333
+      },
+      "original_section": "#### 3.1.1 治理、经济与资源网络",
+      "original_first_line": "#### 3.1.1 治理、经济与资源网络",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+          "target_anchor": "resource-network",
+          "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#resource-network"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+          "target_anchor": "market-actions",
+          "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#market-actions"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 334,
+        "end": 343
+      },
+      "original_section": "#### 3.1.2 组织、政治与委派",
+      "original_first_line": "#### 3.1.2 组织、政治与委派",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "permission-sources",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#permission-sources"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 344,
+        "end": 349
+      },
+      "original_section": "### 3.2 策略指挥战争模式系统",
+      "original_first_line": "### 3.2 策略指挥战争模式系统",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 350,
+        "end": 350
+      },
+      "original_section": "### 3.2 策略指挥战争模式系统",
+      "original_first_line": "| 战争目标与态势 | 战争层 | 选择目标、投入方向、盟友/敌对关系和升级或谈判方向 | 战区变化、目标进展、持续代价、资源消耗和政治承认；状态机待定 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "war-results",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 351,
+        "end": 351
+      },
+      "original_section": "### 3.2 策略指挥战争模式系统",
+      "original_first_line": "| 战役规划与行动 | 战役层 | 配置阶段目标、路线、参战组织、行动时机、预案与授权 | 调动、战斗、补给、损失和目标结果回写战争层；地图/时长尺度待定 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 352,
+        "end": 352
+      },
+      "original_section": "### 3.2 策略指挥战争模式系统",
+      "original_first_line": "| 命令链与传令 | 战役层为主，跨层接收授权 | 选择合法对象、目标和命令；命令经组织中继与指挥关系传递 | 状态可追踪至接受、拒绝、过期、执行和完成；详细规则见 3.2.1 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-lifecycle",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 353,
+        "end": 353
+      },
+      "original_section": "### 3.2 策略指挥战争模式系统",
+      "original_first_line": "| 军队自治与预案 | 战役层 | 设定职责、目标优先级、撤退条件、护卫对象和授权范围 | 玩家不在场或失联时队伍持续行动并给出触发原因；详细规则见 3.2.2 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "autonomy",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#autonomy",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+          "target_anchor": "trained-plans",
+          "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#trained-plans"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 354,
+        "end": 354
+      },
+      "original_section": "### 3.2 策略指挥战争模式系统",
+      "original_first_line": "| 补给与战场状态 | 战争层/战役层 | 关注供应、训练、阵型、士气和关键目标，决定是否调度/介入 | 资源与组织事实持续影响战力；阵型、士气及目标规则见 3.2.3、3.2.4 |",
+      "target_path": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md",
+      "target_anchor": "supply-flow",
+      "target": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md#supply-flow",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+          "target_anchor": "battlefield-state",
+          "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+          "target_anchor": "objectives",
+          "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#objectives"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 355,
+        "end": 356
+      },
+      "original_section": "### 3.2 策略指挥战争模式系统",
+      "original_first_line": "| 战争收束与后果 | 战争层 | 调整目标、谈判、撤退或承认结果 | 依据已经承认的战役和政治事实更新战争状态，不因界面切换而提前结算 |",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "war-results",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#war-results",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 357,
+        "end": 364
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "#### 3.2.1 命令链与传令",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-lifecycle",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 365,
+        "end": 365
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| 状态变化 | 草拟、已发出、传递中、已抵达、已接受、执行中、完成、拒绝、过期、取消 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-states",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-states",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 366,
+        "end": 367
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| 消耗与收益 | 消耗时间、通信机会、组织信用和可能的资源；收益是协调队伍、改变目标压力和形成可追溯组织事实 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-lifecycle",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 368,
+        "end": 368
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| 异常情况 | 无权限、目标不可达、通信中断、revision 冲突、意图过期；不得提前显示为已完成 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-exceptions",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-exceptions",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 369,
+        "end": 371
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| 相关系统 | 直属部曲、权限、预案、阵型/士气、继任、Bridge 和本地战术脑 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-lifecycle",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 372,
+        "end": 373
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| 情况 | 初始条件 | 玩家操作 | 规则判定 | 结果与反馈 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-exceptions",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-exceptions",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 374,
+        "end": 374
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| 正常传令 | 玩家拥有权限且组织中继节点可达 | 发送命令 | 依组织层级和有效期转发 | 显示每一传递节点和最终队伍状态 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-lifecycle",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 375,
+        "end": 375
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| 无权限 | 玩家不拥有队伍或目标权限 | 发送命令 | 拒绝入队列 | 明确显示权限来源缺失，不改变战场事实 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-exceptions",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-exceptions",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 376,
+        "end": 376
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| 命令过期 | 请求超过有效期或目标已变化 | 发送/继续等待 | 标记过期；队伍回到预案或执行替代策略 | 显示过期原因、时间和后续自治行为 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-exceptions",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-exceptions",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 377,
+        "end": 378
+      },
+      "original_section": "#### 3.2.1 命令链与传令",
+      "original_first_line": "| Bridge 中断 | 远端意图不可用 | 继续战斗 | UE 本地战术脑/预案接管 | 核心玩法继续；记录接管与回退原因 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-exceptions",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-exceptions",
+      "disposition": "conditional offline continuation; only effective local authority and intent/execution permits allow continued resolution",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+          "target_anchor": "disconnect-recovery",
+          "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#disconnect-recovery"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d11",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d11"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 379,
+        "end": 393
+      },
+      "original_section": "#### 3.2.2 军队自治与预案",
+      "original_first_line": "#### 3.2.2 军队自治与预案",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "autonomy",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#autonomy",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+          "target_anchor": "trained-plans",
+          "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#trained-plans"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 394,
+        "end": 401
+      },
+      "original_section": "#### 3.2.3 阵型、士气与战场状态",
+      "original_first_line": "#### 3.2.3 阵型、士气与战场状态",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "battlefield-state",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 402,
+        "end": 402
+      },
+      "original_section": "#### 3.2.3 阵型、士气与战场状态",
+      "original_first_line": "| 状态变化 | 阵型保持、压缩、松散、重组、溃散；士气稳定、受压、动摇、崩溃、恢复；具体阈值  |",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "battlefield-state",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state",
+      "disposition": "formation and morale vocabularies kept distinct; source threshold blank remains pending",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+          "target_anchor": "morale-candidates",
+          "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#morale-candidates"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q14",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q14"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 403,
+        "end": 403
+      },
+      "original_section": "#### 3.2.3 阵型、士气与战场状态",
+      "original_first_line": "| 消耗与收益 | 位置、时间、人员、补给和组织信用；良好状态提高执行和目标争夺能力 |",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "battlefield-state",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 404,
+        "end": 404
+      },
+      "original_section": "#### 3.2.3 阵型、士气与战场状态",
+      "original_first_line": "| 结果反馈 | 形状/图标/文字/颜色组合、队伍动作、旗帜状态、声音和因果摘要 |",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "battlefield-feedback",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-feedback",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 405,
+        "end": 405
+      },
+      "original_section": "#### 3.2.3 阵型、士气与战场状态",
+      "original_first_line": "| 异常情况 | 多个事实同时到达、未知信息、状态冲突；按事件时间和 revision 处理并记录 |",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "battlefield-state",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 406,
+        "end": 408
+      },
+      "original_section": "#### 3.2.3 阵型、士气与战场状态",
+      "original_first_line": "| 相关系统 | 命令链、骑战、关键目标、补给、组织和战报 |",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "battlefield-state",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 409,
+        "end": 423
+      },
+      "original_section": "#### 3.2.4 关键目标与战场识别",
+      "original_first_line": "#### 3.2.4 关键目标与战场识别",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "objectives",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#objectives",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 424,
+        "end": 429
+      },
+      "original_section": "### 3.3 个人模式系统",
+      "original_first_line": "### 3.3 个人模式系统",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+          "target_anchor": "combat-contact",
+          "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 430,
+        "end": 430
+      },
+      "original_section": "### 3.3 个人模式系统",
+      "original_first_line": "| 角色创建与身份 | 可支持自建角色；创建内容、初始背景和身份绑定规则待定 | 身份、组织关系、权限与世界事实绑定，不由创建界面绕过规则 | 角色来源、能力、关系和可用权力清楚呈现 |",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "growth",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#growth",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q17",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q17"
+        },
+        {
+          "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+          "target_anchor": "derived-identity",
+          "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#derived-identity"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 431,
+        "end": 431
+      },
+      "original_section": "### 3.3 个人模式系统",
+      "original_first_line": "| 个人移动与具身行动 | 移动、骑乘、观察、交互、交涉、调查、履职、休整、社交和亲密关系 | 位置、时间、身体、关系及通信可达性持续更新 | 即时输入响应与后续世界结果分开反馈；受地形、身份、身体和事实条件约束 |",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "survival-body",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#survival-body"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 432,
+        "end": 432
+      },
+      "original_section": "### 3.3 个人模式系统",
+      "original_first_line": "| 敌意感知与战斗激活 | 玩家主动攻击/接近风险，或感知到敌意、伏击、追捕、攻击等威胁 | 将个人交互即时升级为战斗接触；其他世界系统继续运行 | 敌意识别、危险预警、战斗开始原因和可撤退/求援路径；具体感知阈值待定 |",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "combat-contact",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 433,
+        "end": 433
+      },
+      "original_section": "### 3.3 个人模式系统",
+      "original_first_line": "| ARPG 式即时战斗 | 即时移动、选敌、攻击、防守、保护和撤退等操作；完整动作集待定 | 战斗接触即时结算，伤势、坐骑、组织和战役后果持续保留 | 动作反馈、命中/受击、危险预警、目标/士气/阵型变化；玩家影响局部，不独占部队胜负 |",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "combat-contact",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 434,
+        "end": 434
+      },
+      "original_section": "### 3.3 个人模式系统",
+      "original_first_line": "| 角色身体与成长 | 处理伤势、疲劳、能力、关系、装备和长期经验 | 行动、训练、休整和伤害依时间持续改变状态 | 状态变化有来源与后果；成长维度和数值待定 |",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "growth",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#growth",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "survival-body",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#survival-body"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 435,
+        "end": 436
+      },
+      "original_section": "### 3.3 个人模式系统",
+      "original_first_line": "| 个人信息与关系 | 观察现场、对话、语音/书信、获得传闻、处理人际关系 | 信息按真实来源和传播路径进入角色认知，关系持续变化 | 区分亲见、传闻、推断和未知，不显示全局真相；个人关系可影响工作层激活和执行 |",
+      "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+      "target_anchor": "information-knowledge",
+      "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#information-knowledge",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 437,
+        "end": 438
+      },
+      "original_section": "### 3.3 个人模式系统",
+      "original_first_line": "个人战斗与战役层共用战场事实；角色接触、阵型、士气与目标变化依同一规则承接。以下保留骑乘接触的已知细则，其他个人行动的具体参数继续留空。",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "combat-contact",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 439,
+        "end": 459
+      },
+      "original_section": "#### 3.3.1 骑将移动与战场接触",
+      "original_first_line": "#### 3.3.1 骑将移动与战场接触",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+          "target_anchor": "encounter-actions",
+          "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#encounter-actions"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+          "target_anchor": "combat-contact",
+          "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 460,
+        "end": 471
+      },
+      "original_section": "#### 3.3.2 日常行动、交互与角色持续状态",
+      "original_first_line": "#### 3.3.2 日常行动、交互与角色持续状态",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "survival-body",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#survival-body",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "body-social-consequences",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#body-social-consequences"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 472,
+        "end": 477
+      },
+      "original_section": "#### 3.3.3 自建角色与角色来源",
+      "original_first_line": "#### 3.3.3 自建角色与角色来源",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "growth",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#growth",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q17",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q17"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 478,
+        "end": 481
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "### 3.4 实时持续世界与模式激活系统",
+      "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+      "target_anchor": "continuous-world",
+      "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#continuous-world",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 482,
+        "end": 482
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "| 世界时钟与周期 | 不采用模式间彼此隔离的回合结算；即时接触/命令、短周期市场/运输/角色决策、日级消费/补给、旬季级税粮/征募/训练/政治承认持续推进 | 当前时间、近期结算、下一周期事项和重要延误；具体显示与倍率待定 |",
+      "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+      "target_anchor": "season-and-cadence",
+      "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#season-and-cadence",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 483,
+        "end": 483
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "| 个人 ARPG 底座 | 角色始终处于真实地点并持续接收感知、敌意、交互和身体后果 | 当前地点、人物、敌意、可交互对象、身体状态和已抵达信息 |",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 484,
+        "end": 484
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "| 工作层激活 | 经营、战役、战争是可叠加的观察/组织/计划尺度；激活需要权限、位置/通信和相应媒介 | 当前工作层、激活来源（UI/会议/沙盘/书信等）、参与者、可操作范围 |",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 485,
+        "end": 485
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "| 关注层与操作权 | 切换关注不移动角色、不授予权限、不撤销已发生事实；关闭面板不取消已发出的命令 | 当前关注层标识、可操作范围、当前操作提交和持续执行状态 |",
+      "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+      "target_anchor": "layer-switching",
+      "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#layer-switching",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 486,
+        "end": 486
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "| 世界事实与领域结算 | 角色、组织、军队、市场、资源、辖域由各自授权 Owner 承认事实；操作意图不是已完成结果 | 请求、传递、承认、拒绝、部分完成和原因可区分 |",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "no-authority-bypass",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#no-authority-bypass",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+          "target_anchor": "command-feedback",
+          "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#command-feedback"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 487,
+        "end": 487
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "| 信息传播 | 玩家只获得亲自观察或由传令/情报合法抵达的信息，保留来源、时效和可信度 | 信息来源、抵达时间、可信度和过期提示 |",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "legitimate-knowledge",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#legitimate-knowledge",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 488,
+        "end": 488
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "| 后台运行与提醒 | 当前未关注的个人事务、代理、市场/运输、战役和战争继续运行；只在玩家获知范围内呈现异常、风险和决策窗口 | 事件摘要、紧急程度、来源、抵达时间及可采取行动；通知频率待定 |",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "readable-feedback",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#readable-feedback",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+          "target_anchor": "season-and-cadence",
+          "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#season-and-cadence"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q07",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q07"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 489,
+        "end": 490
+      },
+      "original_section": "### 3.4 实时持续世界与模式激活系统",
+      "original_first_line": "| 现实媒介与命令 | UI、语音、书信、动作、口令、旗语、传令、沙盘和舆图都只产生意图/信息/命令，不能绕过传达和执行 | 媒介、路径、对象、理解、接受/拒绝、执行和回报状态 |",
+      "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+      "target_anchor": "media-interface",
+      "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#media-interface",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "command-lifecycle",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-lifecycle"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 491,
+        "end": 505
+      },
+      "original_section": "#### 3.4.1 继任与离场",
+      "original_first_line": "#### 3.4.1 继任与离场",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "succession-flow",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#succession-flow",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "failure-inheritance",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#failure-inheritance"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 506,
+        "end": 520
+      },
+      "original_section": "#### 3.4.2 跨模式系统关系",
+      "original_first_line": "#### 3.4.2 跨模式系统关系",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "cross-module-dependencies",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#cross-module-dependencies",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 521,
+        "end": 522
+      },
+      "original_section": "## 4. 关卡与流程",
+      "original_first_line": "## 4. 关卡与流程",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 523,
+        "end": 526
+      },
+      "original_section": "### 4.1 三模式内容结构",
+      "original_first_line": "### 4.1 三模式内容结构",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "shared-work-layers",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 527,
+        "end": 530
+      },
+      "original_section": "#### 4.1.1 经营统治流程",
+      "original_first_line": "#### 4.1.1 经营统治流程",
+      "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+      "target_anchor": "governance",
+      "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 531,
+        "end": 532
+      },
+      "original_section": "#### 4.1.1 经营统治流程",
+      "original_first_line": "此流程是一个持续管理循环，不是每次打开治理界面才开始或提交的独立回合。完整治理界面、政策颗粒度、检查/汇报节奏和代理失败处理：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q07",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q07",
+      "disposition": "pending governance UI, policy granularity, check/report cadence and agent failure handling",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q18",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q18"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q20",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q20"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 533,
+        "end": 536
+      },
+      "original_section": "#### 4.1.2 战争与战役流程",
+      "original_first_line": "#### 4.1.2 战争与战役流程",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "campaign-flow",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#campaign-flow",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 537,
+        "end": 538
+      },
+      "original_section": "#### 4.1.2 战争与战役流程",
+      "original_first_line": "战争、战役和局部战斗在世界时钟中保持联系；玩家关注战场时，其他战区、后勤与战争态势继续运行。战争层与战役层如何映射地图、时间倍率、命令排程和目标收束：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q07",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q07",
+      "disposition": "pending war/campaign map, multiplier, schedule and objective-closure mappings",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q04",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q23",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q23"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 539,
+        "end": 542
+      },
+      "original_section": "#### 4.1.3 个人行动与战斗流程",
+      "original_first_line": "#### 4.1.3 个人行动与战斗流程",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+          "target_anchor": "combat-contact",
+          "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#combat-contact"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 543,
+        "end": 544
+      },
+      "original_section": "#### 4.1.3 个人行动与战斗流程",
+      "original_first_line": "玩家在治理、战争或战役关注层时，个人角色仍处于世界中的实际位置并持续受时间、伤势、关系和世界事件影响。个人行动如何发起战斗、战斗如何承接战役命令、玩家失能/撤退/死亡后的控制与继任：",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "succession-flow",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#succession-flow",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "failure-inheritance",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#failure-inheritance"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q18",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q18"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 545,
+        "end": 548
+      },
+      "original_section": "#### 4.1.4 模式间承接",
+      "original_first_line": "#### 4.1.4 模式间承接",
+      "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+      "target_anchor": "layer-switching",
+      "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#layer-switching",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+          "target_anchor": "legitimate-knowledge",
+          "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#legitimate-knowledge"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+          "target_anchor": "shared-work-layers",
+          "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#shared-work-layers"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 549,
+        "end": 550
+      },
+      "original_section": "#### 4.1.4 模式间承接",
+      "original_first_line": "操作确认、执行状态、结果回执和信息抵达应分层呈现，使玩家知道世界在持续运行，但无需同时微操所有系统。暂停/慢速、关注层切换成本、事件摘要频率、远程操作和战斗退出后的控制权规则：",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "command-feedback",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#command-feedback",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q18",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q18"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q21",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q21"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q23",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q23"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 551,
+        "end": 554
+      },
+      "original_section": "### 4.2 内容与任务结构",
+      "original_first_line": "### 4.2 内容与任务结构",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q06",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q06",
+      "disposition": "pending main chapters, side tasks, dynamic events, campaign types, faction content and unlock order",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+          "target_anchor": "mission-template",
+          "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#mission-template"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 555,
+        "end": 558
+      },
+      "original_section": "### 4.3 战役 / 任务设计规范",
+      "original_first_line": "### 4.3 战役 / 任务设计规范",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "mission-template",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#mission-template",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/templates/PRD/内容与剧本模板.md",
+          "target_anchor": "source-template-174",
+          "target": "docs/templates/PRD/内容与剧本模板.md#source-template-174"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 559,
+        "end": 562
+      },
+      "original_section": "### 4.4 节奏与内容分布",
+      "original_first_line": "### 4.4 节奏与内容分布",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q07",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q07",
+      "disposition": "pending long-term pacing, stage changes and return-to-action triggers",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "growth",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#growth"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q03",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q03"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 563,
+        "end": 564
+      },
+      "original_section": "## 5. 角色、敌人与道具(暂时只设计到demo级)",
+      "original_first_line": "## 5. 角色、敌人与道具(暂时只设计到demo级)",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 565,
+        "end": 568
+      },
+      "original_section": "### 5.1 角色设计",
+      "original_first_line": "### 5.1 角色设计",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 569,
+        "end": 569
+      },
+      "original_section": "### 5.1 角色设计",
+      "original_first_line": "| 玩家骑将 | 具身玩家角色；局部战场行动和组织命令来源 |  | 玩家控制 | 骑乘、观察、发令、冲锋、选择风险 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 570,
+        "end": 570
+      },
+      "original_section": "### 5.1 角色设计",
+      "original_first_line": "| 直属护卫 / 传令人员 | 玩家直属护卫或授权的命令中继 |  | 直属部曲/传令关系 | 传递命令、保护玩家、反馈通信状态 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 571,
+        "end": 571
+      },
+      "original_section": "### 5.1 角色设计",
+      "original_first_line": "| 指挥官 / 指挥节点 | 组织命令承接和分发节点 |  | 组织授权关系 | 校验、转发和协调下属单位；失能时触发继任 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 572,
+        "end": 572
+      },
+      "original_section": "### 5.1 角色设计",
+      "original_first_line": "| 军队 / 部属组织 | 执行命令或预案的自治单位 |  | 部属组织 | 按职责、语义命令和预案执行任务，影响阵型/士气/目标 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 573,
+        "end": 573
+      },
+      "original_section": "### 5.1 角色设计",
+      "original_first_line": "| 敌方指挥头目 | 敌军协调与关键目标之一 |  | 对手 | 影响敌方队伍、军旗和目标压力 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+          "target_anchor": "objectives",
+          "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#objectives"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 574,
+        "end": 574
+      },
+      "original_section": "### 5.1 角色设计",
+      "original_first_line": "| 继任候选 | 指挥失能后的可接管角色 |  | 组织承接关系 | 接管权限和预案；具体候选身份  |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "candidate identity blank remains undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+          "target_anchor": "succession-flow",
+          "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#succession-flow"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q05",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q05"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 575,
+        "end": 576
+      },
+      "original_section": "### 5.1 角色设计",
+      "original_first_line": "| 长线角色与代理 | 完整游戏中的组织、政治和资源行动者 |  | 关系、授权、记忆和利益 | 通过意图、预案和领域结算承接玩家委派 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "military-organization",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#military-organization",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+          "target_anchor": "governance",
+          "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md#governance"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/社交、关系与情报.md",
+          "target_anchor": "social-relations",
+          "target": "docs/PRD/02-玩法模块/社交、关系与情报.md#social-relations"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 577,
+        "end": 586
+      },
+      "original_section": "### 5.2 敌人 / 对手设计",
+      "original_first_line": "### 5.2 敌人 / 对手设计",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "enemy-roles",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#enemy-roles",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 587,
+        "end": 590
+      },
+      "original_section": "### 5.3 道具与装备",
+      "original_first_line": "### 5.3 道具与装备",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "equipment",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#equipment",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 591,
+        "end": 591
+      },
+      "original_section": "### 5.3 道具与装备",
+      "original_first_line": "| 骑将武器 | 近战/骑战装备 |  | 改变个人接触方式和风险 | 角色能力、装备状态  | 个人冲击可改变局部，但不能替代组织 |",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "equipment",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#equipment",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 592,
+        "end": 592
+      },
+      "original_section": "### 5.3 道具与装备",
+      "original_first_line": "| 军旗 | 组织/目标道具 | 场景配置或组织持有 | 提供归属、士气和目标状态反馈 | 可被夺取、失守或破坏 | 让目标变化可见且与队伍状态关联 |",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "objectives",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#objectives",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 593,
+        "end": 593
+      },
+      "original_section": "### 5.3 道具与装备",
+      "original_first_line": "| 传令凭据 | 命令链道具 | 组织授权 | 证明命令来源或提高可达性 | 具体规则  | 复杂度和呈现方式待确认 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "authentication",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#authentication",
+      "disposition": "command credential acquisition and purpose preserved; detailed rule remains undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q08",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q08"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 594,
+        "end": 595
+      },
+      "original_section": "### 5.3 道具与装备",
+      "original_first_line": "| 补给与资源 | 长线资源 | 生产、运输、市场或库存 | 影响军队持续作战、身体和组织 | 经济战规则与战役系统共同设计 | 保留资源 Owner 与战场接口，避免隐藏全局惩罚 |",
+      "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+      "target_anchor": "resource-network",
+      "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#resource-network",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md",
+          "target_anchor": "supply-flow",
+          "target": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md#supply-flow"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 596,
+        "end": 597
+      },
+      "original_section": "## 6. 剧情与世界观",
+      "original_first_line": "## 6. 剧情与世界观",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 598,
+        "end": 601
+      },
+      "original_section": "### 6.1 世界设定",
+      "original_first_line": "### 6.1 世界设定",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+          "target_anchor": "season-and-cadence",
+          "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md#season-and-cadence"
+        },
+        {
+          "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+          "target_anchor": "legitimate-knowledge",
+          "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#legitimate-knowledge"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 602,
+        "end": 605
+      },
+      "original_section": "### 6.2 故事梗概",
+      "original_first_line": "### 6.2 故事梗概",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "limited starting agent role retained; main plot, names, historical pressure points and endings stay undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q05",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q05"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q06",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q06"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q04",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04"
+        }
+      ],
+      "preserved_original_path": "docs/_backups/PRD_20261030_111755/original_PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 606,
+        "end": 607
+      },
+      "original_section": "### 6.3 叙事呈现",
+      "original_first_line": "### 6.3 叙事呈现",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 608,
+        "end": 608
+      },
+      "original_section": "### 6.3 叙事呈现",
+      "original_first_line": "- 叙事视角：以玩家具身视角和可获得情报为主；完整游戏的多视角范围  。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "embodied and legitimately known narrative perspective; full multiview scope remains undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q11",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q11"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 609,
+        "end": 609
+      },
+      "original_section": "### 6.3 叙事呈现",
+      "original_first_line": "- 呈现方式：战场行动、命令/战报、角色对话、环境信息、关系和事实摘要；具体过场安排  。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "action, reports, dialogue, environment, relation/fact summaries retained; cutscene arrangement undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q11",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q11"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 610,
+        "end": 610
+      },
+      "original_section": "### 6.3 叙事呈现",
+      "original_first_line": "- 玩家选择是否影响故事：会影响组织关系、授权、资源、继任、控制和历史分岔；具体主线节点  。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q06",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q06"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 611,
+        "end": 612
+      },
+      "original_section": "### 6.3 叙事呈现",
+      "original_first_line": "- 剧情与玩法的关系：剧情结果不能脱离玩法事实；命令、资源、战斗、角色承接和领域 Owner 结算形成可复盘的故事。",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "audience-narrative",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#audience-narrative",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+          "target_anchor": "no-authority-bypass",
+          "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#no-authority-bypass"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 613,
+        "end": 616
+      },
+      "original_section": "### 6.4 对话 / 文本规范",
+      "original_first_line": "### 6.4 对话 / 文本规范",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "readable-feedback",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#readable-feedback",
+      "disposition": "stable terms, source/time/confidence and reason-specific refusal retained; voice/length/translation/subtitle/review fields undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q11",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q11"
+        },
+        {
+          "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+          "target_anchor": "teaching-accessibility",
+          "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#teaching-accessibility"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 617,
+        "end": 618
+      },
+      "original_section": "## 7. 数值设计框架",
+      "original_first_line": "## 7. 数值设计框架",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "damage-chain",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#damage-chain",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+          "target_anchor": "battlefield-state",
+          "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state"
+        },
+        {
+          "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+          "target_anchor": "numeric-settlement",
+          "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#numeric-settlement"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 619,
+        "end": 622
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "### 7.1 核心属性与资源",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 623,
+        "end": 623
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "| 玩家位置/速度 |  | WASD、地形、骑乘状态 | 移动时间、地形和碰撞 | 决定接触、观察和命令可达性 |",
+      "target_path": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md",
+      "target_anchor": "embodied-movement",
+      "target": "docs/PRD/02-玩法模块/具身操作、骑乘与视角.md#embodied-movement",
+      "disposition": "initial numeric range blank remains undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q14",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q14"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 624,
+        "end": 624
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "| 玩家生命/失能状态 |  | 角色与战斗事实 | 受击、恢复、救治  | 决定能否继续亲战和是否触发继任 |",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "survival-body",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#survival-body",
+      "disposition": "initial numeric range and treatment details remain undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+          "target_anchor": "failure-inheritance",
+          "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#failure-inheritance"
+        },
+        {
+          "target_path": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md",
+          "target_anchor": "medical-flow",
+          "target": "docs/PRD/03-跨模块流程/补给、消耗与伤病救治.md#medical-flow"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 625,
+        "end": 625
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "| 命令状态 | 草拟、传递中、抵达、接受、执行、拒绝、过期 | 玩家发令、组织中继 | 时间、权限、通信和目标变化 | 让组织行动可追踪 |",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-states",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-states",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 626,
+        "end": 626
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "| 队伍阵型 |  | 队伍训练、命令、接触和地形 | 接触、重组、损失、撤退 | 影响接敌效率、可读性和自治行为 |",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "battlefield-state",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state",
+      "disposition": "initial formation numeric range remains undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q14",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q14"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 627,
+        "end": 627
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "| 队伍士气 |  | 训练、补给、命令、目标、损失和关系 | 战斗压力、失旗、胜负、恢复 | 影响执行、坚持、撤退和重规划 |",
+      "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+      "target_anchor": "battlefield-state",
+      "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state",
+      "disposition": "initial morale numeric range remains undecided; candidates are not Demo acceptance thresholds",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+          "target_anchor": "morale-candidates",
+          "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#morale-candidates"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q14",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q14"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 628,
+        "end": 628
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "| 训练度 |  | 训练和组织投入 | 时间、资源、战损  | 影响预案执行稳定性 |",
+      "target_path": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+      "target_anchor": "trained-plans",
+      "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md#trained-plans",
+      "disposition": "initial training range and detailed attrition parameters remain undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q08",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q08"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q14",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q14"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 629,
+        "end": 629
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "| 组织权限/授权 |  | 身份、任命、承认、关系和事实控制 | 抗命、失势、继任、政治变化 | 决定可命令对象和资源范围 |",
+      "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+      "target_anchor": "permission-sources",
+      "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#permission-sources",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 630,
+        "end": 631
+      },
+      "original_section": "### 7.1 核心属性与资源",
+      "original_first_line": "| 补给/库存/现金 |  | 生产、运输、市场、掠夺或控制 | 消费、调运、战损和政策 | 长线影响军队、身体、劳力和组织 |",
+      "target_path": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+      "target_anchor": "resource-network",
+      "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md#resource-network",
+      "disposition": "initial supply/inventory/cash ranges remain undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q09",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q09"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q14",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q14"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 632,
+        "end": 641
+      },
+      "original_section": "### 7.2 数值规则",
+      "original_first_line": "### 7.2 数值规则",
+      "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+      "target_anchor": "damage-chain",
+      "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#damage-chain",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+          "target_anchor": "numeric-settlement",
+          "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#numeric-settlement"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 642,
+        "end": 643
+      },
+      "original_section": "### 7.2 数值规则",
+      "original_first_line": "数值范围、上下限、随机因素、确定性种子和失败保护  。不允许通过一个隐藏的“混乱值”替代可解释的因果链。",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q14",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q14",
+      "disposition": "ranges, clamps, randomness, deterministic seed and failure protection remain undecided; hidden chaos scalar prohibited",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md",
+          "target_anchor": "damage-chain",
+          "target": "docs/PRD/02-玩法模块/战斗、装备与伤害反馈.md#damage-chain"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+          "target_anchor": "battlefield-state",
+          "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-state"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 644,
+        "end": 651
+      },
+      "original_section": "### 7.3 成长与奖励",
+      "original_first_line": "### 7.3 成长与奖励",
+      "target_path": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+      "target_anchor": "growth",
+      "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md#growth",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 652,
+        "end": 658
+      },
+      "original_section": "### 7.4 平衡验证",
+      "original_first_line": "### 7.4 平衡验证",
+      "target_path": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md",
+      "target_anchor": "command-validation",
+      "target": "docs/PRD/03-跨模块流程/命令传递、执行与指挥权轮替.md#command-validation",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+          "target_anchor": "experience-validation",
+          "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#experience-validation"
+        },
+        {
+          "target_path": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+          "target_anchor": "battlefield-feedback",
+          "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md#battlefield-feedback"
+        },
+        {
+          "target_path": "docs/validation/验证与证据规范.md",
+          "target_anchor": "source-demo-evidence-discipline",
+          "target": "docs/validation/验证与证据规范.md#source-demo-evidence-discipline"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 659,
+        "end": 660
+      },
+      "original_section": "## 8. 美术需求清单、动画与音频",
+      "original_first_line": "## 8. 美术需求清单、动画与音频",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-presentation",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-presentation",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 661,
+        "end": 667
+      },
+      "original_section": "### 8.1 整体风格",
+      "original_first_line": "### 8.1 整体风格",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-style",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-style",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 668,
+        "end": 676
+      },
+      "original_section": "### 8.2 美术需求清单",
+      "original_first_line": "### 8.2 美术需求清单",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-categories",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-categories",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 677,
+        "end": 678
+      },
+      "original_section": "### 8.2 美术需求清单",
+      "original_first_line": "外部资源按 `docs/art_resources/` 登记来源、许可证、预算、目标 Actor、导入状态、PIE 可见验证和替换记录；未经验证的资源不覆盖正式资产。",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-governance",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 679,
+        "end": 689
+      },
+      "original_section": "### 8.3 动画与特效",
+      "original_first_line": "### 8.3 动画与特效",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "gameplay-animation-feedback",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#gameplay-animation-feedback",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 690,
+        "end": 697
+      },
+      "original_section": "### 8.4 音频需求",
+      "original_first_line": "### 8.4 音频需求",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "gameplay-audio-requirements",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#gameplay-audio-requirements",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 698,
+        "end": 699
+      },
+      "original_section": "## 9. 用户界面与操作",
+      "original_first_line": "## 9. 用户界面与操作",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "interface-catalog",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#interface-catalog",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 700,
+        "end": 716
+      },
+      "original_section": "### 9.1 界面清单",
+      "original_first_line": "### 9.1 界面清单",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "interface-catalog",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#interface-catalog",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 717,
+        "end": 730
+      },
+      "original_section": "### 9.2 操作方案",
+      "original_first_line": "### 9.2 操作方案",
+      "target_path": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+      "target_anchor": "operation-matrix",
+      "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md#operation-matrix",
+      "disposition": "all nine rows and unresolved controller/touch/remapping columns preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 731,
+        "end": 736
+      },
+      "original_section": "### 9.3 提示与无障碍",
+      "original_first_line": "### 9.3 提示与无障碍",
+      "target_path": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+      "target_anchor": "teaching-accessibility",
+      "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md#teaching-accessibility",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 737,
+        "end": 738
+      },
+      "original_section": "## 10. 体验验证与核心指标定义",
+      "original_first_line": "## 10. 体验验证与核心指标定义",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "experience-validation",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#experience-validation",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 739,
+        "end": 752
+      },
+      "original_section": "### 10.1 核心指标定义",
+      "original_first_line": "### 10.1 核心指标定义",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "experience-validation",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#experience-validation",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 753,
+        "end": 760
+      },
+      "original_section": "### 10.2 测试记录",
+      "original_first_line": "### 10.2 测试记录",
+      "target_path": "docs/templates/PRD/验证记录模板.md",
+      "target_anchor": "source-template-333",
+      "target": "docs/templates/PRD/验证记录模板.md#source-template-333",
+      "disposition": "blank test row preserved as a reusable record template; no observed runtime evidence fabricated",
+      "additional_targets": [
+        {
+          "target_path": "docs/validation/验证与证据规范.md",
+          "target_anchor": "source-demo-evidence-discipline",
+          "target": "docs/validation/验证与证据规范.md#source-demo-evidence-discipline"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 761,
+        "end": 764
+      },
+      "original_section": "## 11. MVP 与垂直切片",
+      "original_first_line": "## 11. MVP 与垂直切片",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "d02",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d02",
+      "disposition": "historical mounted sub-test scope superseded; sole current county defense Demo and pending full-game MVP kept separate",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/05-阶段与可玩切片/县城守城Demo/体验目标与范围.md",
+          "target_anchor": "source-demo-goals",
+          "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/体验目标与范围.md#source-demo-goals"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q03",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q03"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q04",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04"
+        }
+      ],
+      "preserved_original_path": "docs/_backups/PRD_20261030_111755/original_PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 765,
+        "end": 766
+      },
+      "original_section": "## 12. 技术架构建议",
+      "original_first_line": "## 12. 技术架构建议",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "system-boundaries",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#system-boundaries",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 767,
+        "end": 770
+      },
+      "original_section": "### 12.1 技术选型",
+      "original_first_line": "### 12.1 技术选型",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "system-boundaries",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#system-boundaries",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 771,
+        "end": 771
+      },
+      "original_section": "### 12.1 技术选型",
+      "original_first_line": "| 引擎 / 框架 | Unreal Engine 5.8 | 满足 PC 近场骑乘、碰撞、战场表现和 PIE 验证 | UE/Interchange 状态和性能需以本机证据为准 |",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "ue-paralls",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#ue-paralls",
+      "disposition": "engine requirement retained; UE/Interchange status and performance are evidence-dependent",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/06-存档与可观测性/02-可观测性与验收证据.md",
+          "target_anchor": "performance-evidence",
+          "target": "docs/architecture/06-存档与可观测性/02-可观测性与验收证据.md#performance-evidence"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 772,
+        "end": 772
+      },
+      "original_section": "### 12.1 技术选型",
+      "original_first_line": "| 数据与存档 | UE 本地状态 + 可回放的事件/命令事实；完整存档方案  | 需要保留稳定 ID、event time、因果/相关 ID、revision、幂等键、来源和回放 | 不能让 UI 或远端代理直接写世界真相 |",
+      "target_path": "docs/architecture/06-存档与可观测性/01-存档回放与故障恢复.md",
+      "target_anchor": "save-replay-recovery",
+      "target": "docs/architecture/06-存档与可观测性/01-存档回放与故障恢复.md#save-replay-recovery",
+      "disposition": "stable identifiers, event time, causal/correlation IDs, revision, idempotency, provenance and replay preserved; final save spec unresolved",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q16",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q16"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 773,
+        "end": 773
+      },
+      "original_section": "### 12.1 技术选型",
+      "original_first_line": "| 联机 / 服务 | PC 单机优先；核心循环不依赖联网；Paralls Bridge 为本地/可断开的协作边界 | Bridge 断开时仅在有效本地领域权威和意图/执行许可内继续；其余保持 pending/安全中断 | 多人和在线服务延期 |",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "disconnect-recovery",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#disconnect-recovery",
+      "disposition": "single-player/local-first and conditional offline authority retained; multiplayer postponed",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d11",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d11"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q15",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q15"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 774,
+        "end": 774
+      },
+      "original_section": "### 12.1 技术选型",
+      "original_first_line": "| 内容管线 | 灰盒优先；外部资源按 `docs/art_resources/` 登记；分阶段替换 | 控制范围和性能，保留可回退资产 | 未验证资源、批量导入和高模膨胀风险 |",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-governance",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-governance",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 775,
+        "end": 776
+      },
+      "original_section": "### 12.1 技术选型",
+      "original_first_line": "| Paralls 接合 | 复用现有 Gameplay EventStore、领域 Owner、receipt/replay、角色 L1-L4、Laya、Siming/PopulationPlanner 边界 | 不建立第二份事实或万能调度器 | 现有能力是窄实现；市场、军队自治和复合结算需增量 Owner |",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "paralls-spine",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#paralls-spine",
+      "disposition": "reused architecture is source-described design/current-baseline evidence only; narrow existing capability is not a new runtime verification",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+          "target_anchor": "system-boundaries",
+          "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#system-boundaries"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 777,
+        "end": 778
+      },
+      "original_section": "### 12.1 技术选型",
+      "original_first_line": "23 Owner 的完整宿主与节奏以[08 第 11.2 节矩阵](玩法系统/08-基础设施与Owner建设总计划.md#112-全量-owner-的-ue-协作与节奏矩阵)为准，除移动/战斗/Body/LifeState 等实时协作外，弹药/药品即时库存及城门机械/完整度也须在 D/V2 正式接入。[ESM 迁移](玩法系统/01-Paralls现有Owner与接入分析.md#9-esm-复用边界与迁移检查)复用合同与证据语义，替换 Godot 执行器并迁移旧 Body 写入口，不能成为所有 Command 的必经总线。",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "ue-cadence-matrix",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#ue-cadence-matrix",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/05-运行时接入/03-ESM复用与迁移.md",
+          "target_anchor": "esm-migration",
+          "target": "docs/architecture/05-运行时接入/03-ESM复用与迁移.md#esm-migration"
+        },
+        {
+          "target_path": "docs/production/基础设施与Owner建设总计划.md",
+          "target_anchor": "source-plan-goals-packages",
+          "target": "docs/production/基础设施与Owner建设总计划.md#source-plan-goals-packages"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 779,
+        "end": 780
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "### 12.2 技术边界",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "system-boundaries",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#system-boundaries",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 781,
+        "end": 781
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- 完整游戏需要支持：玩家输入、角色行动、骑战、命令与通信、组织自治、战场事实、阵型/士气、补给与资源、治理/政治状态、继任、可回放事件和本地自治回退。",
+      "target_path": "docs/PRD/03-跨模块流程/战役推进与战后结果.md",
+      "target_anchor": "capability-catalog",
+      "target": "docs/PRD/03-跨模块流程/战役推进与战后结果.md#capability-catalog",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+          "target_anchor": "system-boundaries",
+          "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#system-boundaries"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 782,
+        "end": 782
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- 多人、在线服务和完整 LLM 决策是否属于产品范围：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q01",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q01",
+      "disposition": "multiplayer, online service and complete LLM product inclusion remain undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q16",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q16"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 783,
+        "end": 783
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- 性能目标、目标硬件、世界规模、单位数量、加载时间和存档要求：",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q15",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q15",
+      "disposition": "hardware, performance, world/unit scale, load time and save requirements remain undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/06-存档与可观测性/02-可观测性与验收证据.md",
+          "target_anchor": "performance-evidence",
+          "target": "docs/architecture/06-存档与可观测性/02-可观测性与验收证据.md#performance-evidence"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 784,
+        "end": 785
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- 可测试性要求：权限与命令状态、过期和冲突、领域事实结算、继任、自治回退及跨系统事件需可验证并留有来源记录。",
+      "target_path": "docs/architecture/06-存档与可观测性/02-可观测性与验收证据.md",
+      "target_anchor": "acceptance-evidence",
+      "target": "docs/architecture/06-存档与可观测性/02-可观测性与验收证据.md#acceptance-evidence",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 786,
+        "end": 787
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "UE 负责具身操作、局部物理、即时反馈和获准的高频 Owner Runtime 执行；Paralls 按已定义边界参与角色意图、司命候选、群体模拟、跨域 Workflow 以及事件 receipt/replay。这里的“UE 承载 Owner Runtime”是执行位置选择，不是新增一套事实归属：每个领域仍只有一个 canonical writer，由对应领域 Owner 承担唯一最终写权，并将结果提交到同一个 canonical EventStore。",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "no-authority-bypass",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#no-authority-bypass",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+          "target_anchor": "ue-paralls",
+          "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#ue-paralls"
+        },
+        {
+          "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+          "target_anchor": "paralls-spine",
+          "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#paralls-spine"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 788,
+        "end": 789
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "领域 Owner 的执行位置和提交边界必须显式登记：",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "owner-manifest",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#owner-manifest",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 790,
+        "end": 790
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- 近场移动、碰撞、命中和身体反馈可以在 UE Runtime 中执行，以保持高频响应；",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "local-commit",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#local-commit",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 791,
+        "end": 791
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- 预测结果、动画、Gameplay Effect 和本地 Actor 字段只能作为 pending/predicted 或 presentation，不得自行成为持久事实；",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "fidelity-presentation",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#fidelity-presentation",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 792,
+        "end": 792
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- UE-local authoritative 只有在 Owner Manifest 明确授权时成立，且必须使用与 Paralls 相同的 Command、Event、Receipt、revision、幂等和回放合同；",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "host-manifest",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#host-manifest",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+          "target_anchor": "local-commit",
+          "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#local-commit"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 793,
+        "end": 793
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- 同一事实不能由 UE 和 Paralls 各自结算一次；Bridge 恢复时必须按 canonical EventStore、receipt 和 truth revision 去重、确认、回滚或修正；",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "disconnect-recovery",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#disconnect-recovery",
+      "disposition": "moved-preserved",
+      "additional_targets": [
+        {
+          "target_path": "docs/architecture/06-存档与可观测性/01-存档回放与故障恢复.md",
+          "target_anchor": "save-replay-recovery",
+          "target": "docs/architecture/06-存档与可观测性/01-存档回放与故障恢复.md#save-replay-recovery"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 794,
+        "end": 795
+      },
+      "original_section": "### 12.2 技术边界",
+      "original_first_line": "- 远端代理、UI、角色 Agent、群体模拟和章节脚本不得绕过领域 Owner 直接写入位置、伤害、库存、城池控制、生命、士气或最终战果。",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "no-authority-bypass",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#no-authority-bypass",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 796,
+        "end": 797
+      },
+      "original_section": "## 13. 开发里程碑与制作计划",
+      "original_first_line": "## 13. 开发里程碑与制作计划",
+      "target_path": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md",
+      "target_anchor": "source-gameplay-versions",
+      "target": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md#source-gameplay-versions",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 798,
+        "end": 809
+      },
+      "original_section": "### 13.1 版本范围",
+      "original_first_line": "### 13.1 版本范围",
+      "target_path": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md",
+      "target_anchor": "source-gameplay-versions",
+      "target": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md#source-gameplay-versions",
+      "disposition": "complete original five-row full-game direction table retained; not current Demo hard scope; canceled mounted-slice terminology annotated",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d02",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d02"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 810,
+        "end": 820
+      },
+      "original_section": "### 13.2 里程碑",
+      "original_first_line": "### 13.2 里程碑",
+      "target_path": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md",
+      "target_anchor": "source-gameplay-milestones",
+      "target": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md#source-gameplay-milestones",
+      "disposition": "complete original four-row milestone table retained; owner, time and acceptance columns remain empty/undecided",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "q24",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q24"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 821,
+        "end": 822
+      },
+      "original_section": "## 14. 风险评估",
+      "original_first_line": "## 14. 风险评估",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "source-gameplay-risks",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#source-gameplay-risks",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 823,
+        "end": 837
+      },
+      "original_section": "### 14.1 风险清单",
+      "original_first_line": "### 14.1 风险清单",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "source-gameplay-risks",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#source-gameplay-risks",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 838,
+        "end": 846
+      },
+      "original_section": "## 15. 验收清单",
+      "original_first_line": "## 15. 验收清单",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "provenance-status",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#provenance-status",
+      "disposition": "historical editorial checklist retained in immutable backup; checked boxes describe former document claims, not current approval or implementation",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d16",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d16"
+        },
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d19",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d19"
+        }
+      ],
+      "preserved_original_path": "docs/_backups/PRD_20261030_111755/original_PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 847,
+        "end": 862
+      },
+      "original_section": "## 16. 版本历史",
+      "original_first_line": "## 16. 版本历史",
+      "target_path": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+      "target_anchor": "provenance-status",
+      "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md#provenance-status",
+      "disposition": "complete original version history preserved in immutable backup; original v1.1 then v1.0 row order and empty author fields intentionally not corrected",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d16",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d16"
+        }
+      ]
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 863,
+        "end": 864
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "## 17. 待确认问题",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "d17",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d17",
+      "disposition": "moved-preserved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 865,
+        "end": 866
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "以下问题针对完整游戏范围；当前 Demo 已定规则见 05/08；骑战子测试尚未决定的参数见独立切片策划案待确认问题。",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "d02",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d02",
+      "disposition": "historical mounted sub-test pending-reference superseded by cancellation; open full-game questions remain active",
+      "additional_targets": [
+        {
+          "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+          "target_anchor": "d17",
+          "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#d17"
+        }
+      ],
+      "preserved_original_path": "docs/_backups/PRD_20261030_111755/original_PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 867,
+        "end": 867
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "1. 商业模式、目标平台范围和发行方式是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q01",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q01",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 868,
+        "end": 868
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "2. 实际开发团队规模、角色分工和可投入时间是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q02",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q02",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 869,
+        "end": 869
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "3. 完整游戏的单次会话长度、主线时长、内容规模和长期游玩目标是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q03",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q03",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 870,
+        "end": 870
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "4. 完整游戏的核心目标、通关条件、失败边界和结局结构是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q04",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q04",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 871,
+        "end": 871
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "5. 玩家角色的正式身份、背景、主线冲突和可选角色范围是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q05",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q05",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 872,
+        "end": 872
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "6. 主线章节、历史压力点、主要势力、角色关系和历史分岔范围是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q06",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q06",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 873,
+        "end": 873
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "7. 世界按多种事件周期持续推进已确定；各周期的具体时长/倍率、可选慢速、战役和区域地图尺度及任务结构是什么？单人完整暂停不再待定。",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q07",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q07",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 874,
+        "end": 874
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "8. 完整军制、兵种目录、军队层级规模、可编辑预案和授权规则是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q08",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q08",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 875,
+        "end": 875
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "9. 完整游戏的资源种类、供应链、市场、消耗和治理规则是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q09",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q09",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 876,
+        "end": 876
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "10. 人物关系、政治承认、继承和权力转移的最终规则是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q10",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q10",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 877,
+        "end": 877
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "11. 正式叙事视角、文本规范、年龄分级、字幕语言和配音范围是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q11",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q11",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 878,
+        "end": 878
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "12. 正式美术风格、角色/场景/动画预算、音频优先级和现有可用资产清单是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q12",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q12",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 879,
+        "end": 879
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "13. 完整键位、手柄支持、暂停键与可选慢速、难度和无障碍选项是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q13",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q13",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 880,
+        "end": 880
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "14. 阵型、士气、接触、伤害、资源和关系系统的数值范围及随机规则是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q14",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q14",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 881,
+        "end": 881
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "15. 性能目标、目标硬件、世界规模、同时单位数、存档和回放规格是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q15",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q15",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 882,
+        "end": 882
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "16. 完整存档、回放、日志导出和 Paralls Bridge 的实际接入版本/接口范围是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q16",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q16",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 883,
+        "end": 883
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "17. 自建角色与预设角色是否并存？角色创建维度、起始身份/背景、初始关系与权限，以及和既有角色、主线、继任的关系是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q17",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q17",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 884,
+        "end": 884
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "18. 三模式关注层、观察视角和事件摘要如何切换？切换是否有条件/成本，哪些有权限的操作允许远程提交？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q18",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q18",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 885,
+        "end": 885
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "19. 语音、书信、手势、口令、旗语、传令、会议、沙盘和舆图分别采用什么输入与反馈形式？哪些媒介需要道具、角色能力、识字/语言或现场条件？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q19",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q19",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 886,
+        "end": 886
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "20. 势力范围、有效通信覆盖、传令路径、延迟、失真、拒绝、过期和代理转交的计算规则是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q20",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q20",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 887,
+        "end": 887
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "21. 哪些经营、战役和战争面板可以在个人行动或战斗风险存在时并行打开？打开、阅读、推演和提交命令是否有身体/注意力/时间成本？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q21",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q21",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 888,
+        "end": 888
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "22. 敌意感知的来源、范围、预警强度和被动战斗触发条件是什么？伏击、追捕、攻击、误判和脱离接触如何处理？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q22",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q22",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 889,
+        "end": 889
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "23. 在完整时停已确定的前提下，非暂停时间倍率如何统一影响实时战斗、命令、市场/运输、角色行动和后台自治？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q23",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q23",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 890,
+        "end": 890
+      },
+      "original_section": "## 17. 待确认问题",
+      "original_first_line": "24. 各阶段负责人、时间、验收人和发布目标是什么？",
+      "target_path": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+      "target_anchor": "q24",
+      "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md#q24",
+      "disposition": "pending-question-preserved; original question text retained without invented answer"
+    }
+  ]
+}

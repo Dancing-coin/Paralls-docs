@@ -1,0 +1,3379 @@
+{
+  "status": "complete",
+  "generated_at": "2026-10-30",
+  "verification_scope": "documentation_only_no_runtime_validation",
+  "entries": [
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 87,
+        "end": 115
+      },
+      "source_heading": "5. 最终领域 Owner 名单：23 个",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "owner-registry",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#owner-registry",
+      "disposition": "consolidated",
+      "note": "最终23名单和事实边界迁入唯一注册表；批次列由production维护"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 180,
+        "end": 183
+      },
+      "source_heading": "6. 全量基础设施与 Owner 注册表",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "owner-registry",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#owner-registry",
+      "disposition": "consolidated",
+      "note": "按08最终23顺序合并第一阶段/后续覆盖与能力标准；Medical行转下方Workflow"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 184,
+        "end": 213
+      },
+      "source_heading": "6.1 Owner 注册表与五阶段覆盖",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "owner-registry",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#owner-registry",
+      "disposition": "consolidated",
+      "note": "按08最终23顺序合并第一阶段/后续覆盖与能力标准；Medical行转下方Workflow"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 117,
+        "end": 125
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "non-owner-responsibilities",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#non-owner-responsibilities",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 5,
+        "end": 17
+      },
+      "source_heading": "1. Owner 和支撑组件",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "owner-classification",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#owner-classification",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 18,
+        "end": 35
+      },
+      "source_heading": "2. Owner 的分类轴",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "owner-classification",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#owner-classification",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 95,
+        "end": 120
+      },
+      "source_heading": "4. Owner Registry 最低字段",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "owner-manifest",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#owner-manifest",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 132,
+        "end": 147
+      },
+      "source_heading": "3. 新 Owner 统一需求模板",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "seven-part-contract",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#seven-part-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 148,
+        "end": 166
+      },
+      "source_heading": "3.1 领域模型依赖合同",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "seven-part-contract",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#seven-part-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 127,
+        "end": 141
+      },
+      "source_heading": "6. 每个 Owner 都要交付的完整包",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "owner-delivery",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#owner-delivery",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 215,
+        "end": 229
+      },
+      "source_heading": "6.2 Owner 正式交付物",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "delivery-details",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#delivery-details",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 230,
+        "end": 232
+      },
+      "source_heading": "6.3 Owner 阶段启用原则",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "delivery-details",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#delivery-details",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 234,
+        "end": 249
+      },
+      "source_heading": "6.4 五阶段事实覆盖审查",
+      "target_path": "docs/architecture/03-Owner领域/01-Owner注册表.md",
+      "target_anchor": "cross-stage-coverage",
+      "target": "docs/architecture/03-Owner领域/01-Owner注册表.md#cross-stage-coverage",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 10,
+        "end": 27
+      },
+      "source_heading": "1. 结论",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "paralls-spine",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#paralls-spine",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 10,
+        "end": 33
+      },
+      "source_heading": "1. 总体结构",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "source-neutral-command",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#source-neutral-command",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 34,
+        "end": 53
+      },
+      "source_heading": "1.1 Command 不是事实",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "source-neutral-command",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#source-neutral-command",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 54,
+        "end": 66
+      },
+      "source_heading": "1.2 Command 来源",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "source-neutral-command",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#source-neutral-command",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 12,
+        "end": 29
+      },
+      "source_heading": "1. 目的与判断",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "long-world-boundary",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#long-world-boundary",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 169,
+        "end": 176
+      },
+      "source_heading": "7. 对 Guoshang 的接入原则",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "integration-principles",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#integration-principles",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 122,
+        "end": 153
+      },
+      "source_heading": "5. 架构图",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "architecture-map",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#architecture-map",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 458,
+        "end": 466
+      },
+      "source_heading": "8. 非目标",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "non-goals",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#non-goals",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 130,
+        "end": 131
+      },
+      "source_heading": "5. 基础设施总架构（五阶段正式基线）",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "demo-causal-chain",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#demo-causal-chain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 132,
+        "end": 146
+      },
+      "source_heading": "5.1 五类组件边界",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "demo-causal-chain",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#demo-causal-chain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 147,
+        "end": 168
+      },
+      "source_heading": "5.2 唯一因果链",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "demo-causal-chain",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#demo-causal-chain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 34,
+        "end": 39
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "technical-success",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#technical-success",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 68,
+        "end": 83
+      },
+      "source_heading": "4. 基础设施建设清单",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "shared-infrastructure",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#shared-infrastructure",
+      "disposition": "consolidated",
+      "note": "完整能力列迁入技术规范；交付批次列仅由production维护"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 85,
+        "end": 85
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "foundation-authority",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#foundation-authority",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 301,
+        "end": 313
+      },
+      "source_heading": "12. 分工与集成规则",
+      "target_path": "docs/production/基础设施与Owner建设总计划.md",
+      "target_anchor": "source-plan-responsibilities",
+      "target": "docs/production/基础设施与Owner建设总计划.md#source-plan-responsibilities",
+      "disposition": "consolidated",
+      "note": "保留完整技术分工及边界；人员、批次与任务排程由production维护"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 61,
+        "end": 81
+      },
+      "source_heading": "3. Paralls 当前 Owner 基线",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "paralls-baseline",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#paralls-baseline",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 148,
+        "end": 149
+      },
+      "source_heading": "6. 当前连接状态与缺口",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "connection-gaps",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#connection-gaps",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 150,
+        "end": 158
+      },
+      "source_heading": "已有或有窄证据的连接",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "connection-gaps",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#connection-gaps",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 159,
+        "end": 167
+      },
+      "source_heading": "尚不能宣称完成",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "connection-gaps",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#connection-gaps",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 178,
+        "end": 190
+      },
+      "source_heading": "8. Paralls 参考源",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "reference-sources",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#reference-sources",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 31,
+        "end": 38
+      },
+      "source_heading": "2. 四种处理方式",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "reuse-categories",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#reuse-categories",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 40,
+        "end": 66
+      },
+      "source_heading": "3. 基础能力与部分领域的兼容对照",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "compatibility-inventory",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#compatibility-inventory",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 68,
+        "end": 69
+      },
+      "source_heading": "4. Guoshang 当前实现盘点",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "guoshang-20261028",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#guoshang-20261028",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 70,
+        "end": 89
+      },
+      "source_heading": "4.1 已有但不等于 Owner",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "guoshang-20261028",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#guoshang-20261028",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 90,
+        "end": 98
+      },
+      "source_heading": "4.2 当前缺口",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "guoshang-20261028",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#guoshang-20261028",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 81,
+        "end": 93
+      },
+      "source_heading": "3. 与 Paralls 当前实现的关系",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "owner-current-baseline",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#owner-current-baseline",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 1,
+        "end": 8
+      },
+      "source_heading": "Paralls 现有 Owner 与接入分析",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "evidence-baselines",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#evidence-baselines",
+      "disposition": "consolidated",
+      "note": "来源标题/元信息已归入日期与证据表，不继承原版本号作为正式文件名"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 1,
+        "end": 8
+      },
+      "source_heading": "Guoshang 新 Owner 需求与统一 Command 规范",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "evidence-baselines",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#evidence-baselines",
+      "disposition": "consolidated",
+      "note": "来源标题/元信息已归入日期与证据表，不继承原版本号作为正式文件名"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 1,
+        "end": 10
+      },
+      "source_heading": "国殇：汉末：基建 Owner 传统方案与 Paralls 兼容方案",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "evidence-baselines",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#evidence-baselines",
+      "disposition": "consolidated",
+      "note": "来源标题/元信息已归入日期与证据表，不继承原版本号作为正式文件名"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 1,
+        "end": 3
+      },
+      "source_heading": "Owner 分类与 Paralls 实现对照",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "evidence-baselines",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#evidence-baselines",
+      "disposition": "consolidated",
+      "note": "来源标题/元信息已归入日期与证据表，不继承原版本号作为正式文件名"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 1,
+        "end": 3
+      },
+      "source_heading": "角色档案、权威状态与心智状态对接",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "evidence-baselines",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#evidence-baselines",
+      "disposition": "consolidated",
+      "note": "来源标题/元信息已归入日期与证据表，不继承原版本号作为正式文件名"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 1,
+        "end": 5
+      },
+      "source_heading": "数值规则、状态效果与跨 Owner 结算",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "evidence-baselines",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#evidence-baselines",
+      "disposition": "consolidated",
+      "note": "来源标题/元信息已归入日期与证据表，不继承原版本号作为正式文件名"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 1,
+        "end": 3
+      },
+      "source_heading": "领域模型注册、绑定与 Owner 评估架构",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "evidence-baselines",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#evidence-baselines",
+      "disposition": "consolidated",
+      "note": "来源标题/元信息已归入日期与证据表，不继承原版本号作为正式文件名"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 29,
+        "end": 30
+      },
+      "source_heading": "2. 三本账与 Paralls Owner",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "three-ledgers",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#three-ledgers",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 31,
+        "end": 42
+      },
+      "source_heading": "2.1 世界真相账",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "three-ledgers",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#three-ledgers",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 43,
+        "end": 48
+      },
+      "source_heading": "2.2 角色记忆账",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "three-ledgers",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#three-ledgers",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 49,
+        "end": 59
+      },
+      "source_heading": "2.3 世界表现账",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "three-ledgers",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#three-ledgers",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 417,
+        "end": 426
+      },
+      "source_heading": "5.3 三本账回写",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "writeback",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#writeback",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 175,
+        "end": 192
+      },
+      "source_heading": "7. 数据流图",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "dataflow",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#dataflow",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 170,
+        "end": 178
+      },
+      "source_heading": "5.3 三本账",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "demo-ledgers",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#demo-ledgers",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 180,
+        "end": 195
+      },
+      "source_heading": "7. WRK 基建要求",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "wrk",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#wrk",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 196,
+        "end": 206
+      },
+      "source_heading": "7.1 必须具备",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "wrk",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#wrk",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 207,
+        "end": 213
+      },
+      "source_heading": "7.2 明确不能做",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "wrk",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#wrk",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 251,
+        "end": 252
+      },
+      "source_heading": "7. P0 基础设施和 Owner",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "wrk-demo-contract",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#wrk-demo-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 253,
+        "end": 266
+      },
+      "source_heading": "7.1 World Runtime Kernel（WRK）",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "wrk-demo-contract",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#wrk-demo-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 170,
+        "end": 178
+      },
+      "source_heading": "6.3 三本账和暂停",
+      "target_path": "docs/architecture/01-系统边界/03-三本账与WRK.md",
+      "target_anchor": "pause-ledger-link",
+      "target": "docs/architecture/01-系统边界/03-三本账与WRK.md#pause-ledger-link",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 40,
+        "end": 41
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "identity-time-fidelity",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#identity-time-fidelity",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 42,
+        "end": 43
+      },
+      "source_heading": "3. 核心原则",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "identity-time-fidelity",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#identity-time-fidelity",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 44,
+        "end": 56
+      },
+      "source_heading": "3.1 对齐什么",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "identity-time-fidelity",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#identity-time-fidelity",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 57,
+        "end": 62
+      },
+      "source_heading": "3.2 不统一什么",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "identity-time-fidelity",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#identity-time-fidelity",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 183,
+        "end": 198
+      },
+      "source_heading": "4.5 更新节奏与模型输入",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "cadence-contract",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#cadence-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 279,
+        "end": 290
+      },
+      "source_heading": "11.3 数值与角色更新节奏",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "numeric-cadences",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#numeric-cadences",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 384,
+        "end": 385
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "pause",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#pause",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 386,
+        "end": 396
+      },
+      "source_heading": "9. 暂停/时停规则",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "pause",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#pause",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 34,
+        "end": 53
+      },
+      "source_heading": "1.1 Command 不是事实",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "command-event-receipt",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#command-event-receipt",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 54,
+        "end": 66
+      },
+      "source_heading": "1.2 Command 来源",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "command-event-receipt",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#command-event-receipt",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 68,
+        "end": 71
+      },
+      "source_heading": "2. Command Gateway 需求",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "gateway",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#gateway",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 72,
+        "end": 94
+      },
+      "source_heading": "2.1 统一命令信封",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "gateway",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#gateway",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 95,
+        "end": 111
+      },
+      "source_heading": "2.2 生命周期",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "gateway",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#gateway",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 112,
+        "end": 123
+      },
+      "source_heading": "2.3 Gateway 必须做什么",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "gateway",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#gateway",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 124,
+        "end": 130
+      },
+      "source_heading": "2.4 Gateway 不得做什么",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "gateway",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#gateway",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 296,
+        "end": 320
+      },
+      "source_heading": "7.3 EventStore、Receipt 和 Replay",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "receipt",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#receipt",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 373,
+        "end": 374
+      },
+      "source_heading": "5. Owner 协作与组合规则",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "military-command-sequence",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#military-command-sequence",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 375,
+        "end": 408
+      },
+      "source_heading": "5.1 典型“发布守城命令”流程",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "military-command-sequence",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#military-command-sequence",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 144,
+        "end": 168
+      },
+      "source_heading": "6.2 典型命令流程",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "legacy-local-sequence",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#legacy-local-sequence",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 155,
+        "end": 173
+      },
+      "source_heading": "6. 关键时序图",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "owner-sequence",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#owner-sequence",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 268,
+        "end": 294
+      },
+      "source_heading": "7.2 Command Gateway",
+      "target_path": "docs/architecture/02-公共契约/02-Command事件与Receipt.md",
+      "target_anchor": "gateway",
+      "target": "docs/architecture/02-公共契约/02-Command事件与Receipt.md#gateway",
+      "disposition": "consolidated",
+      "note": "统一信封/来源/生命周期和准入与本篇完整合同合并，不另建第二个Command规范"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 102,
+        "end": 110
+      },
+      "source_heading": "4.1 角色可以做什么",
+      "target_path": "docs/architecture/02-公共契约/03-受限查询与投影.md",
+      "target_anchor": "restricted-projections",
+      "target": "docs/architecture/02-公共契约/03-受限查询与投影.md#restricted-projections",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 111,
+        "end": 117
+      },
+      "source_heading": "4.2 角色不能做什么",
+      "target_path": "docs/architecture/02-公共契约/03-受限查询与投影.md",
+      "target_anchor": "restricted-projections",
+      "target": "docs/architecture/02-公共契约/03-受限查询与投影.md#restricted-projections",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 64,
+        "end": 65
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "fidelity-axes",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#fidelity-axes",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 66,
+        "end": 67
+      },
+      "source_heading": "4. 两条激活轴",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "fidelity-axes",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#fidelity-axes",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 68,
+        "end": 78
+      },
+      "source_heading": "4.1 认知轴：Agent Fidelity",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "fidelity-axes",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#fidelity-axes",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 79,
+        "end": 87
+      },
+      "source_heading": "4.2 表现轴：UE Presentation Fidelity",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "fidelity-axes",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#fidelity-axes",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 88,
+        "end": 95
+      },
+      "source_heading": "4.3 组合矩阵",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "fidelity-axes",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#fidelity-axes",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 136,
+        "end": 137
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "continuity-state",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#continuity-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 138,
+        "end": 182
+      },
+      "source_heading": "6. 统一状态模型",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "continuity-state",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#continuity-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 184,
+        "end": 185
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "handoff-protocol",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#handoff-protocol",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 186,
+        "end": 187
+      },
+      "source_heading": "7. Handoff 协议",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "handoff-protocol",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#handoff-protocol",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 188,
+        "end": 215
+      },
+      "source_heading": "7.1 触发条件",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "handoff-protocol",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#handoff-protocol",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 216,
+        "end": 241
+      },
+      "source_heading": "7.2 Handoff 请求",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "handoff-protocol",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#handoff-protocol",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 242,
+        "end": 262
+      },
+      "source_heading": "7.3 快照内容",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "handoff-protocol",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#handoff-protocol",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 263,
+        "end": 273
+      },
+      "source_heading": "7.4 Lease 与交接顺序",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "handoff-protocol",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#handoff-protocol",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 274,
+        "end": 284
+      },
+      "source_heading": "7.5 失败和恢复",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "handoff-protocol",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#handoff-protocol",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 322,
+        "end": 329
+      },
+      "source_heading": "7.4 Activation / Handoff",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "activation-contract",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#activation-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 139,
+        "end": 148
+      },
+      "source_heading": "4.2 结算位置、交接和失败边界",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "authority-migration",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#authority-migration",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 292,
+        "end": 299
+      },
+      "source_heading": "11.4 交接顺序",
+      "target_path": "docs/architecture/02-公共契约/04-多精度与Handoff.md",
+      "target_anchor": "cross-host-handoff",
+      "target": "docs/architecture/02-公共契约/04-多精度与Handoff.md#cross-host-handoff",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 168,
+        "end": 171
+      },
+      "source_heading": "4. Guoshang 新 Owner 清单",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-domain",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-domain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 172,
+        "end": 173
+      },
+      "source_heading": "4.1 第一阶段 P0：县城守城可玩闭环",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-domain",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-domain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 174,
+        "end": 187
+      },
+      "source_heading": "A. Presence / Movement Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-domain",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-domain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 188,
+        "end": 201
+      },
+      "source_heading": "B. Command / Dispatch Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-domain",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-domain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 202,
+        "end": 215
+      },
+      "source_heading": "C. Organization / Military Command Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-domain",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-domain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 216,
+        "end": 239
+      },
+      "source_heading": "D. Combat / Damage Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-domain",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-domain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 240,
+        "end": 254
+      },
+      "source_heading": "E. Morale / Formation Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-domain",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-domain",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 331,
+        "end": 334
+      },
+      "source_heading": "8. P0 可玩闭环 Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "presence-semantics",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#presence-semantics",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 335,
+        "end": 341
+      },
+      "source_heading": "8.1 Presence / Movement",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "presence-semantics",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#presence-semantics",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 343,
+        "end": 348
+      },
+      "source_heading": "8.2 Command / Dispatch",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-semantics",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-semantics",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 349,
+        "end": 352
+      },
+      "source_heading": "8.3 Organization / Military",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-semantics",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-semantics",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 353,
+        "end": 358
+      },
+      "source_heading": "8.4 Combat / Damage",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-semantics",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-semantics",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 359,
+        "end": 363
+      },
+      "source_heading": "8.5 Morale / Formation",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "military-semantics",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#military-semantics",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 365,
+        "end": 380
+      },
+      "source_heading": "8.6 Objective / Victory",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "objective-authority",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#objective-authority",
+      "disposition": "consolidated",
+      "note": "只迁入领域写权和正式依据；胜负产品阈值迁入县城Demo体验与验收，不复制产品规则"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 265,
+        "end": 266
+      },
+      "source_heading": "4.2 第一阶段 P1：县城持续运转",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-domains",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-domains",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 267,
+        "end": 280
+      },
+      "source_heading": "G. Inventory / Resource Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-domains",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-domains",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 281,
+        "end": 294
+      },
+      "source_heading": "H. Transport / Logistics Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-domains",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-domains",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 295,
+        "end": 306
+      },
+      "source_heading": "I. Production / Facility Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-domains",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-domains",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 307,
+        "end": 320
+      },
+      "source_heading": "J. Population / Work Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-domains",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-domains",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 321,
+        "end": 333
+      },
+      "source_heading": "K. Survival Owner 与 Medical Workflow",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-domains",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-domains",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 386,
+        "end": 401
+      },
+      "source_heading": "9.1 Inventory / Resource",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-contract-supplement",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-contract-supplement",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 402,
+        "end": 406
+      },
+      "source_heading": "9.2 Transport / Logistics",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-contract-supplement",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-contract-supplement",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 408,
+        "end": 422
+      },
+      "source_heading": "9.3 Production / Facility",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "production-contract-supplement",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#production-contract-supplement",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 424,
+        "end": 426
+      },
+      "source_heading": "9.4 Survival / Medical",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "body-domains",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#body-domains",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 335,
+        "end": 336
+      },
+      "source_heading": "4.3 第一阶段 P2：社会、情报和后续战争扩展",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "social-government",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#social-government",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 337,
+        "end": 348
+      },
+      "source_heading": "L. Social / Influence Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "social-government",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#social-government",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 349,
+        "end": 360
+      },
+      "source_heading": "M. Information / Intelligence Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "social-government",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#social-government",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 361,
+        "end": 371
+      },
+      "source_heading": "N. Government / Policy Owner",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "social-government",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#social-government",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 5,
+        "end": 14
+      },
+      "source_heading": "1. 角色数据分区",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-state",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 15,
+        "end": 27
+      },
+      "source_heading": "2. 静态档案如何影响 Owner",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-state",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 28,
+        "end": 43
+      },
+      "source_heading": "3. 动态事实和动态心智分开",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-state",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 44,
+        "end": 61
+      },
+      "source_heading": "3.1 本地即时执行与 Agent 自主判断",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-state",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 62,
+        "end": 69
+      },
+      "source_heading": "3.2 战场士气与私有心智",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-state",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 70,
+        "end": 83
+      },
+      "source_heading": "4. “需求”分域命名",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-state",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 84,
+        "end": 101
+      },
+      "source_heading": "5. 示例：饥饿与进食",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-state",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-state",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 132,
+        "end": 147
+      },
+      "source_heading": "7. 架构图",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-flow",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-flow",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 148,
+        "end": 170
+      },
+      "source_heading": "8. 时序图",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-flow",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-flow",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 171,
+        "end": 186
+      },
+      "source_heading": "9. 数据流图",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "character-flow",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#character-flow",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 213,
+        "end": 221
+      },
+      "source_heading": "4.7 即时反应、士气和 Agent 判断",
+      "target_path": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md",
+      "target_anchor": "immediate-private-boundary",
+      "target": "docs/architecture/03-Owner领域/03-角色档案事实与心智.md#immediate-private-boundary",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 5,
+        "end": 23
+      },
+      "source_heading": "1. 结论",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "domain-models",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#domain-models",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 24,
+        "end": 25
+      },
+      "source_heading": "2. 模型的三种类型",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "domain-models",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#domain-models",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 26,
+        "end": 45
+      },
+      "source_heading": "2.1 数值模型 Numeric Model",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "domain-models",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#domain-models",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 46,
+        "end": 65
+      },
+      "source_heading": "2.2 条件模型 Condition Model",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "domain-models",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#domain-models",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 66,
+        "end": 87
+      },
+      "source_heading": "2.3 混合模型 Hybrid Model",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "domain-models",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#domain-models",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 88,
+        "end": 111
+      },
+      "source_heading": "3. 领域内泛化边界",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "domain-models",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#domain-models",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 113,
+        "end": 144
+      },
+      "source_heading": "4. Model Definition",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "model-definition",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#model-definition",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 146,
+        "end": 181
+      },
+      "source_heading": "5. Applicability Binding",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "applicability-binding",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#applicability-binding",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 183,
+        "end": 217
+      },
+      "source_heading": "6. Evaluation Context",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "evaluation-context",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#evaluation-context",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 219,
+        "end": 220
+      },
+      "source_heading": "7. 示例：食品变质与木材腐朽",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "food-wood-examples",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#food-wood-examples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 221,
+        "end": 270
+      },
+      "source_heading": "7.1 食品仓库",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "food-wood-examples",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#food-wood-examples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 271,
+        "end": 282
+      },
+      "source_heading": "7.2 木材仓储",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "food-wood-examples",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#food-wood-examples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 284,
+        "end": 285
+      },
+      "source_heading": "8. 其他领域示例",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "other-domain-examples",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#other-domain-examples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 286,
+        "end": 295
+      },
+      "source_heading": "8.1 Transport",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "other-domain-examples",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#other-domain-examples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 296,
+        "end": 305
+      },
+      "source_heading": "8.2 Production",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "other-domain-examples",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#other-domain-examples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 306,
+        "end": 315
+      },
+      "source_heading": "8.3 Combat",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "other-domain-examples",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#other-domain-examples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 317,
+        "end": 346
+      },
+      "source_heading": "9. Owner 的最新设计指导",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "model-responsibilities",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#model-responsibilities",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 347,
+        "end": 356
+      },
+      "source_heading": "10. 不应出现的设计",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "model-responsibilities",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#model-responsibilities",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 36,
+        "end": 56
+      },
+      "source_heading": "2.1 Owner 与领域模型的关系",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "model-dependency",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#model-dependency",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 226,
+        "end": 237
+      },
+      "source_heading": "10. 领域模型与仓储参考实现",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "reference-implementation-contract",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#reference-implementation-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 373,
+        "end": 379
+      },
+      "source_heading": "12. 与现有文档的关系",
+      "target_path": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md",
+      "target_anchor": "model-related-documents",
+      "target": "docs/architecture/04-模型与结算/01-领域模型注册绑定与评估.md#model-related-documents",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 7,
+        "end": 52
+      },
+      "source_heading": "1. 公式、条件和混合模型由领域 Owner 管理",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "numeric-settlement",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#numeric-settlement",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 53,
+        "end": 72
+      },
+      "source_heading": "2. 数值、条件、标签与效果",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "numeric-settlement",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#numeric-settlement",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 74,
+        "end": 99
+      },
+      "source_heading": "3. 跨 Owner 事务",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "cross-owner-transactions",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#cross-owner-transactions",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 410,
+        "end": 415
+      },
+      "source_heading": "5.2 跨 Owner 原子性",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "atomicity-scope",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#atomicity-scope",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 103,
+        "end": 118
+      },
+      "source_heading": "6. 示例：受伤、护甲和流血",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "medical-workflow",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#medical-workflow",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 119,
+        "end": 130
+      },
+      "source_heading": "治疗与补血",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "medical-workflow",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#medical-workflow",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 223,
+        "end": 235
+      },
+      "source_heading": "5. 示例：运输被玩家干扰",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "transport-interruption",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#transport-interruption",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 237,
+        "end": 262
+      },
+      "source_heading": "6. 架构图",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "settlement-diagrams",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#settlement-diagrams",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 263,
+        "end": 285
+      },
+      "source_heading": "7. 时序图",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "settlement-diagrams",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#settlement-diagrams",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 286,
+        "end": 301
+      },
+      "source_heading": "8. 数据流图",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "settlement-diagrams",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#settlement-diagrams",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 210,
+        "end": 224
+      },
+      "source_heading": "9. 必须交付的跨 Owner 闭环",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "required-cross-owner-workflows",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#required-cross-owner-workflows",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 100,
+        "end": 114
+      },
+      "source_heading": "5. Paralls 可直接复用的基础",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "reusable-primitives",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#reusable-primitives",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 118,
+        "end": 142
+      },
+      "source_heading": "6.1 责任边界",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "host-authority-boundaries",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#host-authority-boundaries",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 58,
+        "end": 79
+      },
+      "source_heading": "2.2 UE 兼容不是第二份 Owner",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "host-manifest",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#host-manifest",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 256,
+        "end": 263
+      },
+      "source_heading": "F. UE Presentation / Mirror Adapter",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "mirror-adapter",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#mirror-adapter",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 101,
+        "end": 124
+      },
+      "source_heading": "4. UE、Workflow 与 WRK 边界",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "workflow-wrk-boundary",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#workflow-wrk-boundary",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 126,
+        "end": 137
+      },
+      "source_heading": "4.1 Combat、Body 与 Medical 的兼容判据",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "combat-compatibility",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#combat-compatibility",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 150,
+        "end": 163
+      },
+      "source_heading": "4.3 其他 Owner 的 UE 兼容范围",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "local-domain-collaboration",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#local-domain-collaboration",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 164,
+        "end": 181
+      },
+      "source_heading": "4.4 近场部署：职责分域，实时协作",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "local-domain-collaboration",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#local-domain-collaboration",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 200,
+        "end": 211
+      },
+      "source_heading": "4.6 本地权威提交与后端同步",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "local-commit",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#local-commit",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 428,
+        "end": 433
+      },
+      "source_heading": "10. UE 高频桥接和表现对齐",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "high-frequency-execution",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#high-frequency-execution",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 434,
+        "end": 464
+      },
+      "source_heading": "10.1 帧循环和语义提交点",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "high-frequency-execution",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#high-frequency-execution",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 239,
+        "end": 240
+      },
+      "source_heading": "11. 高频协作与近远场交接的专门计划",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "deployment-authority",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#deployment-authority",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 241,
+        "end": 245
+      },
+      "source_heading": "11.1 部署与写权",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "deployment-authority",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#deployment-authority",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 247,
+        "end": 277
+      },
+      "source_heading": "11.2 全量 Owner 的 UE 协作与节奏矩阵",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "ue-cadence-matrix",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#ue-cadence-matrix",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 383,
+        "end": 387
+      },
+      "source_heading": "12. UE 与 Paralls 的模型执行一致性",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "model-equivalence",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#model-equivalence",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 97,
+        "end": 98
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "fidelity-role-boundaries",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#fidelity-role-boundaries",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 99,
+        "end": 100
+      },
+      "source_heading": "5. Owner 分工",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "fidelity-role-boundaries",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#fidelity-role-boundaries",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 101,
+        "end": 112
+      },
+      "source_heading": "5.1 UE Owner",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "fidelity-role-boundaries",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#fidelity-role-boundaries",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 113,
+        "end": 126
+      },
+      "source_heading": "5.2 Paralls Owner",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "fidelity-role-boundaries",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#fidelity-role-boundaries",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 127,
+        "end": 134
+      },
+      "source_heading": "5.3 共同桥接 Owner",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "fidelity-role-boundaries",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#fidelity-role-boundaries",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 83,
+        "end": 100
+      },
+      "source_heading": "4. 与角色智能体的连接",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "agent-population",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#agent-population",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 119,
+        "end": 146
+      },
+      "source_heading": "5. 与群体模拟的连接",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "population-continuity",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#population-continuity",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 466,
+        "end": 478
+      },
+      "source_heading": "10.2 Agent 激活和动画激活矩阵",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "fidelity-presentation",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#fidelity-presentation",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 286,
+        "end": 287
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "semantic-execution",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#semantic-execution",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 288,
+        "end": 317
+      },
+      "source_heading": "8. 命令、意图与表现对齐",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "semantic-execution",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#semantic-execution",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 318,
+        "end": 382
+      },
+      "source_heading": "8.1 Agent-to-Animation 控制通道",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "semantic-execution",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#semantic-execution",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 454,
+        "end": 455
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "activation-budgets",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#activation-budgets",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 456,
+        "end": 468
+      },
+      "source_heading": "12. 转层触发与预算",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "activation-budgets",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#activation-budgets",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 469,
+        "end": 519
+      },
+      "source_heading": "12.1 激活后的持续条件",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "activation-budgets",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#activation-budgets",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md",
+      "source_lines": {
+        "start": 193,
+        "end": 208
+      },
+      "source_heading": "9. ESM 复用边界与迁移检查",
+      "target_path": "docs/architecture/05-运行时接入/03-ESM复用与迁移.md",
+      "target_anchor": "esm-migration",
+      "target": "docs/architecture/05-运行时接入/03-ESM复用与迁移.md#esm-migration",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 215,
+        "end": 221
+      },
+      "source_heading": "8. 第一阶段建设顺序",
+      "target_path": "docs/architecture/05-运行时接入/03-ESM复用与迁移.md",
+      "target_anchor": "esm-scheduling-boundary",
+      "target": "docs/architecture/05-运行时接入/03-ESM复用与迁移.md#esm-scheduling-boundary",
+      "disposition": "consolidated",
+      "note": "技术边界归本篇；原建设顺序由production维护，不作为第二份排程"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 443,
+        "end": 456
+      },
+      "source_heading": "7. 每个新 Owner 的验收门槛",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "owner-ten-checks",
+      "target": "docs/validation/技术契约验证用例.md#owner-ten-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 223,
+        "end": 234
+      },
+      "source_heading": "9. 验收标准",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "compatibility-checks",
+      "target": "docs/validation/技术契约验证用例.md#compatibility-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md",
+      "source_lines": {
+        "start": 194,
+        "end": 196
+      },
+      "source_heading": "8. 落地判据",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "owner-landing-checks",
+      "target": "docs/validation/技术契约验证用例.md#owner-landing-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md",
+      "source_lines": {
+        "start": 188,
+        "end": 192
+      },
+      "source_heading": "10. 对接验收",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "character-checks",
+      "target": "docs/validation/技术契约验证用例.md#character-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md",
+      "source_lines": {
+        "start": 303,
+        "end": 319
+      },
+      "source_heading": "9. 第一阶段验收补充",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "settlement-checks",
+      "target": "docs/validation/技术契约验证用例.md#settlement-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md",
+      "source_lines": {
+        "start": 358,
+        "end": 371
+      },
+      "source_heading": "11. 第一阶段基础设施验收",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "model-fixture-checks",
+      "target": "docs/validation/技术契约验证用例.md#model-fixture-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 622,
+        "end": 633
+      },
+      "source_heading": "12.5 每轮切片的完成证据",
+      "target_path": "docs/validation/验证与证据规范.md",
+      "target_anchor": "source-demo-slice-evidence",
+      "target": "docs/validation/验证与证据规范.md#source-demo-slice-evidence",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 639,
+        "end": 644
+      },
+      "source_heading": "阶段 0：基线盘点和证据规范",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "kernel-command-checks",
+      "target": "docs/validation/技术契约验证用例.md#kernel-command-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 645,
+        "end": 652
+      },
+      "source_heading": "阶段 1：五阶段 Owner 与公共合同冻结",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "kernel-command-checks",
+      "target": "docs/validation/技术契约验证用例.md#kernel-command-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 653,
+        "end": 660
+      },
+      "source_heading": "阶段 2：EventStore、WRK 和恢复内核",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "kernel-command-checks",
+      "target": "docs/validation/技术契约验证用例.md#kernel-command-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 661,
+        "end": 665
+      },
+      "source_heading": "阶段 3：Command Gateway 和受限投影",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "kernel-command-checks",
+      "target": "docs/validation/技术契约验证用例.md#kernel-command-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 673,
+        "end": 678
+      },
+      "source_heading": "阶段 5：Presence、UE Mirror 和高频桥接",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "high-frequency-checks",
+      "target": "docs/validation/技术契约验证用例.md#high-frequency-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 679,
+        "end": 684
+      },
+      "source_heading": "阶段 6：组织、军令和 Agent/Handoff",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "high-frequency-checks",
+      "target": "docs/validation/技术契约验证用例.md#high-frequency-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 685,
+        "end": 690
+      },
+      "source_heading": "阶段 7：Combat、Morale、Formation",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "high-frequency-checks",
+      "target": "docs/validation/技术契约验证用例.md#high-frequency-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 691,
+        "end": 696
+      },
+      "source_heading": "阶段 8：Objective 和胜负闭环",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "high-frequency-checks",
+      "target": "docs/validation/技术契约验证用例.md#high-frequency-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 697,
+        "end": 702
+      },
+      "source_heading": "阶段 9：资源、运输、生产和生存",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "high-frequency-checks",
+      "target": "docs/validation/技术契约验证用例.md#high-frequency-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 703,
+        "end": 707
+      },
+      "source_heading": "阶段 10：Agent—动画—表现一致性",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "high-frequency-checks",
+      "target": "docs/validation/技术契约验证用例.md#high-frequency-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 709,
+        "end": 714
+      },
+      "source_heading": "阶段 11：完整剧本、失败注入和回放",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "replay-release-checks",
+      "target": "docs/validation/技术契约验证用例.md#replay-release-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 715,
+        "end": 719
+      },
+      "source_heading": "阶段 12：试玩、性能和打包",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "replay-release-checks",
+      "target": "docs/validation/技术契约验证用例.md#replay-release-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 721,
+        "end": 739
+      },
+      "source_heading": "13. 验收矩阵",
+      "target_path": "docs/PRD/05-阶段与可玩切片/县城守城Demo/验收标准.md",
+      "target_anchor": "source-demo-acceptance",
+      "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/验收标准.md#source-demo-acceptance",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 741,
+        "end": 742
+      },
+      "source_heading": "14. 测试用例清单",
+      "target_path": "docs/validation/县城守城Demo/测试用例与证据索引.md",
+      "target_anchor": "source-demo-test-cases",
+      "target": "docs/validation/县城守城Demo/测试用例与证据索引.md#source-demo-test-cases",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 743,
+        "end": 754
+      },
+      "source_heading": "14.1 基础设施测试",
+      "target_path": "docs/validation/县城守城Demo/测试用例与证据索引.md",
+      "target_anchor": "source-demo-test-cases",
+      "target": "docs/validation/县城守城Demo/测试用例与证据索引.md#source-demo-test-cases",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 755,
+        "end": 766
+      },
+      "source_heading": "14.2 高频桥接测试",
+      "target_path": "docs/validation/县城守城Demo/测试用例与证据索引.md",
+      "target_anchor": "source-demo-test-cases",
+      "target": "docs/validation/县城守城Demo/测试用例与证据索引.md#source-demo-test-cases",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 779,
+        "end": 790
+      },
+      "source_heading": "15. 运行证据和开发纪律",
+      "target_path": "docs/validation/验证与证据规范.md",
+      "target_anchor": "source-demo-evidence-discipline",
+      "target": "docs/validation/验证与证据规范.md#source-demo-evidence-discipline",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 792,
+        "end": 803
+      },
+      "source_heading": "16. 风险与止损规则",
+      "target_path": "docs/production/县城守城Demo执行计划.md",
+      "target_anchor": "source-demo-risks",
+      "target": "docs/production/县城守城Demo执行计划.md#source-demo-risks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 433,
+        "end": 434
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "fidelity-counterexamples",
+      "target": "docs/validation/技术契约验证用例.md#fidelity-counterexamples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 435,
+        "end": 452
+      },
+      "source_heading": "11.4 反例推演表",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "fidelity-counterexamples",
+      "target": "docs/validation/技术契约验证用例.md#fidelity-counterexamples",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 521,
+        "end": 522
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "fidelity-protocol-checks",
+      "target": "docs/validation/技术契约验证用例.md#fidelity-protocol-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 523,
+        "end": 526
+      },
+      "source_heading": "13. 验证方案",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "fidelity-protocol-checks",
+      "target": "docs/validation/技术契约验证用例.md#fidelity-protocol-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 527,
+        "end": 540
+      },
+      "source_heading": "13.1 协议验证",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "fidelity-protocol-checks",
+      "target": "docs/validation/技术契约验证用例.md#fidelity-protocol-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 541,
+        "end": 547
+      },
+      "source_heading": "13.2 时停验证",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "fidelity-protocol-checks",
+      "target": "docs/validation/技术契约验证用例.md#fidelity-protocol-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 548,
+        "end": 557
+      },
+      "source_heading": "13.3 可玩场景验证",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "fidelity-protocol-checks",
+      "target": "docs/validation/技术契约验证用例.md#fidelity-protocol-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+      "source_lines": {
+        "start": 558,
+        "end": 562
+      },
+      "source_heading": "13.4 证据产物",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "fidelity-protocol-checks",
+      "target": "docs/validation/技术契约验证用例.md#fidelity-protocol-checks",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 667,
+        "end": 671
+      },
+      "source_heading": "阶段 4：全量 Owner Authority 与跨域 Workflow",
+      "target_path": "docs/validation/技术契约验证用例.md",
+      "target_anchor": "gate-4",
+      "target": "docs/validation/技术契约验证用例.md#gate-4",
+      "disposition": "consolidated",
+      "note": "全量Owner能力门归位为完整包验收，不复制23名单或第二份排程"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+      "source_lines": {
+        "start": 345,
+        "end": 349
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/validation/验证与证据规范.md",
+      "target_anchor": "source-plan-evidence-gates",
+      "target": "docs/validation/验证与证据规范.md#source-plan-evidence-gates",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "source_lines": {
+        "start": 582,
+        "end": 594
+      },
+      "source_heading": "16. Paralls 底座接合与责任矩阵",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "product-responsibility-matrix",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#product-responsibility-matrix",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "source_lines": {
+        "start": 596,
+        "end": 600
+      },
+      "source_heading": "16.1 组合结算器",
+      "target_path": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md",
+      "target_anchor": "composite-resolver",
+      "target": "docs/architecture/04-模型与结算/02-数值状态效果与跨Owner结算.md#composite-resolver",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "source_lines": {
+        "start": 602,
+        "end": 602
+      },
+      "source_heading": "段落/表格",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "objective-authority",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#objective-authority",
+      "disposition": "reference",
+      "note": "当前Demo死亡/投降/逃跑仍失败，后续Campaign继任不覆盖当前产品终局；产品验收正式维护"
+    },
+    {
+      "source_path": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "source_lines": {
+        "start": 604,
+        "end": 616
+      },
+      "source_heading": "17. 结算顺序与节奏",
+      "target_path": "docs/architecture/02-公共契约/01-时间身份与控制权.md",
+      "target_anchor": "world-cadence-order",
+      "target": "docs/architecture/02-公共契约/01-时间身份与控制权.md#world-cadence-order",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "source_lines": {
+        "start": 756,
+        "end": 760
+      },
+      "source_heading": "23.1 技术架构建议",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "product-technical-boundary",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#product-technical-boundary",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "source_lines": {
+        "start": 762,
+        "end": 775
+      },
+      "source_heading": "23.2 Paralls 参考与边界依据",
+      "target_path": "docs/architecture/01-系统边界/02-现状基线与证据.md",
+      "target_anchor": "paralls-reference-index",
+      "target": "docs/architecture/01-系统边界/02-现状基线与证据.md#paralls-reference-index",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/国殇：汉末_五阶段战争世界设计大纲_v0.1.md",
+      "source_lines": {
+        "start": 201,
+        "end": 218
+      },
+      "source_heading": "7. Paralls 与 UE 的统一责任边界",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "five-stage-integration",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#five-stage-integration",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/国殇：汉末_五阶段战争世界设计大纲_v0.1.md",
+      "source_lines": {
+        "start": 220,
+        "end": 227
+      },
+      "source_heading": "7.1 UE 负责",
+      "target_path": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md",
+      "target_anchor": "five-stage-ue-contract",
+      "target": "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md#five-stage-ue-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/国殇：汉末_五阶段战争世界设计大纲_v0.1.md",
+      "source_lines": {
+        "start": 229,
+        "end": 235
+      },
+      "source_heading": "7.2 Paralls 负责",
+      "target_path": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md",
+      "target_anchor": "five-stage-paralls-contract",
+      "target": "docs/architecture/05-运行时接入/02-Agent群体与动画接入.md#five-stage-paralls-contract",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/国殇：汉末_五阶段战争世界设计大纲_v0.1.md",
+      "source_lines": {
+        "start": 237,
+        "end": 240
+      },
+      "source_heading": "7.3 越权禁止",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "no-authority-bypass",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#no-authority-bypass",
+      "disposition": "moved",
+      "note": ""
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/README.md",
+      "source_lines": {
+        "start": 1,
+        "end": 6
+      },
+      "source_heading": "Owner 体系专题",
+      "target_path": "docs/architecture/README.md",
+      "target_anchor": "technical-reference",
+      "target": "docs/architecture/README.md#technical-reference",
+      "disposition": "consolidated",
+      "note": "原专题导航整合入唯一技术入口；共同规则归boundary/registry/UE公共合同"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/README.md",
+      "source_lines": {
+        "start": 7,
+        "end": 15
+      },
+      "source_heading": "文档导航",
+      "target_path": "docs/architecture/README.md",
+      "target_anchor": "technical-reference",
+      "target": "docs/architecture/README.md#technical-reference",
+      "disposition": "consolidated",
+      "note": "原专题导航整合入唯一技术入口；共同规则归boundary/registry/UE公共合同"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/README.md",
+      "source_lines": {
+        "start": 16,
+        "end": 23
+      },
+      "source_heading": "与现有玩法系统文档的关系",
+      "target_path": "docs/architecture/README.md",
+      "target_anchor": "technical-reference",
+      "target": "docs/architecture/README.md#technical-reference",
+      "disposition": "consolidated",
+      "note": "原专题导航整合入唯一技术入口；共同规则归boundary/registry/UE公共合同"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/README.md",
+      "source_lines": {
+        "start": 24,
+        "end": 35
+      },
+      "source_heading": "共同架构边界",
+      "target_path": "docs/architecture/README.md",
+      "target_anchor": "technical-reference",
+      "target": "docs/architecture/README.md#technical-reference",
+      "disposition": "consolidated",
+      "note": "原专题导航整合入唯一技术入口；共同规则归boundary/registry/UE公共合同"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/Owner体系/README.md",
+      "source_lines": {
+        "start": 36,
+        "end": 44
+      },
+      "source_heading": "UE 兼容与唯一写权",
+      "target_path": "docs/architecture/README.md",
+      "target_anchor": "technical-reference",
+      "target": "docs/architecture/README.md#technical-reference",
+      "disposition": "consolidated",
+      "note": "原专题导航整合入唯一技术入口；共同规则归boundary/registry/UE公共合同"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md",
+      "source_lines": {
+        "start": 428,
+        "end": 441
+      },
+      "source_heading": "6. 第一阶段实施优先级",
+      "target_path": "docs/architecture/README.md",
+      "target_anchor": "historical-spec",
+      "target": "docs/architecture/README.md#historical-spec",
+      "disposition": "reference",
+      "note": "旧P0/P1/P2为原需求优先级；正式建设批次与切片排程由production维护"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 236,
+        "end": 240
+      },
+      "source_heading": "10. 结论",
+      "target_path": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+      "target_anchor": "system-boundaries",
+      "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md#system-boundaries",
+      "disposition": "consolidated",
+      "note": "结论已合并到系统边界/唯一事实账与宿主分离"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+      "source_lines": {
+        "start": 382,
+        "end": 384
+      },
+      "source_heading": "9. 第一阶段内容切片：资源与社会闭环",
+      "target_path": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md",
+      "target_anchor": "resource-domains",
+      "target": "docs/architecture/03-Owner领域/02-领域Owner详细契约.md#resource-domains",
+      "disposition": "consolidated",
+      "note": "资源内容范围与领域完整能力区分；正式注册表与产品内容分别维护"
+    },
+    {
+      "source_path": "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md",
+      "source_lines": {
+        "start": 116,
+        "end": 116
+      },
+      "source_heading": "6. 传统 UE 与 Paralls 的协作契约",
+      "target_path": "docs/architecture/README.md",
+      "target_anchor": "technical-reference",
+      "target": "docs/architecture/README.md#technical-reference",
+      "disposition": "reference",
+      "note": "源标题/衔接语纳入技术入口；正文叶章节已逐项迁移"
+    }
+  ],
+  "verification": {
+    "status": "passed",
+    "scope": "documentation_static_only_no_code_UE_PIE_or_performance_execution",
+    "document_count": 18,
+    "line_count": 4129,
+    "migration_entry_count": 255,
+    "owner_registry_rows": 23,
+    "ue_cadence_rows": 23,
+    "exact_fenced_payloads_verified": 79,
+    "incoming_architecture_links_checked": 100,
+    "coverage": {
+      "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md": {
+        "source_lines": 208,
+        "uncovered_nonblank_lines": []
+      },
+      "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md": {
+        "source_lines": 466,
+        "uncovered_nonblank_lines": []
+      },
+      "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md": {
+        "source_lines": 240,
+        "uncovered_nonblank_lines": []
+      },
+      "docs/PRD/玩法系统/Owner体系/README.md": {
+        "source_lines": 44,
+        "uncovered_nonblank_lines": []
+      },
+      "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md": {
+        "source_lines": 196,
+        "uncovered_nonblank_lines": []
+      },
+      "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md": {
+        "source_lines": 192,
+        "uncovered_nonblank_lines": []
+      },
+      "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md": {
+        "source_lines": 319,
+        "uncovered_nonblank_lines": []
+      },
+      "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md": {
+        "source_lines": 387,
+        "uncovered_nonblank_lines": []
+      }
+    },
+    "issues": []
+  },
+  "source_snapshot": "docs/_backups/PRD_20261030_111755/original_PRD",
+  "source_sha256": {
+    "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md": "a98b3a2677950044fcab7edd78fc45a19a754635b26a51234f9eef05f16f51fb",
+    "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md": "4b94977a99c7cc833f05509afb106a939fc5dd560981786680a59d69acd9fb11",
+    "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md": "b2425ee9207aa92a986ce69ed3f00eea4c48ebf26fb33d049ae045a9b0e75009",
+    "docs/PRD/玩法系统/Owner体系/README.md": "e8dbfb1c0e25668b9b6cc34b00dfe0139e470de8ffcce95d15a657b806805529",
+    "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md": "89d602035e031247cf5cacf79692bacd4471e29386b2aa53ce2c1025d2df69ee",
+    "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md": "ca47e085054a11156cc02212a7ba34660bf5595c76a43dbe341bf7749b864aea",
+    "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md": "2b4e491d0f1ccd5de2d49b8f94cd1bf9e093e307ee5d63c80b3a56ac6171551f",
+    "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md": "beef4995cf5e8f71542c827a9e0dafca7fed1b428ee31d21e99cc92ce998b5a3"
+  }
+}

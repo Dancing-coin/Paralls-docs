@@ -1,0 +1,47 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '慎县%'",
+    "count of displayed results" : "3",
+    "count of total results" : "3",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_43326",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43326",
+        "name" : "慎县",
+        "transcription" : "Shen Xian",
+        "years" : "-168 ~ 13",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "116.19902, 32.78975",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43328",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43328",
+        "name" : "慎县",
+        "transcription" : "Shen Xian",
+        "years" : "23 ~ 412",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "116.19902, 32.78975",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43065",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43065",
+        "name" : "慎县",
+        "transcription" : "Shen Xian",
+        "years" : "422 ~ 1161",
+        "parent sys_id" : "hvd_33479",
+        "parent name" : "庐州 (Lu Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "117.55444, 31.99765",
+        "data source" : "CHGIS"
+      }
+    ]
+}

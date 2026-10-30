@@ -1,0 +1,91 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82552",
+  "sys_id" : "hvd_82552",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "弋陽侯國",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "弋阳侯国",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Yiyang Houguo",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "国",
+    "alternate name" : "國",
+    "transcription" : "guo",
+    "English" : "country"
+  },
+  "temporal" : {
+    "begin" : "26",
+    "begin rule" : "4",
+    "end" : "219",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "32.16932",
+    "longitude" : "114.99725",
+    "source" : "FROM_AC",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南潢川西北隆古",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "26",
+        "end year" : "72",
+        "parent id" : "hvd_112591",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      },
+      {
+        "begin year" : "73",
+        "end year" : "219",
+        "parent id" : "hvd_112591",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+      {
+        "preceded by id" : "hvd_82551",
+        "name" : "弋阳县",
+        "transcribed" : "Yiyang Xian"
+      }
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "弋阳侯国         26—219年           今河南潢川西北隆古
+东汉建武二年（26年）封，属汝南郡，三国魏黄初元年（220年）为县（1）。治今河南潢川西北隆古（2）。
+
+注：
+（1）《后汉书志》20《郡国志二》汝南郡，弋阳，侯国。（北京，中华书局，1965年，12册，3424页）卷14《宗室四王三侯传》：建武二年，封国为弋阳侯。（2册， 567页）未详何年除，作东汉一代有。
+（2）《水经注疏》卷30《淮水》：淮水又东，右合壑水，俗谓之柴水，柴水又东径黄城西，故弋阳县也，城内有二城，西即黄城也；柴水又东北入于淮。（南京，江苏古籍出版社，1989年，下册，2509页）淮水，今淮河；壑水（柴水），今光山县西寨河。（《水经注通检今释》，复旦大学出版社，1983年，79-80页）《史记》卷40《楚世家》：索隐，汝南弋阳县，故黄国。张守节正义引《括地志》云：黄国故城，汉弋阳县也。（北京，中华书局，1959年，9册，2857页）《元和郡县志》卷9《河南道五》：光州定城县，黄国故城，在县西十二里。（北京，中华书局，1983年，上册，246页）《20世纪河南考古发现与研究》：潢川黄国故城，潢川县城西6公里隆古乡一带。（河南郑州，中州古籍出版社，1997年，753页）《中国文物地图集?河南分册》：文物单位简解，潢川县，黄国故城，隆古乡隆古集，春秋。城址呈长方形，现存东长1650米，西墙长1550米，南墙长1800米，北墙长1720米，城墙高5-7米。夯痕明显可见。（北京，中国地图出版社，1991年，504页）明洪武省定城县入光州，1913年废州为潢川县，据上，北魏至唐记载，古弋阳设于黄国故城，即今河南潢川西北隆古。",
+  "source uri" : ""
+}

@@ -1,0 +1,43 @@
+{
+  "date_local": "2026-10-30",
+  "model": "gemini-3-pro-image-preview",
+  "image": {
+    "path": "source/runan-commandery-flat-map/v001-20261030/runan_map.jpg",
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1264,
+    "height": 848,
+    "size_bytes": 815333,
+    "sha256": "1e712617570fdf7d2ed41cfa8d1528f30246e6f92189f0b90f12a079beb4e3d1",
+    "extension_correction": "Gateway returned JPEG bytes; renamed generated .png to .jpg without changing bytes"
+  },
+  "visual_inspection": {
+    "method": "Viewed actual generated image with view_image",
+    "flat_north_up_regional_map": true,
+    "main_title_readable": true,
+    "five_main_county_labels_readable": true,
+    "counties": [
+      "召陵",
+      "西平",
+      "上蔡",
+      "平舆/平輿",
+      "新蔡"
+    ],
+    "demonstration_city_and_commandery_seat_present": true,
+    "roads_rivers_legend_present": true,
+    "historical_disclaimer_present": true,
+    "limitations": [
+      "County placement, boundary and waterways are illustrative; historical accuracy not verified",
+      "Unexpected additional river labels are present and require verification",
+      "Some labels use traditional Chinese glyphs",
+      "Aspect ratio is approximate; actual dimensions are recorded"
+    ]
+  },
+  "lifecycle": "候选",
+  "commercial_rights": "provider_terms_not_verified",
+  "ue_imported": false,
+  "ue_asset_changes": 0,
+  "ue_actor_changes": 0,
+  "first_attempt": "generation-flare.json",
+  "successful_attempt": "generation-gemini-pro.json"
+}

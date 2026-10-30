@@ -1,0 +1,73 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '山桑%'",
+    "count of displayed results" : "5",
+    "count of total results" : "5",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_43374",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43374",
+        "name" : "山桑侯国",
+        "transcription" : "Shansang Houguo",
+        "years" : "26 ~ 219",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "侯国 (hou guo)",
+        "object type" : "POINT",
+        "xy coordinates" : "116.55260, 33.40799",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43373",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43373",
+        "name" : "山桑县",
+        "transcription" : "Shansang Xian",
+        "years" : "-203 ~ 25",
+        "parent sys_id" : "hvd_33420",
+        "parent name" : "彭城郡 (Pengcheng Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "116.55260, 33.40799",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43375",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43375",
+        "name" : "山桑县",
+        "transcription" : "Shansang Xian",
+        "years" : "220 ~ 384",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "116.55260, 33.40799",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43172",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43172",
+        "name" : "山桑县",
+        "transcription" : "Shansang Xian",
+        "years" : "385 ~ 535",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "118.05418, 32.19107",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43371",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43371",
+        "name" : "山桑县",
+        "transcription" : "Shansang Xian",
+        "years" : "607 ~ 741",
+        "parent sys_id" : "hvd_33445",
+        "parent name" : "谯郡 (Qiao Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "116.55575, 33.26864",
+        "data source" : "CHGIS"
+      }
+    ]
+}

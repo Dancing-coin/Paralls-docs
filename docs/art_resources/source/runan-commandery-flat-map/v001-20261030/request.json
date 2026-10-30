@@ -1,0 +1,19 @@
+{
+  "asset_id": "runan-commandery-flat-map",
+  "version": "v001-20261030",
+  "date_local": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "model": "gpt-image-2.5-flare",
+  "operation": "generate",
+  "n": 1,
+  "size": "1536x1024",
+  "quality": "low",
+  "reference_price_cny_per_request": 0.04,
+  "price_source": "User supplied model-pricing screenshot, 2026-10-30; actual billing unverified",
+  "prompt_file": "prompt.txt",
+  "status": "failed_explicit_channel_unavailable",
+  "intent": "2D regional concept map, not a historical reconstruction; no UE import",
+  "project_context": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+  "historical_reference": "https://zh.wikipedia.org/wiki/%E6%B1%9D%E5%8D%97%E9%83%A1",
+  "evidence_file": "generation-flare.json"
+}

@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-10-30",
+  "scope": "One remote image generation, no UE operations",
+  "before": {
+    "available_physical_memory_gb": 14.61,
+    "ue_process_count": 0,
+    "gpu_memory_total_mib": 12282,
+    "gpu_memory_used_mib": 1203,
+    "gpu_memory_free_mib": 10810
+  },
+  "after": {
+    "available_physical_memory_gb": 14.76,
+    "ue_process_count": 0,
+    "gpu_memory_total_mib": 12282,
+    "gpu_memory_used_mib": 1173,
+    "gpu_memory_free_mib": 10840
+  },
+  "note": "Point-in-time system observations; fluctuations are not attributed to image generation"
+}

@@ -1,0 +1,543 @@
+{
+  "version": "v002-20261030-population",
+  "scenario_not_census": true,
+  "population": {
+    "commandery_record_people": 2100788,
+    "commandery_record_households": 404448,
+    "commandery_counties": 37,
+    "county_mean_people": 56778.05,
+    "commandery_people_per_household": 5.1942,
+    "scenario_county_people": 55000,
+    "scenario_urban_residents": 10400,
+    "scenario_people_per_household": 5.2,
+    "scenario_urban_households": 2000,
+    "additional_garrison": 400,
+    "scenario_urban_total": 10800
+  },
+  "dimensions_m": [
+    1500,
+    1500
+  ],
+  "enclosed_area_m2": 2250000,
+  "candidate_parcels": 2032,
+  "county_office_compound_m2": 16800.0,
+  "county_office_compound_mu": 25.2,
+  "county_office_share_of_inner_city": 0.1944,
+  "household_parcel_m2": 320,
+  "household_plots_total_m2": 640000,
+  "residential_roof_footprint_m2": 216000.0,
+  "building_counts": {
+    "住宅正屋": 2000,
+    "住宅附屋": 2000,
+    "县署": 20,
+    "狱舍": 4,
+    "文书吏舍": 4,
+    "仓廪": 24,
+    "营舍": 16,
+    "市肆": 96,
+    "作坊": 48,
+    "传舍": 6,
+    "医舍": 4,
+    "社祠": 4,
+    "候见听讼场": 6,
+    "官属舍": 12,
+    "县学礼仪院": 8,
+    "武库": 6,
+    "内仓": 8,
+    "城门楼": 4,
+    "门卒舍": 16
+  },
+  "total_roof_masses": 4286,
+  "public_and_commercial_roof_masses": 286,
+  "inner_city_public_roof_masses": 68,
+  "wards": [
+    {
+      "id": 1,
+      "households": 73
+    },
+    {
+      "id": 2,
+      "households": 150
+    },
+    {
+      "id": 3,
+      "households": 172
+    },
+    {
+      "id": 4,
+      "households": 62
+    },
+    {
+      "id": 5,
+      "households": 87
+    },
+    {
+      "id": 6,
+      "households": 171
+    },
+    {
+      "id": 7,
+      "households": 161
+    },
+    {
+      "id": 8,
+      "households": 87
+    },
+    {
+      "id": 9,
+      "households": 147
+    },
+    {
+      "id": 10,
+      "households": 164
+    },
+    {
+      "id": 11,
+      "households": 149
+    },
+    {
+      "id": 12,
+      "households": 96
+    },
+    {
+      "id": 13,
+      "households": 131
+    },
+    {
+      "id": 14,
+      "households": 81
+    },
+    {
+      "id": 15,
+      "households": 116
+    },
+    {
+      "id": 16,
+      "households": 84
+    },
+    {
+      "id": 17,
+      "households": 9
+    },
+    {
+      "id": 18,
+      "households": 60
+    }
+  ],
+  "roads": [
+    {
+      "name": "南北驿路",
+      "width_m": 12,
+      "polyline_m": [
+        [
+          960,
+          1510
+        ],
+        [
+          945,
+          1360
+        ],
+        [
+          910,
+          1220
+        ],
+        [
+          890,
+          1040
+        ],
+        [
+          760,
+          900
+        ],
+        [
+          770,
+          690
+        ],
+        [
+          660,
+          570
+        ],
+        [
+          635,
+          400
+        ],
+        [
+          620,
+          270
+        ],
+        [
+          620,
+          -10
+        ]
+      ]
+    },
+    {
+      "name": "东西市街",
+      "width_m": 10,
+      "polyline_m": [
+        [
+          -10,
+          860
+        ],
+        [
+          230,
+          845
+        ],
+        [
+          420,
+          780
+        ],
+        [
+          600,
+          800
+        ],
+        [
+          760,
+          900
+        ],
+        [
+          970,
+          800
+        ],
+        [
+          1160,
+          650
+        ],
+        [
+          1320,
+          580
+        ],
+        [
+          1510,
+          560
+        ]
+      ]
+    },
+    {
+      "name": "北部横街",
+      "width_m": 8,
+      "polyline_m": [
+        [
+          55,
+          420
+        ],
+        [
+          250,
+          425
+        ],
+        [
+          420,
+          460
+        ],
+        [
+          635,
+          400
+        ],
+        [
+          850,
+          420
+        ],
+        [
+          1020,
+          380
+        ],
+        [
+          1220,
+          340
+        ],
+        [
+          1445,
+          345
+        ]
+      ]
+    },
+    {
+      "name": "南部横街",
+      "width_m": 8,
+      "polyline_m": [
+        [
+          55,
+          1160
+        ],
+        [
+          280,
+          1110
+        ],
+        [
+          460,
+          1080
+        ],
+        [
+          630,
+          1100
+        ],
+        [
+          890,
+          1040
+        ],
+        [
+          1120,
+          1150
+        ],
+        [
+          1445,
+          1190
+        ]
+      ]
+    },
+    {
+      "name": "西部纵街",
+      "width_m": 7,
+      "polyline_m": [
+        [
+          300,
+          425
+        ],
+        [
+          310,
+          650
+        ],
+        [
+          420,
+          780
+        ],
+        [
+          460,
+          1080
+        ],
+        [
+          500,
+          1445
+        ]
+      ]
+    },
+    {
+      "name": "东部粮道",
+      "width_m": 8,
+      "polyline_m": [
+        [
+          1030,
+          55
+        ],
+        [
+          1020,
+          380
+        ],
+        [
+          1040,
+          560
+        ],
+        [
+          970,
+          800
+        ],
+        [
+          1120,
+          1150
+        ],
+        [
+          1170,
+          1445
+        ]
+      ]
+    },
+    {
+      "name": "县署联络街",
+      "width_m": 7,
+      "polyline_m": [
+        [
+          275,
+          350
+        ],
+        [
+          280,
+          425
+        ],
+        [
+          420,
+          460
+        ]
+      ]
+    },
+    {
+      "name": "东北联络街",
+      "width_m": 7,
+      "polyline_m": [
+        [
+          1445,
+          240
+        ],
+        [
+          1260,
+          270
+        ],
+        [
+          1020,
+          380
+        ]
+      ]
+    },
+    {
+      "name": "西北支街",
+      "width_m": 6,
+      "polyline_m": [
+        [
+          55,
+          240
+        ],
+        [
+          80,
+          240
+        ]
+      ]
+    },
+    {
+      "name": "东南支街",
+      "width_m": 6,
+      "polyline_m": [
+        [
+          1120,
+          1150
+        ],
+        [
+          1220,
+          1070
+        ],
+        [
+          1445,
+          1070
+        ]
+      ]
+    },
+    {
+      "name": "仓廪支路",
+      "width_m": 8,
+      "polyline_m": [
+        [
+          1027,
+          155
+        ],
+        [
+          1110,
+          155
+        ]
+      ]
+    },
+    {
+      "name": "营舍支路",
+      "width_m": 7,
+      "polyline_m": [
+        [
+          1032,
+          485
+        ],
+        [
+          1080,
+          485
+        ]
+      ]
+    },
+    {
+      "name": "作坊支路",
+      "width_m": 6,
+      "polyline_m": [
+        [
+          1310,
+          1174
+        ],
+        [
+          1310,
+          1220
+        ]
+      ]
+    },
+    {
+      "name": "传舍支路",
+      "width_m": 6,
+      "polyline_m": [
+        [
+          1125,
+          1390
+        ],
+        [
+          1161,
+          1390
+        ]
+      ]
+    },
+    {
+      "name": "内城署前路",
+      "width_m": 6,
+      "polyline_m": [
+        [
+          235,
+          292
+        ],
+        [
+          235,
+          320
+        ],
+        [
+          275,
+          320
+        ],
+        [
+          275,
+          350
+        ]
+      ]
+    },
+    {
+      "name": "内城西门路",
+      "width_m": 5,
+      "polyline_m": [
+        [
+          80,
+          240
+        ],
+        [
+          90,
+          240
+        ],
+        [
+          90,
+          320
+        ],
+        [
+          235,
+          320
+        ]
+      ]
+    },
+    {
+      "name": "医舍支巷",
+      "width_m": 4,
+      "polyline_m": [
+        [
+          565,
+          797
+        ],
+        [
+          565,
+          820
+        ]
+      ]
+    },
+    {
+      "name": "社祠支巷",
+      "width_m": 4,
+      "polyline_m": [
+        [
+          195,
+          810
+        ],
+        [
+          195,
+          847
+        ]
+      ]
+    }
+  ],
+  "output": "D:\\Users\\User\\Documents\\Unreal Projects\\Guoshang\\docs\\art_resources\\staging\\zhaoling-city\\v002-20261030-population\\zhaoling-population-plan.png",
+  "ue_changes": 0
+}

@@ -1,0 +1,79 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82593",
+  "sys_id" : "hvd_82593",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "褒信侯國",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "褒信侯国",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Baoxin Houguo",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "国",
+    "alternate name" : "國",
+    "transcription" : "guo",
+    "English" : "country"
+  },
+  "temporal" : {
+    "begin" : "79",
+    "begin rule" : "4",
+    "end" : "219",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "32.55597",
+    "longitude" : "114.98543",
+    "source" : "FROM_AC",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南息县东北包信",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "79",
+        "end year" : "219",
+        "parent id" : "hvd_115751",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "褒信侯国         79—219年        今河南息县东北包信
+    东汉建初四年（79年）置，属汝南郡，三国魏黄初元年（220年）为县（1）。治今河南息县东北包信（2）。
+
+注：
+（1）《后汉书志》20《郡国志二》汝南郡，褒信息，侯国。（北京，中华书局，1965年，12册，3424页）《后汉书》卷78《宦者传》：十一月济阴王立之，是为顺帝，下诏，李元为褒信侯；李元等相货赂；永和二年并遣就国（9册，2515-8页）按：顺帝立为建初四年十一月；“遣就国”，则侯国未废，作东汉一代有。
+（2）《水经注疏》卷30《淮水》：黄水又东北入于淮，谓之黄口，淮水东北迳褒信县故城南，而东流注也。又东过期思县北。（南京，江苏古籍出版社，1989年，下册，2512页）《清嘉庆一统志》卷223《光州二?古迹》：褒信故城，在息县东北七十里。今为褒信镇。（《四部丛刊续编》81册，商务印书馆，1934年）《河南省地名词典》：息县，包信镇，县东北35公里，东汉褒信侯国，南朝宋苞信县，大业复置褒信，唐改苞孚，宋复为褒信，元为镇，1949年后更名包信。（北京，商务印书馆，1993年，564页）",
+  "source uri" : ""
+}

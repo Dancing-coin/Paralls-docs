@@ -1,0 +1,73 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '城父县%'",
+    "count of displayed results" : "5",
+    "count of total results" : "5",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_43346",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43346",
+        "name" : "城父县",
+        "transcription" : "Chengfu Xian",
+        "years" : "-224 ~ 13",
+        "parent sys_id" : "hvd_33419",
+        "parent name" : "泗水郡 (Sishui Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.99254, 33.63886",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43348",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43348",
+        "name" : "城父县",
+        "transcription" : "Chengfu Xian",
+        "years" : "23 ~ 384",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.99254, 33.63886",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43350",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43350",
+        "name" : "城父县",
+        "transcription" : "Chengfu Xian",
+        "years" : "598 ~ 904",
+        "parent sys_id" : "hvd_33444",
+        "parent name" : "亳州 (Bo Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.99254, 33.63886",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43352",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43352",
+        "name" : "城父县",
+        "transcription" : "Chengfu Xian",
+        "years" : "923 ~ 1264",
+        "parent sys_id" : "hvd_33449",
+        "parent name" : "亳州 (Bo Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.99254, 33.63886",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43353",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43353",
+        "name" : "城父县",
+        "transcription" : "Chengfu Xian",
+        "years" : "1304 ~ 1380",
+        "parent sys_id" : "hvd_33520",
+        "parent name" : "中立府 (Zhongli Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.99254, 33.63886",
+        "data source" : "CHGIS"
+      }
+    ]
+}

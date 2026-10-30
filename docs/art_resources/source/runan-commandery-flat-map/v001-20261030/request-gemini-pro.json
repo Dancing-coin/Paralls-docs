@@ -1,0 +1,23 @@
+{
+  "asset_id": "runan-commandery-flat-map",
+  "version": "v001-20261030",
+  "date_local": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "model": "gemini-3-pro-image-preview",
+  "operation": "generate",
+  "n": 1,
+  "aspect_ratio": "3:2",
+  "reference_price_cny_per_request": 0.4,
+  "price_source": "User supplied screenshot; actual billing unverified",
+  "prompt_file": "prompt.txt",
+  "status": "succeeded",
+  "fallback_reason": "Previous flare request explicitly rejected with model_not_found; no available channel",
+  "intent": "2D game concept map, not historical reconstruction; no UE import",
+  "evidence_file": "generation-gemini-pro.json",
+  "actual_output_file": "runan_map.jpg",
+  "actual_format": "JPEG",
+  "actual_dimensions": [
+    1264,
+    848
+  ]
+}

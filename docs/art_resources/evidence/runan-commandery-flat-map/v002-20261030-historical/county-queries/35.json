@@ -1,0 +1,73 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '固始县%'",
+    "count of displayed results" : "5",
+    "count of total results" : "5",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_82007",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82007",
+        "name" : "固始县",
+        "transcription" : "Gushi Xian",
+        "years" : "-202 ~ 29",
+        "parent sys_id" : "hvd_115098",
+        "parent name" : "陈郡 (Chen Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.76242, 33.80199",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82583",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82583",
+        "name" : "固始县",
+        "transcription" : "Gushi Xian",
+        "years" : "556 ~ 1911",
+        "parent sys_id" : "hvd_115999",
+        "parent name" : "新蔡郡 (Xincai Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.67110, 32.18354",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_521",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_521",
+        "name" : "固始县",
+        "transcription" : "Gushi Xian",
+        "years" : "1820 ~ 1820",
+        "parent sys_id" : "hvd_9590",
+        "parent name" : "光州 (Guang Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.67110, 32.18354",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_121952",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_121952",
+        "name" : "固始县",
+        "transcription" : "Gushi Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_120272",
+        "parent name" : "光州 (Guang Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.67110, 32.18354",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_196956",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_196956",
+        "name" : "固始县",
+        "transcription" : "Gushi Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_195263",
+        "parent name" : "光州 (Guang Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POLYGON",
+        "xy coordinates" : "0.00000, 32.183540",
+        "data source" : "CHGIS"
+      }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '灈阳县%'",
+    "count of displayed results" : "1",
+    "count of total results" : "1",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_83132",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83132",
+        "name" : "灈阳县",
+        "transcription" : "Quyang Xian",
+        "years" : "582 ~ 606",
+        "parent sys_id" : "hvd_112987",
+        "parent name" : "豫州 (Yu Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "113.98911, 33.14784",
+        "data source" : "CHGIS"
+      }
+    ]
+}

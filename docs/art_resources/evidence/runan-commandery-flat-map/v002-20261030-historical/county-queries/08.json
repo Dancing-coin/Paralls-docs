@@ -1,0 +1,60 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '新息县%'",
+    "count of displayed results" : "4",
+    "count of total results" : "4",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_82584",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82584",
+        "name" : "新息县",
+        "transcription" : "Xinxi Xian",
+        "years" : "-202 ~ 13",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.72909, 32.34243",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82586",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82586",
+        "name" : "新息县",
+        "transcription" : "Xinxi Xian",
+        "years" : "23 ~ 42",
+        "parent sys_id" : "hvd_112591",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.72909, 32.34243",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82588",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82588",
+        "name" : "新息县",
+        "transcription" : "Xinxi Xian",
+        "years" : "49 ~ 555",
+        "parent sys_id" : "hvd_112591",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.72909, 32.34243",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_82589",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82589",
+        "name" : "新息县",
+        "transcription" : "Xinxi Xian",
+        "years" : "556 ~ 1265",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.72909, 32.34243",
+        "data source" : "CHGIS"
+      }
+    ]
+}

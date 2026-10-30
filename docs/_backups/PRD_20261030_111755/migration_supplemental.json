@@ -1,0 +1,259 @@
+[
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 1,
+    "source_end": 22,
+    "target": "docs/_backups/PRD_20261030_111755/original_PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "target_anchor": "",
+    "disposition": "来源元信息/旧审查及修订史保留于不可变备份",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 23,
+    "source_end": 51,
+    "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/体验目标与范围.md",
+    "target_anchor": "source-demo-conclusion",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 84,
+    "source_end": 93,
+    "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/体验目标与范围.md",
+    "target_anchor": "source-demo-conclusion",
+    "disposition": "内容/基础能力范围保留；具体合同引用architecture唯一位置",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 95,
+    "source_end": 98,
+    "target": "docs/PRD/04-内容与剧本/召陵县/角色、势力与初始状态.md",
+    "target_anchor": "",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 99,
+    "source_end": 107,
+    "target": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md",
+    "target_anchor": "",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 108,
+    "source_end": 129,
+    "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/体验目标与范围.md",
+    "target_anchor": "source-demo-core-loop",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 480,
+    "source_end": 481,
+    "target": "docs/PRD/04-内容与剧本/召陵县/角色、势力与初始状态.md",
+    "target_anchor": "",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 821,
+    "source_end": 831,
+    "target": "docs/_backups/PRD_20261030_111755/original_PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "target_anchor": "",
+    "disposition": "来源元信息/旧审查及修订史保留于不可变备份",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+    "source_start": 1,
+    "source_end": 9,
+    "target": "docs/_backups/PRD_20261030_111755/original_PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+    "target_anchor": "",
+    "disposition": "来源元信息/旧审查及修订史保留于不可变备份",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+    "source_start": 10,
+    "source_end": 28,
+    "target": "docs/production/基础设施与Owner建设总计划.md",
+    "target_anchor": "范围与依赖",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 83,
+    "source_end": 84,
+    "target": "docs/templates/PRD/玩法模块与跨模块流程模板.md",
+    "target_anchor": "",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/README.md",
+    "source_start": 1,
+    "source_end": 21,
+    "target": "docs/PRD/README.md",
+    "target_anchor": "",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/README.md",
+    "source_start": 22,
+    "source_end": 30,
+    "target": "docs/architecture/README.md",
+    "target_anchor": "",
+    "disposition": "规则合并至各正式技术契约并通过统一入口导航",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/README.md",
+    "source_start": 32,
+    "source_end": 35,
+    "target": "docs/_backups/PRD_20261030_111755/original_PRD/README.md",
+    "target_anchor": "",
+    "disposition": "来源元信息/旧审查及修订史保留于不可变备份",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/README.md",
+    "source_start": 36,
+    "source_end": 37,
+    "target": "docs/validation/验证与证据规范.md",
+    "target_anchor": "",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/README.md",
+    "source_start": 38,
+    "source_end": 39,
+    "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+    "target_anchor": "d12",
+    "disposition": "合并保留",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/README.md",
+    "source_start": 40,
+    "source_end": 40,
+    "target": "docs/_backups/PRD_20261030_111755/original_PRD/README.md",
+    "target_anchor": "",
+    "disposition": "来源元信息/旧审查及修订史保留于不可变备份",
+    "note": ""
+  },
+  {
+    "source": "docs/PRD/国殇：汉末_五阶段战争世界设计大纲_v0.1.md",
+    "source_start": 45,
+    "source_end": 45,
+    "target": "docs/PRD/00-产品总纲/世界扩展路线.md",
+    "target_anchor": "county-world",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 112,
+    "source_end": 112,
+    "target": "docs/PRD/00-产品总纲/游戏愿景与核心体验.md",
+    "target_anchor": "three-loops",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 238,
+    "source_end": 238,
+    "target": "docs/PRD/01-全局规则/连续世界、时间与暂停.md",
+    "target_anchor": "continuous-world",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 268,
+    "source_end": 268,
+    "target": "docs/PRD/01-全局规则/玩家身份、权限与操作入口.md",
+    "target_anchor": "derived-identity",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 300,
+    "source_end": 300,
+    "target": "docs/PRD/02-玩法模块/治理、政治与领土控制.md",
+    "target_anchor": "influence-rule",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 332,
+    "source_end": 332,
+    "target": "docs/PRD/02-玩法模块/军制、指挥与自主行动.md",
+    "target_anchor": "autonomy",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 355,
+    "source_end": 355,
+    "target": "docs/PRD/02-玩法模块/士气、阵型与战场目标.md",
+    "target_anchor": "objectives",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 430,
+    "source_end": 430,
+    "target": "docs/PRD/02-玩法模块/资源、生产、经济与运输.md",
+    "target_anchor": "resource-network",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 488,
+    "source_end": 488,
+    "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+    "target_anchor": "survival-body",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 542,
+    "source_end": 542,
+    "target": "docs/PRD/02-玩法模块/角色生存、成长与传承.md",
+    "target_anchor": "growth",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 564,
+    "source_end": 564,
+    "target": "docs/PRD/02-玩法模块/司命与角色智能体体验.md",
+    "target_anchor": "siming-candidates",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 617,
+    "source_end": 617,
+    "target": "docs/PRD/01-全局规则/信息可见性与认知边界.md",
+    "target_anchor": "interface-categories",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+    "source_start": 754,
+    "source_end": 754,
+    "target": "docs/architecture/01-系统边界/01-系统边界与权威写入.md",
+    "target_anchor": "architecture-map",
+    "disposition": "父级标题随下属主题迁移；无独立正文"
+  }
+]

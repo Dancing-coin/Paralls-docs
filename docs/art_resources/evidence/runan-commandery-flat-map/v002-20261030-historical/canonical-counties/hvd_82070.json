@@ -1,0 +1,88 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82070",
+  "sys_id" : "hvd_82070",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "宜祿縣",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "宜禄县",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Yilu Xian",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "县",
+    "alternate name" : "縣",
+    "transcription" : "xian",
+    "English" : "county"
+  },
+  "temporal" : {
+    "begin" : "97",
+    "begin rule" : "4",
+    "end" : "212",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "33.48011",
+    "longitude" : "115.24590",
+    "source" : "FROM_AC",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南郸城南宜路镇",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "97",
+        "end year" : "106",
+        "parent id" : "hvd_112585",
+        "name" : "陈国",
+        "transcribed" : "Chen Guo"
+      },
+      {
+        "begin year" : "107",
+        "end year" : "212",
+        "parent id" : "hvd_115751",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "宜禄县        97--212年          今河南郸城南宜路镇
+   约东汉永元九年（97年）置（1），属陈国，约永初元年（107年）改属汝南郡（2），约建安十八年（213年）省（3）。治今河南郸城南宜路镇（4）
+
+   注：
+（1）《后汉书志》20《郡国志二》：汝南郡宜禄，“永元中复。”（北京，中华书局，1965年，12册，3424页）按：永元共十六年，次年改元，今取其中，作永元九年（97年）。
+（2）《后汉书志》卷50《陈敬王羡传》：陈敬王羡封为陈王，食淮阳郡，其年就国，立三十七年薨，子钧立，永元十二年，封钧六弟为侯，后钧有罪，坐削圉、宜禄、扶沟三县，永初七年，封敬王孙为侯。（6册，1668页）据上并参照《郡国志》，宜禄原属陈国，后始削出，宜禄从陈国（淮阳）划出，约在永元十二（100年）年至永初七年（113年）之间，今取其中，当永初元年（107年）。
+  （3）《清嘉庆一统志》卷191《陈州府一?古迹》：宜禄废县，永元中复置，魏、晋间废。（商务印书馆，1934年，《四部丛刊续编》70册）《晋书?地理志》不载，《后汉书志》28《百官志》刘昭注引《献帝起居注》建安十八年三月庚寅，省并州郡。（12册，3626页）姑作此年废。
+（4）《水经注疏》卷22《渠水》：明水上承沙水支津，东出迳汝南郡之宜禄县故城北，王莽之赏都亭也。（南京，江苏古籍出版社，1989年，中册，1920页）《清嘉庆一统志》卷191《陈州府一?古迹》：宜禄废县，在沈丘县北。《河南省地名词典》：郸城县，1952年析鹿邑、淮阳、沈丘三县设；宜路镇，在城关镇南偏东18.5公里，汉为宜禄县治，后演变为宜路店，俗称宜路。（北京，商务印书馆，1993年，436-7页）《沈丘县志》第2编第1章第2节载，1945年沈丘县政区图宜路乡有宜路店。（河南郑州，河南人民出版社，1987年，74页）按：其地原属沈丘，与记载相符。",
+  "source uri" : ""
+}

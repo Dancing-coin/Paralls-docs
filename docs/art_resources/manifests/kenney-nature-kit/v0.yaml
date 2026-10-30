@@ -1,0 +1,54 @@
+schema_version: "1.0"
+asset:
+  asset_id: "kenney-nature-kit"
+  version: "v0"
+  asset_type: "prop"
+  tier: "other"
+  batch: "history"
+  zone_id: "RNSL_S1"
+  building_id: null
+  character_identity_id: null
+  description: "历史资源登记，需遵循现行 manifest 规则"
+source:
+  source_kind: "project_created"
+  source_url: ""
+  local_source_path: "docs/art_resources/staging/kenney_variants_v1/"
+  license: "Kenney Nature Kit, CC0"
+  authorization_status: "verified"
+  download_date: "2026-10-22"
+  files: []
+exports:
+  files: []
+  ue_paths:
+    - "/Game/Battle/Imported/NatureKit/SM_TreeOak"
+dependencies:
+  items: []
+  graph_status: "incomplete"
+technical: {}
+status:
+  lifecycle: "待验证"
+  owner: ""
+  approver: ""
+  updated_at: "2026-10-29"
+  reason: "2026-10-22 有历史视口验证记录；来源文件清单、校验和和证据尚未按现行治理规则补齐，暂不作为已准入资源"
+verification:
+  historical:
+    status: "viewport_verified"
+    date: "2026-10-22"
+    evidence: "asset_registry.md#阶段一已验证小批次"
+  governance:
+    status: "pending"
+    date: null
+    evidence: null
+evidence: {}
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+storage:
+  source_path: "source/kenney-nature-kit/v0/"
+  staging_path: "staging/kenney-nature-kit/v0/"
+  approved_path: null
+  deprecated_path: null
+  evidence_path: "evidence/kenney-nature-kit/v0/"
+  manifest_path: "manifests/kenney-nature-kit/v0.yaml"

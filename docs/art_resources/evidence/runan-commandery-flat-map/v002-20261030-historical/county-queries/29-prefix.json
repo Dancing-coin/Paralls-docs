@@ -1,0 +1,34 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '征羌%'",
+    "count of displayed results" : "2",
+    "count of total results" : "2",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_83034",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83034",
+        "name" : "征羌侯国",
+        "transcription" : "Zhengqiang Hou",
+        "years" : "35 ~ 266",
+        "parent sys_id" : "hvd_112591",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "国 (guo)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.31552, 33.51611",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83035",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83035",
+        "name" : "征羌县",
+        "transcription" : "Zhengqiang Xia",
+        "years" : "468 ~ 555",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.31552, 33.51611",
+        "data source" : "CHGIS"
+      }
+    ]
+}

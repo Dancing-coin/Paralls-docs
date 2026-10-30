@@ -1,0 +1,94 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_82026",
+  "sys_id" : "hvd_82026",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "西華縣",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "西华县",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Xihua Xian",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "县",
+    "alternate name" : "縣",
+    "transcription" : "xian",
+    "English" : "county"
+  },
+  "temporal" : {
+    "begin" : "121",
+    "begin rule" : "4",
+    "end" : "265",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "33.68238",
+    "longitude" : "114.35185",
+    "source" : "FROM_FD",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南西华西南后习阳南颍河南岸",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "121",
+        "end year" : "205",
+        "parent id" : "hvd_115384",
+        "name" : "淮阳国",
+        "transcribed" : "Huaiyang Guo"
+      },
+      {
+        "begin year" : "206",
+        "end year" : "265",
+        "parent id" : "hvd_115751",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+      {
+        "preceded by id" : "hvd_82025",
+        "name" : "西华侯国",
+        "transcribed" : "Xihua Houguo"
+      }
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "西华县          121--265 年         今河南西华西南后习阳南颍河南岸
+东汉建光元年（121年），复西华侯国为县（1），属淮阳国（2），建安十一年（206年）仍属汝南郡，三国魏同（3），约西晋泰始二年（266年）废（4）。治今河南西华西南后习阳以南颍河南岸（5）。
+
+注：
+（1）《后汉书》卷15《邓晨传》：（建武十八年）明年（49年），定封西华侯，二十五年（49年）卒，小子棠嗣，后徙封武当。卷16《邓骘传》：永初元年（107年），封阊西华侯；元初五年，封阊子忠为西华侯，建光元年（121年），废西华侯忠。（北京，中华书局，1965年，3册，584、613、616页）卷81《独行?载封传》永元十二年（100年）前有西华令。（9册，2684页）据上，西华侯曾有置、废、复置。
+（2）《后汉书志》20《郡国志二》汝南郡领西华县。12册，3424页。卷50《淮阳顷王昞传》：建初四年，徙为淮阳王，以汝南之新安、西华益淮阳国。建安十一年国除。（6册，1678页）
+（3）吴增仅、杨守敬《三国郡县表附考证》卷1。《二十五史补编》，北京，中华书局，1956年，3册，2832页。
+（4）西晋泰始元年十二月改元，今作二年改。
+（5）《水经注疏》卷22《颍水》：[颍水又东过西华县北]王莽更名之曰华望也，世祖光武皇帝建武中，封邓晨为侯国，县北有习阳城，颍水注之。《清嘉庆一统志》卷191《陈州府一?古迹》：西华故城，在今西华县南，隋改置于颍水北长平县界。（商务印书馆，1934年，《四部丛刊续编》70册）《西华县志》第22编第1章第3节《城址》：后习阳城位于县城西十二里，原名习阳集，又名石羊。（河南郑州，中州古籍出版社，1993年，534页）按：今西华西南有后习阳（一作后石羊、前石羊），当即《水经注》习阳城，则西华故址应在后习阳以南颍河南岸。",
+  "source uri" : ""
+}

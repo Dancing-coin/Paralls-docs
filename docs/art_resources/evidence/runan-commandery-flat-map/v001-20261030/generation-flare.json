@@ -1,0 +1,8 @@
+{
+  "model": "gpt-image-2.5-flare",
+  "elapsed_seconds": 1.37,
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "gpt-image-2 error: HTTP 503: {'error': {'code': 'model_not_found', 'message': 'No available channel for model gpt-image-2.5-flare under group nano banana (distributor) (request id: 202610300253479541582228268d9d6dCGGxIH9)', 'type': 'new_api_error'}}\n",
+  "output_exists": false
+}

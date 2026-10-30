@@ -1,0 +1,21 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '宋公%'",
+    "count of displayed results" : "1",
+    "count of total results" : "1",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_43366",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43366",
+        "name" : "宋公国",
+        "transcription" : "Songgong Guo",
+        "years" : "79 ~ 264",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "侯国 (hou guo)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.61267, 33.41061",
+        "data source" : "CHGIS"
+      }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "period": "东汉二世纪；未指定准确年份",
+  "deliverables": [
+    "召陵县城正俯视平面推演图",
+    "召陵县城鸟瞰概念图"
+  ],
+  "model": "gemini-3-pro-image-preview",
+  "primary_location": "今河南漯河召陵一带",
+  "source_record": "https://chgis.hudci.org/tgaz/placename/hvd_83032",
+  "source_local": "evidence/runan-commandery-flat-map/v002-20261030-historical/canonical-counties/hvd_83032.json",
+  "quoted_reference": "《中国文物地图集·河南分册》(1991)，333页；本轮仅核读CHGIS引文，未取得原页",
+  "evidence_supported": "引文记内外二城、外城近方形周约6公里、内城在西北隅；未证实全部属东汉同一时期",
+  "artistic_assumptions": [
+    "内城比例",
+    "城门数量及位置",
+    "县署、仓储、演武场等用地",
+    "街道、民居、市场与园圃布局",
+    "壕沟",
+    "建筑立面与高度"
+  ],
+  "not_included": [
+    "县域边界",
+    "城外全县村落复原",
+    "遗址测绘精度"
+  ],
+  "ue_changes": false,
+  "license": "AI输出商业许可待核；CHGIS记录为CC BY-NC 4.0，研究候选"
+}

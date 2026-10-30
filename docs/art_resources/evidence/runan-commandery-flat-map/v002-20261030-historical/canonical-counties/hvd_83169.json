@@ -1,0 +1,91 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83169",
+  "sys_id" : "hvd_83169",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "安陽縣",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "安阳县",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Anyang Xian",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "县",
+    "alternate name" : "縣",
+    "transcription" : "xian",
+    "English" : "county"
+  },
+  "temporal" : {
+    "begin" : "-206",
+    "begin rule" : "2",
+    "end" : "280",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "32.43954",
+    "longitude" : "114.26306",
+    "source" : "FROM_FD",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南正阳县西南",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "-206",
+        "end year" : "279",
+        "parent id" : "hvd_115751",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+      {
+        "begin_year" : "-111",
+        "end_year" : "279",
+        "child id" : "hvd_71222",
+        "name" : "安阳县",
+        "transcribed" : "Anyang Xian"
+      }
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "安阳县（公元前206—280年）
+
+西汉高帝公元前206年，置安阳县，属汝南郡。①治所在今河南省正阳县西南。②
+东汉因之。③
+西晋太康元年（280年），改名南安阳。④
+
+注：
+	①《汉书》卷二十八上?地理志第八：“汝南郡，高帝置。莽曰汝汾。分为赏都尉。属豫州。……县三十七：……安阳，侯国。莽曰均夏。应劭曰：‘故江国，今江亭是。’”（北京：中华书局，1962年，第6 册，第1562页。）
+	② 《大清一统志》卷二百十六：“安阳故城，在正阳县西南。汉文帝八年，封淮南厉王子勃为安阳侯国，属汝南郡。后汉建武中，封吴汉兄子彤为侯国。晋太康元年，改曰南安阳。刘宋复曰安阳。后汉属义阳郡。隋省县入真阳。唐初复置，属豫州，后废。括地志，安阳故城，在新息县西南八十里。”（《续修四部丛刊》，上海：商务印书馆，1934年。）
+③ 《后汉书》志第二十：“汝南郡，高帝置。……三十七城，……安阳侯国。有江亭，故国，嬴姓。”（北京：中华书局，1965年，第12 册，第3424页。）
+④ 《晋书》卷十四?志第四：“汝南郡，汉置。统县十五，户二万一千五百。……南安阳……”（北京：中华书局，1974年，第421页。）又，《宋书》卷三十六：“汝南太守，汉高帝立。领县十一。户一万一千二百九十一，口八万九千三百四十九。去州水一千，陆七百。去京都水三千，陆一千五百。……安阳令，汉旧县。晋武太康元年，改为南安阳。”（北京：中华书局，1974年，第1082页）",
+  "source uri" : ""
+}

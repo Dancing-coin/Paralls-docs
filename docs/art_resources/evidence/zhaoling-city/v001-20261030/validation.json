@@ -1,0 +1,42 @@
+{
+  "outputs": [
+    {
+      "kind": "plan",
+      "path": "staging/zhaoling-city/v001-20261030/zhaoling-plan.png",
+      "dimensions": [
+        1200,
+        1174
+      ],
+      "size_bytes": 2427501,
+      "sha256": "7b87d284d8506cc4af2ccb6dcf443f415f1d3d9a21c11ec1b4a8983d730dd6fa"
+    },
+    {
+      "kind": "concept",
+      "path": "staging/zhaoling-city/v001-20261030/zhaoling-concept.png",
+      "dimensions": [
+        1584,
+        887
+      ],
+      "size_bytes": 1868208,
+      "sha256": "807e1cc35880ba8315c0ef4da56d4c5a95712902944a6ceed7447eeac3d0bb97"
+    }
+  ],
+  "model": "gemini-3-pro-image-preview",
+  "originals_retained": true,
+  "historical_status": "hypothetical; not archaeologically verified",
+  "image_consistency": "same text layout brief; not exact building-for-building correspondence",
+  "ue_launched": false,
+  "ue_asset_changes": 0,
+  "actor_changes": 0,
+  "pie": "not started",
+  "visual_review": {
+    "reviewed": true,
+    "notes": [
+      "原始两图和加注版已实际查看",
+      "平面图外城、西北内城、街道和院落可辨；六处设计标号可读",
+      "鸟瞰图城邑全景、夯土墙与低层院落可辨",
+      "两图只保持总体布局关系，未实现逐栋对应",
+      "遗存分期、门街建筑布局、尺度仍待考证"
+    ]
+  }
+}

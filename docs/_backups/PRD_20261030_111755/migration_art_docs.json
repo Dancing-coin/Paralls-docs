@@ -1,0 +1,1355 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "original_backup": "docs/_backups/PRD_20261030_111755/original_PRD",
+  "scope": "art_docs six-file migration; no existing resource facts, indexes, manifests or original PRD edited",
+  "source_line_counts": {
+    "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md": 476,
+    "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md": 278,
+    "docs/PRD/玩法系统/建筑资产构建方案.md": 359
+  },
+  "notes": [
+    "All meaningful source sections preserved with stable explicit anchors. Source metadata/history retained as historical provenance.",
+    "Current acceptance is county defense demo; riding and three teams retained as independently sourced pending decisions.",
+    "Low Poly/graybox prototype and long-term realistic production are separate acceptance layers.",
+    "asset_id/version editorial clarification follows existing resource governance; original wording retained in migration notes and immutable original backup.",
+    "Engine settings and numerical budgets are design inputs pending actual validation, not verified runtime facts.",
+    "Supplemental total-planning line396 was fully read by product_global and supplied verbatim; complete-source coverage declaration applies only to the three sources in source_line_counts.",
+    "Supplemental gameplay source scope is original lines659-697 only; those lines are fully routed here without claiming full-source coverage. Resource governance line677 retains its exact field list at gameplay-art-governance and references existing scene-authority; gameplay production owner retains full gameplay-source coverage responsibility."
+  ],
+  "sections": [
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 1,
+        "end": 13
+      },
+      "original_section": "# 召陵县第一阶段 Demo 场景素材需求",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-001",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-001",
+      "disposition": "historical-metadata; original baseline state does not certify current review or implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 14,
+        "end": 21
+      },
+      "original_section": "## 0. 文档边界与继承规则",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-014",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-014",
+      "disposition": "moved-preserved; design baseline pending review and implementation; asset_id/version identity clarified against existing governance, original wording preserved in backup"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 22,
+        "end": 33
+      },
+      "original_section": "## 1. 需求结论",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-022",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-022",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 34,
+        "end": 35
+      },
+      "original_section": "## 2. 场景定位与历史表达边界",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-034",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-034",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 36,
+        "end": 46
+      },
+      "original_section": "### 2.1 城池身份",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-036",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-036",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 47,
+        "end": 54
+      },
+      "original_section": "### 2.2 历史与美术原则",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-047",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-047",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 55,
+        "end": 66
+      },
+      "original_section": "## 3. 场景规模分级",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-055",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-055",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 67,
+        "end": 68
+      },
+      "original_section": "## 4. 召陵县空间总图需求",
+      "target_path": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md",
+      "target_anchor": "scene-067",
+      "target": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md#scene-067",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 69,
+        "end": 83
+      },
+      "original_section": "### 4.1 城内分区",
+      "target_path": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md",
+      "target_anchor": "scene-069",
+      "target": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md#scene-069",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 84,
+        "end": 98
+      },
+      "original_section": "### 4.2 城外分区",
+      "target_path": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md",
+      "target_anchor": "scene-084",
+      "target": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md#scene-084",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 99,
+        "end": 112
+      },
+      "original_section": "### 4.3 城门和道路策略",
+      "target_path": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md",
+      "target_anchor": "scene-099",
+      "target": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md#scene-099",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 113,
+        "end": 114
+      },
+      "original_section": "## 5. 建筑资产需求矩阵",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-113",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-113",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 115,
+        "end": 128
+      },
+      "original_section": "### 5.1 L0 基础构件",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-115",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-115",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 129,
+        "end": 142
+      },
+      "original_section": "### 5.2 L1 房间单元（批次 A 原型，批次 B 完整核心）",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-129",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-129",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 143,
+        "end": 162
+      },
+      "original_section": "### 5.3 L2 可记忆地标（批次 A 三座风险闸门地标，批次 B 补齐 S1 地标）",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-143",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-143",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 163,
+        "end": 176
+      },
+      "original_section": "### 5.4 L3 城墙、街巷和基础设施（批次 A 南门/一里原型，批次 B S1 完整核心，批次 C/S0 扩展）",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-163",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-163",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 177,
+        "end": 186
+      },
+      "original_section": "### 5.5 L4 地面与地形（批次 A 核心落地，批次 B S1 功能地面，批次 C/D 城外与全县扩展）",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-177",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-177",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 187,
+        "end": 188
+      },
+      "original_section": "## 6. 场景道具和功能素材",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-187",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-187",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 189,
+        "end": 198
+      },
+      "original_section": "### 6.1 城防和攻城",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-189",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-189",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 199,
+        "end": 209
+      },
+      "original_section": "### 6.2 粮食、生产和运输",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-199",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-199",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 210,
+        "end": 219
+      },
+      "original_section": "### 6.3 居民和生活陈设",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-210",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-210",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 220,
+        "end": 221
+      },
+      "original_section": "## 7. 材质、颜色和可读性",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-220",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-220",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 222,
+        "end": 231
+      },
+      "original_section": "### 7.1 材质分层",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-222",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-222",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 232,
+        "end": 239
+      },
+      "original_section": "### 7.2 写实风执行基线",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "scene-232",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#scene-232",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 240,
+        "end": 246
+      },
+      "original_section": "### 7.3 识别规则",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "scene-240",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#scene-240",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 247,
+        "end": 248
+      },
+      "original_section": "## 8. 逻辑体、锚点和数据契约",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "scene-247",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#scene-247",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 249,
+        "end": 276
+      },
+      "original_section": "### 8.1 建筑逻辑体最小字段",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "scene-249",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#scene-249",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 277,
+        "end": 302
+      },
+      "original_section": "### 8.2 锚点命名",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "scene-277",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#scene-277",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 303,
+        "end": 330
+      },
+      "original_section": "### 8.3 命名与目录",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-303",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-303",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 331,
+        "end": 332
+      },
+      "original_section": "UE 实时协作依赖[08 全量 Owner 节奏矩阵](08-基础设施与Owner建设总计划.md#112-全量-owner-的-ue-协作与节奏矩阵)；ESM 仅按[01 迁移边界](01-Paralls现有Owner与接入分析.md#9-esm-复用边界与迁移检查)选择性适配，不要求 Godot 执行器。导航障碍须由已确认的门闩/门扇/设施状态映射更新；流送卸载不能删除设施逻辑状态或移交写权。",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "scene-331",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#scene-331",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 333,
+        "end": 341
+      },
+      "original_section": "## 9. 流送、分区和性能要求",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-333",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-333",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 342,
+        "end": 343
+      },
+      "original_section": "## 10. 制作分批与资产依赖",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-342",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-342",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 344,
+        "end": 349
+      },
+      "original_section": "### 批次 A：语法和落地风险闸门",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-344",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-344",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 350,
+        "end": 355
+      },
+      "original_section": "### 批次 B：S1 可玩核心",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-350",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-350",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 356,
+        "end": 361
+      },
+      "original_section": "### 批次 C：S2 战区节点",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-356",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-356",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 362,
+        "end": 367
+      },
+      "original_section": "### 批次 D：S0 全县视觉边界",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-362",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-362",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 368,
+        "end": 373
+      },
+      "original_section": "### 批次 E：状态变体和灾损",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-368",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-368",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 374,
+        "end": 393
+      },
+      "original_section": "### 10.1 批次执行契约",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-374",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-374",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 394,
+        "end": 408
+      },
+      "original_section": "## 11. 场景资产验收矩阵",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-394",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-394",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 409,
+        "end": 423
+      },
+      "original_section": "## 12. 场景与玩法联调验收",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-409",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-409",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 424,
+        "end": 429
+      },
+      "original_section": "## 13. 资源登记与来源要求",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-424",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-424",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 430,
+        "end": 440
+      },
+      "original_section": "## 14. 不应在本轮制作的内容",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-430",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-430",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 441,
+        "end": 454
+      },
+      "original_section": "## 15. 完成定义",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-441",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-441",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 455,
+        "end": 466
+      },
+      "original_section": "## 16. 与其他文档的关系",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-455",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-455",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/06-召陵县第一阶段Demo场景素材需求.md",
+      "original_lines": {
+        "start": 467,
+        "end": 476
+      },
+      "original_section": "## 17. 版本历史",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "scene-467",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#scene-467",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 1,
+        "end": 12
+      },
+      "original_section": "# 召陵县第一阶段 Demo 角色素材需求",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-001",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-001",
+      "disposition": "historical-metadata; original baseline state does not certify current review or implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 13,
+        "end": 23
+      },
+      "original_section": "## 1. 需求结论",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-013",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-013",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 24,
+        "end": 25
+      },
+      "original_section": "## 2. 视觉目标与边界",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-024",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-024",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 26,
+        "end": 33
+      },
+      "original_section": "### 2.1 写实风硬约束",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-026",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-026",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 34,
+        "end": 41
+      },
+      "original_section": "### 2.2 镜头优先级",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-034",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-034",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 42,
+        "end": 43
+      },
+      "original_section": "## 3. 第一阶段角色清单",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-042",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-042",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 44,
+        "end": 63
+      },
+      "original_section": "### 3.1 角色分层和首版数量",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-044",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-044",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 64,
+        "end": 77
+      },
+      "original_section": "### 3.2 角色资产预算",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-064",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-064",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 78,
+        "end": 79
+      },
+      "original_section": "## 4. 模型、服装和装备需求",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-078",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-078",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 80,
+        "end": 86
+      },
+      "original_section": "### 4.1 玩家骑将与关键角色",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-080",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-080",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 87,
+        "end": 93
+      },
+      "original_section": "### 4.2 普通士兵、民夫和伤员",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-087",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-087",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 94,
+        "end": 99
+      },
+      "original_section": "### 4.3 坐骑和驮畜",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-094",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-094",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 100,
+        "end": 101
+      },
+      "original_section": "## 5. 骨骼、动画和运行接口",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-100",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-100",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 102,
+        "end": 127
+      },
+      "original_section": "### 5.1 骨骼与导入",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-102",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-102",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 128,
+        "end": 141
+      },
+      "original_section": "### 5.2 第一阶段最小动画集",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-128",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-128",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 142,
+        "end": 149
+      },
+      "original_section": "## 6. 材质、颜色和表现规则",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-142",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-142",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 150,
+        "end": 186
+      },
+      "original_section": "## 7. 命名、目录和资产包",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-150",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-150",
+      "disposition": "moved-preserved; design baseline pending review and implementation; asset_id/version identity clarified against existing governance, original wording preserved in backup"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 187,
+        "end": 188
+      },
+      "original_section": "## 8. 制作批次和验收闸门",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-187",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-187",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 189,
+        "end": 194
+      },
+      "original_section": "### 批次 A：玩家骑将与战马",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-189",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-189",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 195,
+        "end": 200
+      },
+      "original_section": "### 批次 B：亲卫、营指挥头目和敌方将领",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-195",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-195",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 201,
+        "end": 206
+      },
+      "original_section": "### 批次 C：三队步兵、敌军和传令兵",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-201",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-201",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 207,
+        "end": 212
+      },
+      "original_section": "### 批次 D：居民、民夫、工匠和伤员",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-207",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-207",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 213,
+        "end": 219
+      },
+      "original_section": "### 批次出口规则",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-213",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-213",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 220,
+        "end": 232
+      },
+      "original_section": "## 9. 角色资产验收矩阵",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-220",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-220",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 233,
+        "end": 241
+      },
+      "original_section": "## 10. 资源登记字段",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "character-233",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#character-233",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 242,
+        "end": 250
+      },
+      "original_section": "## 11. 本轮不制作",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-242",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-242",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 251,
+        "end": 262
+      },
+      "original_section": "## 12. 完成定义",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-251",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-251",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 263,
+        "end": 271
+      },
+      "original_section": "## 13. 与其他文档的关系",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-263",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-263",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md",
+      "original_lines": {
+        "start": 272,
+        "end": 278
+      },
+      "original_section": "## 14. 版本历史",
+      "target_path": "docs/art_resources/requirements/召陵县/角色素材需求.md",
+      "target_anchor": "character-272",
+      "target": "docs/art_resources/requirements/召陵县/角色素材需求.md#character-272",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 1,
+        "end": 6
+      },
+      "original_section": "PS:这版方案把资产五层、两级视觉流送、协作和制作路线四个部分展开到“可执行参数 + 命名规则 + 验收清单 + 风险点”的颗粒度。联网不做实现，但建筑全局ID、逻辑体/视觉体分离、流送边界的数据契约从第一件L0资产开始保留，后期接入专用服务器时不需要推翻已有架构。",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-001",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-001",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 7,
+        "end": 24
+      },
+      "original_section": "## 0. 文档权威关系与冲突裁决",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-007",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-007",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 25,
+        "end": 36
+      },
+      "original_section": "### 0.1 稳定身份与对象映射",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-025",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-025",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 37,
+        "end": 52
+      },
+      "original_section": "## 一、范围与规范基准：不再论证，只作为执行前提",
+      "target_path": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md",
+      "target_anchor": "building-037",
+      "target": "docs/PRD/04-内容与剧本/召陵县/场景布局与功能分区.md#building-037",
+      "disposition": "moved-preserved; design baseline pending review and implementation; scene locked-value heading relabeled preserved baseline pending review, all numerical values unchanged"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 53,
+        "end": 68
+      },
+      "original_section": "**三条模块宪法**：",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-053",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-053",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 69,
+        "end": 70
+      },
+      "original_section": "## 二、资产五层详细设计",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-069",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-069",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 71,
+        "end": 94
+      },
+      "original_section": "### L0 基础构件层：唯一必须锁死规范的层",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-071",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-071",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 95,
+        "end": 116
+      },
+      "original_section": "### L1 房间单元层：可进入的最小空间，预拼装而非最终资产",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-095",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-095",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 117,
+        "end": 135
+      },
+      "original_section": "### L2 完整建筑层：玩家会反复辨认和进入的地标",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-117",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-117",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 136,
+        "end": 157
+      },
+      "original_section": "### L3 簇与基础设施层：县城的骨架与流送单元",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-136",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-136",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 158,
+        "end": 175
+      },
+      "original_section": "### L4 地面与地形层：落地、高差与城外过渡",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-158",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-158",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 176,
+        "end": 177
+      },
+      "original_section": "## 三、两级视觉流送详细设计",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-176",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-176",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 178,
+        "end": 191
+      },
+      "original_section": "### 远层 Block Proxy：从近层自动合并生成，不另制风格化低模",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-178",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-178",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 192,
+        "end": 219
+      },
+      "original_section": "### 近层 Enterable Set：Level Instance 按距离带异步调度",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-192",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-192",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 220,
+        "end": 233
+      },
+      "original_section": "### 性能预算与监控指标",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-220",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-220",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 234,
+        "end": 235
+      },
+      "original_section": "## 四、协作方案详细设计",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-234",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-234",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 236,
+        "end": 249
+      },
+      "original_section": "### 工具链固定配置",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-236",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-236",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 250,
+        "end": 263
+      },
+      "original_section": "### 地理分工：按区块认领，Actor 级锁",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-250",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-250",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 264,
+        "end": 269
+      },
+      "original_section": "### 数据层辅助分工",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-264",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-264",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 270,
+        "end": 285
+      },
+      "original_section": "### 提交纪律与自动化检查",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-270",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-270",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 286,
+        "end": 287
+      },
+      "original_section": "## 五、制作路线详细设计",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "building-286",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#building-286",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 288,
+        "end": 309
+      },
+      "original_section": "### 第 1 阶段：垂直切片（风险闸门，不通过不进入下一阶段）",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "building-288",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#building-288",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 310,
+        "end": 315
+      },
+      "original_section": "### 第 2 阶段：L0 完整化 + L1 原型全部通过",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "building-310",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#building-310",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 316,
+        "end": 321
+      },
+      "original_section": "### 第 3 阶段：L2 地标精耕 + L4-B 衙城台地",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "building-316",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#building-316",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 322,
+        "end": 327
+      },
+      "original_section": "### 第 4 阶段：L3 骨架 + L4-B 城壕岸坡/城墙基槽",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "building-322",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#building-322",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 328,
+        "end": 333
+      },
+      "original_section": "### 第 5 阶段：L4-C 城外环境 + 变体扩展",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "building-328",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#building-328",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 334,
+        "end": 339
+      },
+      "original_section": "### 第 6 阶段：全量铺设 + 自动化验收",
+      "target_path": "docs/art_resources/requirements/召陵县/场景素材需求.md",
+      "target_anchor": "building-334",
+      "target": "docs/art_resources/requirements/召陵县/场景素材需求.md#building-334",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 340,
+        "end": 352
+      },
+      "original_section": "## 六、联网预留的底线检查清单",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-340",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-340",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/玩法系统/建筑资产构建方案.md",
+      "original_lines": {
+        "start": 353,
+        "end": 359
+      },
+      "original_section": "## 七、版本历史",
+      "target_path": "docs/art_resources/standards/建筑模块化与流送标准.md",
+      "target_anchor": "building-353",
+      "target": "docs/art_resources/standards/建筑模块化与流送标准.md#building-353",
+      "disposition": "moved-preserved; design baseline pending review and implementation"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_总策划案_v1.0.md",
+      "original_lines": {
+        "start": 396,
+        "end": 396
+      },
+      "original_section": "装备资产模块组合预算示例",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "source-modular-character-budget",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#source-modular-character-budget",
+      "disposition": "preserved-verbatim supplemental source supplied by product_global; unverified design budget example, not existing assets or current mandatory delivery"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 659,
+        "end": 660
+      },
+      "original_section": "## 8. 美术需求清单、动画与音频",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-presentation",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-presentation",
+      "disposition": "moved-preserved; complete-game design scope, not automatic county-demo acceptance"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 661,
+        "end": 667
+      },
+      "original_section": "### 8.1 整体风格",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-style",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-style",
+      "disposition": "moved-preserved; original blank design decisions remain unresolved"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 668,
+        "end": 676
+      },
+      "original_section": "### 8.2 美术需求清单",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-categories",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-categories",
+      "disposition": "moved-preserved; original resource categories, priorities, status and blank content list retained"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 677,
+        "end": 678
+      },
+      "original_section": "外部资源治理要求",
+      "target_path": "docs/art_resources/standards/场景制作与交互挂接标准.md",
+      "target_anchor": "gameplay-art-governance",
+      "target": "docs/art_resources/standards/场景制作与交互挂接标准.md#gameplay-art-governance",
+      "disposition": "moved-preserved; explicit source/license/budget/Actor/import/PIE/replacement registration sentence retained, existing resource governance remains authority"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 679,
+        "end": 689
+      },
+      "original_section": "### 8.3 动画与特效",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "gameplay-animation-feedback",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#gameplay-animation-feedback",
+      "disposition": "moved-preserved; six trigger rows and priorities retained without adding current acceptance scope"
+    },
+    {
+      "original_path": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+      "original_lines": {
+        "start": 690,
+        "end": 697
+      },
+      "original_section": "### 8.4 音频需求",
+      "target_path": "docs/art_resources/standards/角色制作与UE接入标准.md",
+      "target_anchor": "gameplay-audio-requirements",
+      "target": "docs/art_resources/standards/角色制作与UE接入标准.md#gameplay-audio-requirements",
+      "disposition": "moved-preserved; music and voice priority blanks retained as unresolved, sound-effect priority remains high"
+    }
+  ],
+  "verification": {
+    "all_nonblank_original_lines_mapped": true,
+    "duplicate_source_line_coverage": false,
+    "all_target_mapping_anchors_present": true,
+    "note": "Cross-author links await peer output and final root audit; no UE or asset changes performed.",
+    "source_tables_preserved_except_editorial_references": [
+      "scene performance row: obsolete section9 pointer replaced with building standard design target",
+      "building scale table header: locked value relabeled original baseline pending review; all numbers unchanged"
+    ],
+    "all_source_socket_tokens_preserved": true,
+    "all_source_ue_game_paths_preserved": true,
+    "source_coverage": "All nonblank lines in 06/07/building mapped exactly once; 104 entries include one supplemental total-planning line."
+  }
+}

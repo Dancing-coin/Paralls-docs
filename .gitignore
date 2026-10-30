@@ -1,0 +1,29 @@
+# Unreal Engine generated files (keep project sources and assets)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE generated files and local settings
+.vs/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Local credentials and operating system files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini

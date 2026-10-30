@@ -1,0 +1,52 @@
+schema_version: "1.0"
+asset:
+  asset_id: "candidate-asian-armour"
+  version: "v0"
+  asset_type: "character"
+  tier: "character_mid"
+  batch: "B"
+  zone_id: "RNSL_S1"
+  building_id: null
+  character_identity_id: null
+  description: "待筛选的 UE 候选角色目录"
+source:
+  source_kind: "external"
+  source_url: ""
+  local_source_path: "F:\\download\\UE5中国古代武侠客士兵人物角色江湖动画 Asian Armour"
+  license: "unknown"
+  authorization_status: "unknown"
+  download_date: "unknown"
+  files: []
+exports:
+  files: []
+  ue_paths: []
+dependencies:
+  graph_status: "incomplete"
+technical: {}
+status:
+  lifecycle: "候选"
+  owner: ""
+  approver: ""
+  updated_at: "2026-10-29"
+  reason: "目录规模大，尚未完成单资产筛选和许可证验证"
+verification:
+  historical:
+    status: "not_checked"
+    date: null
+    evidence: null
+  governance:
+    status: "pending"
+    date: null
+    evidence: null
+evidence: {}
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+storage:
+  source_path: "source/candidate-asian-armour/v0/"
+  staging_path: "staging/candidate-asian-armour/v0/"
+  approved_path: null
+  deprecated_path: null
+  evidence_path: "evidence/candidate-asian-armour/v0/"
+  manifest_path: "manifests/candidate-asian-armour/v0.yaml"

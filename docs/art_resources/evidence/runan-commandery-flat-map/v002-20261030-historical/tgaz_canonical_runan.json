@@ -1,0 +1,79 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_112593",
+  "sys_id" : "hvd_112593",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "汝南郡",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "汝南郡",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Runan Jun",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "郡",
+    "alternate name" : "郡",
+    "transcription" : "jun",
+    "English" : "commandery"
+  },
+  "temporal" : {
+    "begin" : "79",
+    "begin rule" : "3",
+    "end" : "0",
+    "end rule" : "0"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "33.15550",
+    "longitude" : "114.56728",
+    "source" : "",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "河南平舆县北",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "79",
+        "end year" : "0",
+        "parent id" : "hvd_113654",
+        "name" : "东汉",
+        "transcribed" : "Donghan"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+      {
+        "preceded by id" : "hvd_112592",
+        "name" : "汝南国",
+        "transcribed" : "Runan Guo"
+      }
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "",
+  "source uri" : ""
+}

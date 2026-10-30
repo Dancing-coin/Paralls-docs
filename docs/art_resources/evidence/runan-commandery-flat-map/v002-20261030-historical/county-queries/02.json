@@ -1,0 +1,60 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '新阳县%'",
+    "count of displayed results" : "4",
+    "count of total results" : "4",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_41787",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_41787",
+        "name" : "新阳县",
+        "transcription" : "Xinyang Xian",
+        "years" : "222 ~ 280",
+        "parent sys_id" : "hvd_32819",
+        "parent name" : "长沙郡 (Changsha Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "112.19560, 28.17039",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43563",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43563",
+        "name" : "新阳县",
+        "transcription" : "Xinyang Xian",
+        "years" : "420 ~ 549",
+        "parent sys_id" : "hvd_34548",
+        "parent name" : "竟陵郡 (Jingling Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "113.11685, 31.02481",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_40401",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_40401",
+        "name" : "新阳县",
+        "transcription" : "Xinyang Xian",
+        "years" : "1724 ~ 1911",
+        "parent sys_id" : "hvd_32432",
+        "parent name" : "苏州府 (Suzhou Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "120.94823, 31.38611",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_196506",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_196506",
+        "name" : "新阳县",
+        "transcription" : "Xinyang Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_195193",
+        "parent name" : "苏州府 (Suzhou Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POLYGON",
+        "xy coordinates" : "0.00000, 0.00000",
+        "data source" : "CHGIS"
+      }
+    ]
+}

@@ -1,0 +1,112 @@
+# Copy to manifests/<asset_id>/<version>.yaml.
+# Keep source/ and approved/ versions immutable; create a new version for replacements.
+schema_version: "1.0"
+asset:
+  asset_id: "asset-id"
+  version: "v0"
+  asset_type: "building|character|horse|animation|prop|terrain|material|logic"
+  tier: "L0|L1|L2|L3|L4|character_near|character_mid|character_far|other"
+  batch: "A"
+  zone_id: "RNSL_S1"
+  building_id: null
+  character_identity_id: null
+  description: ""
+
+source:
+  source_kind: "external|project_created|derived"
+  source_url: ""
+  local_source_path: ""
+  license: ""
+  authorization_status: "unknown|verified|restricted|project_owned"
+  download_date: "YYYY-MM-DD"
+  files:
+    - path: "source/<asset_id>/<version>/file.ext"
+      size_bytes: 0
+      sha256: ""
+
+exports:
+  files:
+    - path: "staging/<asset_id>/<version>/file.ext"
+      size_bytes: 0
+      sha256: ""
+  ue_paths:
+    - "/Game/Guoshang/..."
+
+dependencies:
+  items:
+    - asset_id: "dependency-id"
+      version: "v0"
+      relation: "material|skeleton|animation|module|logic|proxy|other"
+      required: true
+  graph_status: "complete|incomplete|blocked"
+
+technical:
+  geometry:
+    triangles: 0
+    vertices: 0
+    nanite: false
+  materials:
+    material_slots: 0
+    master_material: ""
+  textures:
+    resolutions: ["2K", "1K"]
+    texel_density: ""
+  lod:
+    levels: 0
+    screen_size_notes: ""
+  collision:
+    mode: "entity_box|simple|complex|none"
+    verified: false
+  sockets: []
+  physics_asset: ""
+  building_mapping:
+    visual_asset_ref: ""
+    logic_volume_ref: ""
+    level_instance_ref: ""
+    packed_level_actor_ref: ""
+    hlod_proxy_ref: ""
+  character_mapping:
+    skeleton_ref: ""
+    gameplay_components: []
+    animation_set_ref: ""
+    equipment_socket_refs: []
+
+status:
+  lifecycle: "候选"
+  owner: ""
+  approver: ""
+  updated_at: "YYYY-MM-DD"
+  reason: ""
+
+# 历史视口/关卡验证与现行治理准入分开记录。
+# 只有 governance.status=passed 且依赖图、来源、校验和、证据齐全时，lifecycle 才能为“已验证”或“已用于 Demo”。
+verification:
+  historical:
+    status: "not_checked|viewport_verified|pie_verified"
+    date: null
+    evidence: null
+  governance:
+    status: "pending|passed|blocked"
+    date: null
+    evidence: null
+
+evidence:
+  ue_import_log: "evidence/<asset_id>/<version>/ue-import.log"
+  editor_screenshot: "evidence/<asset_id>/<version>/editor.png"
+  pie_screenshot_or_video: "evidence/<asset_id>/<version>/pie.png"
+  performance_report: ""
+  validation_notes: ""
+
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+  supersedes: []
+
+storage:
+  source_path: "source/<asset_id>/<version>/"
+  staging_path: "staging/<asset_id>/<version>/"
+  approved_path: null
+  deprecated_path: null
+  evidence_path: "evidence/<asset_id>/<version>/"
+  manifest_path: "manifests/<asset_id>/<version>.yaml"

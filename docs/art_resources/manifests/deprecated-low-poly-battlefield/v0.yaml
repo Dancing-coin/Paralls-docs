@@ -1,0 +1,52 @@
+schema_version: "1.0"
+asset:
+  asset_id: "deprecated-low-poly-battlefield"
+  version: "v0"
+  asset_type: "terrain"
+  tier: "other"
+  batch: "history"
+  zone_id: ""
+  building_id: null
+  character_identity_id: null
+  description: "历史占位记录，不作为阶段一目标"
+source:
+  source_kind: "external"
+  source_url: ""
+  local_source_path: ""
+  license: "unknown"
+  authorization_status: "unknown"
+  download_date: "unknown"
+  files: []
+exports:
+  files: []
+  ue_paths: []
+dependencies:
+  graph_status: "complete"
+technical: {}
+status:
+  lifecycle: "弃用"
+  owner: ""
+  approver: ""
+  updated_at: "2026-10-29"
+  reason: "阶段一改用写实比例、材质和远景代理分层"
+verification:
+  historical:
+    status: "not_checked"
+    date: null
+    evidence: null
+  governance:
+    status: "blocked"
+    date: null
+    evidence: null
+evidence: {}
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+storage:
+  source_path: "source/deprecated-low-poly-battlefield/v0/"
+  staging_path: "staging/deprecated-low-poly-battlefield/v0/"
+  approved_path: null
+  deprecated_path: "deprecated/deprecated-low-poly-battlefield/v0/"
+  evidence_path: "evidence/deprecated-low-poly-battlefield/v0/"
+  manifest_path: "manifests/deprecated-low-poly-battlefield/v0.yaml"

@@ -1,0 +1,53 @@
+schema_version: "1.0"
+asset:
+  asset_id: "design-han-end-realistic-character"
+  version: "v0"
+  asset_type: "character"
+  tier: "character_near"
+  batch: "A"
+  zone_id: "RNSL_S1"
+  building_id: null
+  character_identity_id: "design"
+  description: "汉末写实风角色小样设计"
+source:
+  source_kind: "project_created"
+  source_url: ""
+  local_source_path: "docs/PRD/玩法系统/07-召陵县第一阶段Demo角色素材需求.md"
+  license: "project_owned"
+  authorization_status: "project_owned"
+  download_date: "2026-10-29"
+  files: []
+exports:
+  files: []
+  ue_paths:
+    - "/Game/Battle/Characters/SK_Battle_Infantry"
+dependencies:
+  graph_status: "incomplete"
+technical: {}
+status:
+  lifecycle: "制作中"
+  owner: ""
+  approver: ""
+  updated_at: "2026-10-29"
+  reason: "设计稿阶段，等待写实服装、装备、LOD 和动画验证"
+verification:
+  historical:
+    status: "not_checked"
+    date: null
+    evidence: null
+  governance:
+    status: "pending"
+    date: null
+    evidence: null
+evidence: {}
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+storage:
+  source_path: "source/design-han-end-realistic-character/v0/"
+  staging_path: "staging/design-han-end-realistic-character/v0/"
+  approved_path: null
+  deprecated_path: null
+  evidence_path: "evidence/design-han-end-realistic-character/v0/"
+  manifest_path: "manifests/design-han-end-realistic-character/v0.yaml"

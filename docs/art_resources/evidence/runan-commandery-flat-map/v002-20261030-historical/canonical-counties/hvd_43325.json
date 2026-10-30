@@ -1,0 +1,67 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43325",
+  "sys_id" : "hvd_43325",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "原鹿侯國",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "原鹿侯国",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Yuanlu Houguo",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "侯国",
+    "alternate name" : "侯國",
+    "transcription" : "hou guo",
+    "English" : "marquisate"
+  },
+  "temporal" : {
+    "begin" : "39",
+    "begin rule" : "4",
+    "end" : "335",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "32.55328",
+    "longitude" : "115.64360",
+    "source" : "FROM_FD",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "安徽阜南县于集东北",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "<html><body>待补</body></html>",
+  "source uri" : ""
+}

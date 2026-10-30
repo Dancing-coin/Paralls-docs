@@ -1,0 +1,62 @@
+schema_version: "1.0"
+asset:
+  asset_id: "runan-commandery-flat-map"
+  version: "v001-20261030"
+  asset_type: "terrain"
+  tier: "other"
+  description: "汝南郡二维战略舆图概念测试；非精确历史复原"
+source:
+  source_kind: "project_created"
+  source_url: "https://www.aiartmirror.com/v1/images/generations"
+  license: "AI生成；服务商输出许可与商业使用条款待核验"
+  authorization_status: "unknown"
+  download_date: "2026-10-30"
+  files:
+    - path: "source/runan-commandery-flat-map/v001-20261030/runan_map.jpg"
+      size_bytes: 815333
+      sha256: "1e712617570fdf7d2ed41cfa8d1528f30246e6f92189f0b90f12a079beb4e3d1"
+exports:
+  files:
+    - path: "staging/runan-commandery-flat-map/v001-20261030/runan_map.jpg"
+      size_bytes: 815333
+      sha256: "1e712617570fdf7d2ed41cfa8d1528f30246e6f92189f0b90f12a079beb4e3d1"
+  ue_paths: []
+dependencies:
+  items: []
+  graph_status: "complete"
+technical:
+  geometry: {triangles: 0, vertices: 0, nanite: false}
+  textures:
+    resolutions: ["1264x848"]
+    usage: "仅供地图概念评审；不用于UE运行时"
+status:
+  lifecycle: "候选"
+  owner: ""
+  approver: ""
+  updated_at: "2026-10-30"
+  reason: "Gemini Pro单张测试已出图并查看；历史布局及服务商许可待核验，未批准使用"
+verification:
+  historical: {status: "not_checked", date: null, evidence: null}
+  governance: {status: "pending", date: null, evidence: null}
+evidence:
+  ue_import_log: null
+  editor_screenshot: null
+  pie_screenshot_or_video: null
+  generation_model: "gemini-3-pro-image-preview"
+  generation_log: "evidence/runan-commandery-flat-map/v001-20261030/generation-gemini-pro.json"
+  failed_generation_log: "evidence/runan-commandery-flat-map/v001-20261030/generation-flare.json"
+  visual_validation: "evidence/runan-commandery-flat-map/v001-20261030/validation.json"
+  performance_report: "evidence/runan-commandery-flat-map/v001-20261030/performance.json"
+  validation_notes: "实际图片已查看；五处主县名可读。郡界、县位及河流是示意，额外河名未考证；部分繁体字。未启动UE，无资产/Actor变更。"
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+  supersedes: []
+storage:
+  source_path: "source/runan-commandery-flat-map/v001-20261030/"
+  staging_path: "staging/runan-commandery-flat-map/v001-20261030/"
+  approved_path: null
+  deprecated_path: null
+  evidence_path: "evidence/runan-commandery-flat-map/v001-20261030/"
+  manifest_path: "manifests/runan-commandery-flat-map/v001-20261030.yaml"

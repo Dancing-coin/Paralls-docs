@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "scope": "documentation_static_only_no_code_UE_PIE_or_performance_execution",
+  "document_count": 18,
+  "line_count": 4129,
+  "migration_entry_count": 255,
+  "owner_registry_rows": 23,
+  "ue_cadence_rows": 23,
+  "exact_fenced_payloads_verified": 79,
+  "incoming_architecture_links_checked": 100,
+  "coverage": {
+    "docs/PRD/玩法系统/01-Paralls现有Owner与接入分析.md": {
+      "source_lines": 208,
+      "uncovered_nonblank_lines": []
+    },
+    "docs/PRD/玩法系统/02-Guoshang新Owner需求与统一Command规范.md": {
+      "source_lines": 466,
+      "uncovered_nonblank_lines": []
+    },
+    "docs/PRD/玩法系统/03-基建Owner传统方案与Paralls兼容方案.md": {
+      "source_lines": 240,
+      "uncovered_nonblank_lines": []
+    },
+    "docs/PRD/玩法系统/Owner体系/README.md": {
+      "source_lines": 44,
+      "uncovered_nonblank_lines": []
+    },
+    "docs/PRD/玩法系统/Owner体系/01-Owner分类与Paralls实现对照.md": {
+      "source_lines": 196,
+      "uncovered_nonblank_lines": []
+    },
+    "docs/PRD/玩法系统/Owner体系/02-角色档案、权威状态与心智状态对接.md": {
+      "source_lines": 192,
+      "uncovered_nonblank_lines": []
+    },
+    "docs/PRD/玩法系统/Owner体系/03-数值规则、状态效果与跨Owner结算.md": {
+      "source_lines": 319,
+      "uncovered_nonblank_lines": []
+    },
+    "docs/PRD/玩法系统/Owner体系/04-领域模型注册、绑定与Owner评估架构.md": {
+      "source_lines": 387,
+      "uncovered_nonblank_lines": []
+    }
+  },
+  "issues": []
+}

@@ -1,0 +1,86 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key 'Qin Xian%'",
+    "count of displayed results" : "6",
+    "count of total results" : "6",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_40753",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_40753",
+        "name" : "鄞县",
+        "transcription" : "Qin Xian",
+        "years" : "-222 ~ 13",
+        "parent sys_id" : "hvd_32052",
+        "parent name" : "会稽郡 (Guiji Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "121.55294, 29.68952",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_40755",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_40755",
+        "name" : "鄞县",
+        "transcription" : "Qin Xian",
+        "years" : "23 ~ 588",
+        "parent sys_id" : "hvd_32052",
+        "parent name" : "会稽郡 (Guiji Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "121.55294, 29.68952",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_40743",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_40743",
+        "name" : "鄞县",
+        "transcription" : "Qin Xian",
+        "years" : "909 ~ 1911",
+        "parent sys_id" : "hvd_32169",
+        "parent name" : "明州 (Ming Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "121.54266, 29.86632",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_42572",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_42572",
+        "name" : "钦县",
+        "transcription" : "Qin Xian",
+        "years" : "1376 ~ 1380",
+        "parent sys_id" : "hvd_33019",
+        "parent name" : "雷州府 (Leizhou Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "108.61440, 21.95143",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_121669",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_121669",
+        "name" : "鄞县",
+        "transcription" : "Qin Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_32205",
+        "parent name" : "宁波府 (Ningpo Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "121.54266, 29.86632",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_196733",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_196733",
+        "name" : "鄞县",
+        "transcription" : "Qin Xian",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_195220",
+        "parent name" : "宁波府 (Ningbo Fu)",
+        "feature type" : "县 (xian)",
+        "object type" : "POLYGON",
+        "xy coordinates" : "0.00000, 29.866320",
+        "data source" : "CHGIS"
+      }
+    ]
+}

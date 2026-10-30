@@ -1,0 +1,90 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83166",
+  "sys_id" : "hvd_83166",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "陽安縣",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "阳安县",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Yangan Xian",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "县",
+    "alternate name" : "縣",
+    "transcription" : "xian",
+    "English" : "county"
+  },
+  "temporal" : {
+    "begin" : "-206",
+    "begin rule" : "2",
+    "end" : "534",
+    "end rule" : "2"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "32.88197",
+    "longitude" : "114.04666",
+    "source" : "FROM_AC",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南确山县东北",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "-206",
+        "end year" : "534",
+        "parent id" : "hvd_115751",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "阳安县（公元前206—534年）
+
+西汉高帝公元前206年，置朗陵县，属汝南郡，①治所在今河南省确山县东北。②
+东汉因之。③
+西晋因之。④
+刘宋因之。⑤
+北魏因之。⑥
+东魏534年，改名永阳县，属阳安郡。⑦
+
+注：
+	①《汉书》卷二十八上?地理志第八：“汝南郡，高帝置。莽曰汝汾。分为赏都尉。属豫州。……县三十七：……阳安，应劭曰：‘道国也。今道亭是。’”（北京：中华书局，1962年，第6 册，第1561页。）
+	② 《大清一统志》卷二百十六：“阳安故城，在确山县东北。汉置县，属汝南郡。绥和二年，封丁明为阳安侯。元始元年，除为县。后汉及晋因之。东魏兼置阳安郡，领永阳一县。北齐郡县皆废。”（《续修四部丛刊》，上海：商务印书馆，1934年。）
+③ 《后汉书》志第二十：“汝南郡，高帝置。……三十七城，……阳安有道亭，故国。”（北京：中华书局，1965年，第12 册，第3424页。）
+	④ 《晋书》卷十四：“汝南郡，汉置。统县十五，户二万一千五百。新息。南安阳。安成，侯相。慎阳。北宜春。朗陵。阳安，故江国，有江亭。上蔡。平舆，故沈子国，有沈亭。定颍。灈阳。南顿。汝阳。吴房，故房子国。西平，故柏国，有龙泉，水可用淬刀剑。”（北京：中华书局，1974年，第421页。）
+	⑤ 《宋书》卷三十六：“汝南太守，汉高帝立。领县十一。户一万一千二百九十一，口八万九千三百四十九。去州水一千，陆七百。去京都水三千，陆一千五百。……阳安令，汉旧县。”（北京：中华书局，1974年，第1081页。）
+	⑥ 《魏书》卷一百六中：“汝南郡，汉高帝置。领县八，户一万五千八百八十九，口三万七千六十一。上蔡，州、郡治，二汉、晋属，有武陵城。临汝，刘裕置，魏因之，有固城。平舆，二汉、晋属，有平舆城。安城，二汉、晋属。西平，二汉、晋属。瞿阳，二汉、晋为灈阳，属，后改。有瞿阳城。阳安，二汉、晋属。保城，刘骏置，魏因之。”（北京：中华书局，1974年，第2533页。）
+⑦ 《魏书》卷一百六中：“阳安郡。领县一，户二十二口一百三十一。永阳。”（北京：中华书局，1974年，第2560页。）又，《大清一统志》卷二百十六：“阳安故城，在确山县东北。汉置县，属汝南郡。绥和二年，封丁明为阳安侯。元始元年，除为县。后汉及晋因之。东魏兼置阳安郡，领永阳一县。北齐郡县皆废。”（《续修四部丛刊》，上海：商务印书馆，1934年。）",
+  "source uri" : ""
+}

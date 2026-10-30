@@ -1,0 +1,306 @@
+[
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 53,
+    "source_end": 83,
+    "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/体验目标与范围.md",
+    "target_anchor": "source-demo-goals",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 482,
+    "source_end": 491,
+    "target": "docs/PRD/04-内容与剧本/召陵县/角色、势力与初始状态.md",
+    "target_anchor": "source-demo-roster",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 386,
+    "source_end": 400,
+    "target": "docs/PRD/04-内容与剧本/召陵县/角色、势力与初始状态.md",
+    "target_anchor": "source-demo-resources",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 506,
+    "source_end": 510,
+    "target": "docs/PRD/04-内容与剧本/召陵县/目标、事件与胜负配置.md",
+    "target_anchor": "source-demo-time",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 493,
+    "source_end": 504,
+    "target": "docs/PRD/04-内容与剧本/召陵县/目标、事件与胜负配置.md",
+    "target_anchor": "source-demo-commands",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 365,
+    "source_end": 380,
+    "target": "docs/PRD/04-内容与剧本/召陵县/目标、事件与胜负配置.md",
+    "target_anchor": "source-demo-endings",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 542,
+    "source_end": 605,
+    "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/可玩切片与需求覆盖.md",
+    "target_anchor": "source-demo-v0-v5",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 721,
+    "source_end": 740,
+    "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/验收标准.md",
+    "target_anchor": "source-demo-acceptance",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 805,
+    "source_end": 819,
+    "target": "docs/PRD/05-阶段与可玩切片/县城守城Demo/验收标准.md",
+    "target_anchor": "source-demo-definition-of-done",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 606,
+    "source_end": 621,
+    "target": "docs/PRD/05-阶段与可玩切片/阶段与切片对照表.md",
+    "target_anchor": "source-demo-capability-map",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+    "source_start": 29,
+    "source_end": 85,
+    "target": "docs/production/基础设施与Owner建设总计划.md",
+    "target_anchor": "source-plan-goals-packages",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+    "source_start": 143,
+    "source_end": 209,
+    "target": "docs/production/基础设施与Owner建设总计划.md",
+    "target_anchor": "source-plan-tasks-batches",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+    "source_start": 301,
+    "source_end": 331,
+    "target": "docs/production/基础设施与Owner建设总计划.md",
+    "target_anchor": "source-plan-responsibilities",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+    "source_start": 351,
+    "source_end": 359,
+    "target": "docs/production/基础设施与Owner建设总计划.md",
+    "target_anchor": "source-plan-start-order",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 512,
+    "source_end": 541,
+    "target": "docs/production/县城守城Demo执行计划.md",
+    "target_anchor": "source-demo-dual-track",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 635,
+    "source_end": 720,
+    "target": "docs/production/县城守城Demo执行计划.md",
+    "target_anchor": "source-demo-gates",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 792,
+    "source_end": 804,
+    "target": "docs/production/县城守城Demo执行计划.md",
+    "target_anchor": "source-demo-risks",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 622,
+    "source_end": 634,
+    "target": "docs/validation/验证与证据规范.md",
+    "target_anchor": "source-demo-slice-evidence",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 779,
+    "source_end": 790,
+    "target": "docs/validation/验证与证据规范.md",
+    "target_anchor": "source-demo-evidence-discipline",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/08-基础设施与Owner建设总计划.md",
+    "source_start": 333,
+    "source_end": 349,
+    "target": "docs/validation/验证与证据规范.md",
+    "target_anchor": "source-plan-evidence-gates",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/玩法系统/05-第一阶段县城守城Demo设计与执行路线.md",
+    "source_start": 741,
+    "source_end": 778,
+    "target": "docs/validation/县城守城Demo/测试用例与证据索引.md",
+    "target_anchor": "source-demo-test-cases",
+    "disposition": "正式保留"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_骑将冲阵垂直切片策划案_v0.1.md",
+    "source_start": 1,
+    "source_end": 250,
+    "target": "docs/archive/PRD/骑将冲阵垂直切片（已取消独立开发）.md",
+    "target_anchor": "历史原文",
+    "disposition": "历史归档；有用机制合并"
+  },
+  {
+    "source": "docs/PRD/玩法系统/04-衣带诏刘备玩家完整时序案例.md",
+    "source_start": 1,
+    "source_end": 1239,
+    "target": "docs/PRD/04-内容与剧本/设计案例/衣带诏刘备时序案例.md",
+    "target_anchor": "正式规则引用与示例纠偏",
+    "disposition": "设计案例保留；公共规则只引用正式位置"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 17,
+    "source_end": 82,
+    "target": "docs/templates/PRD/产品总纲与全局规则模板.md",
+    "target_anchor": "source-template-17",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 85,
+    "source_end": 116,
+    "target": "docs/templates/PRD/产品总纲与全局规则模板.md",
+    "target_anchor": "source-template-85",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 117,
+    "source_end": 173,
+    "target": "docs/templates/PRD/玩法模块与跨模块流程模板.md",
+    "target_anchor": "source-template-117",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 250,
+    "source_end": 280,
+    "target": "docs/templates/PRD/玩法模块与跨模块流程模板.md",
+    "target_anchor": "source-template-250",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 313,
+    "source_end": 332,
+    "target": "docs/templates/PRD/玩法模块与跨模块流程模板.md",
+    "target_anchor": "source-template-313",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 174,
+    "source_end": 249,
+    "target": "docs/templates/PRD/内容与剧本模板.md",
+    "target_anchor": "source-template-174",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 349,
+    "source_end": 375,
+    "target": "docs/templates/PRD/阶段范围与验收模板.md",
+    "target_anchor": "source-template-349",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 418,
+    "source_end": 428,
+    "target": "docs/templates/PRD/阶段范围与验收模板.md",
+    "target_anchor": "source-template-418",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 376,
+    "source_end": 393,
+    "target": "docs/templates/PRD/技术契约模板.md",
+    "target_anchor": "source-template-376",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 394,
+    "source_end": 417,
+    "target": "docs/templates/PRD/制作计划与风险模板.md",
+    "target_anchor": "source-template-394",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 333,
+    "source_end": 348,
+    "target": "docs/templates/PRD/验证记录模板.md",
+    "target_anchor": "source-template-333",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 281,
+    "source_end": 312,
+    "target": "docs/templates/PRD/美术交付模板.md",
+    "target_anchor": "source-template-281",
+    "disposition": "适用模板保留"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 1,
+    "source_end": 16,
+    "target": "docs/templates/PRD/README.md",
+    "target_anchor": "",
+    "disposition": "模板使用说明合并"
+  },
+  {
+    "source": "docs/PRD/游戏策划案模板.md",
+    "source_start": 429,
+    "source_end": 433,
+    "target": "docs/templates/PRD/README.md",
+    "target_anchor": "",
+    "disposition": "模板来源历史保留于备份"
+  },
+  {
+    "source": "docs/PRD/烽火王座：汉末群雄_玩法策划案_v0.1.md",
+    "source_start": 863,
+    "source_end": 890,
+    "target": "docs/PRD/00-产品总纲/设计决策与待决问题.md",
+    "target_anchor": "完整游戏待确认问题原文保留",
+    "disposition": "待决；旧骑将独立目标备注作废"
+  }
+]

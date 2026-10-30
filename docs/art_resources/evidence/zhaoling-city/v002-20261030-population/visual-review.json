@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-10-30",
+  "counted_plan": "reviewed",
+  "counted_plan_notes": [
+    "North-up orthographic plan with staggered gates, several secondary streets and 2000 household parcels.",
+    "Office is in northwest enclosure; granary northeast, barracks east/northeast, market central, workshops southeast.",
+    "Preview, street detail and AI result inspected directly.",
+    "内城已补入五类公共院落，避免视觉上只有县署。"
+  ],
+  "ai_plan": "pre_adjustment_illustration_only",
+  "ai_observed_changes": [
+    "Generated before the county-office footprint reduction.",
+    "Not used as evidence for the adjusted county-office scale.",
+    "Road network and broad residential density remain useful visual context only."
+  ],
+  "count_authority": "source/zhaoling-city/v002-20261030-population/layout.json",
+  "not_verified": [
+    "Archaeological accuracy of designed streets and facilities",
+    "Actual Zhaoling urban population",
+    "Door-to-street connectivity and traffic simulation",
+    "Hydrology, water gates, UE rendering or runtime"
+  ],
+  "ue_changes": 0,
+  "county_office_adjustment": {
+    "status": "updated_deterministic_plan_only",
+    "new_compound_m2": 16800,
+    "new_compound_mu": 25.2,
+    "new_inner_city_share": 0.1944,
+    "ai_illustration_stale": true
+  },
+  "inner_city_adjustment": {
+    "status": "updated_deterministic_plan",
+    "new_public_roof_masses": 68,
+    "added_functions": [
+      "候见听讼场",
+      "官属舍",
+      "县学礼仪院",
+      "武库",
+      "内仓"
+    ],
+    "ai_illustration_stale": true
+  }
+}

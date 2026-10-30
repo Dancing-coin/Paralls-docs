@@ -1,0 +1,99 @@
+schema_version: '1.0'
+asset:
+  asset_id: runan-commandery-flat-map
+  version: v002-20261030-historical
+  asset_type: terrain
+  tier: other
+  description: 东汉汝南郡县治考证候选：37名完整、32落点、5待考
+source:
+  source_kind: project_created
+  source_url: https://chgis.hudci.org/tgaz/
+  license: CHGIS坐标CC BY-NC 4.0；全国参考地图CC BY-SA 4.0，仅核查方位，未描摹
+  authorization_status: noncommercial_research_only
+  download_date: '2026-10-30'
+  files:
+  - path: source/runan-commandery-flat-map/v002-20261030-historical/county-roster.json
+    size_bytes: 872
+    sha256: a33eef9e73b15292c1a5c7f834c9d1eef1ab4898bd46b49936075cf77484923d
+  - path: source/runan-commandery-flat-map/v002-20261030-historical/counties.json
+    size_bytes: 95465
+    sha256: 67ccfbec3020bb9d69deac7fda0356593879351766bc994d8c18248047eb63a8
+  - path: source/runan-commandery-flat-map/v002-20261030-historical/counties.csv
+    size_bytes: 6895
+    sha256: df4be77402161016ed0dd4bd7cfeb837f13d2fb039273d3225cd072a532382a6
+  - path: source/runan-commandery-flat-map/v002-20261030-historical/build_map.py
+    size_bytes: 11476
+    sha256: 890923429a5d3836436776a193403448ca41f8151e0adaf836cc7e42b208053d
+  - path: source/runan-commandery-flat-map/v002-20261030-historical/研究说明.md
+    size_bytes: 5410
+    sha256: 6eb62b26aa4ebac2edaf109b868e52a9086e4e7612fd0278b02fdf1b2993adf3
+  - path: source/runan-commandery-flat-map/v002-20261030-historical/research-brief.json
+    size_bytes: 853
+    sha256: 40b6c196f3b0945c3b36cb535b8c8d01ca9119c1e709f5df5df2c1327335cede
+exports:
+  files:
+  - path: staging/runan-commandery-flat-map/v002-20261030-historical/runan_county_seats.png
+    size_bytes: 553303
+    sha256: de845f9537207e4a8a150855164b649d991297da5aaea1abf224368797b90eb4
+  - path: staging/runan-commandery-flat-map/v002-20261030-historical/runan_county_seats_preview.jpg
+    size_bytes: 179044
+    sha256: 9b9e3e4e6c60743859c96101b75c7c7ffec47d4e285c6891d2ae9b02731d75b7
+  ue_paths: []
+dependencies:
+  items:
+  - Harvard/Fudan CHGIS TGAZ
+  - Pillow
+  - Windows msyh.ttc and simsun.ttc
+  graph_status: complete
+technical:
+  geometry:
+    triangles: 0
+    vertices: 0
+    nanite: false
+  textures:
+    resolutions:
+    - 4200x3000
+    - 1680x1200
+    usage: 非商业研究参考；尚未批准作游戏正式美术资源
+status:
+  lifecycle: 候选
+  owner: ''
+  approver: ''
+  updated_at: '2026-10-30'
+  reason: 三十七名完整，但五处治所待考；未复原边界、水系；CHGIS非商业许可限制
+verification:
+  historical:
+    status: partial
+    date: '2026-10-30'
+    evidence: evidence/runan-commandery-flat-map/v002-20261030-historical/validation.json
+    roster_count: 37
+    plotted_count: 32
+    pending_names:
+    - 新阳
+    - 北宜春
+    - 灈阳
+    - 定颍
+    - 固始
+  governance:
+    status: research_only
+    date: '2026-10-30'
+    evidence: source/runan-commandery-flat-map/v002-20261030-historical/研究说明.md
+evidence:
+  ue_import_log: null
+  editor_screenshot: null
+  pie_screenshot_or_video: null
+  generation_model: v002无图像模型调用；坐标驱动绘制
+  visual_validation: evidence/runan-commandery-flat-map/v002-20261030-historical/validation.json
+  validation_notes: 已查看最终预览；37唯一名称、32落点、5待考，标签包围框无重叠。未启动或修改UE，无资产/Actor变更。
+lineage:
+  parent_version: v001-20261030
+  replacement_for: null
+  rollback_target: v001-20261030
+  supersedes: []
+storage:
+  source_path: source/runan-commandery-flat-map/v002-20261030-historical/
+  staging_path: staging/runan-commandery-flat-map/v002-20261030-historical/
+  approved_path: null
+  deprecated_path: null
+  evidence_path: evidence/runan-commandery-flat-map/v002-20261030-historical/
+  manifest_path: manifests/runan-commandery-flat-map/v002-20261030-historical.yaml

@@ -1,0 +1,15 @@
+{
+  "model": "gemini-3-pro-image-preview",
+  "operation": "generate",
+  "kind": "plan",
+  "elapsed_seconds": 28.3,
+  "return_code": 0,
+  "stdout": "D:\\Users\\User\\Documents\\Unreal Projects\\Guoshang\\docs\\art_resources\\source\\zhaoling-city\\v001-20261030\\plan-response.bin\n",
+  "stderr": "",
+  "actual_format": "JPEG",
+  "dimensions": [
+    1200,
+    896
+  ],
+  "source_output": "D:\\Users\\User\\Documents\\Unreal Projects\\Guoshang\\docs\\art_resources\\source\\zhaoling-city\\v001-20261030\\plan-generated.jpg"
+}

@@ -1,0 +1,321 @@
+[
+  {
+    "key": "02-prefix",
+    "query": "新阳",
+    "count": "6",
+    "ancient": []
+  },
+  {
+    "key": "09-prefix",
+    "query": "北宜春",
+    "count": "0",
+    "ancient": []
+  },
+  {
+    "key": "10-prefix",
+    "query": "㶏强",
+    "count": "0",
+    "ancient": []
+  },
+  {
+    "key": "10-pinyin",
+    "query": "Yinqiang",
+    "count": "1",
+    "ancient": []
+  },
+  {
+    "key": "11-prefix",
+    "query": "灈阳",
+    "count": "1",
+    "ancient": []
+  },
+  {
+    "key": "17-prefix",
+    "query": "安城",
+    "count": "14",
+    "ancient": [
+      {
+        "sys_id": "hvd_40934",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_40934",
+        "name": "安城县",
+        "transcription": "Ancheng Xian",
+        "years": "23 ~ 279",
+        "parent sys_id": "hvd_32818",
+        "parent name": "长沙国 (Changsha Guo)",
+        "feature type": "县 (xian)",
+        "object type": "POINT",
+        "xy coordinates": "114.27450, 27.38536",
+        "data source": "CHGIS"
+      },
+      {
+        "sys_id": "hvd_83099",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_83099",
+        "name": "安城县",
+        "transcription": "Ancheng Xian",
+        "years": "25 ~ 265",
+        "parent sys_id": "hvd_112591",
+        "parent name": "汝南郡 (Runan Jun)",
+        "feature type": "县 (xian)",
+        "object type": "POINT",
+        "xy coordinates": "114.56767, 32.80570",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "19-prefix",
+    "query": "鲖阳",
+    "count": "5",
+    "ancient": [
+      {
+        "sys_id": "hvd_83098",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_83098",
+        "name": "鲖阳县",
+        "transcription": "Tongyang Xian",
+        "years": "206 ~ 529",
+        "parent sys_id": "hvd_115751",
+        "parent name": "汝南郡 (Runan Jun)",
+        "feature type": "县 (xian)",
+        "object type": "POINT",
+        "xy coordinates": "114.96882, 33.08230",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "24-prefix",
+    "query": "富波",
+    "count": "3",
+    "ancient": [
+      {
+        "sys_id": "hvd_43324",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_43324",
+        "name": "富波侯国",
+        "transcription": "Fubo Houguo",
+        "years": "97 ~ 264",
+        "parent sys_id": "",
+        "parent name": "",
+        "feature type": "侯国 (hou guo)",
+        "object type": "POINT",
+        "xy coordinates": "115.82030, 32.60126",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "24-pinyin",
+    "query": "Fubei",
+    "count": "1",
+    "ancient": []
+  },
+  {
+    "key": "27-prefix",
+    "query": "弋阳",
+    "count": "12",
+    "ancient": [
+      {
+        "sys_id": "hvd_82552",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_82552",
+        "name": "弋阳侯国",
+        "transcription": "Yiyang Houguo",
+        "years": "26 ~ 219",
+        "parent sys_id": "hvd_112591",
+        "parent name": "汝南郡 (Runan Jun)",
+        "feature type": "国 (guo)",
+        "object type": "POINT",
+        "xy coordinates": "114.99725, 32.16932",
+        "data source": "CHGIS"
+      },
+      {
+        "sys_id": "hvd_116084",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_116084",
+        "name": "弋阳郡",
+        "transcription": "Yiyang Jun",
+        "years": "216 ~ 582",
+        "parent sys_id": "",
+        "parent name": "",
+        "feature type": "郡 (jun)",
+        "object type": "POINT",
+        "xy coordinates": "115.04458, 32.13030",
+        "data source": "CHGIS"
+      },
+      {
+        "sys_id": "hvd_82553",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_82553",
+        "name": "弋阳县",
+        "transcription": "Yiyang Xian",
+        "years": "220 ~ 548",
+        "parent sys_id": "hvd_116084",
+        "parent name": "弋阳郡 (Yiyang Jun)",
+        "feature type": "县 (xian)",
+        "object type": "POINT",
+        "xy coordinates": "114.99725, 32.16932",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "29-prefix",
+    "query": "征羌",
+    "count": "2",
+    "ancient": [
+      {
+        "sys_id": "hvd_83034",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_83034",
+        "name": "征羌侯国",
+        "transcription": "Zhengqiang Hou",
+        "years": "35 ~ 266",
+        "parent sys_id": "hvd_112591",
+        "parent name": "汝南郡 (Runan Jun)",
+        "feature type": "国 (guo)",
+        "object type": "POINT",
+        "xy coordinates": "114.31552, 33.51611",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "30-prefix",
+    "query": "思善",
+    "count": "2",
+    "ancient": [
+      {
+        "sys_id": "hvd_43378",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_43378",
+        "name": "思善侯国",
+        "transcription": "Sishan Houguo",
+        "years": "88 ~ 219",
+        "parent sys_id": "",
+        "parent name": "",
+        "feature type": "侯国 (hou guo)",
+        "object type": "POINT",
+        "xy coordinates": "115.78110, 33.53850",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "31-prefix",
+    "query": "宋公",
+    "count": "1",
+    "ancient": [
+      {
+        "sys_id": "hvd_43366",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_43366",
+        "name": "宋公国",
+        "transcription": "Songgong Guo",
+        "years": "79 ~ 264",
+        "parent sys_id": "",
+        "parent name": "",
+        "feature type": "侯国 (hou guo)",
+        "object type": "POINT",
+        "xy coordinates": "115.61267, 33.41061",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "32-prefix",
+    "query": "褒信",
+    "count": "5",
+    "ancient": [
+      {
+        "sys_id": "hvd_82593",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_82593",
+        "name": "褒信侯国",
+        "transcription": "Baoxin Houguo",
+        "years": "79 ~ 219",
+        "parent sys_id": "hvd_115751",
+        "parent name": "汝南郡 (Runan Jun)",
+        "feature type": "国 (guo)",
+        "object type": "POINT",
+        "xy coordinates": "114.98543, 32.55597",
+        "data source": "CHGIS"
+      },
+      {
+        "sys_id": "hvd_82594",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_82594",
+        "name": "褒信县",
+        "transcription": "Baoxin Xian",
+        "years": "220 ~ 416",
+        "parent sys_id": "hvd_115751",
+        "parent name": "汝南郡 (Runan Jun)",
+        "feature type": "县 (xian)",
+        "object type": "POINT",
+        "xy coordinates": "114.98543, 32.55597",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "33-prefix",
+    "query": "原鹿",
+    "count": "1",
+    "ancient": [
+      {
+        "sys_id": "hvd_43325",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_43325",
+        "name": "原鹿侯国",
+        "transcription": "Yuanlu Houguo",
+        "years": "39 ~ 335",
+        "parent sys_id": "",
+        "parent name": "",
+        "feature type": "侯国 (hou guo)",
+        "object type": "POINT",
+        "xy coordinates": "115.64360, 32.55328",
+        "data source": "CHGIS"
+      }
+    ]
+  },
+  {
+    "key": "34-prefix",
+    "query": "定颍",
+    "count": "0",
+    "ancient": []
+  },
+  {
+    "key": "34-pinyin",
+    "query": "Dingying",
+    "count": "3",
+    "ancient": []
+  },
+  {
+    "key": "35-prefix",
+    "query": "固始",
+    "count": "5",
+    "ancient": []
+  },
+  {
+    "key": "36-prefix",
+    "query": "山桑",
+    "count": "5",
+    "ancient": [
+      {
+        "sys_id": "hvd_43374",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_43374",
+        "name": "山桑侯国",
+        "transcription": "Shansang Houguo",
+        "years": "26 ~ 219",
+        "parent sys_id": "",
+        "parent name": "",
+        "feature type": "侯国 (hou guo)",
+        "object type": "POINT",
+        "xy coordinates": "116.55260, 33.40799",
+        "data source": "CHGIS"
+      },
+      {
+        "sys_id": "hvd_43375",
+        "uri": "https://chgis.hudci.org/tgaz/placename/hvd_43375",
+        "name": "山桑县",
+        "transcription": "Shansang Xian",
+        "years": "220 ~ 384",
+        "parent sys_id": "",
+        "parent name": "",
+        "feature type": "县 (xian)",
+        "object type": "POINT",
+        "xy coordinates": "116.55260, 33.40799",
+        "data source": "CHGIS"
+      }
+    ]
+  }
+]

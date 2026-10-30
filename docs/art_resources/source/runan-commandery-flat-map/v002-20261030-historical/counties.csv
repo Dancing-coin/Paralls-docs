@@ -1,0 +1,38 @@
+﻿number,name,longitude,latitude,status,chgis_id,source_url,note
+1,平舆,114.56728,33.1555,数据库治所,hvd_83172,https://chgis.hudci.org/tgaz/placename/hvd_83172,郡治。数据库记今平舆县射桥镇古城村，不取现代县城。
+2,新阳,,,位置待考,,https://zh.wikisource.org/wiki/讀史方輿紀要/卷五十,《史记正义》引《括地志》有真阳县西南四十二里说；乾隆《大清一统志》卷089有太和县西北六十里说，方向冲突，暂不强行定位。
+3,西平,113.95687,33.38411,数据库治所,hvd_83167,https://chgis.hudci.org/tgaz/placename/hvd_83167,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+4,上蔡,114.19977,33.19308,数据库治所,hvd_83174,https://chgis.hudci.org/tgaz/placename/hvd_83174,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+5,南顿,114.8367,33.44423,数据库治所,hvd_82040,https://chgis.hudci.org/tgaz/placename/hvd_82040,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+6,汝阴,115.80901,32.90306,数据库治所,hvd_43318,https://chgis.hudci.org/tgaz/placename/hvd_43318,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+7,汝阳,114.46083,33.5946,数据库治所,hvd_82015,https://chgis.hudci.org/tgaz/placename/hvd_82015,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+8,新息,114.72909,32.34243,数据库治所,hvd_82588,https://chgis.hudci.org/tgaz/placename/hvd_82588,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+9,北宜春,,,位置待考,,https://zh.wikisource.org/wiki/讀史方輿紀要/卷五十,《读史方舆纪要》卷五十引《括地志》记汝宁府西南六十七里；缺核实后的遗址坐标。
+10,㶏强,114.07458,33.75076,数据库治所,hvd_83019,https://chgis.hudci.org/tgaz/placename/hvd_83019,CHGIS 名称编码为[氵隐]强。时间字段仅25—29，源注另记同址县30—265；本图按源注落点。
+11,灈阳,,,位置待考,,https://zh.wikisource.org/wiki/讀史方輿紀要/卷五十,《读史方舆纪要》卷五十记遂平县东南。《水经注》载吴房以东、上蔡以西；不取隋灈阳县的吴房同址坐标。
+12,期思,115.48051,32.34082,数据库治所,hvd_82578,https://chgis.hudci.org/tgaz/placename/hvd_82578,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+13,阳安,114.04666,32.88197,数据库治所,hvd_83166,https://chgis.hudci.org/tgaz/placename/hvd_83166,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+14,项,115.06371,33.39749,数据库治所,hvd_82047,https://chgis.hudci.org/tgaz/placename/hvd_82047,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+15,西华,114.35185,33.68238,数据库治所,hvd_82026,https://chgis.hudci.org/tgaz/placename/hvd_82026,依《郡国志》列入；CHGIS 源注有顺帝时属淮阳国说。名册与年代断面有差异，不能据此图认定某年郡界。
+16,细阳,115.74445,33.18829,数据库治所,hvd_43359,https://chgis.hudci.org/tgaz/placename/hvd_43359,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+17,安城,114.56767,32.8057,数据库治所,hvd_83099,https://chgis.hudci.org/tgaz/placename/hvd_83099,按《郡国志》书安城，亦见安成；不是江西安成。
+18,吴房,113.98911,33.14784,数据库治所,hvd_83171,https://chgis.hudci.org/tgaz/placename/hvd_83171,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+19,鲖阳,114.96882,33.0823,数据库治所,hvd_83098,https://chgis.hudci.org/tgaz/placename/hvd_83098,CHGIS begin=206；源注明确为公元前206置、东汉因之，按源注处理数据库符号错误。
+20,慎阳,114.37146,32.78049,数据库治所,hvd_83168,https://chgis.hudci.org/tgaz/placename/hvd_83168,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+21,慎,116.19902,32.78975,数据库治所,hvd_43328,https://chgis.hudci.org/tgaz/placename/hvd_43328,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+22,新蔡,114.97392,32.75126,数据库治所,hvd_83173,https://chgis.hudci.org/tgaz/placename/hvd_83173,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+23,安阳,114.26306,32.43954,数据库治所,hvd_83169,https://chgis.hudci.org/tgaz/placename/hvd_83169,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+24,富波,115.8203,32.60126,数据库治所,hvd_43324,https://chgis.hudci.org/tgaz/placename/hvd_43324,保留《郡国志》名册写法，不自动改作富陂。
+25,宜禄,115.2459,33.48011,数据库治所,hvd_82070,https://chgis.hudci.org/tgaz/placename/hvd_82070,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+26,朗陵,113.75433,32.74715,数据库治所,hvd_83170,https://chgis.hudci.org/tgaz/placename/hvd_83170,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+27,弋阳,114.99725,32.16932,数据库治所,hvd_82552,https://chgis.hudci.org/tgaz/placename/hvd_82552,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+28,召陵,114.14843,33.60156,数据库治所,hvd_83032,https://chgis.hudci.org/tgaz/placename/hvd_83032,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+29,征羌,114.31552,33.51611,数据库治所,hvd_83034,https://chgis.hudci.org/tgaz/placename/hvd_83034,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+30,思善,115.7811,33.5385,数据库治所,hvd_43378,https://chgis.hudci.org/tgaz/placename/hvd_43378,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+31,宋,115.61267,33.41061,数据库治所,hvd_43366,https://chgis.hudci.org/tgaz/placename/hvd_43366,宋公国；原新郪，属县级单位，并非一般县。
+32,褒信,114.98543,32.55597,数据库治所,hvd_82593,https://chgis.hudci.org/tgaz/placename/hvd_82593,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+33,原鹿,115.6436,32.55328,数据库治所,hvd_43325,https://chgis.hudci.org/tgaz/placename/hvd_43325,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+34,定颍,,,位置待考,,https://zh.wikisource.org/wiki/讀史方輿紀要/卷五十,《水经注》卷31潕水条记过县北；《读史方舆纪要》卷五十记上蔡县北；乾隆《大清一统志》卷168又作西平县北，位置记载有异，缺可核验坐标。
+35,固始,,,位置待考,,https://zh.wikisource.org/wiki/讀史方輿紀要/卷五十,汉寝改固始。今临泉一带说与今固始一带说并存；不直接套用现代固始县城，也不取陈郡同名县。
+36,山桑,116.5526,33.40799,数据库治所,hvd_43374,https://chgis.hudci.org/tgaz/placename/hvd_43374,CHGIS 治所记录；县级归属以《郡国志》名册为本。
+37,城父,115.99254,33.63886,数据库治所,hvd_43348,https://chgis.hudci.org/tgaz/placename/hvd_43348,CHGIS 治所记录；县级归属以《郡国志》名册为本。

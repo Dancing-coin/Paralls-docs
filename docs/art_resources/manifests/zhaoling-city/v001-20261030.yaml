@@ -1,0 +1,97 @@
+schema_version: '1.0'
+asset:
+  asset_id: zhaoling-city
+  version: v001-20261030
+  asset_type: concept_art
+  tier: other
+  description: 东汉召陵县城平面推演图、城邑鸟瞰概念图
+source:
+  source_kind: AI_generated
+  source_url: https://www.aiartmirror.com/v1/images/generations
+  historical_reference: https://chgis.hudci.org/tgaz/placename/hvd_83032
+  license: 网关AI输出许可待核；CHGIS参考记录CC BY-NC 4.0
+  authorization_status: research_candidate
+  download_date: '2026-10-30'
+  files:
+  - path: source/zhaoling-city/v001-20261030/brief.json
+    size_bytes: 1163
+    sha256: 60f3560726aa94a97a205116b7f76ba182e1dfd11929ce4bdc8662bee308c327
+  - path: source/zhaoling-city/v001-20261030/concept-generated.jpg
+    size_bytes: 895973
+    sha256: dfb514d32513013328096a6a7ae6861cb6813d6f9cc57501d4f4e3d5d44ff0c3
+  - path: source/zhaoling-city/v001-20261030/concept-prompt.txt
+    size_bytes: 2975
+    sha256: 60f8c6a13dd086f349c66ba2c63f3f5ec7c893d8b4097176c19588e25b321629
+  - path: source/zhaoling-city/v001-20261030/finish_artifacts.py
+    size_bytes: 4687
+    sha256: b42af866e4d148954e525e54846a3fd74c0a1e0a5f7f7b34e384ed5bd2a34ae0
+  - path: source/zhaoling-city/v001-20261030/generate_one.py
+    size_bytes: 1693
+    sha256: 471cca6b9fd20a5e17159d6ac00877989e0af6f5a1f7d4b0b6b81c9972fc2462
+  - path: source/zhaoling-city/v001-20261030/plan-generated.jpg
+    size_bytes: 1231460
+    sha256: 6c1bbca8ec83815b56b740d5cc84f98925e80f62c9afe2c9140183222928a8d1
+  - path: source/zhaoling-city/v001-20261030/plan-prompt.txt
+    size_bytes: 3060
+    sha256: f38981c3f951b3033d0256b9f4e24b6f62b8dda71a8844b8c6c332a5cee57f7b
+  - path: source/zhaoling-city/v001-20261030/设计与史料说明.md
+    size_bytes: 2565
+    sha256: b9f03072d311f6838870b53ff4e06d99ea33d15c9ae7289c26ca43f1a3933541
+exports:
+  files:
+  - kind: plan
+    path: staging/zhaoling-city/v001-20261030/zhaoling-plan.png
+    dimensions:
+    - 1200
+    - 1174
+    size_bytes: 2427501
+    sha256: 7b87d284d8506cc4af2ccb6dcf443f415f1d3d9a21c11ec1b4a8983d730dd6fa
+  - kind: concept
+    path: staging/zhaoling-city/v001-20261030/zhaoling-concept.png
+    dimensions:
+    - 1584
+    - 887
+    size_bytes: 1868208
+    sha256: 807e1cc35880ba8315c0ef4da56d4c5a95712902944a6ceed7447eeac3d0bb97
+  ue_paths: []
+technical:
+  geometry:
+    triangles: 0
+    vertices: 0
+    nanite: false
+  textures:
+    resolutions:
+    - 1200x1174
+    - 1584x887
+    usage: 概念讨论；未导入UE
+status:
+  lifecycle: 候选
+  owner: ''
+  approver: ''
+  updated_at: '2026-10-30'
+  reason: 有史料约束的美术推演；城内布局及分期未核，商业授权待核
+verification:
+  historical:
+    status: partial_reference_only
+    evidence: source/zhaoling-city/v001-20261030/设计与史料说明.md
+  visual:
+    status: reviewed_with_limitations
+    evidence: evidence/zhaoling-city/v001-20261030/validation.json
+evidence:
+  generation_model: gemini-3-pro-image-preview
+  generation_logs:
+  - evidence/zhaoling-city/v001-20261030/generation-plan.json
+  - evidence/zhaoling-city/v001-20261030/generation-concept.json
+  ue_import_log: null
+  editor_screenshot: null
+  pie_screenshot_or_video: null
+lineage:
+  parent_version: null
+  rollback_target: null
+  supersedes: []
+storage:
+  source_path: source/zhaoling-city/v001-20261030/
+  staging_path: staging/zhaoling-city/v001-20261030/
+  approved_path: null
+  evidence_path: evidence/zhaoling-city/v001-20261030/
+  manifest_path: manifests/zhaoling-city/v001-20261030.yaml

@@ -1,0 +1,21 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '宜春侯%'",
+    "count of displayed results" : "1",
+    "count of total results" : "1",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_40962",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_40962",
+        "name" : "宜春侯国",
+        "transcription" : "Yichun Houguo",
+        "years" : "-129 ~ -113",
+        "parent sys_id" : "hvd_32813",
+        "parent name" : "长沙国 (Changsha Guo)",
+        "feature type" : "侯国 (hou guo)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.37589, 27.79427",
+        "data source" : "CHGIS"
+      }
+    ]
+}

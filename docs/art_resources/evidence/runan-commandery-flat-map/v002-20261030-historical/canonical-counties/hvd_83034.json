@@ -1,0 +1,87 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83034",
+  "sys_id" : "hvd_83034",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "征羌侯國",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "征羌侯国",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Zhengqiang Hou",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "国",
+    "alternate name" : "國",
+    "transcription" : "guo",
+    "English" : "country"
+  },
+  "temporal" : {
+    "begin" : "35",
+    "begin rule" : "4",
+    "end" : "266",
+    "end rule" : "4"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "33.51611",
+    "longitude" : "114.31552",
+    "source" : "FROM_FD",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南商水西南大武乡西之安陵故城",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "35",
+        "end year" : "72",
+        "parent id" : "hvd_112591",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      },
+      {
+        "begin year" : "73",
+        "end year" : "266",
+        "parent id" : "hvd_112591",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "征羌侯国         35—266年       今河南商水西南大武乡西之安陵故城
+东汉建武十一年（35年）以汝南召陵县安陵乡为侯国，属汝南郡（1），西晋泰始二年（266年）省（2）。治今河南商水西南大武乡西之安陵故城（3）。
+
+注：
+（1）《后汉书志》20《郡国志二》汝南郡，征羌，侯国。（中华书局，1965年，12册，3424页）卷15《来歙传》：（建武）十一年，赠歙征羌侯印绶，以有平羌、陇之功，故改汝南之当乡县为征羌国。（3册，589-90页）《水经注疏》卷22《颍水》：颍水又东南，汝水枝津注之，世谓之大[氵隱]水，东迳召陵县故城南，又东南迳征羌县，故召陵县之安陵乡、安陵亭也，世祖建武十一年，以封中郎将来歙。（南京，江苏古籍出版社，1989年，中册，1826-7页）按：《来歙传》作当乡县，当从作《水经注》析召陵县安陵乡置，又传记至孙嗣，后未详，作东汉一代有。
+（2）《三国志》有征羌，《晋志》无。西晋泰始元年十二月改元，今作二年省。
+（3）《水经注疏》卷22《颍水》：颍水又东南，汝水枝津注之，世谓之大[氵隱]水，东迳召陵县故城南，又东南迳征羌县，故召陵县之安陵乡、安陵亭也，世祖建武十一年，以封中郎将来歙。（南京，江苏古籍出版社，1989年，中册，1826-7页）《读史方舆纪要》卷47《河南二》：许州偃城县，征羌城，在县东南。（北京，中华书局，2册，2014页）《清嘉庆一统志》卷218《许州一?古迹》：征羌故城，在偃城县南。（《四部丛刊续编》79册，商务印书馆，1934年）按：今偃城东有召陵寨，在沙河南，并存遗址，则征羌应更在其东；今稍东商水境内有安陵故城遗址，（《中国文物地图集?河南分册》市县文物图、文物单位简解，商水县，安陵故城，大武乡程刘村。（北京，中国地图出版社，1991年，188、423页）征羌原为召陵县安陵乡、安陵亭；大[氵隱]水，即今沙河。（《水经注通检今释》，复旦大学出版社，1983年，83页）地理位置与《水经注》记载相合，当是。",
+  "source uri" : ""
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Han_orientaux_140.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Han_orientaux_140.svg",
+  "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55303170",
+  "extmetadata": {
+    "DateTime": {
+      "value": "2017-01-24 11:10:41",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Han orientaux 140",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Self-published work|Derivative versions|Maps of the Eastern Han Dynasty",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Carte de l'empire des Han orientaux, vers 140 de notre ère, avec les treize provinces, et la localisation des principales villes et commanderies. D'après Rafe de Crespigny, A Biographical Dictionary of Later Han to the Three Kingdoms (23-220 AD), Leyde et Boston, Brill, coll. « Handbuch der Orientalistik », 2007, p. 1310 ; et Denis C. Twitchett et John K. Fairbank (dir.), The Cambridge History of China, 1. The Ch'in and Han Empires, 221 B.C.-A.D. 220, Cambridge, Cambridge University Press, 1986, p. 252-253.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2017-01-24",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Eastern_China_blank_relief_map.svg\" title=\"File:Eastern China blank relief map.svg\">Eastern China blank relief map.svg</a>: <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Eastern_China_blank_relief_map.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eastern_China_blank_relief_map.svg/60px-Eastern_China_blank_relief_map.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"55\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eastern_China_blank_relief_map.svg/120px-Eastern_China_blank_relief_map.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"920\" data-file-height=\"1006\"></a></span><br> Auteur : <a href=\"//commons.wikimedia.org/w/index.php?title=User:Kanguole&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Kanguole (page does not exist)\">Kanguole</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Zunkir\" title=\"User:Zunkir\">Zunkir</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  }
+}

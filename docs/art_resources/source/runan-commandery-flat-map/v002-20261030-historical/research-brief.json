@@ -1,0 +1,21 @@
+{
+  "scope": "东汉汝南郡三十七城县治分布考证图",
+  "status": "名册完整；32处按数据库落点；5处待考；非完整历史复原",
+  "period_basis": "《后汉书·郡国志》顺帝时期名册口径，非182年或指定汉末年份断面",
+  "roster_count": 37,
+  "plotted_count": 32,
+  "pending_names": [
+    "新阳",
+    "北宜春",
+    "灈阳",
+    "定颍",
+    "固始"
+  ],
+  "boundary_and_watercourse_reconstruction": false,
+  "no_ue_changes": true,
+  "reference_image_viewed": "Zunkir: Han orientaux 140.svg",
+  "reference_metadata_only": "Esiymbro: Jian’an Commanderies.svg",
+  "image_generation": "v001使用gemini-3-pro-image-preview测试；v002由Pillow按资料坐标绘制，未再次调用图像模型",
+  "coordinate_license": "CHGIS CC BY-NC 4.0",
+  "notes_file": "研究说明.md"
+}

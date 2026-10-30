@@ -1,0 +1,52 @@
+schema_version: "1.0"
+asset:
+  asset_id: "candidate-warrior"
+  version: "v0"
+  asset_type: "character"
+  tier: "character_mid"
+  batch: "B"
+  zone_id: "RNSL_S1"
+  building_id: null
+  character_identity_id: null
+  description: "待单文件验证的外部战士 FBX"
+source:
+  source_kind: "external"
+  source_url: ""
+  local_source_path: "F:\\download\\4169  中式古代人物出征大军骑兵士兵骑马弓箭手官兵SU模型C4D素材(1)\\S861\\中式古代人物_出征大军_骑兵_士兵_骑马人SU模型"
+  license: "unknown"
+  authorization_status: "unknown"
+  download_date: "unknown"
+  files: []
+exports:
+  files: []
+  ue_paths: []
+dependencies:
+  graph_status: "incomplete"
+technical: {}
+status:
+  lifecycle: "候选"
+  owner: ""
+  approver: ""
+  updated_at: "2026-10-29"
+  reason: "未完成骨骼、动画、材质、比例和授权验证"
+verification:
+  historical:
+    status: "not_checked"
+    date: null
+    evidence: null
+  governance:
+    status: "pending"
+    date: null
+    evidence: null
+evidence: {}
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+storage:
+  source_path: "source/candidate-warrior/v0/"
+  staging_path: "staging/candidate-warrior/v0/"
+  approved_path: null
+  deprecated_path: null
+  evidence_path: "evidence/candidate-warrior/v0/"
+  manifest_path: "manifests/candidate-warrior/v0.yaml"

@@ -1,0 +1,60 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '吴房县%'",
+    "count of displayed results" : "4",
+    "count of total results" : "4",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_83171",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83171",
+        "name" : "吴房县",
+        "transcription" : "Wufang Xian",
+        "years" : "-206 ~ 460",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "113.98911, 33.14784",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83143",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83143",
+        "name" : "吴房县",
+        "transcription" : "Wufang Xian",
+        "years" : "598 ~ 606",
+        "parent sys_id" : "hvd_115988",
+        "parent name" : "襄城郡 (Xiangcheng Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "113.89358, 33.42966",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83148",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83148",
+        "name" : "吴房县",
+        "transcription" : "Wufang Xian",
+        "years" : "606 ~ 627",
+        "parent sys_id" : "hvd_83143",
+        "parent name" : "吴房县 (Wufang Xian)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "113.98911, 33.14784",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83153",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83153",
+        "name" : "吴房县",
+        "transcription" : "Wufang Xian",
+        "years" : "634 ~ 817",
+        "parent sys_id" : "hvd_110965",
+        "parent name" : "豫州 (Yu Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "113.98911, 33.14784",
+        "data source" : "CHGIS"
+      }
+    ]
+}

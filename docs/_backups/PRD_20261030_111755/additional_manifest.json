@@ -1,0 +1,80 @@
+[
+  {
+    "original_path": "AGENTS.md",
+    "backup_path": "additional_originals/AGENTS.md",
+    "bytes": 4233,
+    "sha256": "dc7dc676c4ea5b8ffbf7e470c39db971da28823328e82d5c4c91147970e9cd8a"
+  },
+  {
+    "original_path": "docs/art_resources/README.md",
+    "backup_path": "additional_originals/docs/art_resources/README.md",
+    "bytes": 4296,
+    "sha256": "6756dd5035c255fe169ce98771c49e7bf554a4ef3c6c14dc69ea05b2fa2830a5"
+  },
+  {
+    "original_path": "docs/art_resources/experience_index.md",
+    "backup_path": "additional_originals/docs/art_resources/experience_index.md",
+    "bytes": 2028,
+    "sha256": "3210d77666b1ad4f79e110c8d653085da207eb1e868776c41668699a77d611ec"
+  },
+  {
+    "original_path": "docs/art_resources/concept_battlefield_layout.md",
+    "backup_path": "additional_originals/docs/art_resources/concept_battlefield_layout.md",
+    "bytes": 1408,
+    "sha256": "38f1c4d8cc1282f3ab275bcb18f557a7cf6644642d4b011f52d6fc817ac64ac9"
+  },
+  {
+    "original_path": "docs/art_resources/asset_registry.md",
+    "backup_path": "additional_originals/docs/art_resources/asset_registry.md",
+    "bytes": 8370,
+    "sha256": "44ba889da44aecb4f9a7e9853a75b8df8cc5d942572cb63479741caa1d8b89f0"
+  },
+  {
+    "original_path": "docs/prompt/烽火王座：汉末群雄 UE5.8 demo1_v0.3.md",
+    "backup_path": "additional_originals/docs/prompt/烽火王座：汉末群雄 UE5.8 demo1_v0.3.md",
+    "bytes": 4721,
+    "sha256": "2b949652216bd78bffc5240bf4ac18c93cd7dd08eb95edc4a09008538054c033"
+  },
+  {
+    "original_path": "docs/prompt/烽火王座：汉末群雄_关键游戏画面提示词_v0.1.md",
+    "backup_path": "additional_originals/docs/prompt/烽火王座：汉末群雄_关键游戏画面提示词_v0.1.md",
+    "bytes": 23381,
+    "sha256": "75af26338e575aed936176c1752cdb756931a5f3fbe85b8dbbc3e4dca01d67bb"
+  },
+  {
+    "original_path": "docs/prompt/烽火王座：汉末群雄_四视角UI概念图提示词_v0.1.md",
+    "backup_path": "additional_originals/docs/prompt/烽火王座：汉末群雄_四视角UI概念图提示词_v0.1.md",
+    "bytes": 21811,
+    "sha256": "e5f9c54f044a08133b992bf3056c9b7425725c08ff19f020ce1694d75fae3608"
+  },
+  {
+    "original_path": "docs/prompt/烽火王座：汉末群雄_四视角UI概念图提示词_v0.2.md",
+    "backup_path": "additional_originals/docs/prompt/烽火王座：汉末群雄_四视角UI概念图提示词_v0.2.md",
+    "bytes": 14834,
+    "sha256": "785d445c3616082ce94da16a0a5328edeb64611ce3e1a5c40bbc87b14dd32a01"
+  },
+  {
+    "original_path": "docs/superpowers/plans/2026-10-21-mounted-charge-ue-vertical-slice-plan.md",
+    "backup_path": "additional_originals/docs/superpowers/plans/2026-10-21-mounted-charge-ue-vertical-slice-plan.md",
+    "bytes": 19006,
+    "sha256": "b70980f127547e551b611959fb688aed12aa842acd5e492e56e5ab68334a38da"
+  },
+  {
+    "original_path": "docs/superpowers/plans/2026-10-29-asset-governance-alignment.md",
+    "backup_path": "additional_originals/docs/superpowers/plans/2026-10-29-asset-governance-alignment.md",
+    "bytes": 4162,
+    "sha256": "e21464263200eb6c4f9b590cc3502b4fae51fe22427c9ae7aecb27874e16daed"
+  },
+  {
+    "original_path": "docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+    "backup_path": "additional_originals/docs/superpowers/specs/2026-10-27-ue-paralls-fidelity-alignment-design.md",
+    "bytes": 43632,
+    "sha256": "466bcb7ac6fd4bfab02e3ec42f16ddebf7a4db00ce97f24bd9bb972e64cd1c1b"
+  },
+  {
+    "original_path": "docs/superpowers/specs/2026-10-21-mounted-charge-vertical-slice/2026-10-21-mounted-charge-vertical-slice-design.md",
+    "backup_path": "additional_originals/docs/superpowers/specs/2026-10-21-mounted-charge-vertical-slice/2026-10-21-mounted-charge-vertical-slice-design.md",
+    "bytes": 22168,
+    "sha256": "6489c130c8663fda36da74e78756f68430a715184c5fdb4d250c4a6433bcfdff"
+  }
+]

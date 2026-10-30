@@ -1,0 +1,47 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '阳安县%'",
+    "count of displayed results" : "3",
+    "count of total results" : "3",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_41692",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_41692",
+        "name" : "阳安县",
+        "transcription" : "Yang'an Xian",
+        "years" : "222 ~ 279",
+        "parent sys_id" : "hvd_32836",
+        "parent name" : "桂阳郡 (Guiyang Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "113.41030, 25.95462",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_44471",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_44471",
+        "name" : "阳安县",
+        "transcription" : "Yang'an Xian",
+        "years" : "553 ~ 1282",
+        "parent sys_id" : "hvd_115932",
+        "parent name" : "武康郡 (Wukang Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "104.56525, 30.40324",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83166",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83166",
+        "name" : "阳安县",
+        "transcription" : "Yangan Xian",
+        "years" : "-206 ~ 534",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.04666, 32.88197",
+        "data source" : "CHGIS"
+      }
+    ]
+}

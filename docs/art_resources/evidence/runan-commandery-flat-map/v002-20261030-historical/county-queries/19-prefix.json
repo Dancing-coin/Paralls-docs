@@ -1,0 +1,73 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '鲖阳%'",
+    "count of displayed results" : "5",
+    "count of total results" : "5",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_83098",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83098",
+        "name" : "鲖阳县",
+        "transcription" : "Tongyang Xian",
+        "years" : "206 ~ 529",
+        "parent sys_id" : "hvd_115751",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.96882, 33.08230",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83124",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83124",
+        "name" : "鲖阳县",
+        "transcription" : "Tongyang Xian",
+        "years" : "546 ~ 550",
+        "parent sys_id" : "hvd_115999",
+        "parent name" : "新蔡郡 (Xincai Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.96882, 33.08230",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_83136",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83136",
+        "name" : "鲖阳县",
+        "transcription" : "Tongyang Xian",
+        "years" : "591 ~ 627",
+        "parent sys_id" : "hvd_110339",
+        "parent name" : "汝南郡 (Runan Jun)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.96882, 33.08230",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_22993",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_22993",
+        "name" : "鲖阳城",
+        "transcription" : "Tongyangcheng",
+        "years" : "1820 ~ 1820",
+        "parent sys_id" : "hvd_9784",
+        "parent name" : "颍州府 (Yingzhou Fu)",
+        "feature type" : "村镇 (cun zhen)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.97434, 33.07970",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_130582",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_130582",
+        "name" : "鲖阳城",
+        "transcription" : "Tongyangcheng",
+        "years" : "1911 ~ 1911",
+        "parent sys_id" : "hvd_121258",
+        "parent name" : "阜阳县 (Fuyang Xian)",
+        "feature type" : "村镇 (cun zhen)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.97434, 33.07970",
+        "data source" : "CHGIS"
+      }
+    ]
+}

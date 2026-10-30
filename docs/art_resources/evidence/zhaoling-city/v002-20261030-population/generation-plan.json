@@ -1,0 +1,17 @@
+{
+  "model": "gemini-3-pro-image-preview",
+  "operation": "edit",
+  "n": 1,
+  "status": "success",
+  "automatic_retry": false,
+  "elapsed_seconds": 49.15,
+  "return_code": 0,
+  "stdout": "D:\\Users\\User\\Documents\\Unreal Projects\\Guoshang\\docs\\art_resources\\source\\zhaoling-city\\v002-20261030-population\\plan-response.bin\n",
+  "stderr": "",
+  "actual_format": "JPEG",
+  "dimensions": [
+    1024,
+    1037
+  ],
+  "source_output": "D:\\Users\\User\\Documents\\Unreal Projects\\Guoshang\\docs\\art_resources\\source\\zhaoling-city\\v002-20261030-population\\plan-generated.jpg"
+}

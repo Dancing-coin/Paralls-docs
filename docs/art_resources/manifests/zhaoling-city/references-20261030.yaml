@@ -1,0 +1,158 @@
+schema_version: '1.0'
+asset:
+  asset_id: zhaoling-city-historical-plan-references
+  version: references-20261030
+  asset_type: historical_reference
+  tier: other
+  description: 汉末城市平面与较早秦汉县治考古比较；9幅资料图，含2幅非平面辅助图
+source:
+  source_kind: external_research_reference
+  source_url:
+  - https://theory.dahe.cn/2022/09-09/1093924.html
+  - https://theory.dahe.cn/2022/09-09/1093924.html
+  - https://theory.dahe.cn/2022/09-09/1093924.html
+  - https://www.sohu.com/a/254808416_199807
+  - https://www.sohu.com/a/254808416_199807
+  - http://www.hbswwkg.com/2023-12/12/content_9113769.html
+  - https://www.chinanews.com/cul/2023/12-08/10124656.shtml
+  - https://www.chinanews.com/cul/2023/12-08/10124656.shtml
+  - https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E6%B1%89%E6%B4%9B%E9%98%B3%E5%9F%8E.png
+  license: Mixed/unknown; see per-image sources.json; internal research candidate
+    only
+  authorization_status: research_candidate
+  download_date: '2026-10-30'
+  files:
+  - path: source/zhaoling-city/references-20261030/han-changan-01.png
+    size_bytes: 686817
+    sha256: d4bfb42b9bd4c9955e2320ab6c8efb850bf7f521f41e3e0d876875751730534b
+    source_url: https://theory.dahe.cn/2022/09-09/1093924.html
+    image_url: https://file.dahe.cn/image/png/20220909/166269194485379.png
+    license: Not stated; research reference only; no production reuse authorized
+    dimensions:
+    - 621
+    - 403
+  - path: source/zhaoling-city/references-20261030/han-changan-02.png
+    size_bytes: 490050
+    sha256: 583ec5ed0e75848dc9b3fabc3e85714fe34f480e1f0de4269ee6ea270c0a67b3
+    source_url: https://theory.dahe.cn/2022/09-09/1093924.html
+    image_url: https://file.dahe.cn/image/png/20220909/1662691966285545.png
+    license: Not stated; research reference only; no production reuse authorized
+    dimensions:
+    - 640
+    - 723
+  - path: source/zhaoling-city/references-20261030/han-changan-03.png
+    size_bytes: 165375
+    sha256: e20424f8d843d9ab08f48d1e4104e4d7f13ccc5df017131fa23d9410abc9873a
+    source_url: https://theory.dahe.cn/2022/09-09/1093924.html
+    image_url: https://file.dahe.cn/image/png/20220909/1662692002820243.png
+    license: Not stated; research reference only; no production reuse authorized
+    dimensions:
+    - 623
+    - 312
+  - path: source/zhaoling-city/references-20261030/zou-county-01.jpg
+    size_bytes: 62218
+    sha256: 22d15135cd444ee792b0da5fab29f56b22294aed5dd3808828cb216c79f01f19
+    source_url: https://www.sohu.com/a/254808416_199807
+    image_url: https://5b0988e595225.cdn.sohucs.com/images/20180919/fc479fd4dc104022a4a0329ec48ee5cf.jpeg
+    license: Not stated; research reference only; no production reuse authorized
+    dimensions:
+    - 686
+    - 578
+  - path: source/zhaoling-city/references-20261030/zou-county-02.jpg
+    size_bytes: 129043
+    sha256: fe7f80f3ae78e9af8c8ee1f03b9c9d182bfdc69629cd1724a49d8324d355b861
+    source_url: https://www.sohu.com/a/254808416_199807
+    image_url: https://5b0988e595225.cdn.sohucs.com/images/20180919/e5f2768c13714b5abffeb043e742af3b.jpeg
+    license: Not stated; research reference only; no production reuse authorized
+    dimensions:
+    - 556
+    - 827
+  - path: source/zhaoling-city/references-20261030/ye-north-reconstruction.jpg
+    size_bytes: 96382
+    sha256: 9e2534558d02334b98ca94b9be5017042865b9d52ea19bd8d2e5d268b2f09064
+    source_url: http://www.hbswwkg.com/2023-12/12/content_9113769.html
+    image_url: https://att.rongmei.hebnews.cn//Upload/image/20231214/657ad2aad6a06.jpg
+    license: Not stated; research reference only; no production reuse authorized
+    dimensions:
+    - 800
+    - 605
+  - path: source/zhaoling-city/references-20261030/ye-site-layout.jpg
+    size_bytes: 57742
+    sha256: b45566b8e215fa97ca295eab3ad724a71acb6cb25d475e5899b2e9f0bef127fc
+    source_url: https://www.chinanews.com/cul/2023/12-08/10124656.shtml
+    image_url: https://i2.chinanews.com.cn/simg/ypt/2023/231208/5c70efe7-a6e7-47b3-b406-66e40f4b80d0_zsite.jpg
+    license: Not stated; research reference only; no production reuse authorized
+    dimensions:
+    - 528
+    - 540
+  - path: source/zhaoling-city/references-20261030/ye-axis-layout.jpg
+    size_bytes: 35042
+    sha256: e9de951cedee5a13dd223f8eb2349f2c0dbb5ff13a6f211c4e10fc22f3f152b9
+    source_url: https://www.chinanews.com/cul/2023/12-08/10124656.shtml
+    image_url: https://i2.chinanews.com.cn/simg/ypt/2023/231208/88a10709-8cc2-4093-99e5-32fe9ae7333d_zsite.jpg
+    license: Not stated; research reference only; no production reuse authorized
+    dimensions:
+    - 700
+    - 687
+  - path: source/zhaoling-city/references-20261030/eastern-han-luoyang-commons.png
+    size_bytes: 188424
+    sha256: 2f4307e206af9cd25bb8d48b6423b39e19bf9505eacd7a1966915361a5cd182f
+    source_url: https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E6%B1%89%E6%B4%9B%E9%98%B3%E5%9F%8E.png
+    image_url: https://upload.wikimedia.org/wikipedia/commons/4/4d/%E4%B8%9C%E6%B1%89%E6%B4%9B%E9%98%B3%E5%9F%8E.png
+    license: CC BY-SA 4.0 claimed on Commons; original source and rights unverified;
+      research only
+    dimensions:
+    - 531
+    - 921
+exports:
+  files: []
+  ue_paths: []
+technical:
+  geometry:
+    triangles: 0
+    vertices: 0
+    nanite: false
+  textures:
+    resolutions:
+    - 621x403
+    - 640x723
+    - 623x312
+    - 686x578
+    - 556x827
+    - 800x605
+    - 528x540
+    - 700x687
+    - 531x921
+    usage: 历史研究图；未导入；无目标Actor
+status:
+  lifecycle: 候选
+  owner: ''
+  approver: ''
+  updated_at: '2026-10-30'
+  reason: 年代、城市等级和图版性质已注明；尚无汉末召陵完整平面；外部素材商用授权未核
+verification:
+  historical:
+    status: comparative_references_with_limits
+    evidence: source/zhaoling-city/references-20261030/汉末城池平面参考核查.md
+  visual:
+    status: all_nine_images_opened_in_contact_sheets_or_individually
+    evidence:
+    - evidence/zhaoling-city/reference-research-20261030/reference-contact-sheet.jpg
+    - evidence/zhaoling-city/reference-research-20261030/ye-contact-sheet.jpg
+    - source/zhaoling-city/references-20261030/eastern-han-luoyang-commons.png
+evidence:
+  source_metadata: source/zhaoling-city/references-20261030/sources.json
+  webpage_archives: evidence/zhaoling-city/reference-research-20261030/
+  ue_import_log: null
+  editor_screenshot: null
+  pie_screenshot_or_video: null
+lineage:
+  parent_version: null
+  rollback_target: null
+  supersedes: []
+storage:
+  source_path: source/zhaoling-city/references-20261030/
+  staging_path: null
+  approved_path: null
+  evidence_path: evidence/zhaoling-city/reference-research-20261030/
+  manifest_path: manifests/zhaoling-city/references-20261030.yaml

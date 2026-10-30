@@ -1,0 +1,86 @@
+{
+  "system" : "China Historical GIS, Harvard University and Fudan University",
+  "license" : "CC BY-NC 4.0",
+  "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_83174",
+  "sys_id" : "hvd_83174",
+  "sys_id of alternate" : "",
+  "spellings" : [
+    {
+      "written form" : "上蔡縣",
+      "script" : "traditional Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "上蔡县",
+      "script" : "simplified Chinese",
+      "exonym language" : "",
+      "attested by" : "",
+      "note" : ""
+    },
+    {
+      "written form" : "Shangcai Xian",
+      "transcribed in" : "Pinyin",
+      "attested by" : "",
+      "note" : ""
+    }
+  ],
+  "feature_type" : {
+    "name" : "县",
+    "alternate name" : "縣",
+    "transcription" : "xian",
+    "English" : "county"
+  },
+  "temporal" : {
+    "begin" : "-221",
+    "begin rule" : "2",
+    "end" : "317",
+    "end rule" : "2"
+  },
+  "spatial" : {
+    "object_type" : "POINT",
+    "xy_type" : "point",
+    "latitude" : "33.19308",
+    "longitude" : "114.19977",
+    "source" : "FROM_FD",
+    "present_location" : [
+      {
+        "country code" : "cn",
+        "text" : "今河南上蔡县西南",
+        "source" : "Fudan",
+        "attestation" : ""
+      }
+    ]
+  },
+  "historical_context" : {
+    "part of" : [
+      {
+        "begin year" : "-221",
+        "end year" : "317",
+        "parent id" : "hvd_115751",
+        "name" : "汝南郡",
+        "transcribed" : "Runan Jun"
+      }
+    ],
+    "subordinate units" : [
+    ],
+    "preceded by" : [
+    ]
+  },
+  "data source" : "CHGIS",
+  "source note" : "上蔡县（公元前221—317年）
+
+秦公元前221年，置上蔡县。西汉高帝公元前206年，属汝南郡。①治所在今河南省上蔡县西南。②
+东汉因之。③
+西晋因之。④
+东晋317年，移治悬瓠城，即今汝南县城，约在今汝阳县城西北隅，并升格为汝南郡郡治。⑤ 
+
+注：
+①《汉书》卷二十八上?地理志第八：“汝南郡，高帝置。莽曰汝汾。分为赏都尉。属豫州。……县三十七：……上蔡，故蔡国，周武王弟叔度所封。度放，成王封其子胡，十八世徙新蔡。”（北京：中华书局，1962年，第6 册，第1561页。）
+② 《中国历史地名辞典》，“上蔡县，春秋末以蔡县改名，治所在今河南上蔡县西南。”（南昌：江西教育出版社，1988年8月，第52页。）《大清一统志》卷二百十六：“上蔡故城，在上蔡县西，故蔡国叔度所封。”（《续修四部丛刊》，上海：商务印书馆，1934年。）
+③ 《后汉书》志第二十：“汝南郡，高帝置。……三十七城，……上蔡，本蔡国。”（北京：中华书局，1965年，第12 册，第3424页。）
+④ 《晋书》卷十四?志第四：“汝南郡，汉置。统县十五，户二万一千五百。……上蔡，……”（北京：中华书局，1974年，第421页。）
+⑤ 《魏书》卷一百六中：“汝南郡，汉高帝置。领县八。……上蔡，州、郡治。二汉、晋属。有武陵城。”（北京：中华书局，1974年，第2533页。）又，《大清一统志》卷二百十六“古悬瓠城，即今汝阳县治。本汉上蔡县地。晋时谓之悬瓠城，东晋移汝南郡治此。兴宁二年，燕李洪等攻汝南，败晋兵于悬瓠是也，为南北朝相争要地，屯兵置戍。”“悬瓠楼，在汝阳县城西北隅，今废。水经注，悬瓠城上西北隅，平南王肃起高台于小城，建层楼于隅河。下际水湄，降眺栗渚。”（《续修四部丛刊》，上海：商务印书馆，1934年。）",
+  "source uri" : ""
+}

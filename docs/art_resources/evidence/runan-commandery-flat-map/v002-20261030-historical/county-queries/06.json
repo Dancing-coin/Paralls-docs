@@ -1,0 +1,73 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '汝阴县%'",
+    "count of displayed results" : "5",
+    "count of total results" : "5",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_43316",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43316",
+        "name" : "汝阴县",
+        "transcription" : "Ruyin Xian",
+        "years" : "-224 ~ -202",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.80901, 32.90306",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43318",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43318",
+        "name" : "汝阴县",
+        "transcription" : "Ruyin Xian",
+        "years" : "-115 ~ 972",
+        "parent sys_id" : "hvd_33451",
+        "parent name" : "颍州 (Ying Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.80901, 32.90306",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43059",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43059",
+        "name" : "汝阴县",
+        "transcription" : "Ruyin Xian",
+        "years" : "328 ~ 582",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "117.27646, 31.86446",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43321",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43321",
+        "name" : "汝阴县",
+        "transcription" : "Ruyin Xian",
+        "years" : "973 ~ 974",
+        "parent sys_id" : "hvd_33457",
+        "parent name" : "颍州 (Ying Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.85778, 32.89215",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_43319",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_43319",
+        "name" : "汝阴县",
+        "transcription" : "Ruyin Xian",
+        "years" : "975 ~ 1265",
+        "parent sys_id" : "hvd_33457",
+        "parent name" : "颍州 (Ying Zhou)",
+        "feature type" : "县 (xian)",
+        "object type" : "POINT",
+        "xy coordinates" : "115.80901, 32.90306",
+        "data source" : "CHGIS"
+      }
+    ]
+}

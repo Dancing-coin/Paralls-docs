@@ -1,0 +1,191 @@
+schema_version: '1.0'
+asset:
+  asset_id: zhaoling-city
+  version: v002-20261030-population
+  asset_type: historical_scenario_plan
+  tier: other
+  description: 人口与户数约束的县城平面候选及AI表现图
+source:
+  source_kind: deterministic_layout_and_AI_edit
+  model: gemini-3-pro-image-preview
+  operation: edit
+  requests: 1
+  download_date: '2026-10-30'
+  authorization_status: research_candidate
+  license: 自绘数量底图；CHGIS记录CC BY-NC 4.0；外部图版和网关输出商业使用条款待核
+  urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷110
+  - https://chgis.hudci.org/tgaz/placename/hvd_83032
+  - http://www.hbswwkg.com/2023-12/12/content_9113769.html
+  - https://www.sohu.com/a/254808416_199807
+  - https://www.media.sdu.edu.cn/info/1002/32972.htm
+  files:
+  - path: source/zhaoling-city/v002-20261030-population/build_plan.py
+    size_bytes: 18502
+    sha256: f7305d28f61924dead5dddf77d4822060534bf08dc2d5fc7918e1fb3df701966
+  - path: source/zhaoling-city/v002-20261030-population/generate_one.py
+    size_bytes: 2334
+    sha256: b9fc29a53e85aea07235bb846f130b614fa8dd3e4d12c0eededcdb873adfa397
+  - path: source/zhaoling-city/v002-20261030-population/layout-reference.png
+    size_bytes: 1692853
+    sha256: 05d4093627fcbee2dbed870bb9837961b5258aab48c1de4f8f5b72f0e8725c71
+    dimensions:
+    - 2300
+    - 2330
+  - path: source/zhaoling-city/v002-20261030-population/layout.json
+    size_bytes: 2934369
+    sha256: 724e652588387d628353aa5bc2c882706871150b75032f04dda6b36028044775
+  - path: source/zhaoling-city/v002-20261030-population/plan-generated.jpg
+    size_bytes: 868411
+    sha256: 57a82dd9b2e00ea16eba71a2b3ffb2740046c558df8c46c8e266d299cd12850b
+    dimensions:
+    - 1024
+    - 1037
+  - path: source/zhaoling-city/v002-20261030-population/plan-prompt.txt
+    size_bytes: 3378
+    sha256: 1944f6814ac6b54cd1e4d0a96df20fcfffe159e29621e81166889a0f8da549b6
+  - path: source/zhaoling-city/v002-20261030-population/validate_plan.py
+    size_bytes: 2784
+    sha256: 617ab90e6f439b49c6dc26a77646f8074154f89b48ca0861cdae35af14efa5f6
+  - path: source/zhaoling-city/v002-20261030-population/人口推算与布局说明.md
+    size_bytes: 9297
+    sha256: c91009f31e1a45e7c23a958e20c314dd3ca771abb69d8d61ffbb2a31a6a7bf22
+exports:
+  files:
+  - path: staging/zhaoling-city/v002-20261030-population/zhaoling-illustrated-plan-preview.jpg
+    size_bytes: 484856
+    sha256: 299e4454ce110a939158eddc8f8872177ba1975f419f2faee093935bbcf20049
+    dimensions:
+    - 1024
+    - 1037
+  - path: staging/zhaoling-city/v002-20261030-population/zhaoling-illustrated-plan.png
+    size_bytes: 1578420
+    sha256: fb47884f1e8534162f0886a79f2c1b7e8e9dbe1ce0aecd8b4112e736d9494aab
+    dimensions:
+    - 1024
+    - 1037
+  - path: staging/zhaoling-city/v002-20261030-population/zhaoling-inner-city-detail.png
+    size_bytes: 36325
+    sha256: 37320894447fdbdaf755f73eeff19922e1f647b8b7d7c909ac2f06414d03fafe
+    dimensions:
+    - 870
+    - 750
+  - path: staging/zhaoling-city/v002-20261030-population/zhaoling-population-plan-preview.jpg
+    size_bytes: 1032363
+    sha256: 836c0a115915e1f4d4ec403d70ddfbc84ed09694e3df870a57b21f5a9cabd06f
+    dimensions:
+    - 2200
+    - 1898
+  - path: staging/zhaoling-city/v002-20261030-population/zhaoling-population-plan.png
+    size_bytes: 957579
+    sha256: 379d8ec19505eddea69d3f4f3ded8d0b093647262e1bb3cb45cc740b8647a03b
+    dimensions:
+    - 5100
+    - 4400
+  - path: staging/zhaoling-city/v002-20261030-population/zhaoling-street-detail.png
+    size_bytes: 81424
+    sha256: c9bc2d0c6be077fbfadb4d9fc4f4560ceb453e4c2ca89f1d0ce7f5e3ad45c8e0
+    dimensions:
+    - 1560
+    - 1320
+  ue_paths: []
+technical:
+  geometry:
+    triangles: 0
+    vertices: 0
+    nanite: false
+  textures:
+    usage: 平面讨论候选，非运行时纹理
+    max_dimensions:
+    - 5100
+    - 4400
+  new_dependencies: []
+  cpu_raster_rgb_buffer_MiB: 64.2
+  local_gpu_generation: false
+  memory_vram_delta_measured: false
+scenario:
+  not_a_historical_census: true
+  county_people: 55000
+  urban_residents: 10400
+  additional_garrison: 400
+  urban_households: 2000
+  household_parcel_m2: 320
+  roof_masses: 4286
+  ward_groupings: 18
+  gate_count: 4
+  dimensions_m:
+  - 1500
+  - 1500
+  unverified_historical_details:
+  - urban population and percentage
+  - four gates and their positions
+  - street alignments
+  - functional sites
+  - inner wall dimensions and period
+  - water system
+  public_and_commercial_roofs: 286
+  inner_city_public_roofs: 68
+status:
+  lifecycle: 候选
+  owner: ''
+  approver: ''
+  updated_at: '2026-10-30'
+  reason: 数量与几何核验通过；县署已调整为16,800平方米核心院落，内城补入五类公共院落；人口与布局仍是明确假设，非考古复原
+verification:
+  quantity_and_geometry: passed
+  evidence: evidence/zhaoling-city/v002-20261030-population/validation.json
+  ai_geometry_exact: false
+  visual_review: evidence/zhaoling-city/v002-20261030-population/visual-review.json
+  historical_accuracy: partial_reference_only
+  notes: 确定性平面图为本次调整后的权威布局；内城包含县署、狱舍、文书吏舍、候见听讼场、官属舍、县学礼仪院、武库和内仓，共68座公共屋顶；AI表现图来自调整前底图，仅作视觉参考。
+evidence:
+  files:
+  - path: evidence/zhaoling-city/v002-20261030-population/generation-plan.json
+    size_bytes: 602
+    sha256: aa37e7ded63c77b8e93fc4315709bd83e012e630a0b13b06f4941925eaf140e0
+  - path: evidence/zhaoling-city/v002-20261030-population/hanshu28.html
+    size_bytes: 141807
+    sha256: 35b2dccf7ce5565058357f2cb356cee2eaef6ac9a7279cfa8ec7f43f7a03535a
+  - path: evidence/zhaoling-city/v002-20261030-population/hanshu28.txt
+    size_bytes: 60414
+    sha256: 45890dbaa62e1f5b932df11f94e357185a622d7585939022772f4cd379597df2
+  - path: evidence/zhaoling-city/v002-20261030-population/houhanshu110.html
+    size_bytes: 138362
+    sha256: 193f9f5cf492ddc675f05ce74daf46588b3f70a813037d801c754f1cb31b8efe
+  - path: evidence/zhaoling-city/v002-20261030-population/houhanshu110.txt
+    size_bytes: 36535
+    sha256: 7ea504483182e2675bcb5f6cc3e4ab884d73d57c54f0ad1a252e3c537acf3d87
+  - path: evidence/zhaoling-city/v002-20261030-population/quantities.json
+    size_bytes: 8591
+    sha256: 11760d6f5892c1075b8f5fe2c61b4f2d78a2c5f5d2f4db3c1cc6aacb7680d05a
+  - path: evidence/zhaoling-city/v002-20261030-population/validation.json
+    size_bytes: 1803
+    sha256: 72cfa0c9c070faa273f9beca3e6c21a40f0b534e6c28f79d560b03d801608cdd
+  - path: evidence/zhaoling-city/v002-20261030-population/visual-review.json
+    size_bytes: 1636
+    sha256: ddf551ad8ca2fc875dc2b35e97ffe6853db77c55fada17bd30839a48bc8d5feb
+  ue_import_log: null
+  editor_screenshot: null
+  pie_screenshot_or_video: null
+  ue_asset_actor_changes: 0
+lineage:
+  parent_version: v001-20261030
+  rollback_target: v001-20261030
+  supersedes: []
+  old_files_preserved: true
+storage:
+  source_path: source/zhaoling-city/v002-20261030-population/
+  staging_path: staging/zhaoling-city/v002-20261030-population/
+  approved_path: null
+  manifest_path: manifests/zhaoling-city/v002-20261030-population.yaml
+dependency_graph:
+  counted_plan:
+  - build_plan.py
+  - houhanshu110.html
+  - hvd_83032.json
+  - historical_references
+  ai_plan:
+  - layout-reference.png
+  - plan-prompt.txt
+  - gemini-3-pro-image-preview edit
+description: 人口与户数约束的县城平面候选；县署已缩减至120×140米；内城补入五类公共院落；附上一张旧版AI表现图

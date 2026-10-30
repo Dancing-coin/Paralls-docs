@@ -1,0 +1,99 @@
+{
+    "system" : "CHGIS - Harvard University & Fudan University",
+    "memo" : "Results for query matching key '汝南郡%'",
+    "count of displayed results" : "7",
+    "count of total results" : "7",
+    "placenames" : [
+      {
+        "sys_id" : "hvd_115751",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_115751",
+        "name" : "汝南郡",
+        "transcription" : "Runan Jun",
+        "years" : "-221 ~ 762",
+        "parent sys_id" : "",
+        "parent name" : "",
+        "feature type" : "郡 (jun)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.56728, 33.15550",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_112587",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_112587",
+        "name" : "汝南郡",
+        "transcription" : "Runan Jun",
+        "years" : "-168 ~ -156",
+        "parent sys_id" : "hvd_113652",
+        "parent name" : "西汉 (Xihan)",
+        "feature type" : "郡 (jun)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.56728, 33.15550",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_112589",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_112589",
+        "name" : "汝南郡",
+        "transcription" : "Runan Jun",
+        "years" : "-154 ~ 8",
+        "parent sys_id" : "hvd_113652",
+        "parent name" : "西汉 (Xihan)",
+        "feature type" : "郡 (jun)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.56728, 33.15550",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_112591",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_112591",
+        "name" : "汝南郡",
+        "transcription" : "Runan Jun",
+        "years" : "24 ~ 72",
+        "parent sys_id" : "hvd_113654",
+        "parent name" : "东汉 (Donghan)",
+        "feature type" : "郡 (jun)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.56728, 33.15550",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_112593",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_112593",
+        "name" : "汝南郡",
+        "transcription" : "Runan Jun",
+        "years" : "79 ~ 0",
+        "parent sys_id" : "hvd_113654",
+        "parent name" : "东汉 (Donghan)",
+        "feature type" : "郡 (jun)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.56728, 33.15550",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_110339",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_110339",
+        "name" : "汝南郡",
+        "transcription" : "Runan Jun",
+        "years" : "607 ~ 620",
+        "parent sys_id" : "hvd_113617",
+        "parent name" : "隋 (Sui)",
+        "feature type" : "郡 (jun)",
+        "object type" : "POINT",
+        "xy coordinates" : "101.44820, 36.05329",
+        "data source" : "CHGIS"
+      },
+      {
+        "sys_id" : "hvd_111290",
+        "uri" : "https://chgis.hudci.org/tgaz/placename/hvd_111290",
+        "name" : "汝南郡",
+        "transcription" : "Runan Jun",
+        "years" : "742 ~ 757",
+        "parent sys_id" : "hvd_113618",
+        "parent name" : "唐 (Tang)",
+        "feature type" : "郡 (jun)",
+        "object type" : "POINT",
+        "xy coordinates" : "114.34600, 33.00754",
+        "data source" : "CHGIS"
+      }
+    ]
+}

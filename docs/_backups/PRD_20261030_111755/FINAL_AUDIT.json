@@ -1,0 +1,26 @@
+{
+  "owner_registry_count": 23,
+  "ue_cadence_count": 23,
+  "owner_names_order_identical": true,
+  "full_23_owner_tables": [
+    "docs/architecture/03-Owner领域/01-Owner注册表.md",
+    "docs/architecture/05-运行时接入/01-UE本地提交与Paralls同步.md"
+  ],
+  "command_envelope_schema_locations": [
+    "docs/architecture/02-公共契约/02-Command事件与Receipt.md"
+  ],
+  "receipt_schema_locations": [
+    "docs/architecture/02-公共契约/02-Command事件与Receipt.md"
+  ],
+  "directory_md_counts": {
+    "PRD": 48,
+    "architecture": 18,
+    "production": 2,
+    "validation": 3,
+    "templates/PRD": 9,
+    "archive/PRD": 1,
+    "art_resources/standards": 3,
+    "art_resources/requirements/召陵县": 2
+  },
+  "metadata_needing_review": []
+}

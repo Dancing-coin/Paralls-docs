@@ -1,0 +1,52 @@
+schema_version: "1.0"
+asset:
+  asset_id: "candidate-quaternius-universal"
+  version: "v0"
+  asset_type: "character"
+  tier: "character_mid"
+  batch: "A"
+  zone_id: "RNSL_S1"
+  building_id: null
+  character_identity_id: null
+  description: "候选身体/骨架基线，不是汉末定稿"
+source:
+  source_kind: "external"
+  source_url: "https://quaternius.itch.io/universal-base-characters"
+  local_source_path: ""
+  license: "CC0"
+  authorization_status: "verified"
+  download_date: "unknown"
+  files: []
+exports:
+  files: []
+  ue_paths: []
+dependencies:
+  graph_status: "incomplete"
+technical: {}
+status:
+  lifecycle: "候选"
+  owner: ""
+  approver: ""
+  updated_at: "2026-10-29"
+  reason: "尚未取得有效本地包，未导入 UE"
+verification:
+  historical:
+    status: "not_checked"
+    date: null
+    evidence: null
+  governance:
+    status: "pending"
+    date: null
+    evidence: null
+evidence: {}
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+storage:
+  source_path: "source/candidate-quaternius-universal/v0/"
+  staging_path: "staging/candidate-quaternius-universal/v0/"
+  approved_path: null
+  deprecated_path: null
+  evidence_path: "evidence/candidate-quaternius-universal/v0/"
+  manifest_path: "manifests/candidate-quaternius-universal/v0.yaml"

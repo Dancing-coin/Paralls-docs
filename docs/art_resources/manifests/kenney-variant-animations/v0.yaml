@@ -1,0 +1,54 @@
+schema_version: "1.0"
+asset:
+  asset_id: "kenney-variant-animations"
+  version: "v0"
+  asset_type: "animation"
+  tier: "other"
+  batch: "history"
+  zone_id: "RNSL_S1"
+  building_id: null
+  character_identity_id: null
+  description: "历史资源登记，需遵循现行 manifest 规则"
+source:
+  source_kind: "project_created"
+  source_url: ""
+  local_source_path: "docs/art_resources/staging/kenney_variants_v1/"
+  license: "Kenney Mini Arena 1.1, CC0"
+  authorization_status: "verified"
+  download_date: "2026-10-22"
+  files: []
+exports:
+  files: []
+  ue_paths:
+    - "/Game/Battle/Imported/Characters/KenneyVariants/Animations"
+dependencies:
+  items: []
+  graph_status: "incomplete"
+technical: {}
+status:
+  lifecycle: "待验证"
+  owner: ""
+  approver: ""
+  updated_at: "2026-10-29"
+  reason: "历史登记补建 manifest；按现行规则继续补齐证据和校验和"
+verification:
+  historical:
+    status: "not_checked"
+    date: null
+    evidence: null
+  governance:
+    status: "pending"
+    date: null
+    evidence: null
+evidence: {}
+lineage:
+  parent_version: null
+  replacement_for: null
+  rollback_target: null
+storage:
+  source_path: "source/kenney-variant-animations/v0/"
+  staging_path: "staging/kenney-variant-animations/v0/"
+  approved_path: null
+  deprecated_path: null
+  evidence_path: "evidence/kenney-variant-animations/v0/"
+  manifest_path: "manifests/kenney-variant-animations/v0.yaml"
