@@ -20,9 +20,52 @@
 |---|---|---|
 | runtime 文件 | 34 个 | `*_runtime.py`，合计 43758 行 |
 | 各自的错误类 | 17 个 | `class *RuntimeError(ValueError)` |
-| 各自的 `_digest` | 17 份 | 每份都是同一个 sha256 helper |
+| 各自的 `_digest` | 17 份，**5 个不同变体** | 见下 |
 | 各自的 `_PRINCIPAL` 常量 | 30+ 处 | 字面量硬编码在类里 |
 | 全量投影重建调用 | 55 处 | `rebuild(self._store.read_events())` |
+
+### `_digest` 不是逐字重复（v1.1 更正）
+
+**初版称"17 份都是同一个 sha256 helper"，实测后更正：实为 5 个不同变体。**
+
+| 变体 | 特征 | 模块 | 能否合并 |
+|---|---|---|---|
+| **A 规范** | 具名 `default`，Mapping 优先 | ownership, equipment, inventory | — |
+| **A′ 顺序无关** | `__dict__` 优先于 Mapping | ability | ✓ 已验证等价 |
+| **B 宽松** | `default=str`，接受任意类型 | government_treasury, economy | ✓ 已验证等价 |
+| **B′ 带前缀** | `"sha256:" + ...` | action_window, civilization_capability, ecology_platform, reference_data | ✗ **输出格式不同** |
+| **C 特化** | 显式处理 `Decimal` | modifier | ✗ **收到 Decimal 时不崩溃** |
+
+### 实测的等价性
+
+用 8 组输入（plain / nested / unicode / float / empty / none / Decimal / bytes）逐模块验证：
+
+| 结论 | 模块 |
+|---|---|
+| 与规范 A **完全等价** | ability、equipment、inventory（3 个） |
+| 仅在 Decimal / bytes 上不同，但**这两类值不可达** | contract、credential、debt、economy、gift、government_treasury、land_right（7 个） |
+| **输出格式不同**（带 `sha256:` 前缀，71 字符 vs 64） | action_window、civilization_capability、ecology_platform、reference_data（4 个） |
+| **必须保留**（Decimal 可达） | modifier（1 个） |
+
+「不可达」的判定依据：
+
+- `contract` / `credential` / `debt` / `gift` / `government_treasury` / `land_right` 源码中不含 `Decimal`，也不含 `bytes`；
+- `economy` 含 `bytes`，但 `secrets.token_bytes(32)` 的结果在进入事件前已转成 `.hex()` 字符串。
+
+### 一个必须记录的教训
+
+**C 变体不是冗余代码，它防的是一个真实崩溃。**
+
+实测：把 `StatModifier`（其 `value` 是 `Decimal`）放入摘要输入，
+
+```
+modifier 方言 → 成功：2cffcbb68b34ece3
+规范 A      → TypeError: Decimal
+```
+
+`effective_stats.StatModifier.value` 与 `modifier_runtime.ModifierInstanceState.modifier` 都携带 Decimal，且会经 `__dict__` 进入摘要。**若按初版计划统一成规范 A，modifier 域会直接抛异常。**
+
+这条验证了迁移文档 §二 的原则是必要的：**判据是"差异在不变量与语义"，不是"看起来像重复"。**
 
 ### 标准提交前序
 
@@ -321,14 +364,45 @@ class ProjectionCheckpointer:
 
 ### 第一批：纯工具归一（低风险）
 
-| 步骤 | 内容 | 验证 | 前置 |
+| 步骤 | 内容 | 状态 | 说明 |
 |---|---|---|---|
-| 1 | 抽出 `_digest`，17 处改为引用 | 全部测试通过 | 无 |
-| 2 | 抽出 `_duplicate` / `_replay`，7 处改为继承 | 幂等重放测试通过 | 无 |
-| 3 | 抽出 `_rejected` | 拒绝回执测试通过 | 无 |
-| 4 | 抽 `OwnerCommitBuilder`，**只统一骨架** | 事件 payload 逐字段对比 | 见下 |
+| 1 | 抽出 `_digest` | **已完成** | 迁移 10 域，保留 5 域，见 §一 |
+| 2 | 抽出 `_duplicate` / `_replay` | **已完成** | 迁移 6 域，equipment 按理由保留 |
+| 3 | 抽出 `_rejected_append` | **已完成** | 迁移 8 域（全部） |
+| 4 | 抽 `OwnerCommitBuilder` | 未开始 | 见下 |
 
 这批**不改变任何控制流**，只是把重复代码移到一处。
+
+### 实际执行结果（2026-11-03）
+
+分支 `refactor/shared-owner-base`，6 个提交：
+
+```
+5271d700 fix     幂等回放校验（缺陷修复，与重构分离）
+570c04e3 refactor 抽取 owner_runtime_base，首域 ownership_runtime
+b0122468 refactor 迁移 10 域到共享 digest
+a5fa6491 refactor 5 域改走共享 replay_duplicate
+3fa58415 refactor 8 域改走共享 rejected_result
+674ab036 refactor fixed_offer_purchase 改走共享 replay_duplicate
+```
+
+| 项 | 迁移 | 保留 | 保留理由 |
+|---|---|---|---|
+| `_digest` | 10 | 4 + 1 | 4 个输出带 `sha256:` 前缀（格式不同）；1 个（modifier）Decimal 可达 |
+| `_duplicate` | 6 | 1 | equipment 已含完整回执校验，合并会降低其校验强度 |
+| `_rejected_append` | 8 | 0 | 两处差异（stage、transaction_prefix）参数化解决 |
+
+### 一个反复出现的模式
+
+三次迁移都遇到同一件事：**"看起来重复"的代码里，总有一处藏着实质差异**。
+
+| 轮次 | 初判 | 实测 |
+|---|---|---|
+| `_digest` | 17 份逐字重复 | 5 个变体，其中 modifier 的 Decimal 分支防的是真实崩溃 |
+| `_duplicate` | 7 份逐字重复 | equipment 有 8 项额外校验 |
+| `_rejected_append` | 同一处差异 | 还多出 `tx:` vs `transaction:` 前缀差异 |
+
+**判据必须逐行实测，不能凭结构相似下结论。** 这条已在三次迁移中各自验证一次。
 
 ### 步骤 4 的前置：`result_digest` 已核查完毕
 
