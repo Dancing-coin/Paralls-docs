@@ -437,12 +437,76 @@ a5fa6491 refactor 5 域改走共享 replay_duplicate
 
 **这条比预想严重**：它不是"风格不统一"，而是"每个域各有一套恢复完整性算法"。统一它属于行为改变，且会破坏历史数据，不在阶段 2 范围内。
 
-### 第二批：投影重建（中风险）
+### 第二批：投影重建（**原计划前提被实测推翻，已改为读快照**）
 
-| 步骤 | 内容 | 验证 |
+**原计划**：抽 `ProjectionCheckpointer`，按 (projector, scope) 缓存投影，把每条命令的 O(事件总数) 重建降为 O(增量)。
+
+**实测后推翻**，两处前提不成立：
+
+#### 前提一：`checkpoint_at` 路径能提速 —— 不成立
+
+```
+N=100   全量 0.34 ms   尾部 0.61 ms   1.76x
+N=300   全量 1.10 ms   尾部 1.84 ms   1.68x
+N=600   全量 2.05 ms   尾部 3.44 ms   1.68x
+```
+
+稳定慢 1.68 倍。原因是实现是"两次全量过滤 + 两次 reduce"：
+
+```python
+prefix = self._reduce([e for e in events if e.global_sequence <= checkpoint_at])
+return self._reduce([e for e in events if e.global_sequence > checkpoint_at], ...)
+```
+
+`checkpoint_at` 阶段的过滤本身仍是 O(事件总数)，并未省掉扫描。
+
+**注意**：这条路径**是正确的**——三个检查点全部与全量重建逐字段一致。它只是不快。
+
+#### 前提二：同方法内多次 rebuild 会命中投影缓存 —— 不成立
+
+| 方法 | 调用 |
+|---|---|
+| `credential.issue_credential` | credential_projector / ownership_projector / inventory_projector 各 1 次 |
+| `debt.pay_debt` | debt_projector / economy_projector 各 1 次 |
+| `inventory._current_inventory` | 同一 projector 2 次（唯一真命中） |
+
+多个 projector、每个只用一次。以 projector 身份为键的缓存**永不命中**，只剩开销。
+
+#### 真正重复的是 `read_events()`
+
+```
+issue_credential             3 次全量读
+verify_right_holder_present  3 次
+supersede_credential         2 次
+
+400 事件时每次约 2.1 ms（含深拷贝）
+```
+
+#### 修正后的方案：`StoreReadSnapshot`
+
+以 head 为键复用事件元组，提交改变 head 后自动重读。
+
+**安全前提（已核验）**：
+
+- AST 全仓扫描确认**无任何调用方就地修改** `read_events()` 的结果（0 处）
+- 本类只返回 `tuple`，结构上禁止修改
+- head 取自事件本身（最后一条的 `global_sequence`），不是先查 head 再读，避免并发写入导致键与内容不符
+
+**实测**：快照命中 0.015 ms vs 直接读取 2.132 ms；`issue_credential` 形态 9.48 → 5.18 ms/命令。
+
+| 步骤 | 内容 | 状态 |
 |---|---|---|
-| 5 | 抽 `ProjectionCheckpointer`，先在 1 个域启用 | 该域投影结果与全量重建逐字段相同 |
-| 6 | 推广到其他域，每次一个 | 同上 |
+| 5 | 抽 `StoreReadSnapshot` | **已完成** |
+| 6 | 接入 `credential_runtime`（读次数最多） | **已完成** |
+| 7 | 推广到其余域，逐个评估 | 未开始 |
+
+#### 一个方法论结论
+
+**原计划在纸上完全合理，实测后被推翻两次。** 这与第一批的三次"看起来重复"发现同源：
+
+> 性能改动和结构重构一样，不能凭结构推断收益。必须先测，再改。
+
+`inventory_runtime._current_inventory` 早已实现了正确的增量缓存（cursor + LRU 32 个 actor），可作为推广时的参考实现。
 
 ### 不允许的合并
 
