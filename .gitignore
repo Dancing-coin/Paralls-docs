@@ -27,3 +27,7 @@ Saved/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
