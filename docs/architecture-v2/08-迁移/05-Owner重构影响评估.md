@@ -178,21 +178,30 @@ revision 用 `max(payload_revision, producer_ts)` **混推**，与 Owner 真 rev
 
 ### 4.2 角色智能体
 
-| # | 断点 | 位置 | 失败形态 |
-|---|---|---|---|
-| A1 | **target_catalog 的 8 key 白名单** | `l3_planner.py:122,134,215,263,309` | **L3 候选集静默塌空** |
-| A2 | 裸 stream 拼写 | `combat_target_catalog.py:26-37` | 静默 `except` 返回 `[]`，"战斗目标消失" |
-| A3 | ESM 私有 mini-machine | `esm_service.py:35,39,52` | `machine+holding+place` 手写特例 |
-| A4 | revision 假设 `int` | `l4_executor.py:311` `int(value)` 强转 | 版本对象会抛错 |
-| A5 | 两套声明口径并存 | `StateGroupRegistry` vs FactType | 重复声明 |
-| A6 | 角色侧直写 store | `learning_authority.py:89-101` | 反向写 Owner 账本 |
+> **2026-11-04 复核并修订。** 原始条目按 `origin/main` @ `d77d9db6` 记录，行号与实际代码不符，A1 的因果链也已修正。**0.5.1 / 0.5.2 / 0.5.3 已在 `refactor/shared-owner-base` 落地并通过回归对照**（见五、阶段 0.5）。
 
-**A1 是最危险的**：它不是报错，是**角色突然什么都不做**。
+| # | 断点 | 位置 | 失败形态 | 状态 |
+|---|---|---|---|---|
+| A1 | **`supported_intents` 的空列表哨兵** | `l3_planner.py:122,134,215`（三处白名单已收敛为常量）+ `:449` 选择逻辑 | **L3 候选集静默塌空** | ✅ 0.5.1 已收口 |
+| A2 | presence 裸 `character_ref` 匹配 + 全函数单 `except` | `combat_target_catalog.py:26-37` | 静默 `return []`，**整角色目录清零** | ✅ 0.5.3 已收口 |
+| A3 | ESM 私有 mini-machine | `esm_service.py:151`（16 个 `machine_id`） | `machine+holding+place` 手写特例；`get_state_machine_template` **全仓无外部调用者** | 暂不动（未接线资产） |
+| A4 | revision 假设 `int` | `l4_executor.py:332` `int(value)` | 当前两端都是 `int`，**不会抛错**；风险只在未来换类型时兑现 | 暂不动，建议加类型契约测试 |
+| A5 | 两套声明口径并存 | `StateGroupRegistry` vs FactType | **全仓 0 处 `FactType`** —— 不是"两套并存"，是新的那套尚未落地 | 表述已修正，阶段 3 可选目标 |
+| A6 | 角色侧直写 store | `learning_authority.py:241` `append_batch` | **不是 bug**：`authority:character:learning` 是刻意的 learning grant 权威；风险是绕过 Owner revision 校验 | 中期包进 `OwnerFactQuery` 写端口 |
+
+**A1 的机制与旧描述不同。** 真实因果链：
 
 ```
-条件 key 不在白名单 → 被跳过 → 全变 unknown
-→ CandidateCompiler 全 prune → 候选集空 → 只能选 observe
+生产者写 supported_intents=[]（falsy 但 key 存在）
+→ "supported_intents" in item 为真，intent in [] 为假
+→ 所有 target-required（14 个）意图都被 strip
+→ 只剩 [None] 兜底 → diagnosis=blocked:"target_required"
+→ 全 prune → P 为空 → 只能选 observe
 ```
+
+条件 key 不在白名单**不会**导致塌空——它在 `:134` 已注明只影响描述文本，不产生 diagnosis。真正的杀手是 `[]` 与"未声明=全支持"的缺省语义冲突。**旧描述的"条件 key → unknown"推导是错的。**
+
+**A2 的故障范围比旧描述更大。** `presence` 用 `row.payload.get("character_ref") == actor` 只匹配完整 `character:x` 拼写，而同函数内 `life` 已用 `{actor, actor.removeprefix("character:")}` 双拼写。一旦拼写不符，`next()` 抛 `StopIteration`，被整个函数的 `except` 吞掉，返回 `[]`——**同角色所有其他目标一并消失**，不是单个目标消失。
 
 ### 4.3 司命
 
@@ -227,15 +236,36 @@ revision 用 `max(payload_revision, producer_ts)` **混推**，与 Owner 真 rev
 
 **0.3 是一个容易被忽略但影响巨大的前置**：如果不改，每次重构都会让大量恢复测试失败，而这些失败是假的。
 
+### 阶段 0.5：角色侧静默失败收口（已落地）
+
+**插在 0.3 与 1.1 之间的独立阶段。** 原计划把 A1/A2 归入阶段 1.1，与 FactType 适配器一起做；复核后改为主张提前，理由：
+
+- 0.5 三步**不依赖 FactType，也不依赖 B0 收口**，只动 `l3_planner.py` 与 `combat_target_catalog.py`，fan-out 是全部断点里最低的。
+- A1 属于"系统健康但角色不动"，与 G8 源码哈希一样是**假信号源**——它会持续污染后续每一次重构的失败判读。若不先修，1.1 落地时无法区分"FactType 接错了"和"候选集本来就塌了"。
+
+| 步 | 内容 | 依赖 |
+|---|---|---|
+| 0.5.1 | 三处白名单收敛为模块常量；`supported_intents` 语义显式化；新增 `perception_only` 表达"可感知但不可行动" | 无 |
+| 0.5.2 | 候选集 `observation_only` / `empty_presented` 地板 + `candidate_floor` 接入冻结输入 | 无 |
+| 0.5.3 | `combat_target_catalog` 按目标粒度隔离异常；presence 双拼写；stream 名收敛；`last_rejected` 记录 | 无 |
+
+**关键设计约束（落地时确立，1.1 必须遵守）**：
+
+1. **`floor` 不进 `digest`。** `runtime_trace_export.py:78-82` 用四键重算 `candidate_digest`；把 `floor` 并入会让所有历史与当前 trace 判 `compilation_digest_mismatch`。因此 `floor` 是独立字段 + 独立 context 键，`diagnostics` 保持"只记候选级原因"的原语义（已有测试精确断言其长度）。
+2. **`supported_intents=[]` 不再是"感知但不可行动"的表达方式。** 改为显式 `perception_only=True`；空列表且无该标记＝生产者契约违约，会以 `target_action_not_supported` 被可见地 prune。
+3. **感知目标只保留 visibility 条件。** 继承生产者的 `range: unknown` 会让它在条件阶段被 `condition_unknown` 剪掉，真实原因被掩盖。
+
+**验收**：`test_character_candidate_compiler.py` 新增 5 项（感知目标以原因进 pruned、空列表缺陷可见、两类地板、可行动候选抑制地板）；改动前后 75 个既有失败逐项一致，零新增。
+
 ### 阶段 1：建立唯一适配器（先于任何 FactType 落地）
 
 | 步 | 内容 | 位置 |
 |---|---|---|
-| 1.1 | **descriptor 适配器**：FactType 事实 → 现有五元组 | 收口 A1/A2 |
+| 1.1 | **descriptor 适配器**：FactType 事实 → 现有五元组 | 在此基础上扩展（A1/A2 已由 0.5 收口） |
 | 1.2 | `OwnerFactQuery` 端口 | 收口 S1/S2/S5 |
 | 1.3 | `authority_graph_projector` 前缀表 → FactType 声明 | 收口 S3 |
 
-**1.1 是关键**：把 `supported_intents / required_conditions / affordance_result.status / owner_route / target_revision_vector` 五元组的来源从硬白名单换成 FactType 声明，且**声明集合可扩展**。
+**1.1 是关键**：把 `supported_intents / required_conditions / affordance_result.status / owner_route / target_revision_vector` 五元组的来源从硬白名单换成 FactType 声明，且**声明集合可扩展**。0.5.1 已把前两项的来源从内联字面量收敛为模块常量与 `perception_only` 契约，1.1 在这一层之上升级来源，而不是重做扩展点。
 
 ### 阶段 2：管道层收敛（低风险，可并行）
 
