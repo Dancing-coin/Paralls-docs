@@ -1,0 +1,204 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-8.3.4, pluggy-1.5.0 -- C:\Anaconda3\python.exe
+rootdir: D:\Temp\paralls-g0-branch-review-20261109\backend
+configfile: pyproject.toml
+plugins: anyio-4.7.0, langsmith-0.3.45, opik-1.7.36, asyncio-0.26.0, mock-3.14.1, socket-0.7.0, syrupy-4.9.1
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 115 items
+
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[privacy_policy_ref] PASSED [  0%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[compensation_policy_ref] PASSED [  1%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[source_selection_rule_ref] PASSED [  2%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[capability_ref] PASSED [  3%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_eligibility_refs_cannot_be_omitted PASSED [  4%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[inventory_success] PASSED [  5%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[ownership_success] PASSED [  6%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[completed_service_success] PASSED [  6%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_price_outside_fixed_policy_without_writes PASSED [  7%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_ambiguous_package_source_without_writes PASSED [  8%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_capability_mismatch_without_writes PASSED [  9%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_inactive_package_revision_without_writes PASSED [ 10%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_receipt_is_authority_only_and_append_derived PASSED [ 11%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_projection_is_authority_only_and_full_replay_is_fixed PASSED [ 12%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_checkpoint_tail_replay_matches_full_replay PASSED [ 13%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_exact_duplicate_replays_and_changed_duplicate_is_zero_write PASSED [ 13%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_corrupt_receipt_event_reference PASSED [ 14%]
+tests/test_character_memory_consistency_flow.py::test_world_change_does_not_teach_actor_until_successful_recheck PASSED [ 15%]
+tests/test_character_memory_consistency_flow.py::test_unsolicited_or_failed_provider_result_cannot_update_memory PASSED [ 16%]
+tests/test_character_memory_consistency_flow.py::test_record_content_only_enters_reader_memory_after_actual_authorized_read PASSED [ 17%]
+tests/test_character_memory_consistency_flow.py::test_disclosed_fact_updates_belief_but_keeps_who_said_it PASSED [ 18%]
+tests/test_character_memory_consistency_flow.py::test_focused_recall_recovers_own_known_fact_without_unrelated_memories PASSED [ 19%]
+tests/test_character_memory_consistency_flow.py::test_strong_actor_defers_when_even_focused_evidence_exceeds_budget PASSED [ 20%]
+tests/test_character_memory_consistency_flow.py::test_model_belief_delta_cannot_erase_received_structured_fact PASSED [ 20%]
+tests/test_character_memory_consistency_flow.py::test_public_authority_event_does_not_disclose_private_record_content PASSED [ 21%]
+tests/test_character_memory_consistency_flow.py::test_main_world_result_handoff_deposits_reader_evidence PASSED [ 22%]
+tests/test_character_memory_consistency_flow.py::test_strong_recall_recovers_fact_missing_from_current_store_view PASSED [ 23%]
+tests/test_character_memory_consistency_flow.py::test_recheck_request_is_reused_until_evidence_arrives PASSED [ 24%]
+tests/test_character_memory_consistency_flow.py::test_recheck_persistence_failure_does_not_change_knowledge_and_can_retry PASSED [ 25%]
+tests/test_character_memory_consistency_flow.py::test_committed_recheck_projection_can_be_retried_without_duplicate_event PASSED [ 26%]
+tests/test_character_memory_consistency_flow.py::test_recheck_cannot_replace_fact_using_another_world_branch PASSED [ 26%]
+tests/test_character_memory_consistency_flow.py::test_actual_interaction_failure_reaches_l3_and_new_evidence_clears_recheck_reason FAILED [ 27%]
+tests/test_population_long_session_recovery.py::test_long_reopen_uses_two_checkpoints_and_eight_window_tail PASSED [ 28%]
+tests/test_population_long_session_recovery.py::test_latest_checkpoint_corruption_falls_back_but_both_corrupt_fail_closed PASSED [ 29%]
+tests/test_population_long_session_recovery.py::test_checkpoint_container_corruption_has_independent_generation_fallback[invalid-json] PASSED [ 30%]
+tests/test_population_long_session_recovery.py::test_checkpoint_container_corruption_has_independent_generation_fallback[missing-fields] PASSED [ 31%]
+tests/test_population_long_session_recovery.py::test_checkpoint_database_read_failure_does_not_try_another_generation FAILED [ 32%]
+tests/test_population_long_session_recovery.py::test_kernel_implementation_change_is_rejected_even_without_tail[replacement] PASSED [ 33%]
+tests/test_population_long_session_recovery.py::test_kernel_implementation_change_is_rejected_even_without_tail[functools-wraps] PASSED [ 33%]
+tests/test_population_long_session_recovery.py::test_kernel_digest_is_stable_across_source_paths_and_newlines PASSED [ 34%]
+tests/test_population_long_session_recovery.py::test_checkpoint_write_failure_blocks_next_window_and_retries_without_publish PASSED [ 35%]
+tests/test_population_long_session_recovery.py::test_receipt_and_full_checkpoint_roll_back_together PASSED [ 36%]
+tests/test_population_long_session_recovery.py::test_pending_followed_by_delivered_gap_never_skips_first_window PASSED [ 37%]
+tests/test_population_long_session_recovery.py::test_publish_success_then_delivery_write_failure_remains_recoverable PASSED [ 38%]
+tests/test_population_long_session_recovery.py::test_driver_rebuild_uses_constant_cursor_without_history_sets FAILED [ 39%]
+tests/test_population_long_session_recovery.py::test_process_exit_after_checkpoint_recovers_without_tail_or_redelivery PASSED [ 40%]
+tests/test_population_long_session_recovery.py::test_real_main_assembly_reopens_without_republishing_owner_facts PASSED [ 40%]
+tests/test_population_long_session_recovery.py::test_full_checkpoint_materializes_and_validates_recovery_state_once PASSED [ 41%]
+tests/test_population_long_session_recovery.py::test_full_checkpoint_still_rejects_invalid_nested_state_before_saving[digest] PASSED [ 42%]
+tests/test_population_long_session_recovery.py::test_full_checkpoint_still_rejects_invalid_nested_state_before_saving[field] PASSED [ 43%]
+tests/test_population_long_session_recovery.py::test_full_checkpoint_still_rejects_invalid_nested_state_before_saving[receipt] PASSED [ 44%]
+tests/test_population_long_session_recovery.py::test_full_checkpoint_still_rejects_invalid_nested_state_before_saving[context] PASSED [ 45%]
+tests/test_ws_protocol.py::test_worktable_finish_use_requires_the_authority_committed_engaged_state FAILED [ 46%]
+tests/test_character_candidate_compiler.py::test_candidate_compiler_keeps_legal_universe_and_audits_pruned_presented_set PASSED [ 46%]
+tests/test_character_candidate_compiler.py::test_candidate_compiler_diagnoses_unknown_visibility_and_blocked_without_presenting_them PASSED [ 47%]
+tests/test_character_candidate_compiler.py::test_candidate_compiler_does_not_replace_missing_action_with_local_best_choice PASSED [ 48%]
+tests/test_character_candidate_compiler.py::test_candidate_compiler_preserves_complete_candidate_record_and_separates_u_from_p PASSED [ 49%]
+tests/test_character_candidate_compiler.py::test_candidate_compiler_generates_semantic_description_without_answer_or_scoring_fields PASSED [ 50%]
+tests/test_character_candidate_compiler.py::test_candidate_compiler_does_not_turn_unknown_or_unavailable_into_facts PASSED [ 51%]
+tests/test_character_candidate_compiler.py::test_candidate_mapping_order_and_digest_are_reproducible_with_descriptions PASSED [ 52%]
+tests/test_character_candidate_compiler.py::test_observation_family_preserves_distinct_registered_intent_scopes[observe-gather perceptible information] PASSED [ 53%]
+tests/test_character_candidate_compiler.py::test_observation_family_preserves_distinct_registered_intent_scopes[ask_probe-request information] PASSED [ 53%]
+tests/test_character_candidate_compiler.py::test_observation_family_preserves_distinct_registered_intent_scopes[defer-postpone commitment] PASSED [ 54%]
+tests/test_character_candidate_compiler.py::test_every_family_has_stable_semantics_ignoring_injected_answer_fields[communication-exchange information] PASSED [ 55%]
+tests/test_character_candidate_compiler.py::test_every_family_has_stable_semantics_ignoring_injected_answer_fields[movement-change position] PASSED [ 56%]
+tests/test_character_candidate_compiler.py::test_every_family_has_stable_semantics_ignoring_injected_answer_fields[combat-combat interaction] PASSED [ 57%]
+tests/test_character_candidate_compiler.py::test_every_family_has_stable_semantics_ignoring_injected_answer_fields[protection-reduce exposure] PASSED [ 58%]
+tests/test_character_candidate_compiler.py::test_unavailable_candidates_remain_diagnostic_without_description_admission[unknown] PASSED [ 59%]
+tests/test_character_candidate_compiler.py::test_unavailable_candidates_remain_diagnostic_without_description_admission[unavailable] PASSED [ 60%]
+tests/test_character_candidate_compiler.py::test_description_does_not_render_free_target_or_condition_instructions PASSED [ 60%]
+tests/test_character_candidate_compiler.py::test_affordance_unavailability_cannot_become_presented_candidate[unknown] PASSED [ 61%]
+tests/test_character_candidate_compiler.py::test_affordance_unavailability_cannot_become_presented_candidate[unavailable] PASSED [ 62%]
+tests/test_character_candidate_compiler.py::test_affordance_unavailability_cannot_become_presented_candidate[blocked] PASSED [ 63%]
+tests/test_character_candidate_compiler.py::test_unavailable_visibility_remains_diagnostic PASSED [ 64%]
+tests/test_character_candidate_compiler.py::test_v5_compacts_structure_but_preserves_v4_historical_rendering PASSED [ 65%]
+tests/test_character_candidate_compiler.py::test_action_specific_target_projection_keeps_worktable_state_digest_on_choice PASSED [ 66%]
+tests/test_character_candidate_compiler.py::test_domain_candidate_expansion_accepts_only_registered_worktable_interactions PASSED [ 66%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[blocked-consent] PASSED [ 67%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[blocked-privacy] PASSED [ 68%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[blocked-contact] PASSED [ 69%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[blocked-range] PASSED [ 70%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[blocked-permission] PASSED [ 71%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[blocked-availability] PASSED [ 72%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unknown-consent] PASSED [ 73%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unknown-privacy] PASSED [ 73%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unknown-contact] PASSED [ 74%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unknown-range] PASSED [ 75%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unknown-permission] PASSED [ 76%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unknown-availability] PASSED [ 77%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unavailable-consent] PASSED [ 78%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unavailable-privacy] PASSED [ 79%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unavailable-contact] PASSED [ 80%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unavailable-range] PASSED [ 80%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unavailable-permission] PASSED [ 81%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[unavailable-availability] PASSED [ 82%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[None-consent] PASSED [ 83%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[None-privacy] PASSED [ 84%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[None-contact] PASSED [ 85%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[None-range] PASSED [ 86%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[None-permission] PASSED [ 86%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[None-availability] PASSED [ 87%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[status4-consent] PASSED [ 88%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[status4-privacy] PASSED [ 89%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[status4-contact] PASSED [ 90%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[status4-range] PASSED [ 91%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[status4-permission] PASSED [ 92%]
+tests/test_character_candidate_compiler.py::test_nonvisual_required_condition_cannot_admit_an_executable_candidate[status4-availability] PASSED [ 93%]
+tests/test_character_candidate_compiler.py::test_deferred_range_check_is_not_a_known_denial_or_a_satisfied_condition PASSED [ 93%]
+tests/test_character_candidate_compiler.py::test_l3_preparation_preserves_permission_denial_in_the_frozen_provider_input PASSED [ 94%]
+tests/test_character_candidate_compiler.py::test_perception_only_target_is_pruned_with_a_reason_instead_of_vanishing PASSED [ 95%]
+tests/test_character_candidate_compiler.py::test_empty_intent_list_without_the_marker_is_a_producer_defect_not_a_silent_drop PASSED [ 96%]
+tests/test_character_candidate_compiler.py::test_observation_only_compilation_is_reported_as_a_floor PASSED [ 97%]
+tests/test_character_candidate_compiler.py::test_committal_candidate_suppresses_the_observation_floor PASSED [ 98%]
+tests/test_character_candidate_compiler.py::test_inspection_alone_is_still_reported_as_an_observation_floor PASSED [ 99%]
+tests/test_character_candidate_compiler.py::test_empty_presented_compilation_is_reported_as_a_floor PASSED [100%]
+
+================================== FAILURES ===================================
+_ test_actual_interaction_failure_reaches_l3_and_new_evidence_clears_recheck_reason _
+tests\test_character_memory_consistency_flow.py:269: in test_actual_interaction_failure_reaches_l3_and_new_evidence_clears_recheck_reason
+    assert plan()["verification"] == {}
+E   AssertionError: assert {'analytical_...:letter', ...} == {}
+E     
+E     Left contains 5 more items:
+E     {'analytical_control': 0.5,
+E      'reason': 'failed_interaction',
+E      'recommended_intents': ['observe', 'inspect_object'],
+E      'source_ref': 'failure:letter',
+E      'subject_ref': 'obj_letter'}...
+E     
+E     ...Full output truncated (13 lines hidden), use '-vv' to show
+____ test_checkpoint_database_read_failure_does_not_try_another_generation ____
+tests\test_population_long_session_recovery.py:133: in test_checkpoint_database_read_failure_does_not_try_another_generation
+    assert str(failure.value.__cause__) == "gameplay_snapshot_read_failed"
+E   AssertionError: assert 'no such table: checkpoints' == 'gameplay_sna...t_read_failed'
+E     
+E     - gameplay_snapshot_read_failed
+E     + no such table: checkpoints
+________ test_driver_rebuild_uses_constant_cursor_without_history_sets ________
+tests\test_population_long_session_recovery.py:257: in test_driver_rebuild_uses_constant_cursor_without_history_sets
+    driver = PopulationCadenceDriver(world_runtime=world, publish_window=publisher, window_size=60, catch_up_limit=2)
+app\world_runtime\population_driver.py:100: in __init__
+    raise ValueError("population_time_mapping_missing")
+E   ValueError: population_time_mapping_missing
+__ test_worktable_finish_use_requires_the_authority_committed_engaged_state ___
+tests\test_ws_protocol.py:1433: in test_worktable_finish_use_requires_the_authority_committed_engaged_state
+    engaged = interact(462, "use")
+tests\test_ws_protocol.py:1418: in interact
+    return main._handle_envelope(
+app\main.py:5958: in _handle_envelope
+    esm_service.commit_interaction_state(
+app\services\esm_service.py:1225: in commit_interaction_state
+    raise ValueError("esm_object_durable_settlement_required")
+E   ValueError: esm_object_durable_settlement_required
+---------------------------- Captured stdout call -----------------------------
+phase0_failed_interaction_diag actor_id=char_c target_object_id=obj_worktable actor_position=None result_type=action_resolution_result
+============================== warnings summary ===============================
+app\main.py:1247
+  D:\Temp\paralls-g0-branch-review-20261109\backend\app\main.py:1247: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    @app.on_event("startup")
+
+C:\Anaconda3\Lib\site-packages\fastapi\applications.py:4495
+C:\Anaconda3\Lib\site-packages\fastapi\applications.py:4495
+  C:\Anaconda3\Lib\site-packages\fastapi\applications.py:4495: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    return self.router.on_event(event_type)
+
+app\main.py:1294
+  D:\Temp\paralls-g0-branch-review-20261109\backend\app\main.py:1294: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    @app.on_event("shutdown")
+
+tests/test_character_memory_consistency_flow.py::test_world_change_does_not_teach_actor_until_successful_recheck
+  tests\test_character_memory_consistency_flow.py:21: PytestWarning: record_property is incompatible with junit_family 'xunit2' (use 'legacy' or 'xunit1')
+    def test_world_change_does_not_teach_actor_until_successful_recheck(tmp_path, record_property):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: D:\Users\User\Documents\Unreal Projects\Paralls-docs\docs\architecture-v2\09-验收\G0-20261109-5321266d\branch-review\shared-owner-targeted\junit.xml -
+=========================== short test summary info ===========================
+FAILED tests/test_character_memory_consistency_flow.py::test_actual_interaction_failure_reaches_l3_and_new_evidence_clears_recheck_reason
+FAILED tests/test_population_long_session_recovery.py::test_checkpoint_database_read_failure_does_not_try_another_generation
+FAILED tests/test_population_long_session_recovery.py::test_driver_rebuild_uses_constant_cursor_without_history_sets
+FAILED tests/test_ws_protocol.py::test_worktable_finish_use_requires_the_authority_committed_engaged_state
+================= 4 failed, 111 passed, 5 warnings in 10.76s ==================

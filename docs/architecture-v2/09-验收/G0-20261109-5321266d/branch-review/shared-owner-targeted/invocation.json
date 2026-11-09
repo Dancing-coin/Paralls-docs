@@ -1,0 +1,36 @@
+{
+  "cwd": "D:\\Temp\\paralls-g0-branch-review-20261109\\backend",
+  "sys_path_prepend": [
+    "D:\\Temp\\paralls-g0-branch-review-20261109\\backend",
+    "D:\\Temp\\paralls-g0-branch-review-20261109"
+  ],
+  "pytest_args": [
+    "tests/test_infra_package_declared_negotiated_exchange.py",
+    "tests/test_character_memory_consistency_flow.py",
+    "tests/test_population_long_session_recovery.py",
+    "tests/test_ws_protocol.py::test_worktable_finish_use_requires_the_authority_committed_engaged_state",
+    "tests/test_character_candidate_compiler.py",
+    "-v",
+    "--tb=short",
+    "-p",
+    "no:cacheprovider",
+    "--junitxml=D:\\Users\\User\\Documents\\Unreal Projects\\Paralls-docs\\docs\\architecture-v2\\09-验收\\G0-20261109-5321266d\\branch-review\\shared-owner-targeted\\junit.xml"
+  ],
+  "runner_argv": [
+    "docs/architecture-v2/09-验收/G0-20261109-5321266d/run_baseline.py",
+    "--repo",
+    "D:/Temp/paralls-g0-branch-review-20261109",
+    "--output",
+    "D:/Users/User/Documents/Unreal Projects/Paralls-docs/docs/architecture-v2/09-验收/G0-20261109-5321266d/branch-review/shared-owner-targeted",
+    "--test",
+    "tests/test_infra_package_declared_negotiated_exchange.py",
+    "--test",
+    "tests/test_character_memory_consistency_flow.py",
+    "--test",
+    "tests/test_population_long_session_recovery.py",
+    "--test",
+    "tests/test_ws_protocol.py::test_worktable_finish_use_requires_the_authority_committed_engaged_state",
+    "--test",
+    "tests/test_character_candidate_compiler.py"
+  ]
+}

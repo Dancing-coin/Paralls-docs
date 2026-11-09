@@ -1,0 +1,24 @@
+{
+  "cwd": "D:\\Users\\User\\Documents\\paralls-phase-0-demo\\backend",
+  "sys_path_prepend": [
+    "D:\\Users\\User\\Documents\\paralls-phase-0-demo\\backend",
+    "D:\\Users\\User\\Documents\\paralls-phase-0-demo"
+  ],
+  "pytest_args": [
+    "tests",
+    "-v",
+    "--tb=short",
+    "-p",
+    "no:cacheprovider",
+    "--junitxml=D:\\Users\\User\\Documents\\Unreal Projects\\Paralls-docs\\docs\\architecture-v2\\09-验收\\G0-20261109-5321266d\\run1-full\\junit.xml"
+  ],
+  "runner_argv": [
+    "D:\\Users\\User\\Documents\\Unreal Projects\\Paralls-docs\\docs\\architecture-v2\\09-验收\\G0-20261109-5321266d\\run_baseline.py",
+    "--repo",
+    "D:\\Users\\User\\Documents\\paralls-phase-0-demo",
+    "--output",
+    "D:\\Users\\User\\Documents\\Unreal Projects\\Paralls-docs\\docs\\architecture-v2\\09-验收\\G0-20261109-5321266d\\run1-full",
+    "--manifest",
+    "D:\\Users\\User\\Documents\\Unreal Projects\\Paralls-docs\\docs\\architecture-v2\\09-验收\\G0-20261109-5321266d\\run1\\test-files.json"
+  ]
+}

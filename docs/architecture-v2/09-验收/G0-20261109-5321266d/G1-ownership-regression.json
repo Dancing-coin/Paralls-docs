@@ -1,0 +1,24 @@
+{
+  "head": "5321266dbd882f45eb6a24dd7b328e9f56746228",
+  "domain": "ownership",
+  "file_count": 2,
+  "node_count": 5,
+  "files": [
+    "tests/test_ownership_contract_debt_sample.py",
+    "tests/test_ownership_runtime.py"
+  ],
+  "nodeids": [
+    "tests/test_ownership_contract_debt_sample.py::test_ownership_contract_debt_sample_requires_existing_character_and_fixed_terms",
+    "tests/test_ownership_contract_debt_sample.py::test_ownership_contract_debt_sample_builds_a_replayable_command",
+    "tests/test_ownership_contract_debt_sample.py::test_ownership_contract_debt_sample_composes_existing_ownership_and_debt_authorities",
+    "tests/test_ownership_runtime.py::test_initial_title_and_independent_transfer_are_event_derived",
+    "tests/test_ownership_runtime.py::test_duplicate_or_wrong_holder_does_not_change_title"
+  ],
+  "baseline_outcomes": {
+    "tests/test_ownership_contract_debt_sample.py::test_ownership_contract_debt_sample_requires_existing_character_and_fixed_terms": "passed",
+    "tests/test_ownership_contract_debt_sample.py::test_ownership_contract_debt_sample_builds_a_replayable_command": "passed",
+    "tests/test_ownership_contract_debt_sample.py::test_ownership_contract_debt_sample_composes_existing_ownership_and_debt_authorities": "passed",
+    "tests/test_ownership_runtime.py::test_initial_title_and_independent_transfer_are_event_derived": "passed",
+    "tests/test_ownership_runtime.py::test_duplicate_or_wrong_holder_does_not_change_title": "passed"
+  }
+}

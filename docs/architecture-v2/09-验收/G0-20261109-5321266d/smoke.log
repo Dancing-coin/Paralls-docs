@@ -1,0 +1,13 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-8.3.4, pluggy-1.5.0 -- C:\Anaconda3\python.exe
+rootdir: D:\Users\User\Documents\paralls-phase-0-demo\backend
+configfile: pyproject.toml
+plugins: anyio-4.7.0, langsmith-0.3.45, opik-1.7.36, asyncio-0.26.0, mock-3.14.1, socket-0.7.0, syrupy-4.9.1
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 2 items
+
+tests/test_ownership_runtime.py::test_initial_title_and_independent_transfer_are_event_derived PASSED [ 50%]
+tests/test_ownership_runtime.py::test_duplicate_or_wrong_holder_does_not_change_title PASSED [100%]
+
+- generated xml file: D:\Users\User\Documents\Unreal Projects\Paralls-docs\docs\architecture-v2\09-验收\G0-20261109-5321266d\smoke\junit.xml -
+============================== 2 passed in 0.22s ==============================

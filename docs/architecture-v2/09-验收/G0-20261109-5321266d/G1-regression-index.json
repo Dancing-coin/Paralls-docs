@@ -1,0 +1,27 @@
+{
+  "ownership": {
+    "files": 2,
+    "nodes": 5,
+    "failed": 0
+  },
+  "modifier": {
+    "files": 3,
+    "nodes": 11,
+    "failed": 0
+  },
+  "equipment": {
+    "files": 7,
+    "nodes": 72,
+    "failed": 0
+  },
+  "inventory": {
+    "files": 12,
+    "nodes": 49,
+    "failed": 3
+  },
+  "shared-replay": {
+    "files": 17,
+    "nodes": 201,
+    "failed": 7
+  }
+}

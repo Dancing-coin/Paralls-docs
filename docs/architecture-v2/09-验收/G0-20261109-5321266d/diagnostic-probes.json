@@ -1,0 +1,363 @@
+{
+  "inventory": {
+    "trace": [
+      {
+        "line": 27,
+        "function": "__init__",
+        "return": "None"
+      },
+      {
+        "line": 44,
+        "function": "<genexpr>",
+        "return": "ref='projection:inventory-output-custody:event:command:certification:1' scope='public' revision_vector={'gameplay:construction_production:facility:bakery:certification': 4} payload"
+      },
+      {
+        "line": 304,
+        "function": "<genexpr>",
+        "return": "None"
+      },
+      {
+        "line": 306,
+        "function": "_cadence_read_set",
+        "return": "{'population-cadence:world:bakery': 1, 'population-cadence-revocation:world:bakery': 0}"
+      },
+      {
+        "line": 165,
+        "function": "_authorized_settlement_window",
+        "return": "False"
+      },
+      {
+        "line": 30,
+        "function": "<lambda>",
+        "return": "receipt_ref='rejected:candidate:projection:inventory-output-custody:event:command:certification:1' owner_ref='actor_gameplay.inventory_domain' event_family='gameplay.inventory.prod"
+      },
+      {
+        "line": 55,
+        "function": "submit",
+        "return": "receipt_ref='rejected:candidate:projection:inventory-output-custody:event:command:certification:1' owner_ref='actor_gameplay.inventory_domain' event_family='gameplay.inventory.prod"
+      }
+    ],
+    "result": "status='requeue' batch_ref='population-decision:cadence:world:bakery:0' report=PopulationBatchReport(batch_ref='population-decision:cadence:world:bakery:0', cohort_ref=None, cohort_member_refs=(), selected_cohort_refs=(), presentation_seeds={}, activation_candidates=(), owner_bound_intents=(), rejected_candidates=(), budget_used=1, budget_remaining=2, unprocessed_cohort_refs=(), selected_count=0, unprocessed_count=0, presentation_seed_count=0, activation_candidate_count=0, owner_intent_count=1, owner_committed_count=0, continuity_committed_count=0, continuity_requeue_count=0, read_set_digest='sha256:1a99259f8c4491ddf15d8a63325c33a7e7a028c8436126019bc487527ec09e30', result_digest='sha256:f034d4139049f4f08d45be0e98ab82ca896c92be9a5d620d699eff019ad714fb') seed_candidates=() owner_receipts=(PopulationOwnerReceipt(receipt_ref='rejected:candidate:projection:inventory-output-custody:event:command:certification:1', owner_ref='actor_gameplay.inventory_domain', event_family='gameplay.inventory.production_output_received@1', committed=False, revision_vector={}, zero_write=True, idempotency_status='new_commit', settlement_status='rejected', reason=''),) continuity_receipts=() audits=() reason='owner_rejected' production_append_count=0 decision=PopulationDecision(selected_candidates=(PopulationDecisionCandidate(candidate_ref='candidate:projection:inventory-output-custody:event:command:certification:1', capability_id='population:inventory-output-custody:v1', actor_ref='character:worker', cohort_ref='world:bakery:0', behavior_kind='inventory_output_custody', fidelity_tier='B1', source_projection_refs=('projection:inventory-output-custody:event:command:certification:1',), source_revision_vector=mappingproxy({'gameplay:construction_production:facility:bakery:certification': 4}), evidence_refs=('event:command:certification:1',), estimated_cost=1, objective_risk='low', player_proximity=0.0, narrative_obligation_pressure=0.0, unresolved_owner_consequence=1.0, propagation_pressure=0.0, starvation_credit=0.0, allowed_outputs=('owner_bound_intent', 'character_core_command'), policy_revision='policy:population:v1', selector_revision='selector:generic:population:v1', ruleset_revision='rules:population:v1', idempotency_key='candidate:projection:inventory-output-custody:event:command:certification:1'),), deferred_candidates=(), rejected_candidates=(), unprocessed_refs=(), budget_used=1, budget_remaining=2, fidelity_counts=mappingproxy({'B1': 1}), decision_reason_codes=('weighted_selection',), governance_outcome='accept', deferrals=(), read_set_digest='sha256:1a99259f8c4491ddf15d8a63325c33a7e7a028c8436126019bc487527ec09e30', result_digest='sha256:f034d4139049f4f08d45be0e98ab82ca896c92be9a5d620d699eff019ad714fb') b0_results=() cognition_stats=PopulationCognitionStats(b0_advanced=0, quiet_actors=0, active_actors=1, deep_selected=1, deep_deferred=0, llm_queued=0, llm_completed=0, llm_expired=0, max_wait_windows=0, requeue_reasons=('owner_rejected',))",
+    "temporal_pins": {}
+  },
+  "memory": {
+    "knowledge": [
+      {
+        "memory_id": "knowledge:char_a:fact:world:main:obj_letter:state",
+        "actor_id": "char_a",
+        "proposition_key": "fact:world:main:obj_letter:state",
+        "proposition": "obj_letter:state=removed",
+        "state": "high_confidence_believed",
+        "confidence": 1.0,
+        "source_event_id": "char_a:character_perceived_event:4:3217ab7dc56346c6b1eecf30e7aeb472:6",
+        "producer_ts": 4,
+        "claim": {
+          "scope_ref": "world:main",
+          "subject_ref": "obj_letter",
+          "predicate": "state",
+          "value": "removed",
+          "valid_at": 4,
+          "source_ref": "provider:letter:4"
+        }
+      },
+      {
+        "memory_id": "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+        "actor_id": "char_a",
+        "proposition_key": "settlement:object:obj_letter:constraint_state_result",
+        "proposition": "object obj_letter constraint_state_result: letter unavailable",
+        "state": "noticed",
+        "confidence": 0.7,
+        "source_event_id": "char_a:character_agent_settlement_result:2:3217ab7dc56346c6b1eecf30e7aeb472:3",
+        "producer_ts": 2,
+        "claim": null
+      }
+    ],
+    "tensions": [
+      {
+        "tension_id": "char_a:constraint_result:obj_letter",
+        "category": "constraint_result",
+        "summary": "letter unavailable",
+        "target_ref": "obj_letter",
+        "priority": 0.85,
+        "status": "active",
+        "source_event_id": "failure:letter",
+        "source_stage": "settlement_result",
+        "last_reinforced_ts": 2
+      }
+    ],
+    "result": {
+      "result_id": "recheck:letter",
+      "request_id": "active_perception:char_a:obj_letter:conflict:1:4",
+      "actor_id": "char_a",
+      "session_id": "room_demo",
+      "scene_id": "scene_demo",
+      "subject_ref": "obj_letter",
+      "pqf_query_id": "pqf:char_a:3",
+      "provider_result_refs": [
+        "provider:letter:4"
+      ],
+      "source_refs": [],
+      "confidence": 1.0,
+      "freshness": "fresh",
+      "summary": "letter removed",
+      "conflict_refs": [],
+      "failure_reason": "",
+      "fact_claim": {
+        "scope_ref": "world:main",
+        "subject_ref": "obj_letter",
+        "predicate": "state",
+        "value": "removed",
+        "valid_at": 4,
+        "source_ref": "provider:letter:4"
+      }
+    }
+  },
+  "orchestration": {
+    "result_id": "interaction_result:intent:push",
+    "plan": {
+      "plan_id": "interaction_plan:intent:push",
+      "intent_id": "intent:push",
+      "policy": "semantic-goal-physical-effect-mixed",
+      "selected_channels": [
+        "semantic",
+        "physical"
+      ],
+      "channel_requests": [
+        {
+          "channel": "semantic",
+          "request_id": "semantic:intent:push",
+          "payload": {
+            "intent_id": "intent:push",
+            "actor_id": "char_a",
+            "target_refs": {
+              "object_ids": [
+                "obj_box"
+              ]
+            },
+            "semantic_intent": "move_obstacle",
+            "physical_affordance": "push",
+            "gameplay_mode": "default",
+            "performance_budget": "normal"
+          }
+        },
+        {
+          "channel": "physical",
+          "request_id": "physical:intent:push",
+          "payload": {
+            "effect_kind": "push",
+            "target_object_id": "obj_box"
+          }
+        }
+      ],
+      "degrade_reason": "",
+      "active_perception_request_ref": "",
+      "authority_confirmation_request_ref": "",
+      "skill_evaluation_result": null,
+      "primitive_action_plan": null,
+      "advisory_metadata": {},
+      "forbidden_ownership": [
+        "character_mind_core",
+        "siming_main_brain",
+        "esm_authority"
+      ]
+    },
+    "channel_results": [
+      {
+        "channel": "semantic",
+        "result_id": "constraint:interact:1:obj_box",
+        "status": "rejected",
+        "payload": {
+          "request_ref": "interact:1:obj_box",
+          "result_id": "constraint:interact:1:obj_box",
+          "room_id": "room_demo",
+          "scene_id": "scene_demo",
+          "zone_id": "zone_focus",
+          "actor_id": "char_a",
+          "source_type": "player",
+          "entity_id": "obj_box",
+          "result_type": "constraint_state_result",
+          "causation_id": "interact:1",
+          "correlation_id": "interact:1",
+          "turn_id": "",
+          "idempotency_key": "",
+          "execution_contract_ref": "",
+          "episode_ref": "",
+          "expected_revision_vector": {},
+          "expected_memory_revision_vector": {},
+          "expected_snapshot_revision": 0,
+          "producer_ts": 2,
+          "target_actor_id": null,
+          "target_object_id": "obj_box",
+          "target_environment_id": null,
+          "settlement_status": "rejected",
+          "settlement_id": "",
+          "constraint_type": "interaction_policy_constraint",
+          "constraint_code": "unsupported_object",
+          "constraint_summary": "target is not registered by the authority interaction policy",
+          "blocking_entity_refs": [
+            "obj_box"
+          ]
+        }
+      },
+      {
+        "channel": "physical",
+        "result_id": "physical_result:physical:intent:push",
+        "status": "rejected",
+        "payload": {
+          "result_id": "physical_result:physical:intent:push",
+          "request_id": "physical:intent:push",
+          "actor_id": "char_a",
+          "target_object_id": "obj_box",
+          "effect_kind": "push",
+          "effect_applied": false,
+          "structured_physical_effect_refs": [],
+          "object_state_observation_refs": [],
+          "environment_state_observation_refs": [],
+          "body_state_observation_refs": [],
+          "unified_results": [
+            {
+              "request_ref": "physical:intent:push",
+              "result_id": "constraint:physical:intent:push",
+              "room_id": "room_demo",
+              "scene_id": "scene_demo",
+              "zone_id": "zone_focus",
+              "actor_id": "char_a",
+              "source_type": "esm_physical_channel",
+              "entity_id": "obj_box",
+              "result_type": "constraint_state_result",
+              "causation_id": "constraint:interact:1:obj_box",
+              "correlation_id": "physical:intent:push",
+              "turn_id": "",
+              "idempotency_key": "",
+              "execution_contract_ref": "",
+              "episode_ref": "",
+              "expected_revision_vector": {},
+              "expected_memory_revision_vector": {},
+              "expected_snapshot_revision": 0,
+              "producer_ts": 2,
+              "target_actor_id": null,
+              "target_object_id": "obj_box",
+              "target_environment_id": null,
+              "settlement_status": "rejected",
+              "settlement_id": "",
+              "constraint_type": "physical_channel_constraint",
+              "constraint_code": "semantic_authority_required",
+              "constraint_summary": "physical effect blocked before application",
+              "blocking_entity_refs": [
+                "obj_box"
+              ]
+            }
+          ],
+          "constraint_result": {
+            "request_ref": "physical:intent:push",
+            "result_id": "constraint:physical:intent:push",
+            "room_id": "room_demo",
+            "scene_id": "scene_demo",
+            "zone_id": "zone_focus",
+            "actor_id": "char_a",
+            "source_type": "esm_physical_channel",
+            "entity_id": "obj_box",
+            "result_type": "constraint_state_result",
+            "causation_id": "constraint:interact:1:obj_box",
+            "correlation_id": "physical:intent:push",
+            "turn_id": "",
+            "idempotency_key": "",
+            "execution_contract_ref": "",
+            "episode_ref": "",
+            "expected_revision_vector": {},
+            "expected_memory_revision_vector": {},
+            "expected_snapshot_revision": 0,
+            "producer_ts": 2,
+            "target_actor_id": null,
+            "target_object_id": "obj_box",
+            "target_environment_id": null,
+            "settlement_status": "rejected",
+            "settlement_id": "",
+            "constraint_type": "physical_channel_constraint",
+            "constraint_code": "semantic_authority_required",
+            "constraint_summary": "physical effect blocked before application",
+            "blocking_entity_refs": [
+              "obj_box"
+            ]
+          }
+        }
+      }
+    ],
+    "unified_result_family": [
+      {
+        "request_ref": "interact:1:obj_box",
+        "result_id": "constraint:interact:1:obj_box",
+        "room_id": "room_demo",
+        "scene_id": "scene_demo",
+        "zone_id": "zone_focus",
+        "actor_id": "char_a",
+        "source_type": "player",
+        "entity_id": "obj_box",
+        "result_type": "constraint_state_result",
+        "causation_id": "interact:1",
+        "correlation_id": "interact:1",
+        "turn_id": "",
+        "idempotency_key": "",
+        "execution_contract_ref": "",
+        "episode_ref": "",
+        "expected_revision_vector": {},
+        "expected_memory_revision_vector": {},
+        "expected_snapshot_revision": 0,
+        "producer_ts": 2,
+        "target_actor_id": null,
+        "target_object_id": "obj_box",
+        "target_environment_id": null,
+        "settlement_status": "rejected",
+        "settlement_id": "",
+        "constraint_type": "interaction_policy_constraint",
+        "constraint_code": "unsupported_object",
+        "constraint_summary": "target is not registered by the authority interaction policy",
+        "blocking_entity_refs": [
+          "obj_box"
+        ]
+      },
+      {
+        "request_ref": "physical:intent:push",
+        "result_id": "constraint:physical:intent:push",
+        "room_id": "room_demo",
+        "scene_id": "scene_demo",
+        "zone_id": "zone_focus",
+        "actor_id": "char_a",
+        "source_type": "esm_physical_channel",
+        "entity_id": "obj_box",
+        "result_type": "constraint_state_result",
+        "causation_id": "constraint:interact:1:obj_box",
+        "correlation_id": "physical:intent:push",
+        "turn_id": "",
+        "idempotency_key": "",
+        "execution_contract_ref": "",
+        "episode_ref": "",
+        "expected_revision_vector": {},
+        "expected_memory_revision_vector": {},
+        "expected_snapshot_revision": 0,
+        "producer_ts": 2,
+        "target_actor_id": null,
+        "target_object_id": "obj_box",
+        "target_environment_id": null,
+        "settlement_status": "rejected",
+        "settlement_id": "",
+        "constraint_type": "physical_channel_constraint",
+        "constraint_code": "semantic_authority_required",
+        "constraint_summary": "physical effect blocked before application",
+        "blocking_entity_refs": [
+          "obj_box"
+        ]
+      }
+    ],
+    "status": "denied",
+    "trace_refs": [
+      "interaction_trace:intent:push"
+    ],
+    "skill_evaluation_result": null,
+    "primitive_action_plan": null,
+    "action_settlement_result": null,
+    "skill_evidence": null,
+    "advisory_metadata": {}
+  },
+  "development_pins": []
+}

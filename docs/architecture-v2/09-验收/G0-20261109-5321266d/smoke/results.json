@@ -1,0 +1,32 @@
+{
+  "head": "5321266dbd882f45eb6a24dd7b328e9f56746228",
+  "started": "2026-11-09T06:16:38.349049+00:00",
+  "finished": "2026-11-09T06:16:45.313659+00:00",
+  "exit_code": 0,
+  "collected_count": 2,
+  "counts": {
+    "passed": 2
+  },
+  "collection_errors": [],
+  "tests": [
+    {
+      "test_name": "tests/test_ownership_runtime.py::test_initial_title_and_independent_transfer_are_event_derived",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_ownership_runtime.py::test_duplicate_or_wrong_holder_does_not_change_title",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    }
+  ],
+  "failures": []
+}

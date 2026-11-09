@@ -1,0 +1,538 @@
+{
+  "head": "5321266dbd882f45eb6a24dd7b328e9f56746228",
+  "started": "2026-11-09T07:39:32.516163+00:00",
+  "finished": "2026-11-09T07:39:49.095071+00:00",
+  "exit_code": 1,
+  "collected_count": 39,
+  "counts": {
+    "passed": 38,
+    "failed": 1
+  },
+  "collection_errors": [],
+  "tests": [
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[privacy_policy_ref]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[compensation_policy_ref]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[source_selection_rule_ref]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[capability_ref]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_eligibility_refs_cannot_be_omitted",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[inventory_success]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[ownership_success]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[completed_service_success]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_price_outside_fixed_policy_without_writes",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_ambiguous_package_source_without_writes",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_capability_mismatch_without_writes",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_inactive_package_revision_without_writes",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_receipt_is_authority_only_and_append_derived",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_projection_is_authority_only_and_full_replay_is_fixed",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_checkpoint_tail_replay_matches_full_replay",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_exact_duplicate_replays_and_changed_duplicate_is_zero_write",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_corrupt_receipt_event_reference",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_runtime.py::test_transfer_preserves_balances_in_one_batch",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_runtime.py::test_insufficient_balance_writes_nothing",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_runtime.py::test_transfer_idempotency_does_not_double_debit",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_empty_temporal_and_random_participants_preserve_legacy_absence",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[economy_temporal]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[ecology_temporal]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[economy_random]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_owner_scoped_projection_is_private_and_survives_durable_reopen",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_changed_manifest_without_write[refs]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_changed_manifest_without_write[state]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_changed_manifest_without_write[missing]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_changed_manifest_without_write[version]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_accepts_cut_between_anchor_and_result",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[stream]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[schema]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[visibility]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[payload]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[persisted]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_unknown_random_event_without_write[gameplay.economy.random_result_committed@2]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_unknown_random_event_without_write[gameplay.economy.random_entropy_anchor_created@2]",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_application_random_owner_participates_in_durable_cut_and_tail",
+      "phases": {
+        "setup": "passed",
+        "call": "passed",
+        "teardown": "passed"
+      },
+      "outcome": "passed"
+    },
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart",
+      "phases": {
+        "setup": "passed",
+        "call": "failed",
+        "teardown": "passed"
+      },
+      "outcome": "failed"
+    }
+  ],
+  "failures": [
+    {
+      "test_name": "tests/test_economy_random_replay_participant.py::test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart",
+      "phase": "call",
+      "error_type": "AssertionError",
+      "message": "AssertionError: assert False\n +  where False = PresenceReceipt(committed=False, status='rejected', world_ref='world:bakery', character_ref='character:char_a', incarnation=None, source_activation_event_id=None, committed_event_ids=(), revision_vector={}, idempotency_status='rejected', zero_write=True, stop_reason='presence_original_receipt_invalid').committed",
+      "stack_hash": "daae80b9cbcbb369cbecaa2d37db0a69279cdad2a2a45212884c4c111fd7345a",
+      "stack": "tests\\test_economy_random_replay_participant.py:332: in test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart\n    assert (await _run(main, lambda: PopulationPresenceAuthority(store=main.gameplay_event_store).despawn(\nE   AssertionError: assert False\nE    +  where False = PresenceReceipt(committed=False, status='rejected', world_ref='world:bakery', character_ref='character:char_a', incarnation=None, source_activation_event_id=None, committed_event_ids=(), revision_vector={}, idempotency_status='rejected', zero_write=True, stop_reason='presence_original_receipt_invalid').committed",
+      "normalized_stack": "tests/test_economy_random_replay_participant.py:332: in test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart\n    assert (await _run(main, lambda: PopulationPresenceAuthority(store=main.gameplay_event_store).despawn(\nE   AssertionError: assert False\nE    +  where False = PresenceReceipt(committed=False, status='rejected', world_ref='world:bakery', character_ref='character:char_a', incarnation=None, source_activation_event_id=None, committed_event_ids=(), revision_vector={}, idempotency_status='rejected', zero_write=True, stop_reason='presence_original_receipt_invalid').committed",
+      "frames": [
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\runner.py",
+          "line": 341,
+          "function": "from_call"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\runner.py",
+          "line": 242,
+          "function": "<lambda>"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_hooks.py",
+          "line": 513,
+          "function": "__call__"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_manager.py",
+          "line": 120,
+          "function": "_hookexec"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 182,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_result.py",
+          "line": 100,
+          "function": "get_result"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 167,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\threadexception.py",
+          "line": 92,
+          "function": "pytest_runtest_call"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\threadexception.py",
+          "line": 68,
+          "function": "thread_exception_runtest_hook"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 167,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\unraisableexception.py",
+          "line": 95,
+          "function": "pytest_runtest_call"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\unraisableexception.py",
+          "line": 70,
+          "function": "unraisable_exception_runtest_hook"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 167,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\logging.py",
+          "line": 846,
+          "function": "pytest_runtest_call"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\logging.py",
+          "line": 829,
+          "function": "_runtest_for"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 167,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\capture.py",
+          "line": 880,
+          "function": "pytest_runtest_call"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 167,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\skipping.py",
+          "line": 257,
+          "function": "pytest_runtest_call"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 103,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\runner.py",
+          "line": 174,
+          "function": "pytest_runtest_call"
+        },
+        {
+          "file": "c:\\Anaconda3\\Lib\\site-packages\\pytest_asyncio\\plugin.py",
+          "line": 549,
+          "function": "runtest"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\python.py",
+          "line": 1627,
+          "function": "runtest"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_hooks.py",
+          "line": 513,
+          "function": "__call__"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_manager.py",
+          "line": 120,
+          "function": "_hookexec"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 182,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_result.py",
+          "line": 100,
+          "function": "get_result"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\pluggy\\_callers.py",
+          "line": 103,
+          "function": "_multicall"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\site-packages\\_pytest\\python.py",
+          "line": 159,
+          "function": "pytest_pyfunc_call"
+        },
+        {
+          "file": "c:\\Anaconda3\\Lib\\site-packages\\pytest_asyncio\\plugin.py",
+          "line": 1069,
+          "function": "inner"
+        },
+        {
+          "file": "C:\\Anaconda3\\Lib\\asyncio\\base_events.py",
+          "line": 725,
+          "function": "run_until_complete"
+        },
+        {
+          "file": "D:\\Temp\\paralls-g0-b1-on-main-20261109\\backend\\tests\\test_economy_random_replay_participant.py",
+          "line": 332,
+          "function": "test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart"
+        }
+      ]
+    }
+  ]
+}

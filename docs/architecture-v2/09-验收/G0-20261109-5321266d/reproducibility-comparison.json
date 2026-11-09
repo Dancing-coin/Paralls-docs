@@ -1,0 +1,70 @@
+{
+  "status": "compared",
+  "canonicalizer": "g0-stack-v2",
+  "allowed_normalization": [
+    "absolute roots including escaped Windows repr",
+    "pytest temporary counters",
+    "memory addresses",
+    "asyncio cancel-scope runtime identifiers",
+    "ISO timestamps"
+  ],
+  "not_normalized": [
+    "line numbers",
+    "semantic values",
+    "UUIDs",
+    "digests",
+    "assertion results",
+    "test order"
+  ],
+  "collection_order_equal": true,
+  "failure_order_equal": true,
+  "state_changes": [],
+  "type_phase_changes": [],
+  "stack_differences": [],
+  "counts_run1": {
+    "passed": 9787,
+    "failed": 108,
+    "skipped": 4
+  },
+  "counts_run2": {
+    "passed": 9787,
+    "failed": 108,
+    "skipped": 4
+  },
+  "terminal_counts_run1": {
+    "passed": 9787,
+    "failed": 108,
+    "xfailed": 2,
+    "skipped": 2
+  },
+  "terminal_counts_run2": {
+    "passed": 9787,
+    "failed": 108,
+    "xfailed": 2,
+    "skipped": 2
+  },
+  "started_run1": "2026-11-09T06:19:17.674824+00:00",
+  "finished_run1": "2026-11-09T06:43:19.123557+00:00",
+  "started_run2": "2026-11-09T06:43:40.210855+00:00",
+  "finished_run2": "2026-11-09T07:10:20.268637+00:00",
+  "head_equal": true,
+  "source_equal": true,
+  "packages_equal": true,
+  "manifest_equal": true,
+  "source_unchanged": [
+    true,
+    true
+  ],
+  "git_status_after": [
+    "",
+    ""
+  ],
+  "exit_codes": [
+    1,
+    1
+  ],
+  "collection_errors": [
+    [],
+    []
+  ]
+}

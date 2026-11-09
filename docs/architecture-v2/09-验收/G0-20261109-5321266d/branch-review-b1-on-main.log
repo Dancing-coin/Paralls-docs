@@ -1,0 +1,88 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-8.3.4, pluggy-1.5.0 -- C:\Anaconda3\python.exe
+rootdir: D:\Temp\paralls-g0-b1-on-main-20261109\backend
+configfile: pyproject.toml
+plugins: anyio-4.7.0, langsmith-0.3.45, opik-1.7.36, asyncio-0.26.0, mock-3.14.1, socket-0.7.0, syrupy-4.9.1
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 39 items
+
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[privacy_policy_ref] PASSED [  2%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[compensation_policy_ref] PASSED [  5%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[source_selection_rule_ref] PASSED [  7%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_policy_and_capability_fields_cannot_be_omitted[capability_ref] PASSED [ 10%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_eligibility_refs_cannot_be_omitted PASSED [ 12%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[inventory_success] PASSED [ 15%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[ownership_success] PASSED [ 17%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_declared_exchange_commits_one_fixed_owner_vector_for_each_admitted_source_mode[completed_service_success] PASSED [ 20%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_price_outside_fixed_policy_without_writes PASSED [ 23%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_ambiguous_package_source_without_writes PASSED [ 25%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_capability_mismatch_without_writes PASSED [ 28%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_inactive_package_revision_without_writes PASSED [ 30%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_receipt_is_authority_only_and_append_derived PASSED [ 33%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_projection_is_authority_only_and_full_replay_is_fixed PASSED [ 35%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_checkpoint_tail_replay_matches_full_replay PASSED [ 38%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_exact_duplicate_replays_and_changed_duplicate_is_zero_write PASSED [ 41%]
+tests/test_infra_package_declared_negotiated_exchange.py::test_package_exchange_rejects_corrupt_receipt_event_reference PASSED [ 43%]
+tests/test_economy_runtime.py::test_transfer_preserves_balances_in_one_batch PASSED [ 46%]
+tests/test_economy_runtime.py::test_insufficient_balance_writes_nothing PASSED [ 48%]
+tests/test_economy_runtime.py::test_transfer_idempotency_does_not_double_debit PASSED [ 51%]
+tests/test_economy_random_replay_participant.py::test_empty_temporal_and_random_participants_preserve_legacy_absence PASSED [ 53%]
+tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[economy_temporal] PASSED [ 56%]
+tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[ecology_temporal] PASSED [ 58%]
+tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[economy_random] PASSED [ 61%]
+tests/test_economy_random_replay_participant.py::test_random_owner_scoped_projection_is_private_and_survives_durable_reopen PASSED [ 64%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_changed_manifest_without_write[refs] PASSED [ 66%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_changed_manifest_without_write[state] PASSED [ 69%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_changed_manifest_without_write[missing] PASSED [ 71%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_changed_manifest_without_write[version] PASSED [ 74%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_accepts_cut_between_anchor_and_result PASSED [ 76%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[stream] PASSED [ 79%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[schema] PASSED [ 82%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[visibility] PASSED [ 84%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[payload] PASSED [ 87%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_corrupt_owner_event_without_write[persisted] PASSED [ 89%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_unknown_random_event_without_write[gameplay.economy.random_result_committed@2] PASSED [ 92%]
+tests/test_economy_random_replay_participant.py::test_random_scoped_projection_rejects_unknown_random_event_without_write[gameplay.economy.random_entropy_anchor_created@2] PASSED [ 94%]
+tests/test_economy_random_replay_participant.py::test_application_random_owner_participates_in_durable_cut_and_tail PASSED [ 97%]
+tests/test_economy_random_replay_participant.py::test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart FAILED [100%]
+
+================================== FAILURES ===================================
+__ test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart __
+tests\test_economy_random_replay_participant.py:332: in test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart
+    assert (await _run(main, lambda: PopulationPresenceAuthority(store=main.gameplay_event_store).despawn(
+E   AssertionError: assert False
+E    +  where False = PresenceReceipt(committed=False, status='rejected', world_ref='world:bakery', character_ref='character:char_a', incarnation=None, source_activation_event_id=None, committed_event_ids=(), revision_vector={}, idempotency_status='rejected', zero_write=True, stop_reason='presence_original_receipt_invalid').committed
+============================== warnings summary ===============================
+tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[economy_temporal]
+  D:\Temp\paralls-g0-b1-on-main-20261109\backend\app\main.py:1265: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    @app.on_event("startup")
+
+tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[economy_temporal]
+tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[economy_temporal]
+  C:\Anaconda3\Lib\site-packages\fastapi\applications.py:4495: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    return self.router.on_event(event_type)
+
+tests/test_economy_random_replay_participant.py::test_first_owner_fact_after_empty_cut_replays_after_durable_reopen[economy_temporal]
+  D:\Temp\paralls-g0-b1-on-main-20261109\backend\app\main.py:1312: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    @app.on_event("shutdown")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: D:\Users\User\Documents\Unreal Projects\Paralls-docs\docs\architecture-v2\09-验收\G0-20261109-5321266d\branch-review\b1-on-main\junit.xml -
+=========================== short test summary info ===========================
+FAILED tests/test_economy_random_replay_participant.py::test_shared_cut_replays_ten_domain_participants_after_cadence_and_restart
+================== 1 failed, 38 passed, 4 warnings in 9.03s ===================

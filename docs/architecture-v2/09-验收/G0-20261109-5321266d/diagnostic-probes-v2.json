@@ -1,0 +1,1184 @@
+{
+  "door": {
+    "bind": [
+      {
+        "message_type": "ack",
+        "payload": {
+          "accepted": false,
+          "source_type": "embodied_controller_bind",
+          "route": "embodied_execution_ingress",
+          "error_code": "trusted_local_launch_expired"
+        }
+      }
+    ],
+    "observed_at": 100,
+    "interact": [
+      {
+        "message_type": "ack",
+        "payload": {
+          "accepted": true,
+          "source_type": "player_input",
+          "route": "esm_service",
+          "request_id": "",
+          "intent_type": "interact_intent",
+          "producer_ts": 110
+        }
+      },
+      {
+        "message_type": "action_request",
+        "event_id": "interact:110:obj_archive_door",
+        "event_type": "action_request",
+        "producer_ts": 110,
+        "room_id": "room_demo",
+        "scene_id": "scene_demo",
+        "zone_id": "zone_focus",
+        "source": {
+          "layer": "L1",
+          "system": "player_input_bridge",
+          "actor_id": "char_c",
+          "object_id": ""
+        },
+        "routing": {
+          "audience_mode": "authority_broadcast",
+          "routing_mode": "authoritative_event_bus",
+          "dialog_group_id": null,
+          "target_ids": []
+        },
+        "priority": "p1",
+        "ttl": null,
+        "durability": "replayable",
+        "causation_id": "interact:110",
+        "correlation_id": "interact:110",
+        "payload": {
+          "request_id": "interact:110:obj_archive_door",
+          "request_type": "interact",
+          "room_id": "room_demo",
+          "scene_id": "scene_demo",
+          "zone_id": "zone_focus",
+          "actor_id": "char_c",
+          "action_type": "interact_intent",
+          "source": {
+            "layer": "L1",
+            "system": "player_input_bridge",
+            "actor_id": "char_c"
+          },
+          "target_entity_refs": {
+            "actor_ids": [],
+            "object_ids": [
+              "obj_archive_door"
+            ],
+            "environment_ids": []
+          },
+          "action_profile": "open",
+          "intent_strength": "normal",
+          "constraints_hint": {},
+          "producer_ts": 110,
+          "causation_id": "interact:110",
+          "correlation_id": "interact:110",
+          "turn_id": "",
+          "idempotency_key": "",
+          "expected_revision_vector": {},
+          "expected_memory_revision_vector": {},
+          "expected_snapshot_revision": 0,
+          "target_actor_id": "",
+          "target_object_id": "obj_archive_door",
+          "target_environment_id": "",
+          "payload": {
+            "interaction_type": "open",
+            "turn_id": "",
+            "execution_contract_ref": "",
+            "episode_ref": "",
+            "pre_capture_ref": ""
+          }
+        }
+      },
+      {
+        "message_type": "world_result",
+        "event_id": "constraint:interact:110:obj_archive_door",
+        "event_type": "constraint_state_result",
+        "producer_ts": 111,
+        "room_id": "room_demo",
+        "scene_id": "scene_demo",
+        "zone_id": "zone_focus",
+        "entity_id": "obj_archive_door",
+        "source": {
+          "layer": "L1",
+          "system": "esm",
+          "actor_id": "char_c",
+          "object_id": "obj_archive_door"
+        },
+        "routing": {
+          "audience_mode": "authority_broadcast",
+          "routing_mode": "authoritative_event_bus",
+          "dialog_group_id": null,
+          "target_ids": []
+        },
+        "priority": "p1",
+        "ttl": null,
+        "durability": "replayable",
+        "causation_id": "interact:110",
+        "correlation_id": "interact:110",
+        "payload": {
+          "request_ref": "interact:110:obj_archive_door",
+          "result_id": "constraint:interact:110:obj_archive_door",
+          "room_id": "room_demo",
+          "scene_id": "scene_demo",
+          "zone_id": "zone_focus",
+          "actor_id": "char_c",
+          "source_type": "player",
+          "entity_id": "obj_archive_door",
+          "result_type": "constraint_state_result",
+          "causation_id": "interact:110",
+          "correlation_id": "interact:110",
+          "turn_id": "",
+          "idempotency_key": "",
+          "execution_contract_ref": "",
+          "episode_ref": "",
+          "expected_revision_vector": {},
+          "expected_memory_revision_vector": {},
+          "expected_snapshot_revision": 0,
+          "producer_ts": 111,
+          "target_object_id": "obj_archive_door",
+          "settlement_status": "rejected",
+          "settlement_id": "",
+          "constraint_type": "controller_binding_constraint",
+          "constraint_code": "controller_binding_required",
+          "constraint_summary": "door embodiment requires a trusted controller binding on this connection",
+          "blocking_entity_refs": [
+            "obj_archive_door"
+          ]
+        }
+      },
+      {
+        "message_type": "world_result",
+        "event_id": "constraint:interact:110:obj_archive_door",
+        "event_type": "constraint_state_result",
+        "producer_ts": 111,
+        "room_id": "room_demo",
+        "scene_id": "scene_demo",
+        "zone_id": "zone_focus",
+        "entity_id": "obj_archive_door",
+        "source": {
+          "layer": "L1",
+          "system": "esm",
+          "actor_id": "char_c",
+          "object_id": "obj_archive_door"
+        },
+        "routing": {
+          "audience_mode": "authority_broadcast",
+          "routing_mode": "authoritative_event_bus",
+          "dialog_group_id": null,
+          "target_ids": []
+        },
+        "priority": "p1",
+        "ttl": null,
+        "durability": "replayable",
+        "causation_id": "interact:110",
+        "correlation_id": "interact:110",
+        "payload": {
+          "request_ref": "interact:110:obj_archive_door",
+          "result_id": "constraint:interact:110:obj_archive_door",
+          "room_id": "room_demo",
+          "scene_id": "scene_demo",
+          "zone_id": "zone_focus",
+          "actor_id": "char_c",
+          "source_type": "player",
+          "entity_id": "obj_archive_door",
+          "result_type": "constraint_state_result",
+          "causation_id": "interact:110",
+          "correlation_id": "interact:110",
+          "turn_id": "",
+          "idempotency_key": "",
+          "execution_contract_ref": "",
+          "episode_ref": "",
+          "expected_revision_vector": {},
+          "expected_memory_revision_vector": {},
+          "expected_snapshot_revision": 0,
+          "producer_ts": 111,
+          "target_actor_id": null,
+          "target_object_id": "obj_archive_door",
+          "target_environment_id": null,
+          "settlement_status": "rejected",
+          "settlement_id": "",
+          "constraint_type": "controller_binding_constraint",
+          "constraint_code": "controller_binding_required",
+          "constraint_summary": "door embodiment requires a trusted controller binding on this connection",
+          "blocking_entity_refs": [
+            "obj_archive_door"
+          ],
+          "world_runtime_delta": {
+            "entity": {
+              "entity_type": "object",
+              "entity_id": "obj_archive_door",
+              "zone_id": null
+            },
+            "changed_fields": {
+              "current_state": ""
+            },
+            "producer_ts": 111
+          }
+        }
+      },
+      {
+        "message_type": "siming_debug_snapshot",
+        "payload": {
+          "producer_ts": 111,
+          "causation_id": "constraint_state_event:111:interact:110",
+          "correlation_id": "interact:110",
+          "participants": [
+            "char_c",
+            "obj_archive_door"
+          ],
+          "fairness_summary": "scene balance reviewed for constraint_state_event",
+          "intervention_candidate": "",
+          "intervention_decision": "reviewing",
+          "selected_path": "no_action",
+          "intervention_band": "none",
+          "target_ref": "obj_archive_door",
+          "reason_summary": "",
+          "downstream_status": "reviewing",
+          "no_action_reason": ""
+        }
+      },
+      {
+        "message_type": "siming_debug_event",
+        "payload": {
+          "producer_ts": 111,
+          "causation_id": "constraint_state_event:111:interact:110",
+          "correlation_id": "interact:110",
+          "participants": [
+            "char_c",
+            "obj_archive_door"
+          ],
+          "stage": "fairness_snapshot",
+          "summary": "scene balance reviewed for constraint_state_event",
+          "selected_path": "no_action",
+          "intervention_band": "none",
+          "target_ref": "obj_archive_door",
+          "reason_summary": "",
+          "downstream_status": "reviewing",
+          "no_action_reason": ""
+        }
+      },
+      {
+        "message_type": "siming_debug_snapshot",
+        "payload": {
+          "producer_ts": 111,
+          "causation_id": "constraint_state_event:111:interact:110",
+          "correlation_id": "interact:110",
+          "participants": [
+            "char_c",
+            "obj_archive_door"
+          ],
+          "fairness_summary": "scene balance reviewed for constraint_state_event",
+          "intervention_candidate": "",
+          "intervention_decision": "no_action",
+          "selected_path": "no_action",
+          "intervention_band": "none",
+          "target_ref": "obj_archive_door",
+          "reason_summary": "door embodiment requires a trusted controller binding on this connection",
+          "downstream_status": "esm_rejected",
+          "no_action_reason": "door embodiment requires a trusted controller binding on this connection"
+        }
+      },
+      {
+        "message_type": "siming_debug_event",
+        "payload": {
+          "producer_ts": 111,
+          "causation_id": "constraint_state_event:111:interact:110",
+          "correlation_id": "interact:110",
+          "participants": [
+            "char_c",
+            "obj_archive_door"
+          ],
+          "stage": "no_action",
+          "summary": "siming declined after downstream rejection",
+          "selected_path": "no_action",
+          "intervention_band": "none",
+          "target_ref": "obj_archive_door",
+          "reason_summary": "door embodiment requires a trusted controller binding on this connection",
+          "downstream_status": "esm_rejected",
+          "no_action_reason": "door embodiment requires a trusted controller binding on this connection"
+        }
+      },
+      {
+        "message_type": "world_outcome_trace",
+        "payload": {
+          "producer_ts": 111,
+          "causation_id": "interact:110",
+          "correlation_id": "interact:110",
+          "participants": [
+            "char_c",
+            "obj_archive_door"
+          ],
+          "actor_id": "char_c",
+          "target_ref": "obj_archive_door",
+          "request_type": "",
+          "settlement_status": "rejected",
+          "constraint_summary": "door embodiment requires a trusted controller binding on this connection",
+          "world_change_summary": "constraint_state_result",
+          "dramatic_consequence_summary": "request rejected: door embodiment requires a trusted controller binding on this connection",
+          "source_message_type": "world_result",
+          "detail": {
+            "request_ref": "interact:110:obj_archive_door",
+            "result_id": "constraint:interact:110:obj_archive_door",
+            "room_id": "room_demo",
+            "scene_id": "scene_demo",
+            "zone_id": "zone_focus",
+            "actor_id": "char_c",
+            "source_type": "player",
+            "entity_id": "obj_archive_door",
+            "result_type": "constraint_state_result",
+            "causation_id": "interact:110",
+            "correlation_id": "interact:110",
+            "turn_id": "",
+            "idempotency_key": "",
+            "execution_contract_ref": "",
+            "episode_ref": "",
+            "expected_revision_vector": {},
+            "expected_memory_revision_vector": {},
+            "expected_snapshot_revision": 0,
+            "producer_ts": 111,
+            "target_object_id": "obj_archive_door",
+            "settlement_status": "rejected",
+            "settlement_id": "",
+            "constraint_type": "controller_binding_constraint",
+            "constraint_code": "controller_binding_required",
+            "constraint_summary": "door embodiment requires a trusted controller binding on this connection",
+            "blocking_entity_refs": [
+              "obj_archive_door"
+            ]
+          }
+        }
+      },
+      {
+        "message_type": "world_outcome_trace",
+        "payload": {
+          "producer_ts": 111,
+          "causation_id": "interact:110",
+          "correlation_id": "interact:110",
+          "participants": [
+            "char_c",
+            "obj_archive_door"
+          ],
+          "actor_id": "char_c",
+          "target_ref": "obj_archive_door",
+          "request_type": "",
+          "settlement_status": "rejected",
+          "constraint_summary": "door embodiment requires a trusted controller binding on this connection",
+          "world_change_summary": "constraint_state_result",
+          "dramatic_consequence_summary": "request rejected: door embodiment requires a trusted controller binding on this connection",
+          "source_message_type": "world_result",
+          "detail": {
+            "request_ref": "interact:110:obj_archive_door",
+            "result_id": "constraint:interact:110:obj_archive_door",
+            "room_id": "room_demo",
+            "scene_id": "scene_demo",
+            "zone_id": "zone_focus",
+            "actor_id": "char_c",
+            "source_type": "player",
+            "entity_id": "obj_archive_door",
+            "result_type": "constraint_state_result",
+            "causation_id": "interact:110",
+            "correlation_id": "interact:110",
+            "turn_id": "",
+            "idempotency_key": "",
+            "execution_contract_ref": "",
+            "episode_ref": "",
+            "expected_revision_vector": {},
+            "expected_memory_revision_vector": {},
+            "expected_snapshot_revision": 0,
+            "producer_ts": 111,
+            "target_actor_id": null,
+            "target_object_id": "obj_archive_door",
+            "target_environment_id": null,
+            "settlement_status": "rejected",
+            "settlement_id": "",
+            "constraint_type": "controller_binding_constraint",
+            "constraint_code": "controller_binding_required",
+            "constraint_summary": "door embodiment requires a trusted controller binding on this connection",
+            "blocking_entity_refs": [
+              "obj_archive_door"
+            ],
+            "world_runtime_delta": {
+              "entity": {
+                "entity_type": "object",
+                "entity_id": "obj_archive_door",
+                "zone_id": null
+              },
+              "changed_fields": {
+                "current_state": ""
+              },
+              "producer_ts": 111
+            }
+          }
+        }
+      },
+      {
+        "message_type": "script_beat_event",
+        "payload": {
+          "producer_ts": 111,
+          "causation_id": "constraint_state_event:111:interact:110",
+          "correlation_id": "interact:110",
+          "participants": [
+            "obj_archive_door",
+            "char_c"
+          ],
+          "beat_id": "beat-interact:110-1",
+          "dramatic_summary": "scene balance reviewed for constraint_state_event | siming declined after downstream rejection | request rejected: door embodiment requires a trusted controller binding on this connection | request rejected: door embodiment requires a trusted controller binding on this connection",
+          "actor_event_refs": [],
+          "siming_event_refs": [
+            "siming:fairness_snapshot:111",
+            "siming:no_action:111"
+          ],
+          "world_event_refs": [
+            "world::111",
+            "world::111"
+          ],
+          "actor_summaries": [],
+          "siming_summaries": [
+            {
+              "stage": "fairness_snapshot",
+              "summary": "scene balance reviewed for constraint_state_event",
+              "selected_path": "no_action",
+              "intervention_band": "none",
+              "target_ref": "obj_archive_door",
+              "causation_id": "constraint_state_event:111:interact:110",
+              "correlation_id": "interact:110",
+              "reason_summary": "",
+              "downstream_status": "reviewing",
+              "no_action_reason": ""
+            },
+            {
+              "stage": "no_action",
+              "summary": "siming declined after downstream rejection",
+              "selected_path": "no_action",
+              "intervention_band": "none",
+              "target_ref": "obj_archive_door",
+              "causation_id": "constraint_state_event:111:interact:110",
+              "correlation_id": "interact:110",
+              "reason_summary": "door embodiment requires a trusted controller binding on this connection",
+              "downstream_status": "esm_rejected",
+              "no_action_reason": "door embodiment requires a trusted controller binding on this connection"
+            }
+          ],
+          "world_summaries": [
+            {
+              "actor_id": "char_c",
+              "target_ref": "",
+              "request_type": "",
+              "settlement_status": "rejected",
+              "constraint_summary": "door embodiment requires a trusted controller binding on this connection",
+              "world_change_summary": "",
+              "dramatic_consequence_summary": "request rejected: door embodiment requires a trusted controller binding on this connection"
+            },
+            {
+              "actor_id": "char_c",
+              "target_ref": "",
+              "request_type": "",
+              "settlement_status": "rejected",
+              "constraint_summary": "door embodiment requires a trusted controller binding on this connection",
+              "world_change_summary": "",
+              "dramatic_consequence_summary": "request rejected: door embodiment requires a trusted controller binding on this connection"
+            }
+          ],
+          "dialogue_pairs": []
+        }
+      }
+    ]
+  },
+  "rss_subprocess": {
+    "cwd": "D:\\Users\\User\\Documents\\paralls-phase-0-demo\\backend",
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    from scripts.verification.population_benchmark_metrics import current_rss_bytes; print(current_rss_bytes())\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'scripts.verification'\n"
+  },
+  "admission_subprocess": {
+    "pythonpath": "D:\\Users\\User\\Documents\\paralls-phase-0-demo\\backend\\backend;D:\\Users\\User\\Documents\\paralls-phase-0-demo\\backend\\backend\\tests",
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    from test_character_cognition_admission import service,request\nModuleNotFoundError: No module named 'test_character_cognition_admission'\n"
+  },
+  "needs_l2": {
+    "error": "",
+    "trace": [
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 739,
+        "type": "TypeError",
+        "message": "_RecordingL2.prepare_perceived_event() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 2339,
+        "type": "TypeError",
+        "message": "_RecordingL2.prepare_perceived_event() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 4858,
+        "type": "TypeError",
+        "message": "_RecordingL2.prepare_perceived_event() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "memory": {
+          "working_memory": [],
+          "event_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2",
+              "source_event_id": "char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2",
+              "world_ts": 411,
+              "event_type": "character_perceived_event",
+              "summary": "char_c speaks from an unclear position",
+              "clarity_score": 0.72,
+              "certainty_score": 0.68,
+              "refs": [
+                "char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2"
+              ]
+            }
+          ],
+          "observation_memories": [
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2:char_a:auditory:1",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2",
+              "world_ts": 411,
+              "observed_entity_id": "char_a",
+              "observation_type": "auditory",
+              "observation_summary": "char_c speaks from an unclear position",
+              "clarity_score": 0.72,
+              "certainty_score": 0.68,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2"
+              ]
+            }
+          ],
+          "knowledge_memories": [
+            {
+              "memory_id": "knowledge:char_a:social:char_c:trust_level",
+              "actor_id": "char_a",
+              "proposition_key": "social:char_c:trust_level",
+              "proposition": "char_c:trust_level=guarded",
+              "state": "tentatively_believed",
+              "confidence": 0.65,
+              "source_event_id": "char_a:relational_belief_event:411:59165794151848a6a7231dbaebd4e404:3",
+              "producer_ts": 411,
+              "claim": null
+            }
+          ],
+          "social_memories": [
+            {
+              "memory_id": "social:char_a:char_c",
+              "actor_id": "char_a",
+              "entity_id": "char_c",
+              "trust_baseline": 0.25,
+              "suspicion_baseline": 0.75,
+              "intimacy": 0.0,
+              "dependency": 0.0,
+              "unresolved_tension": 0.5,
+              "shared_secret_refs": [],
+              "source_event_id": "char_a:relational_belief_event:411:59165794151848a6a7231dbaebd4e404:3",
+              "producer_ts": 411,
+              "summary": "",
+              "source_event_refs": []
+            }
+          ],
+          "higher_order_memories": [],
+          "episodic_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2",
+              "source_event_id": "char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2",
+              "world_ts": 411,
+              "event_type": "character_perceived_event",
+              "summary": "char_c speaks from an unclear position",
+              "clarity_score": 0.72,
+              "certainty_score": 0.68,
+              "refs": [
+                "char_a:character_perceived_event:411:59165794151848a6a7231dbaebd4e404:2"
+              ]
+            }
+          ],
+          "relational_memories": [
+            {
+              "entity_id": "char_c",
+              "belief_type": "trust_level",
+              "value": "guarded",
+              "source_event_id": "char_a:relational_belief_event:411:59165794151848a6a7231dbaebd4e404:3",
+              "producer_ts": 411
+            }
+          ]
+        },
+        "tensions": [
+          {
+            "tension_id": "char_a:ambiguous_signal:char_a",
+            "category": "ambiguous_signal",
+            "summary": "char_c speaks from an unclear position",
+            "target_ref": "char_a",
+            "priority": 0.4,
+            "status": "active",
+            "source_event_id": "auditory_fact:411:char_c:char_a",
+            "source_stage": "character_perceived_event",
+            "last_reinforced_ts": 411
+          }
+        ]
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/tests/test_character_runtime_needs_affect_flow.py",
+        "line": 584,
+        "type": "AssertionError",
+        "message": ""
+      }
+    ]
+  },
+  "needs_l3": {
+    "error": "",
+    "trace": [
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 739,
+        "type": "TypeError",
+        "message": "_RecordingL2.prepare_perceived_event() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 2339,
+        "type": "TypeError",
+        "message": "_RecordingL2.prepare_perceived_event() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 4858,
+        "type": "TypeError",
+        "message": "_RecordingL2.prepare_perceived_event() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 806,
+        "type": "TypeError",
+        "message": "_RecordingL3.prepare_intent_plan() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 2339,
+        "type": "TypeError",
+        "message": "_RecordingL3.prepare_intent_plan() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/app/character_agent/runtime/runtime_loop.py",
+        "line": 4903,
+        "type": "TypeError",
+        "message": "_RecordingL3.prepare_intent_plan() got an unexpected keyword argument 'capability_envelope'"
+      },
+      {
+        "file": "D:/Users/User/Documents/paralls-phase-0-demo/backend/tests/test_character_runtime_needs_affect_flow.py",
+        "line": 631,
+        "type": "AssertionError",
+        "message": ""
+      }
+    ]
+  },
+  "memory": {
+    "error": "",
+    "trace": [
+      {
+        "memory": {
+          "working_memory": [],
+          "event_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1",
+              "source_event_id": "char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          "observation_memories": [
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1:obj_letter:visual:1",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1",
+              "world_ts": 1,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          "knowledge_memories": [],
+          "social_memories": [],
+          "higher_order_memories": [],
+          "episodic_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1",
+              "source_event_id": "char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:efc84628d4734f098056eb0521945453:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          "relational_memories": []
+        },
+        "tensions": [
+          {
+            "tension_id": "char_a:constraint_result:obj_letter",
+            "category": "constraint_result",
+            "summary": "letter unavailable",
+            "target_ref": "obj_letter",
+            "priority": 0.85,
+            "status": "active",
+            "source_event_id": "failure:letter",
+            "source_stage": "settlement_result",
+            "last_reinforced_ts": 2
+          }
+        ]
+      },
+      {
+        "memory": {
+          "working_memory": [],
+          "event_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6:3",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6",
+              "source_event_id": "char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6",
+              "world_ts": 4,
+              "event_type": "character_perceived_event",
+              "summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3"
+              ]
+            }
+          ],
+          "observation_memories": [
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6:obj_letter:visual:2",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6",
+              "world_ts": 4,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          "knowledge_memories": [],
+          "social_memories": [],
+          "higher_order_memories": [],
+          "episodic_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6:3",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6",
+              "source_event_id": "char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6",
+              "world_ts": 4,
+              "event_type": "character_perceived_event",
+              "summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:4:efc84628d4734f098056eb0521945453:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:efc84628d4734f098056eb0521945453:3"
+              ]
+            }
+          ],
+          "relational_memories": []
+        },
+        "tensions": [
+          {
+            "tension_id": "char_a:constraint_result:obj_letter",
+            "category": "constraint_result",
+            "summary": "letter unavailable",
+            "target_ref": "obj_letter",
+            "priority": 0.85,
+            "status": "active",
+            "source_event_id": "failure:letter",
+            "source_stage": "settlement_result",
+            "last_reinforced_ts": 2
+          }
+        ]
+      }
+    ]
+  },
+  "calibration": {
+    "error": "laya provider requires frozen candidates",
+    "trace": [
+      {
+        "candidates": null,
+        "result": "re.compile('[\\\\w:./#-]{1,160}')"
+      },
+      {
+        "candidates": [
+          {
+            "candidate_id": "candidate_01",
+            "wire_label": "C1",
+            "action_id": "observe",
+            "semantic_intent_id": "observe",
+            "action_family": "observation",
+            "target_refs": {
+              "target": "T1"
+            },
+            "required_conditions": {
+              "visibility": "satisfied",
+              "privacy": "satisfied",
+              "permission": "unknown",
+              "availability": "satisfied"
+            },
+            "source_refs": [
+              "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+            ],
+            "target_visibility": "visible",
+            "target_provenance": [
+              "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+            ],
+            "revision_pins": {
+              "fixture": "authored_fixture:preclosure-20261013:v2"
+            },
+            "availability": "available",
+            "owner_route": ""
+          },
+          {
+            "candidate_id": "candidate_02",
+            "wire_label": "C2",
+            "action_id": "ask_probe",
+            "semantic_intent_id": "ask_probe",
+            "action_family": "communication",
+            "target_refs": {
+              "target": "T3"
+            },
+            "required_conditions": {
+              "visibility": "satisfied",
+              "privacy": "required",
+              "permission": "unknown",
+              "availability": "satisfied"
+            },
+            "source_refs": [
+              "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+            ],
+            "target_visibility": "visible",
+            "target_provenance": [
+              "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+            ],
+            "revision_pins": {
+              "fixture": "authored_fixture:preclosure-20261013:v2"
+            },
+            "availability": "available",
+            "owner_route": ""
+          },
+          {
+            "candidate_id": "candidate_03",
+            "wire_label": "C3",
+            "action_id": "observe",
+            "semantic_intent_id": "observe",
+            "action_family": "observation",
+            "target_refs": {
+              "target": "T2"
+            },
+            "required_conditions": {
+              "visibility": "satisfied",
+              "privacy": "satisfied",
+              "permission": "unknown",
+              "availability": "satisfied"
+            },
+            "source_refs": [
+              "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+            ],
+            "target_visibility": "visible",
+            "target_provenance": [
+              "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+            ],
+            "revision_pins": {
+              "fixture": "authored_fixture:preclosure-20261013:v2"
+            },
+            "availability": "available",
+            "owner_route": ""
+          },
+          {
+            "candidate_id": "candidate_04",
+            "wire_label": "C4",
+            "action_id": "defer",
+            "semantic_intent_id": "defer",
+            "action_family": "observation",
+            "target_refs": {},
+            "required_conditions": {
+              "visibility": "satisfied",
+              "privacy": "satisfied",
+              "permission": "unknown",
+              "availability": "satisfied"
+            },
+            "source_refs": [
+              "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+            ],
+            "target_visibility": "visible",
+            "target_provenance": [
+              "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+            ],
+            "revision_pins": {
+              "fixture": "authored_fixture:preclosure-20261013:v2"
+            },
+            "availability": "available",
+            "owner_route": ""
+          }
+        ],
+        "result": "CandidateCompilation(universe=[], presented=[], pruned=[], diagnostics=[{'candidate_id': 'candidate_01', 'reason': 'condition_unknown', 'condition': 'permission'}, {'candidate_id': 'candidate_02', 'reason': 'condition_unknown', 'condition': 'permission'}, {'candidate_id': 'candidate_03', 'reason': 'condition_unknown', 'condition': 'permission'}, {'candidate_id': 'candidate_04', 'reason': 'condition_unknown', 'condition': 'permission'}], coverage={'universe_count': 0, 'presented_count': 0, 'pruned_count': 0, 'diagnostic_count': 4, 'coverage_ratio': 1.0}, digest='sha256:8772602e584b29acd8b97f35d91f4aec00b4dd226f45881138fe44066df45237')"
+      }
+    ],
+    "input_candidates": [
+      {
+        "candidate_id": "candidate_01",
+        "wire_label": "candidate_01",
+        "action_id": "observe",
+        "semantic_intent_id": "observe",
+        "action_family": "observation",
+        "target_refs": {
+          "target": "indicator"
+        },
+        "required_conditions": {
+          "visibility": "satisfied",
+          "privacy": "satisfied",
+          "permission": "unknown",
+          "availability": "satisfied"
+        },
+        "source_refs": [
+          "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+        ],
+        "target_visibility": "visible",
+        "target_provenance": [
+          "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+        ],
+        "revision_pins": {
+          "fixture": "authored_fixture:preclosure-20261013:v2"
+        },
+        "availability": "available",
+        "owner_route": ""
+      },
+      {
+        "candidate_id": "candidate_02",
+        "wire_label": "candidate_02",
+        "action_id": "ask_probe",
+        "semantic_intent_id": "ask_probe",
+        "action_family": "communication",
+        "target_refs": {
+          "target": "station_monitor"
+        },
+        "required_conditions": {
+          "visibility": "satisfied",
+          "privacy": "required",
+          "permission": "unknown",
+          "availability": "satisfied"
+        },
+        "source_refs": [
+          "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+        ],
+        "target_visibility": "visible",
+        "target_provenance": [
+          "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+        ],
+        "revision_pins": {
+          "fixture": "authored_fixture:preclosure-20261013:v2"
+        },
+        "availability": "available",
+        "owner_route": ""
+      },
+      {
+        "candidate_id": "candidate_03",
+        "wire_label": "candidate_03",
+        "action_id": "observe",
+        "semantic_intent_id": "observe",
+        "action_family": "observation",
+        "target_refs": {
+          "target": "public_board"
+        },
+        "required_conditions": {
+          "visibility": "satisfied",
+          "privacy": "satisfied",
+          "permission": "unknown",
+          "availability": "satisfied"
+        },
+        "source_refs": [
+          "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+        ],
+        "target_visibility": "visible",
+        "target_provenance": [
+          "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+        ],
+        "revision_pins": {
+          "fixture": "authored_fixture:preclosure-20261013:v2"
+        },
+        "availability": "available",
+        "owner_route": ""
+      },
+      {
+        "candidate_id": "candidate_04",
+        "wire_label": "candidate_04",
+        "action_id": "defer",
+        "semantic_intent_id": "defer",
+        "action_family": "observation",
+        "target_refs": {},
+        "required_conditions": {
+          "visibility": "satisfied",
+          "privacy": "satisfied",
+          "permission": "unknown",
+          "availability": "satisfied"
+        },
+        "source_refs": [
+          "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+        ],
+        "target_visibility": "visible",
+        "target_provenance": [
+          "authored_fixture:preclosure_20261013_indicator_gap#participant_01"
+        ],
+        "revision_pins": {
+          "fixture": "authored_fixture:preclosure-20261013:v2"
+        },
+        "availability": "available",
+        "owner_route": ""
+      }
+    ]
+  },
+  "pins": [
+    {
+      "path": "assets/characters/profiles/char_a.yaml",
+      "sha256": "8e8f3292519a7879f2f16eca2d64be7b90467010dc7641689a8e6b9821879463",
+      "actual": "9c41753ac79644e8a4a81779b2ff7a9e49f04e28439e5489c052b7fef166ef88"
+    },
+    {
+      "path": "assets/characters/profiles/char_b.yaml",
+      "sha256": "98b4386dbcdb90d466c698426f14fc951e22cf244021ec5f1b7c6d7e488065bc",
+      "actual": "0b5e176730f74b5b233914339e3d2576bbc4bb692aed3c13c84f25fb9e3936a2"
+    },
+    {
+      "path": "assets/characters/profiles/char_c.yaml",
+      "sha256": "e30497f952b6c2c3fa780271cbf4c8f07030bceb289ed5790d7e9166ae168ce7",
+      "actual": "d5fda2e6740121704d97223e3bbfedb87d197f5796e7e8b846a88bf584b645ca"
+    },
+    {
+      "path": "docs/10月分析/角色/13-角色能力图谱、认知包络与动态算力设计.md",
+      "sha256": "85da495a16e46ef1f1e5b750f555b1b7233f92eb18abbf5123902ba23fa44c54",
+      "actual": "ae6b97944750d77728636515adeb938720d4777326f5431750b8fe4b47fc6447"
+    },
+    {
+      "path": "backend/app/character_agent/gateway/laya_provider.py",
+      "sha256": "34e11611c20f4794d16044ca7ec9ae9e5b5f950338e876c2dd126be33897bde7",
+      "actual": "c2bbab2229395085a757b12785345d114e2db11f7af5645deb1c7d3d79bbb8d9"
+    },
+    {
+      "path": "backend/tests/fixtures/character_evaluation/char_d_authored/profile.yaml",
+      "sha256": "b2306f2fcfac63398cfd2196790cd506dfef6cf8fb107218ed1415bd8a4aff1e",
+      "actual": "b2306f2fcfac63398cfd2196790cd506dfef6cf8fb107218ed1415bd8a4aff1e"
+    },
+    {
+      "path": "backend/tests/fixtures/character_evaluation/char_d_authored/dossier.yaml",
+      "sha256": "57c387a1dcd84f71fc6388a0985f5efb07e31f44fe71f31a5635e93e3a03545c",
+      "actual": "57c387a1dcd84f71fc6388a0985f5efb07e31f44fe71f31a5635e93e3a03545c"
+    },
+    {
+      "path": "backend/tests/fixtures/character_evaluation/char_d_authored/sources.yaml",
+      "sha256": "6aa449b653a5ccf89f97cb8bfd1cfdcb3a1d6a3b817e01823071e8f3839be0da",
+      "actual": "6aa449b653a5ccf89f97cb8bfd1cfdcb3a1d6a3b817e01823071e8f3839be0da"
+    },
+    {
+      "path": "backend/tests/fixtures/character_evaluation/four_role_preparation/development.yaml",
+      "sha256": "af58d14087e81641875bd281e31888321e17d999d715b4b7aff7fd89657b6157",
+      "actual": "65cb9f4fd81050935f7a0d1532fe4be904aa8365934582f9931f4f81baeaa9e8"
+    }
+  ]
+}

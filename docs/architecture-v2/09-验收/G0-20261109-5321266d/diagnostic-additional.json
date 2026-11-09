@@ -1,0 +1,1169 @@
+{
+  "memory": {
+    "trace": [
+      {
+        "input": {
+          "working_memory": [],
+          "event_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            }
+          ],
+          "observation_memories": [
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          "knowledge_memories": [
+            {
+              "memory_id": "knowledge:char_a:fact:world:main:obj_letter:state",
+              "actor_id": "char_a",
+              "proposition_key": "fact:world:main:obj_letter:state",
+              "proposition": "obj_letter:state=visible",
+              "state": "high_confidence_believed",
+              "confidence": 1.0,
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "producer_ts": 1,
+              "claim": {
+                "scope_ref": "world:main",
+                "subject_ref": "obj_letter",
+                "predicate": "state",
+                "value": "visible",
+                "valid_at": 1,
+                "source_ref": "percept:letter:1"
+              }
+            },
+            {
+              "memory_id": "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+              "actor_id": "char_a",
+              "proposition_key": "settlement:object:obj_letter:constraint_state_result",
+              "proposition": "object obj_letter constraint_state_result: letter unavailable",
+              "state": "noticed",
+              "confidence": 0.7,
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "producer_ts": 2,
+              "claim": null
+            }
+          ],
+          "social_memories": [],
+          "higher_order_memories": [],
+          "episodic_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            }
+          ],
+          "relational_memories": []
+        },
+        "normalized": {
+          "working_memory": [],
+          "event_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            }
+          ],
+          "observation_memories": [
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          "knowledge_memories": [
+            {
+              "memory_id": "knowledge:char_a:fact:world:main:obj_letter:state",
+              "actor_id": "char_a",
+              "proposition_key": "fact:world:main:obj_letter:state",
+              "proposition": "obj_letter:state=visible",
+              "state": "high_confidence_believed",
+              "confidence": 1.0,
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "producer_ts": 1,
+              "claim": {
+                "scope_ref": "world:main",
+                "subject_ref": "obj_letter",
+                "predicate": "state",
+                "value": "visible",
+                "valid_at": 1,
+                "source_ref": "percept:letter:1"
+              }
+            },
+            {
+              "memory_id": "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+              "actor_id": "char_a",
+              "proposition_key": "settlement:object:obj_letter:constraint_state_result",
+              "proposition": "object obj_letter constraint_state_result: letter unavailable",
+              "state": "noticed",
+              "confidence": 0.7,
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "producer_ts": 2,
+              "claim": null
+            }
+          ],
+          "social_memories": [],
+          "higher_order_memories": [],
+          "episodic_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            }
+          ],
+          "relational_memories": []
+        },
+        "policy": {
+          "policy_id": "cognition-policy:char_a:prepared:char_a",
+          "actor_id": "char_a",
+          "turn_id": "prepared:char_a",
+          "tier": "fast",
+          "provider_thinking_effort": "medium",
+          "memory": {
+            "recall_limit": 4,
+            "token_budget": 480
+          },
+          "reasoning": {
+            "l2_max_tokens": 500,
+            "l3_max_tokens": 700,
+            "max_active_hypotheses": 3,
+            "max_reasoning_hops": 2,
+            "max_candidate_intents": 3,
+            "planning_horizon": "short"
+          },
+          "dialogue": {
+            "max_tokens": 120,
+            "explanation_depth": "concrete"
+          },
+          "reasons": [
+            "event_complexity:fast",
+            "unknown_requested_effort"
+          ],
+          "source_refs": [],
+          "revision_pins": {
+            "envelope_revision": "envelope:char_a:prepared:char_a",
+            "envelope_digest": "87d210e707017f98446590e81e83401fb5a978703a6900fcff2735a966e1d553",
+            "capability_revision": "capability:char_a:prepared",
+            "registry_revision": "skills:unknown"
+          },
+          "envelope_digest": "87d210e707017f98446590e81e83401fb5a978703a6900fcff2735a966e1d553",
+          "policy_digest": "e36b19cc0964ba26403a045783d3d8286204c4825cfc0e65ff8afb6f04a43c68"
+        },
+        "candidates": [
+          [
+            1.0,
+            "event_memories",
+            "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            }
+          ],
+          [
+            1.0,
+            "observation_memories",
+            "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          [
+            0.9500000000000001,
+            "event_memories",
+            "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          [
+            0.9199999999999999,
+            "knowledge_memories",
+            "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+            {
+              "memory_id": "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+              "actor_id": "char_a",
+              "proposition_key": "settlement:object:obj_letter:constraint_state_result",
+              "proposition": "object obj_letter constraint_state_result: letter unavailable",
+              "state": "noticed",
+              "confidence": 0.7,
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "producer_ts": 2,
+              "claim": null
+            }
+          ],
+          [
+            0.9,
+            "knowledge_memories",
+            "knowledge:char_a:fact:world:main:obj_letter:state",
+            {
+              "memory_id": "knowledge:char_a:fact:world:main:obj_letter:state",
+              "actor_id": "char_a",
+              "proposition_key": "fact:world:main:obj_letter:state",
+              "proposition": "obj_letter:state=visible",
+              "state": "high_confidence_believed",
+              "confidence": 1.0,
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "producer_ts": 1,
+              "claim": {
+                "scope_ref": "world:main",
+                "subject_ref": "obj_letter",
+                "predicate": "state",
+                "value": "visible",
+                "valid_at": 1,
+                "source_ref": "percept:letter:1"
+              }
+            }
+          ]
+        ],
+        "result": {
+          "memory": {
+            "working_memory": [],
+            "event_memories": [
+              {
+                "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+                "actor_id": "char_a",
+                "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+                "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+                "world_ts": 2,
+                "event_type": "character_agent_settlement_result",
+                "summary": "letter unavailable",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "refs": [
+                  "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+                ]
+              },
+              {
+                "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+                "actor_id": "char_a",
+                "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "world_ts": 1,
+                "event_type": "character_perceived_event",
+                "summary": "letter visible",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "refs": [
+                  "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                  "percept:letter:1"
+                ]
+              }
+            ],
+            "observation_memories": [
+              {
+                "memory_id": "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+                "actor_id": "char_a",
+                "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "world_ts": 1,
+                "observed_entity_id": "obj_letter",
+                "observation_type": "visual",
+                "observation_summary": "letter visible",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "distortion_tags": [],
+                "refs": [
+                  "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                  "percept:letter:1"
+                ]
+              }
+            ],
+            "knowledge_memories": [],
+            "social_memories": [],
+            "higher_order_memories": [],
+            "episodic_memories": [
+              {
+                "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+                "actor_id": "char_a",
+                "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+                "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+                "world_ts": 2,
+                "event_type": "character_agent_settlement_result",
+                "summary": "letter unavailable",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "refs": [
+                  "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+                ]
+              },
+              {
+                "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+                "actor_id": "char_a",
+                "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "world_ts": 1,
+                "event_type": "character_perceived_event",
+                "summary": "letter visible",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "refs": [
+                  "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                  "percept:letter:1"
+                ]
+              }
+            ],
+            "relational_memories": []
+          },
+          "metadata": {
+            "context_hash": "58236c8acb8b52141ef4992bf3bb5693b6dcfc4d196336c8d50ef21f21bd6652",
+            "selected_memory_refs": [
+              "event:event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "event:event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "observation:observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1"
+            ],
+            "selected_counts": {
+              "working_memory": 0,
+              "event_memories": 2,
+              "observation_memories": 1,
+              "knowledge_memories": 0,
+              "social_memories": 0,
+              "higher_order_memories": 0
+            },
+            "pool_limit": 8,
+            "token_budget": 480,
+            "recall_limit": 4,
+            "cognition_policy_digest": "e36b19cc0964ba26403a045783d3d8286204c4825cfc0e65ff8afb6f04a43c68",
+            "estimated_tokens": 393,
+            "missing_required_refs": [],
+            "truncated": true,
+            "attention_targets": [],
+            "goal_terms": []
+          }
+        }
+      },
+      {
+        "input": {
+          "working_memory": [],
+          "event_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "world_ts": 4,
+              "event_type": "character_perceived_event",
+              "summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          "observation_memories": [
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:obj_letter:visual:2",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "world_ts": 4,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          "knowledge_memories": [
+            {
+              "memory_id": "knowledge:char_a:fact:world:main:obj_letter:state",
+              "actor_id": "char_a",
+              "proposition_key": "fact:world:main:obj_letter:state",
+              "proposition": "obj_letter:state=removed",
+              "state": "high_confidence_believed",
+              "confidence": 1.0,
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "producer_ts": 4,
+              "claim": {
+                "scope_ref": "world:main",
+                "subject_ref": "obj_letter",
+                "predicate": "state",
+                "value": "removed",
+                "valid_at": 4,
+                "source_ref": "provider:letter:4"
+              }
+            },
+            {
+              "memory_id": "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+              "actor_id": "char_a",
+              "proposition_key": "settlement:object:obj_letter:constraint_state_result",
+              "proposition": "object obj_letter constraint_state_result: letter unavailable",
+              "state": "noticed",
+              "confidence": 0.7,
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "producer_ts": 2,
+              "claim": null
+            }
+          ],
+          "social_memories": [],
+          "higher_order_memories": [],
+          "episodic_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "world_ts": 4,
+              "event_type": "character_perceived_event",
+              "summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          "relational_memories": []
+        },
+        "normalized": {
+          "working_memory": [],
+          "event_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "world_ts": 4,
+              "event_type": "character_perceived_event",
+              "summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          "observation_memories": [
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:obj_letter:visual:2",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "world_ts": 4,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          "knowledge_memories": [
+            {
+              "memory_id": "knowledge:char_a:fact:world:main:obj_letter:state",
+              "actor_id": "char_a",
+              "proposition_key": "fact:world:main:obj_letter:state",
+              "proposition": "obj_letter:state=removed",
+              "state": "high_confidence_believed",
+              "confidence": 1.0,
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "producer_ts": 4,
+              "claim": {
+                "scope_ref": "world:main",
+                "subject_ref": "obj_letter",
+                "predicate": "state",
+                "value": "removed",
+                "valid_at": 4,
+                "source_ref": "provider:letter:4"
+              }
+            },
+            {
+              "memory_id": "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+              "actor_id": "char_a",
+              "proposition_key": "settlement:object:obj_letter:constraint_state_result",
+              "proposition": "object obj_letter constraint_state_result: letter unavailable",
+              "state": "noticed",
+              "confidence": 0.7,
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "producer_ts": 2,
+              "claim": null
+            }
+          ],
+          "social_memories": [],
+          "higher_order_memories": [],
+          "episodic_memories": [
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            },
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "world_ts": 4,
+              "event_type": "character_perceived_event",
+              "summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          "relational_memories": []
+        },
+        "policy": {
+          "policy_id": "cognition-policy:char_a:prepared:char_a",
+          "actor_id": "char_a",
+          "turn_id": "prepared:char_a",
+          "tier": "fast",
+          "provider_thinking_effort": "medium",
+          "memory": {
+            "recall_limit": 4,
+            "token_budget": 480
+          },
+          "reasoning": {
+            "l2_max_tokens": 500,
+            "l3_max_tokens": 700,
+            "max_active_hypotheses": 3,
+            "max_reasoning_hops": 2,
+            "max_candidate_intents": 3,
+            "planning_horizon": "short"
+          },
+          "dialogue": {
+            "max_tokens": 120,
+            "explanation_depth": "concrete"
+          },
+          "reasons": [
+            "event_complexity:fast",
+            "unknown_requested_effort"
+          ],
+          "source_refs": [],
+          "revision_pins": {
+            "envelope_revision": "envelope:char_a:prepared:char_a",
+            "envelope_digest": "87d210e707017f98446590e81e83401fb5a978703a6900fcff2735a966e1d553",
+            "capability_revision": "capability:char_a:prepared",
+            "registry_revision": "skills:unknown"
+          },
+          "envelope_digest": "87d210e707017f98446590e81e83401fb5a978703a6900fcff2735a966e1d553",
+          "policy_digest": "e36b19cc0964ba26403a045783d3d8286204c4825cfc0e65ff8afb6f04a43c68"
+        },
+        "candidates": [
+          [
+            1.0,
+            "event_memories",
+            "event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "world_ts": 4,
+              "event_type": "character_perceived_event",
+              "summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          [
+            1.0,
+            "observation_memories",
+            "observation:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:obj_letter:visual:2",
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:obj_letter:visual:2",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "world_ts": 4,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter removed",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "recheck:letter",
+                "active_perception:char_a:obj_letter:conflict:1:4",
+                "pqf:char_a:3",
+                "provider:letter:4"
+              ]
+            }
+          ],
+          [
+            0.9500000000000001,
+            "event_memories",
+            "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+            {
+              "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "world_ts": 2,
+              "event_type": "character_agent_settlement_result",
+              "summary": "letter unavailable",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+              ]
+            }
+          ],
+          [
+            0.95,
+            "knowledge_memories",
+            "knowledge:char_a:fact:world:main:obj_letter:state",
+            {
+              "memory_id": "knowledge:char_a:fact:world:main:obj_letter:state",
+              "actor_id": "char_a",
+              "proposition_key": "fact:world:main:obj_letter:state",
+              "proposition": "obj_letter:state=removed",
+              "state": "high_confidence_believed",
+              "confidence": 1.0,
+              "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+              "producer_ts": 4,
+              "claim": {
+                "scope_ref": "world:main",
+                "subject_ref": "obj_letter",
+                "predicate": "state",
+                "value": "removed",
+                "valid_at": 4,
+                "source_ref": "provider:letter:4"
+              }
+            }
+          ],
+          [
+            0.925,
+            "event_memories",
+            "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+            {
+              "memory_id": "event:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:1",
+              "actor_id": "char_a",
+              "event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "event_type": "character_perceived_event",
+              "summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          [
+            0.925,
+            "observation_memories",
+            "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+            {
+              "memory_id": "observation:char_a:char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1:obj_letter:visual:1",
+              "actor_id": "char_a",
+              "source_event_id": "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+              "world_ts": 1,
+              "observed_entity_id": "obj_letter",
+              "observation_type": "visual",
+              "observation_summary": "letter visible",
+              "clarity_score": 1.0,
+              "certainty_score": 1.0,
+              "distortion_tags": [],
+              "refs": [
+                "char_a:character_perceived_event:1:26be85f3eebe4e8c9d33de654aca6cef:1",
+                "percept:letter:1"
+              ]
+            }
+          ],
+          [
+            0.87,
+            "knowledge_memories",
+            "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+            {
+              "memory_id": "knowledge:char_a:settlement:object:obj_letter:constraint_state_result",
+              "actor_id": "char_a",
+              "proposition_key": "settlement:object:obj_letter:constraint_state_result",
+              "proposition": "object obj_letter constraint_state_result: letter unavailable",
+              "state": "noticed",
+              "confidence": 0.7,
+              "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+              "producer_ts": 2,
+              "claim": null
+            }
+          ]
+        ],
+        "result": {
+          "memory": {
+            "working_memory": [],
+            "event_memories": [
+              {
+                "memory_id": "event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+                "actor_id": "char_a",
+                "event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "world_ts": 4,
+                "event_type": "character_perceived_event",
+                "summary": "letter removed",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "refs": [
+                  "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                  "recheck:letter",
+                  "active_perception:char_a:obj_letter:conflict:1:4",
+                  "pqf:char_a:3",
+                  "provider:letter:4"
+                ]
+              },
+              {
+                "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+                "actor_id": "char_a",
+                "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+                "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+                "world_ts": 2,
+                "event_type": "character_agent_settlement_result",
+                "summary": "letter unavailable",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "refs": [
+                  "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+                ]
+              }
+            ],
+            "observation_memories": [
+              {
+                "memory_id": "observation:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:obj_letter:visual:2",
+                "actor_id": "char_a",
+                "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "world_ts": 4,
+                "observed_entity_id": "obj_letter",
+                "observation_type": "visual",
+                "observation_summary": "letter removed",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "distortion_tags": [],
+                "refs": [
+                  "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                  "recheck:letter",
+                  "active_perception:char_a:obj_letter:conflict:1:4",
+                  "pqf:char_a:3",
+                  "provider:letter:4"
+                ]
+              }
+            ],
+            "knowledge_memories": [],
+            "social_memories": [],
+            "higher_order_memories": [],
+            "episodic_memories": [
+              {
+                "memory_id": "event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+                "actor_id": "char_a",
+                "event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "source_event_id": "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                "world_ts": 4,
+                "event_type": "character_perceived_event",
+                "summary": "letter removed",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "refs": [
+                  "char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6",
+                  "recheck:letter",
+                  "active_perception:char_a:obj_letter:conflict:1:4",
+                  "pqf:char_a:3",
+                  "provider:letter:4"
+                ]
+              },
+              {
+                "memory_id": "event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+                "actor_id": "char_a",
+                "event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+                "source_event_id": "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3",
+                "world_ts": 2,
+                "event_type": "character_agent_settlement_result",
+                "summary": "letter unavailable",
+                "clarity_score": 1.0,
+                "certainty_score": 1.0,
+                "refs": [
+                  "char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3"
+                ]
+              }
+            ],
+            "relational_memories": []
+          },
+          "metadata": {
+            "context_hash": "58236c8acb8b52141ef4992bf3bb5693b6dcfc4d196336c8d50ef21f21bd6652",
+            "selected_memory_refs": [
+              "event:event:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:3",
+              "event:event:char_a:char_a:character_agent_settlement_result:2:26be85f3eebe4e8c9d33de654aca6cef:3:2",
+              "observation:observation:char_a:char_a:character_perceived_event:4:26be85f3eebe4e8c9d33de654aca6cef:6:obj_letter:visual:2"
+            ],
+            "selected_counts": {
+              "working_memory": 0,
+              "event_memories": 2,
+              "observation_memories": 1,
+              "knowledge_memories": 0,
+              "social_memories": 0,
+              "higher_order_memories": 0
+            },
+            "pool_limit": 8,
+            "token_budget": 480,
+            "recall_limit": 4,
+            "cognition_policy_digest": "e36b19cc0964ba26403a045783d3d8286204c4825cfc0e65ff8afb6f04a43c68",
+            "estimated_tokens": 435,
+            "missing_required_refs": [],
+            "truncated": true,
+            "attention_targets": [],
+            "goal_terms": []
+          }
+        }
+      }
+    ],
+    "exception": "Traceback (most recent call last):\n  File \"D:\\Users\\User\\Documents\\Unreal Projects\\Paralls-docs\\docs\\architecture-v2\\09-验收\\G0-20261109-5321266d\\diagnose_additional.py\", line 27, in <module>\n    mem.test_actual_interaction_failure_reaches_l3_and_new_evidence_clears_recheck_reason()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"D:\\Users\\User\\Documents\\paralls-phase-0-demo\\backend\\tests\\test_character_memory_consistency_flow.py\", line 269, in test_actual_interaction_failure_reaches_l3_and_new_evidence_clears_recheck_reason\n    assert plan()[\"verification\"] == {}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  "ws_direct": {
+    "count": 1,
+    "messages": [
+      {
+        "message_type": "ack",
+        "payload": {
+          "accepted": false,
+          "source_type": "character_agent_execution",
+          "route": "social_spatial_owner",
+          "error_code": "legacy_social_spatial_source_unavailable"
+        }
+      }
+    ]
+  },
+  "httpx": {
+    "version": "0.27.2",
+    "factory": "def create_ssl_context(\n    cert: CertTypes | None = None,\n    verify: VerifyTypes = True,\n    trust_env: bool = True,\n    http2: bool = False,\n) -> ssl.SSLContext:\n    return SSLConfig(\n        cert=cert, verify=verify, trust_env=trust_env, http2=http2\n    ).ssl_context\n"
+  },
+  "asgi_field": {
+    "annotation": "dict[str, str]",
+    "exclude": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-11-09T15:16:24+08:00",
+  "code_repository": "D:/Users/User/Documents/paralls-phase-0-demo",
+  "head": "5321266dbd882f45eb6a24dd7b328e9f56746228",
+  "origin_main": "5321266dbd882f45eb6a24dd7b328e9f56746228",
+  "git_worktree_clean": true,
+  "physical_memory": {
+    "free_gib": 22.03,
+    "total_gib": 31.83
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 4070",
+    "free_mib": 11347,
+    "total_mib": 12282
+  },
+  "full_baseline_runs": 2,
+  "per_run": {
+    "collected": 9899,
+    "passed": 9787,
+    "failed": 108,
+    "skipped": 2,
+    "xfailed": 2,
+    "collection_errors": 0,
+    "pytest_exit_code": 1
+  },
+  "reproducibility": {
+    "test_collection_and_failure_order_equal": true,
+    "failure_outcomes_types_and_phases_equal": true,
+    "normalized_stack_differences": 0,
+    "source_dependency_and_manifest_hashes_equal": true,
+    "runtime_source_changed": false
+  },
+  "ue_or_godot_started": false,
+  "runtime_code_changed": false
+}

@@ -1,0 +1,18 @@
+{
+  "scripts/architecture-v2-prototypes/pool_prototype.py": {
+    "exists": true,
+    "sha256": "637db23671724af2af072f16ade4b899516cafb90ab1851ce92343d067b57085"
+  },
+  "scripts/architecture-v2-prototypes/bond_prototype.py": {
+    "exists": true,
+    "sha256": "91400643a0024f44d2a1653b7ea58e08f16e3425440bfd8cfc83ec3d91fca3b0"
+  },
+  "scripts/architecture-v2-prototypes/verify_d1.py": {
+    "exists": true,
+    "sha256": "32c136473a576b37bed9081f02521b0ab7444d592e178e160ae0e98637432dfd"
+  },
+  "scripts/architecture-v2-prototypes/cross_check_real_modules.py": {
+    "exists": true,
+    "sha256": "1241acab7d47e59d6ddf1c1c474c645b7393b9cd6f86c92c445a8a6cc9f64f0f"
+  }
+}
