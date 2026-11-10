@@ -1,6 +1,6 @@
 # Architecture v2 执行计划
 
-> **执行提示：** 使用项目现有任务流程。一次执行一个有阶段门的任务；不得把本计划当成实施批准。步骤用复选框追踪。
+> **执行提示：** 使用项目现有任务流程。一次执行一个有阶段门的任务；步骤用复选框追踪。G0 的有条件批准、G1 选定批次结果及当前 G2 工作状态见[阶段记录](../../architecture-v2/09-验收/G1-status-2026-11-10.md)；不能把一项阶段批准外推为全部领域迁移或 G2 已验收。
 
 **目标：** 将 v2 架构转成有证据支撑的分阶段实施，在保持现有玩法行为的同时验证规则包组合判据。
 
@@ -74,12 +74,8 @@
     - 使用 G0 冻结的 ownership、modifier、equipment、inventory、shared replay 五组精确节点清单；每个单元按实际调用者增补并记录，不能用估计数量代替。
     - 清单和更新后的结果见代码仓库 `docs/verification/g0-939c6746/` 与各 `docs/verification/g1-*.md`。
   - **专用测试补充（若缺失）：**
-    - **modifier Decimal 路径：** `test_modifier_decimal_in_digest()`
-      - 输入：`StatModifier(value=Decimal("123.45"))`
-      - 预期：摘要成功，不抛 `TypeError`
-    - **equipment 8 项校验：** `test_equipment_duplicate_receipt_validation()`
-      - 场景：重复幂等键 + 不同 payload digest
-      - 预期：拒绝并返回 `equipment_idempotency_key_reused`
+    - **modifier Decimal 路径：** 现有用例 `backend/tests/test_modifier_runtime.py::test_modifier_digest_preserves_nested_decimal_representation` 覆盖嵌套 Decimal、尾零、负零及不同 Decimal 表示的精确摘要；不得改用通用 JSON 摘要语义。
+    - **equipment 回执与变更 payload：** 现有用例 `backend/tests/test_equipment_runtime.py::test_equip_duplicate_rejects_corrupt_event_reference_without_writes` 和 `test_equip_duplicate_rejects_each_invalid_receipt_boundary_without_writes` 覆盖损坏回执及无写拒绝；后一个测试同一函数中还用同一幂等键改变 slot 验证 `idempotency_key_reused`。提交后副作用保护由 `backend/tests/test_resource_modifier_admission.py::test_equipment_lost_bridge_response_recovers_on_exact_duplicate` 覆盖。这里引用的是仓库中的实际测试名，不以估算测试数量代替冻结节点清单。
   - **全量回归定义：** 基线全部测试 + 该域定向测试
   - **回退边界：** 单独 git commit + 全量回归通过证明 + 回退测试通过
 - [ ] **步骤 3：只抽取已证明的公共机制。** 把语义变体保留为显式调用参数或领域逻辑。不要为了代码风格统一摘要、幂等键、revision pin 或事件 schema。
