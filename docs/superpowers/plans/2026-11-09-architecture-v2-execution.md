@@ -99,7 +99,7 @@
 - [ ] **步骤 2：编写 event/known 时间测试。** 固定 `event_time`、`known_time` 在追加、延迟信息、投影、checkpoint 和回放中的行为；`known_time` 切片须有真实强制边界的正向和反向用例。`presented_time` 已移出，不在 G2 验收内。
 - [ ] **步骤 3：编写 epoch 栅栏测试。** 范围按 2026-11-11 收口口径限定为存储层：登记的受保护流在同一数据库事务内校验 `(stream, scope, epoch, writer)`，旧 epoch 与缺失上下文原子拒绝，同键同 digest 的精确重试仍取回原 receipt，两个 Durable 实例共库时串行。在线 handoff、受理冻结、恢复证据、双 writer 对账和首流 publisher 接线属 B4 前置设计项，不在本步骤验收内；设计见代码仓库 `docs/verification/g2-visibility-budget/epoch-design.md`。
 - [ ] **步骤 4：分别实现选定切片的强制边界。** 读取边界负责可见性强制，提交边界负责 epoch 校验。不得用 UI 过滤冒充机制强制；其余面向主体读取路径后续独立接入。
-- [ ] **步骤 5：测量读取/提交开销。** 已用固定 synthetic fixture、G0 Python 3.12 环境记录读取环境与延迟分布；按技术负责人授权登记了暂定 10% p95 增量、4,096 事件低于 40 ms 的工程候选预算。历史运行包含超限样本；2026-11-11 在代码 HEAD `0b587890` 对 owner、authority、denied principal 的现有 Economy domain view 做两轮 60 样本交错测量，最高 p95 比例 1.028、4,096 事件最高 p95 为 24.49 ms。该样本未覆盖 session `read_as`、网络发送或持久库竞争，故会话可见性性能门仍开放。实际会话强制读取和提交开销尚未测量；完整数据与停止条件见代码仓库 `docs/verification/g2-session-visibility-denial/` 和 `docs/verification/g2-visibility-budget/`。
+- [x] **步骤 5：测量读取/提交开销。** 2026-11-12 项目负责人批准按候选预算接受：session 流 ≤100 事件时正向读取 p95 < 40 ms；4,096 事件档只作扩展性检查；原“相对基线 p95 增量 ≤ 10%”不适用于本路径（无完整旧服务器可比基线，只有局部旧 handler 对照）。真实 WebSocket 正向读取在修正前两轮 4,096 事件 p95 约 160 ms（超出，保留）；读取方式修正后（代码仓库 `38e57119`，只取首个 proposed 事件）一轮内存 Store：100 事件 p95 0.50 ms、4,096 事件 p95 1.03 ms。限制：仅内存 Store 一轮，未测 Durable SQLite、持久库竞争、远程身份、响应时序；内存 Store 仍线性筛选，不得写成严格持平；epoch 提交开销另未测量。证据见代码仓库 `docs/verification/g2-closure-evidence/perf/`。
 - [ ] **步骤 6：运行定向测试和基线对照。** 出现信息泄漏、旧 epoch 成功提交、回放不一致或新增基线失败时停止扩大范围。
 
 **验证：** 可见性、`known_time`、authority epoch 各至少一条端到端切片在真实强制边界上的正反向契约测试通过、回放确定、旧提交被拒；扩大覆盖前须明确接受实测开销预算。G2 通过只证明这些切片，不证明全部读取路径已强制。
