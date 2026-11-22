@@ -74,12 +74,18 @@
 
 | 波 | 域 | 依据 |
 |---|---|---|
-| 1 | credential（完成）、ownership（A 在做 Bond）、debt、contract（B 在做事件声明） | 已启动 |
+| 1 | credential（完成）、ownership（A 在做 Bond） | 已启动 |
 | 2 | gift(1)、land_right(1)、life_state(1)、action_consequence(1)、reference_data(1)、government_treasury(1)、civilization_capability(2)、bakery_reference(2)、ecology(2)、soul 系列、survival(4)、action_window(3) | 导入者 ≤4 |
-| 3 | equipment(7)、modifier(5)、ability(7)、construction_production(7)、econ1_economy(7)、organization_government_social_platform(5) | 导入者 5–7；equipment、modifier 有专项保护（Decimal 摘要、bridge 副作用） |
+| 3 | equipment(7)、modifier(5)、ability(7)、construction_production(7)、econ1_economy(7)、organization_government_social_platform(5)，以及 **debt**（见下） | 导入者 5–7；equipment、modifier 有专项保护（Decimal 摘要、bridge 副作用） |
 | 4 | patch_runtime(15)、resource_body(17)、organization_government(17)、economy(19)、inventory(20) | 枢纽；进入前须有第 3 波回归证据 |
 
 `economy_runtime`、`inventory_runtime` 当前是协议规定的共同禁区，第 4 波之前不动。
+
+**2026-11-22 修正（线程 B 汇报后的改动，需 M0-1 复核）：**
+
+- **debt 从第 1 波移到第 3 波。** 理由：线程 B 核实 debt 结算的正式 Owner 是 `Economy / Market`（`01-Owner定义` 与 `REGISTERED_OWNER_IDS` 一致），而 Economy 是导入者最多的枢纽（19），`economy_runtime.py` 是共同禁区；23 个事件类型里还有 5 个 `gameplay.commerce.*` 由 economy 侧写入。按"Owner 处于枢纽就压后"的原则，debt 不能当小域。原草案把它排第 1 波是只看 `debt_runtime.py` 自身导入者数的结果，**口径错了**。
+- **contract 暂时无波次。** 通用 Contract runtime 同时服务政府评估、设施验收、公共工坊、磨坊服务等合同，v2 文档没有明确这些合同归哪个 Owner。归属未定之前不排波次、不写规则包。列为决定项 S-8。
+- **第 1 波现在只剩已完成的 credential 和进行中的 ownership。** B 的首个域待 M0-6 给出新波次表后再定，不由本文预设。
 
 **M0 停止条件：** 盘点结果与本文假设冲突（例如 Combat 实际在多个 runtime 中分散）时，先报告，不改波次表。
 
@@ -89,13 +95,24 @@
 
 | 任务 | 触发 | 依据 |
 |---|---|---|
-| M1-1 Bond | 已在做（ownership）；验收：五种契、scope、term、属性不可变（B7）、撤销/到期/supersede | `02-六原语规格` §四；D1 原型已验证 |
+| M1-1 Bond | 进行中（ownership）；验收：五种契、scope、term、属性不可变（B7）、撤销/到期/supersede | `02-六原语规格` §四；D1 原型已验证 |
 | M1-2 Holdings | 第 2 波起的库存类事实；数量与质量拆分（质量为 Pool） | `03-承接映射` §四 |
 | M1-3 Pool | 需要有界、预留、窗口积分、滞回的事实 | 缺口 5 项见承接映射 §二 |
 | M1-4 Place | 第 3 波后；占用互斥、通行性独立提交点 | |
 | M1-5 Process | 视 S-5；最后做，先归 3 个 | 承接映射 §六："风险最高" |
 
 每个原语的验收：不变量、事件 schema（字段级，见 `04-事件schema规格`）、积分与切窗、聚合、片段格式、固定向量（D1 原型的用例作为参考）。校验器的 "只支持 machine" 限制随之逐个放开。
+
+**M1-1 的分片要求（2026-11-22，线程 A 汇报后补）：** 线程 A 当前把 Bond 生命周期、credential v3 `bond_ref` 迁移、多权利投影、属性白名单移除、Decimal 属性规范化放在同一个未提交工作区（`ownership_runtime.py` 约 +840 行）。这些是不同性质的行为改变，必须拆成可独立回退的提交：
+
+| 片 | 内容 | 性质 |
+|---|---|---|
+| 1 | Bond 生命周期：grant / revoke / transfer / expire / supersede、事件 schema、投影重建 | 新增能力（L1） |
+| 2 | 多权利投影：同资产多 Bond 类型共存，保留 `active_right_by_asset` 兼容视图 | 新增能力（L1） |
+| 3 | credential v3 `bond_ref` 迁移 | 跨域读向量变更，须单独提交并列出读取方 |
+| 4 | 属性白名单移除 + Decimal 属性规范化 | 行为改变；须说明旧数据与重试路径 |
+
+每片单独跑定向集与相关选集。**尚未运行全量 10,392 节点**，合并前须补，且如实记录跑了什么。
 
 ### M2 L0 强制（线程 A；B4 设计由 A 或另开线程）
 
@@ -127,9 +144,12 @@ D6：性能预算只覆盖已测 session 读取切片。M2-2 扩大读取前先�
 
 持久事件改动（类型、版本、字段）与 R2 行为改变各自单独提交；前者先经你确认。
 
-**第 1 波当前状态（读自 worktree，未审阅）：**
-- debt/contract：线程 B 已有未提交的 `debt_contract_event_schema.py`，列出 23 个事件类型，含 `gameplay.commerce.*` 的 5 个，这些事件与 economy 域共享，**须在设计文档里确认归属后再提交**（共同禁区 `economy_runtime` 不得改）。
-- ownership：线程 A 有未提交的 Bond 生命周期（`ownership_runtime.py` 增约 840 行）。这是 L1 工作，应作为 M1-1 的任务卡补齐 DoD，而不是作为域迁移。
+**当前状态（2026-11-22，读自两个 worktree 与线程汇报，未审阅代码）：**
+- **ownership / credential（A）：** Bond 生命周期等改动未提交，分片要求见 M1-1。
+- **debt（B）：** 未开始。Owner 已核实为 `Economy / Market`，按上文修正移到第 3 波。
+- **contract（B）：** 未开始，等待 S-8 裁定 Owner 归属。
+- **B 工作区里两份未跟踪文件**（`backend/app/gameplay/debt_contract_event_schema.py`、`backend/tests/test_debt_contract_event_schema.py`）：不是本轮 B 写的，来源未核实。处置见 S-9；在裁定前保持原样，不提交。
+- **B 本轮只做了只读基线核对**：62 个定向节点通过，未跑选集或全量，未改代码。
 
 ### M5 L4 规则包完整化（线程 A）
 
