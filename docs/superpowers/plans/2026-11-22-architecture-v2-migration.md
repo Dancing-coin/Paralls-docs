@@ -84,10 +84,23 @@
 **2026-11-22 修正（线程 B 汇报后的改动，需 M0-1 复核）：**
 
 - **debt 从第 1 波移到第 3 波。** 理由：线程 B 核实 debt 结算的正式 Owner 是 `Economy / Market`（`01-Owner定义` 与 `REGISTERED_OWNER_IDS` 一致），而 Economy 是导入者最多的枢纽（19），`economy_runtime.py` 是共同禁区；23 个事件类型里还有 5 个 `gameplay.commerce.*` 由 economy 侧写入。按"Owner 处于枢纽就压后"的原则，debt 不能当小域。原草案把它排第 1 波是只看 `debt_runtime.py` 自身导入者数的结果，**口径错了**。
-- **contract 暂时无波次。** 通用 Contract runtime 同时服务政府评估、设施验收、公共工坊、磨坊服务等合同，v2 文档没有明确这些合同归哪个 Owner。归属未定之前不排波次、不写规则包。列为决定项 S-8。
+- **contract 暂时无波次。** 通用 Contract runtime 同时服务政府评估、设施验收、公共工坊、磨坊服务等合同。S-8 已决定按事实域拆分（政府评估 → Government，设施验收 → Production/Facility，工坊与服务 → Economy/Production），但拆分清单尚未产出；清单落地前不排波次、不写规则包。
 - **第 1 波现在只剩已完成的 credential 和进行中的 ownership。** B 的首个域待 M0-6 给出新波次表后再定，不由本文预设。
 
 **M0 停止条件：** 盘点结果与本文假设冲突（例如 Combat 实际在多个 runtime 中分散）时，先报告，不改波次表。
+
+### M0.5 Owner 登记名单扩展（线程 A；阻塞所有域迁移）
+
+**为什么必须先做：** `fact_type_registry.py:11` 的 `REGISTERED_OWNER_IDS` 只有 `Credential`、`Ownership`、`Economy / Market` 三项，`rule_pack_validator.py:177` 对不在名单的 Owner 一律拒绝（`facttype_owner_unknown`）。后果：除这三个 Owner 外，任何域的规则包都加载不了，第 1–3 波全部无法开始。线程 B 的 M0 因此得出"无合格首域"。
+
+| 任务 | 内容 | 验收 |
+|---|---|---|
+| M0.5-1 | 把名单扩到 `04-Owner/01-Owner定义` 列出的 22 个 Owner（逐字照抄 owner_id，不改名）。Combat 暂不加入，等 S-1 裁定 | 名单与文档逐个对得上；有测试断言长度为 22 |
+| M0.5-2 | 只加名字，**不设计 Owner 注册流程**；新增 Owner 仍受 D5 门槛管辖（`01-Owner定义` §六四条） | 名单是代码常量，规则包不能自我登记 |
+| M0.5-3 | 用一个一次性的最小 fixture 包（不落地生产包）验证：非 credential 的 Owner 名称能通过 `load_pack` 的 owner 检查；未在名单的名称仍被拒 | 两条断言各有测试；fixture 不进 `packs/` |
+| M0.5-4 | 记录：已登记名单是"允许出现在规则包 manifest 的 Owner"，不等于"该 Owner 已实现 v2 声明" | 证据文件写明这一区分 |
+
+完成前，任何域迁移都不得开始写规则包。
 
 ### M1 L1 原语生产实现（线程 A）
 
@@ -144,12 +157,13 @@ D6：性能预算只覆盖已测 session 读取切片。M2-2 扩大读取前先�
 
 持久事件改动（类型、版本、字段）与 R2 行为改变各自单独提交；前者先经你确认。
 
-**当前状态（2026-11-22，读自两个 worktree 与线程汇报，未审阅代码）：**
+**当前状态（2026-11-22 晚，读自两个 worktree 与线程汇报，未审阅代码）：**
 - **ownership / credential（A）：** Bond 生命周期等改动未提交，分片要求见 M1-1。
-- **debt（B）：** 未开始。Owner 已核实为 `Economy / Market`，按上文修正移到第 3 波。
-- **contract（B）：** 未开始，等待 S-8 裁定 Owner 归属。
-- **B 工作区里两份未跟踪文件**（`backend/app/gameplay/debt_contract_event_schema.py`、`backend/tests/test_debt_contract_event_schema.py`）：不是本轮 B 写的，来源未核实。处置见 S-9；在裁定前保持原样，不提交。
-- **B 本轮只做了只读基线核对**：62 个定向节点通过，未跑选集或全量，未改代码。
+- **B 的 M0 已完成**：7 份盘点文档在 `docs/verification/m0-inventory-20261122/`，两个提交 `a7a66301`、`c4a53e75`，只读、未跑测试。注册表 139 个事件类型；读取调用 AST 扫描 993 处 / 115 文件（G2 记录为 987 / 113）。
+- **B 的首个域仍无合格候选，原因是硬前置缺失：** `REGISTERED_OWNER_IDS`（`fact_type_registry.py:11`）只有 `Credential`、`Ownership`、`Economy / Market` 三项，`rule_pack_validator.py:177` 对不在此名单的 Owner 一律 `facttype_owner_unknown`。**因此除这三个 Owner 外，任何域的规则包都加载不了。** 这件事不解决，第 1–3 波全部无法开始。已列为 A 的新前置任务 M0.5。
+- **debt：** 未开始。Owner 为 `Economy / Market`，按上文修正留在第 3 波。
+- **contract：** 未开始。S-8 已定按事实域拆分，拆分清单未产出，暂不排波次。
+- **S-9 执行情况：** 两份未跟踪文件已不在 B 的 worktree（此前已归档到 `F:\paralls-verification\thread-b\m0-inputs-20261122\`），B 未重复搬动，也未向 D 盘写入。
 
 ### M5 L4 规则包完整化（线程 A）
 
